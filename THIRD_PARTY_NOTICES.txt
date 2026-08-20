@@ -1,0 +1,128 @@
+================================================================================
+THIRD-PARTY NOTICES — 日本酒フレーバーマップ (Sake Flavor Map)
+================================================================================
+
+本ソフトウェア本体は MIT License です（同梱の LICENSE を参照）。
+本ソフトウェアが利用・同梱しているサードパーティのデータおよびその利用条件を
+以下に示します。再配布・改変する場合は、この通知全体を残してください。
+
+--------------------------------------------------------------------------------
+1. さけのわデータ（フレーバー6軸・銘柄／蔵元マスタ・人気ランキング・タグ）
+--------------------------------------------------------------------------------
+提供   : さけのわ  https://sakenowa.com
+入手元 : さけのわデータプロジェクト  https://muro.sakenowa.com/sakenowa-data/
+表示   : データ提供:さけのわ （https://sakenowa.com へのリンクを伴うこと）
+
+利用条件（提供元の記載に基づく要約）:
+  - 無料で利用できる
+  - 商用・非商用を問わず利用できる
+  - データを加工して利用できる
+  - ただし帰属表示が必須。Web では https://sakenowa.com へリンクすること
+  - 帰属表示を行わない利用、さけのわのイメージを損なう利用は認められない
+
+本アプリは画面右上のクレジット行とフッターの2か所で帰属表示とリンクを行っています。
+改変・再配布する場合も、この表示を必ず残してください。
+
+--------------------------------------------------------------------------------
+2. sake_dataset （公開スペック値: 日本酒度・酸度・アミノ酸度・アルコール度数・精米歩合）
+--------------------------------------------------------------------------------
+入手元 : https://github.com/yoichi1484/sake_dataset
+版     : v1 (2020-03-12)
+ライセンス: MIT License
+
+MIT License
+
+Copyright (c) 2020 Yoichi Ishibashi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------------
+3. Code for SAKE 酒蔵オープンデータ (SAKEOpenData) （蔵元住所・公式サイトURL）
+--------------------------------------------------------------------------------
+入手元 : https://github.com/Code-for-SAKE/SAKEOpenData
+ライセンス: MIT License
+
+公開リポジトリでは、元データからメールアドレス・電話番号・住所を除いた派生ファイル
+data/brewery_urls.json （都道府県・蔵元名・公式サイトURL のみ、1,016件）を配布しています。
+元データそのもの（data/SAKEOpenData/）は公開リポジトリに同梱していません。
+
+MIT License
+
+Copyright (c) 2020 Code for SAKE
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------------
+4. localgovjp （市区町村の代表点座標）
+--------------------------------------------------------------------------------
+入手元 : https://github.com/code4fukui/localgovjp
+ライセンス: CC0 1.0 Universal (パブリックドメイン)
+          https://creativecommons.org/publicdomain/zero/1.0/deed.ja
+
+--------------------------------------------------------------------------------
+5. 地球地図日本（日本地図の海岸線アウトライン）
+--------------------------------------------------------------------------------
+入手元 : 地球地図日本（国土地理院）
+         https://www.gsi.go.jp/kankyochiri/gm_jpn.html
+利用条件: 国土地理院コンテンツ利用規約（令和7年11月20日改正）
+         https://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html
+         上記により、公共データ利用規約（第1.0版）(PDL1.0) が適用されます。
+         https://www.digital.go.jp/resources/open_data/public_data_license_v1.0
+
+表示:
+  出典：国土地理院ウェブサイト
+       （https://www.gsi.go.jp/kankyochiri/gm_jpn.html）
+  「地球地図日本」（国土地理院）
+       （https://www.gsi.go.jp/kankyochiri/gm_jpn.html）をもとに
+       本アプリ作成者が海岸線を簡略化して作成
+
+  ※ 編集・加工した情報を、あたかも国土地理院が作成したかのような態様で
+     公表・利用してはいけません。
+
+--------------------------------------------------------------------------------
+6. 蔵元公式サイト由来の商品・価格情報
+--------------------------------------------------------------------------------
+各蔵元の公式サイト・公式オンラインショップに掲載されていた事実情報（商品名・
+スペック・容量・価格）を、全件に出典URLを付して収録しています（2026年8月時点）。
+蔵元のロゴ・商品画像・紹介文の転載は行っていません。各商標は各権利者に帰属します。
+
+蔵元・銘柄の紹介文（brewery_summary / blurb）は、出典URLに記載の内容をもとに
+本プロジェクトが要約したものです。ただし蔵の理念・社是・キャッチフレーズなど、
+言い換えると意味が変わる短い語句については鉤括弧「」付きの引用を含みます
+（全体で約300か所）。引用箇所を含むすべてのエントリに出典URLを記録しています。
+
+価格は掲載時点の値であり、現在の価格を保証するものではありません。
+
+================================================================================

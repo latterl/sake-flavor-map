@@ -1,0 +1,114 @@
+{
+ "千徳": {
+  "brewer": "千徳酒造",
+  "official_url": "http://www.sentoku.com/",
+  "brewery_summary": "宮崎県延岡市の酒蔵。120年余の歴史を持ち、宮崎県産酒造好適米「はなかぐら」なども使用する。",
+  "blurb": null,
+  "rice": [
+   "山田錦",
+   "はなかぐら"
+  ],
+  "products": [
+   {
+    "name": "千徳 大吟醸（特別限定品）",
+    "spec": "大吟醸 精米歩合40% アルコール17度",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "http://www.sentoku.com/product.html",
+    "seasonal": false
+   },
+   {
+    "name": "大吟醸 向洋",
+    "spec": "大吟醸 精米歩合40% アルコール16度",
+    "volume": "1.8L",
+    "price": null,
+    "price_note": null,
+    "source": "http://www.sentoku.com/product.html",
+    "seasonal": false
+   },
+   {
+    "name": "蔵人の夢 純米大吟醸",
+    "spec": "純米大吟醸 精米歩合50% アルコール16度",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "http://www.sentoku.com/product.html",
+    "seasonal": false
+   },
+   {
+    "name": "千徳純米酒",
+    "spec": "純米 精米歩合60% アルコール15.5度",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "http://www.sentoku.com/product.html",
+    "seasonal": false
+   },
+   {
+    "name": "特別吟醸 はなかぐら",
+    "spec": "特別吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "http://www.sentoku.com/product.html",
+    "seasonal": false
+   },
+   {
+    "name": "上撰 原酒",
+    "spec": "原酒 精米歩合70% アルコール19.5度",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "http://www.sentoku.com/product.html",
+    "seasonal": false
+   },
+   {
+    "name": "金雫",
+    "spec": "普通酒 精米歩合70% アルコール15度",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "http://www.sentoku.com/product.html",
+    "seasonal": false
+   },
+   {
+    "name": "千徳 にごり酒",
+    "spec": "にごり酒 精米歩合70% アルコール15度",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "http://www.sentoku.com/product.html",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.sentoku.com/",
+   "http://www.sentoku.com/product.html"
+  ]
+ },
+ "夢の中まで": {
+  "brewer": "千徳酒造",
+  "official_url": "http://www.sentoku.com/",
+  "brewery_summary": "宮崎県延岡市の酒蔵。120年余の歴史を持ち、宮崎県産酒造好適米「はなかぐら」なども使用する。",
+  "blurb": "高千穂産山田錦を50%以下まで磨き、総米700kgを手洗いして醸す純米大吟醸。",
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "純米大吟醸 夢の中まで",
+    "spec": "純米大吟醸 精米歩合50% アルコール15.5度",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "http://www.sentoku.com/product yumenonakamade.html",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.sentoku.com/",
+   "http://www.sentoku.com/product.html"
+  ]
+ }
+}

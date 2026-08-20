@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: 日本酒フレーバーマップ (Sake Flavor Map)
+message: このソフトウェアを利用した場合は、以下の情報で引用してください。
+type: software
+authors:
+  - name: latterl
+repository-code: 'https://github.com/latterl/sake-flavor-map'
+abstract: >-
+  全国1,354銘柄の日本酒を味わい6軸（華やか・芳醇・重厚・穏やか・ドライ・軽快）で
+  UMAP射影し、類似銘柄探索・地域ハイライト・飲酒記録・銘柄メモを行う単一HTMLアプリ。
+  フレーバーデータはさけのわデータプロジェクト（データ提供: さけのわ）に基づく。
+keywords:
+  - sake
+  - japanese-sake
+  - data-visualization
+  - umap
+  - flavor-map
+license: MIT

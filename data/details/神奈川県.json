@@ -1,0 +1,909 @@
+{
+ "松みどり": {
+  "brewer": "中澤酒造",
+  "official_url": "http://www.matsumidori.jp/",
+  "brewery_summary": "中澤酒造は1825年創業、神奈川県足柄上郡松田町の酒蔵で、丹沢山の伏流水を用いて全量手造りにこだわった酒造りを行っている。代表銘柄「松みどり」を中心に、純米大吟醸から本醸造まで幅広いラインナップを展開している。",
+  "blurb": "丹沢山の伏流水による柔らかな酒質が特徴。",
+  "rice": [],
+  "products": [
+   {
+    "name": "松みどり 純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "http://www.matsumidori.jp/products/",
+    "seasonal": false
+   },
+   {
+    "name": "松みどり 大吟醸 原酒",
+    "spec": "大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "http://www.matsumidori.jp/products/",
+    "seasonal": false
+   },
+   {
+    "name": "松みどり 純米酒",
+    "spec": "純米",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "http://www.matsumidori.jp/products/",
+    "seasonal": false
+   },
+   {
+    "name": "松みどり 特別本醸造",
+    "spec": "本醸造",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "http://www.matsumidori.jp/products/",
+    "seasonal": false
+   },
+   {
+    "name": "松みどり 純米吟醸 S.tokyo",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://ec.matsumidori.jp/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.matsumidori.jp/",
+   "http://www.matsumidori.jp/products/",
+   "https://ec.matsumidori.jp/"
+  ]
+ },
+ "亮": {
+  "brewer": "中澤酒造",
+  "official_url": "http://www.matsumidori.jp/",
+  "brewery_summary": "中澤酒造は1825年創業、神奈川県足柄上郡松田町の酒蔵で、丹沢山の伏流水を用いて全量手造りにこだわった酒造りを行っている。代表銘柄「松みどり」を中心に、純米大吟醸から本醸造まで幅広いラインナップを展開している。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "亮 河津桜酵母仕込み",
+    "spec": null,
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://ec.matsumidori.jp/",
+    "seasonal": true
+   }
+  ],
+  "sources": [
+   "http://www.matsumidori.jp/",
+   "http://www.matsumidori.jp/products/",
+   "https://ec.matsumidori.jp/"
+  ]
+ },
+ "相模灘": {
+  "brewer": "久保田酒造",
+  "official_url": "https://sagaminada.thebase.in/",
+  "brewery_summary": "相模原市津久井にある文化元年(1804)創業の蔵。丹沢山系の伏流水で「相模灘」を醸す。",
+  "blurb": "丹沢山系の伏流水と厳選した酒米で醸す津久井の地酒。",
+  "rice": [
+   "山田錦",
+   "美山錦",
+   "雄町"
+  ],
+  "products": [
+   {
+    "name": "相模灘 純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 4700,
+    "price_note": "税込",
+    "source": "https://sagaminada.thebase.in/",
+    "seasonal": false
+   },
+   {
+    "name": "相模灘 純米吟醸 美山錦",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 1940,
+    "price_note": "税込",
+    "source": "https://sagaminada.thebase.in/",
+    "seasonal": false
+   },
+   {
+    "name": "相模灘 純米吟醸 山田錦",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 2200,
+    "price_note": "税込",
+    "source": "https://sagaminada.thebase.in/",
+    "seasonal": false
+   },
+   {
+    "name": "相模灘 純米吟醸 雄町",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 2100,
+    "price_note": "税込",
+    "source": "https://sagaminada.thebase.in/",
+    "seasonal": false
+   },
+   {
+    "name": "相模灘 特別純米",
+    "spec": "特別純米",
+    "volume": "720ml",
+    "price": 1790,
+    "price_note": "税込",
+    "source": "https://sagaminada.thebase.in/",
+    "seasonal": false
+   },
+   {
+    "name": "相模灘 特別純米 辛口",
+    "spec": "特別純米",
+    "volume": "720ml",
+    "price": 1790,
+    "price_note": "税込",
+    "source": "https://sagaminada.thebase.in/",
+    "seasonal": false
+   },
+   {
+    "name": "相模灘 特別本醸造",
+    "spec": "特別本醸造",
+    "volume": "720ml",
+    "price": 1680,
+    "price_note": "税込",
+    "source": "https://sagaminada.thebase.in/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://sagaminada.thebase.in/",
+   "http://www.kanagawa-jizake.or.jp/kubota/"
+  ]
+ },
+ "箱根山": {
+  "brewer": "井上酒造",
+  "official_url": "https://www.hakoneyama.co.jp/",
+  "brewery_summary": "井上酒造は1789年創業、神奈川県足柄上郡大井町の酒蔵で、「酒は人柄が造る」という理念のもと200年以上にわたり酒造りを続けている。代表銘柄「箱根山」を中心に、純米大吟醸から普通酒まで幅広い商品を展開している。",
+  "blurb": null,
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "純米大吟醸 箱根山",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.hakoneyama.co.jp/products/",
+    "seasonal": false
+   },
+   {
+    "name": "純米酒 箱根山",
+    "spec": "純米",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.hakoneyama.co.jp/products/",
+    "seasonal": false
+   },
+   {
+    "name": "上撰 箱根山",
+    "spec": "上撰",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.hakoneyama.co.jp/products/",
+    "seasonal": false
+   },
+   {
+    "name": "吟醸 ぎんから",
+    "spec": "吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.hakoneyama.co.jp/products/",
+    "seasonal": false
+   },
+   {
+    "name": "特別純米酒 箱根七福神",
+    "spec": "特別純米",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.hakoneyama.co.jp/products/",
+    "seasonal": false
+   },
+   {
+    "name": "箱根山 純米しぼりたて",
+    "spec": "純米(しぼりたて)",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.hakoneyama.co.jp/products/",
+    "seasonal": true
+   }
+  ],
+  "sources": [
+   "https://www.hakoneyama.co.jp/",
+   "https://www.hakoneyama.co.jp/products/",
+   "https://hakoneyama.shop/",
+   "https://www.hakoneyama.co.jp/store/"
+  ]
+ },
+ "昇龍蓬莱": {
+  "brewer": "大矢孝酒造",
+  "official_url": "https://oyatakashi-shuzo.com/",
+  "brewery_summary": "愛甲郡愛川町の1830年創業の全量純米蔵。「残草蓬莱」「昇龍蓬莱」を醸す。",
+  "blurb": "生酛・きもと造りの燗映えするシリーズ。",
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "昇龍蓬莱 きもと純米大吟醸 山田錦40",
+    "spec": "生酛純米大吟醸（山田錦40%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://oyatakashi-shuzo.com/product/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://oyatakashi-shuzo.com/product/"
+  ]
+ },
+ "残草蓬莱": {
+  "brewer": "大矢孝酒造",
+  "official_url": "https://oyatakashi-shuzo.com/",
+  "brewery_summary": "愛甲郡愛川町の1830年創業の全量純米蔵。「残草蓬莱」「昇龍蓬莱」を醸す。",
+  "blurb": "地元・残草（ざるそう）の名を冠した速醸系の純米シリーズ。",
+  "rice": [
+   "出羽燦々"
+  ],
+  "products": [
+   {
+    "name": "残草蓬莱 特別純米",
+    "spec": "特別純米",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://oyatakashi-shuzo.com/product/",
+    "seasonal": false
+   },
+   {
+    "name": "残草蓬莱 純米 緑ラベル",
+    "spec": "純米",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://oyatakashi-shuzo.com/product/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://oyatakashi-shuzo.com/product/"
+  ]
+ },
+ "いづみ橋": {
+  "brewer": "泉橋酒造",
+  "official_url": "http://izumibashi.com/",
+  "brewery_summary": "泉橋酒造は1857年創業、神奈川県海老名市の酒蔵で「酒造りは米作りから」を理念に、自社栽培の酒米を用いた純米酒造りに取り組んでいる。代表銘柄「いづみ橋」のほか、季節限定シリーズの「夏ヤゴ」なども展開している。",
+  "blurb": null,
+  "rice": [
+   "山田錦",
+   "楽風舞"
+  ],
+  "products": [
+   {
+    "name": "いづみ橋 恵 青ラベル",
+    "spec": "純米吟醸酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://shop.izumibashi.com/collections/all",
+    "seasonal": false
+   },
+   {
+    "name": "いづみ橋 恵 赤ラベル",
+    "spec": "純米原酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://shop.izumibashi.com/collections/all",
+    "seasonal": false
+   },
+   {
+    "name": "いづみ橋 楽風舞",
+    "spec": "純米吟醸酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://shop.izumibashi.com/collections/all",
+    "seasonal": false
+   },
+   {
+    "name": "黒とんぼ きもと",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://shop.izumibashi.com/collections/all",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://izumibashi.com/",
+   "https://izumibashi.com/product/",
+   "https://shop.izumibashi.com/",
+   "https://shop.izumibashi.com/collections/all"
+  ]
+ },
+ "泉橋": {
+  "brewer": "泉橋酒造",
+  "official_url": "http://izumibashi.com/",
+  "brewery_summary": "泉橋酒造は1857年創業、神奈川県海老名市の酒蔵で「酒造りは米作りから」を理念に、自社栽培の酒米を用いた純米酒造りに取り組んでいる。代表銘柄「いづみ橋」のほか、季節限定シリーズの「夏ヤゴ」なども展開している。",
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": [
+   "http://izumibashi.com/",
+   "https://izumibashi.com/product/",
+   "https://shop.izumibashi.com/",
+   "https://shop.izumibashi.com/collections/all"
+  ]
+ },
+ "夏ヤゴ": {
+  "brewer": "泉橋酒造",
+  "official_url": "http://izumibashi.com/",
+  "brewery_summary": "泉橋酒造は1857年創業、神奈川県海老名市の酒蔵で「酒造りは米作りから」を理念に、自社栽培の酒米を用いた純米酒造りに取り組んでいる。代表銘柄「いづみ橋」のほか、季節限定シリーズの「夏ヤゴ」なども展開している。",
+  "blurb": "夏季限定の「夏ヤゴ」シリーズ。",
+  "rice": [],
+  "products": [
+   {
+    "name": "夏ヤゴ ピンク きもと 雄町 純米原酒",
+    "spec": "純米原酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://izumibashi.com/",
+    "seasonal": true
+   }
+  ],
+  "sources": [
+   "http://izumibashi.com/",
+   "https://izumibashi.com/product/",
+   "https://shop.izumibashi.com/",
+   "https://shop.izumibashi.com/collections/all"
+  ]
+ },
+ "天青": {
+  "brewer": "熊澤酒造",
+  "official_url": "https://store.kumazawa.jp/",
+  "brewery_summary": "茅ヶ崎市に残る唯一の蔵。「雨過天青」の色をイメージした「天青」シリーズを醸す。",
+  "blurb": "澄んだ青空(雨過天青)を思わせる、千峰・吟望・風露などの定番シリーズ。",
+  "rice": [
+   "山田錦",
+   "五百万石"
+  ],
+  "products": [
+   {
+    "name": "千峰 天青 純米吟醸",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 2365,
+    "price_note": "税込",
+    "source": "https://store.kumazawa.jp/products/%E5%8D%83%E5%B3%B0%E5%A4%A9%E9%9D%92-%E7%B4%94%E7%B1%B3%E5%90%9F%E9%86%B8",
+    "seasonal": false
+   },
+   {
+    "name": "風露 天青 特別本醸造",
+    "spec": "特別本醸造",
+    "volume": "720ml",
+    "price": 1540,
+    "price_note": "税込",
+    "source": "https://store.kumazawa.jp/products/%E9%A2%A8%E9%9C%B2%E5%A4%A9%E9%9D%92-%E7%89%B9%E5%88%A5%E6%9C%AC%E9%86%B8%E9%80%A0",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://store.kumazawa.jp/",
+   "https://store.kumazawa.jp/collections/japanese-sake",
+   "https://kumazawa.jp/sake-beer/kumazawa/"
+  ]
+ },
+ "白笹鼓": {
+  "brewer": "金井酒造店",
+  "official_url": "https://www.kaneishuzo.co.jp/",
+  "brewery_summary": "秦野市の蔵。名水百選「秦野盆地湧水群」の丹沢の伏流水で「白笹鼓」を醸す。",
+  "blurb": "丹沢山系の名水で醸す秦野の地酒。",
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "白笹鼓 純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 4950,
+    "price_note": "税込",
+    "source": "https://www.kaneishuzo.co.jp/products/7",
+    "seasonal": false
+   },
+   {
+    "name": "白笹鼓 大吟醸",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 4400,
+    "price_note": "税込",
+    "source": "https://www.kaneishuzo.co.jp/products/9",
+    "seasonal": false
+   },
+   {
+    "name": "白笹鼓 純米吟醸",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 1980,
+    "price_note": "税込",
+    "source": "https://www.kaneishuzo.co.jp/products/14",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.kaneishuzo.co.jp/",
+   "https://www.kaneishuzo.co.jp/pages/shirasasatsuzumi"
+  ]
+ },
+ "盛升": {
+  "brewer": "黄金井酒造",
+  "official_url": "https://www.koganeishuzou.com/",
+  "brewery_summary": "黄金井酒造は神奈川県厚木市の酒蔵で、丹沢山系の水と伝統的な麹づくりを用いて代表銘柄「盛升」を醸造している。「盛升」は全国新酒鑑評会での連続入賞など複数の受賞歴を持つ。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "大吟醸 盛升",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.koganeishuzou.com/sakarimasu/sakariamasurainnap.html",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸 盛升",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.koganeishuzou.com/sakarimasu/sakariamasurainnap.html",
+    "seasonal": false
+   },
+   {
+    "name": "純米吟醸 盛升",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.koganeishuzou.com/sakarimasu/sakariamasurainnap.html",
+    "seasonal": false
+   },
+   {
+    "name": "特別純米 盛升",
+    "spec": "特別純米",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.koganeishuzou.com/sakarimasu/sakariamasurainnap.html",
+    "seasonal": false
+   },
+   {
+    "name": "純米辛口 盛升",
+    "spec": "純米(辛口)",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.koganeishuzou.com/sakarimasu/sakariamasurainnap.html",
+    "seasonal": false
+   },
+   {
+    "name": "山廃純米 盛升",
+    "spec": "純米(山廃)",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.koganeishuzou.com/sakarimasu/sakariamasurainnap.html",
+    "seasonal": false
+   },
+   {
+    "name": "純米酒伝四郎",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.koganeishuzou.com/sakarimasu/sakariamasurainnap.html",
+    "seasonal": false
+   },
+   {
+    "name": "純米吟醸 旋 TSUMUJI",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.koganeishuzou.com/sakarimasu/sakariamasurainnap.html",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.koganeishuzou.com/",
+   "https://www.koganeishuzou.com/sakarimasu/",
+   "https://www.koganeishuzou.com/sakarimasu/sakariamasurainnap.html",
+   "https://www.koganeishuzou.com/esp/shop"
+  ]
+ },
+ "HINEMOS": {
+  "brewer": "RiceWine",
+  "official_url": "https://hinemos.tokyo/",
+  "brewery_summary": "小田原市の老舗・森山酒造とタッグを組み「時間」をコンセプトに日本酒を再定義する酒蔵。時刻を冠したブランド「HINEMOS」を展開。",
+  "blurb": "PM6時からAM5時まで、時刻ごとの気分に寄り添う12種の日本酒シリーズ。",
+  "rice": [],
+  "products": [
+   {
+    "name": "ROKUJI",
+    "spec": "スパークリング日本酒",
+    "volume": "500ml",
+    "price": 3740,
+    "price_note": "税込",
+    "source": "https://hinemos.tokyo/products/rokuji",
+    "seasonal": false
+   },
+   {
+    "name": "SHICHIJI",
+    "spec": null,
+    "volume": "500ml",
+    "price": 3300,
+    "price_note": "税込",
+    "source": "https://hinemos.tokyo/collections/all",
+    "seasonal": false
+   },
+   {
+    "name": "HACHIJI",
+    "spec": null,
+    "volume": "500ml",
+    "price": 2970,
+    "price_note": "税込",
+    "source": "https://hinemos.tokyo/collections/all",
+    "seasonal": false
+   },
+   {
+    "name": "KUJI",
+    "spec": null,
+    "volume": "500ml",
+    "price": 7590,
+    "price_note": "税込",
+    "source": "https://hinemos.tokyo/collections/all",
+    "seasonal": false
+   },
+   {
+    "name": "JUJI",
+    "spec": null,
+    "volume": "500ml",
+    "price": 4180,
+    "price_note": "税込",
+    "source": "https://hinemos.tokyo/collections/all",
+    "seasonal": false
+   },
+   {
+    "name": "JUICHIJI",
+    "spec": null,
+    "volume": "500ml",
+    "price": 5390,
+    "price_note": "税込",
+    "source": "https://hinemos.tokyo/collections/all",
+    "seasonal": false
+   },
+   {
+    "name": "REIJI",
+    "spec": null,
+    "volume": "500ml",
+    "price": 3190,
+    "price_note": "税込",
+    "source": "https://hinemos.tokyo/collections/all",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://hinemos.tokyo/",
+   "https://hinemos.tokyo/collections/all",
+   "https://ricewine.co.jp/"
+  ]
+ },
+ "菊勇": {
+  "brewer": "吉川醸造",
+  "official_url": "https://kikkawa-jozo.com/",
+  "brewery_summary": "伊勢原市の蔵。丹沢大山(雨降山)の硬水を用い「菊勇」「雨降(AFURI)」を醸す。",
+  "blurb": "吉川醸造の伝統銘柄。",
+  "rice": [],
+  "products": [],
+  "sources": [
+   "https://kikkawa-jozo.com/",
+   "http://www.kanagawa-jizake.or.jp/kikkawa/"
+  ]
+ },
+ "雨降": {
+  "brewer": "吉川醸造",
+  "official_url": "https://kikkawa-jozo.com/",
+  "brewery_summary": "伊勢原市の1912年創業の蔵元。大山の伏流水で「雨降（あふり）」を醸す。",
+  "blurb": "「あめふり」の山・大山にちなむリブランド銘柄。個性的な製法のシリーズ展開。",
+  "rice": [],
+  "products": [
+   {
+    "name": "雨降 KASUMI",
+    "spec": "純米 かすみ酒",
+    "volume": null,
+    "price": 2250,
+    "price_note": "税込",
+    "source": "https://kikkawa-jozo.com/collections/onlinestore",
+    "seasonal": false
+   },
+   {
+    "name": "雨降 MIZUMOTO",
+    "spec": "水酛仕込み",
+    "volume": null,
+    "price": 2500,
+    "price_note": "税込",
+    "source": "https://kikkawa-jozo.com/collections/onlinestore",
+    "seasonal": false
+   },
+   {
+    "name": "雨降 KURO-KOJI",
+    "spec": "黒麹仕込み",
+    "volume": null,
+    "price": 2750,
+    "price_note": "税込",
+    "source": "https://kikkawa-jozo.com/collections/onlinestore",
+    "seasonal": false
+   },
+   {
+    "name": "雨降 OHANA",
+    "spec": null,
+    "volume": null,
+    "price": 3000,
+    "price_note": "税込",
+    "source": "https://kikkawa-jozo.com/collections/onlinestore",
+    "seasonal": false
+   },
+   {
+    "name": "雨降 NARI",
+    "spec": null,
+    "volume": null,
+    "price": 10000,
+    "price_note": "税込",
+    "source": "https://kikkawa-jozo.com/collections/onlinestore",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://kikkawa-jozo.com/collections/onlinestore"
+  ]
+ },
+ "丹沢山": {
+  "brewer": "川西屋酒造店",
+  "official_url": "https://kawanishiya.stores.jp/",
+  "brewery_summary": "神奈川県足柄上郡山北町の酒蔵。「丹沢山」「隆」を醸す。",
+  "blurb": null,
+  "rice": [
+   "足柄若水"
+  ],
+  "products": [
+   {
+    "name": "丹沢山 吟造り純米酒",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1870,
+    "price_note": "税込",
+    "source": "https://kawanishiya.stores.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "丹沢山 赤ラベル（赤丹）",
+    "spec": null,
+    "volume": "720ml",
+    "price": 1980,
+    "price_note": "税込",
+    "source": "https://kawanishiya.stores.jp/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://kawanishiya.stores.jp/"
+  ]
+ },
+ "隆": {
+  "brewer": "川西屋酒造店",
+  "official_url": "https://kawanishiya.stores.jp/",
+  "brewery_summary": "神奈川県足柄上郡山北町の酒蔵。「丹沢山」「隆」を醸す。",
+  "blurb": null,
+  "rice": [
+   "足柄若水",
+   "山田錦",
+   "亀の尾"
+  ],
+  "products": [
+   {
+    "name": "隆 白ラベル（足柄若水）",
+    "spec": null,
+    "volume": "720ml",
+    "price": 2035,
+    "price_note": "税込",
+    "source": "https://kawanishiya.stores.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "隆 山吹ラベル（兵庫山田錦45%）",
+    "spec": null,
+    "volume": "720ml",
+    "price": 3135,
+    "price_note": "税込",
+    "source": "https://kawanishiya.stores.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "隆 緑ラベル（阿波山田錦）",
+    "spec": null,
+    "volume": "720ml",
+    "price": 2365,
+    "price_note": "税込",
+    "source": "https://kawanishiya.stores.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "隆 亀の尾ラベル",
+    "spec": null,
+    "volume": "720ml",
+    "price": 2640,
+    "price_note": "税込",
+    "source": "https://kawanishiya.stores.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "隆 黒金ラベル（阿波山田錦）箱付き",
+    "spec": null,
+    "volume": "720ml",
+    "price": 6600,
+    "price_note": "税込",
+    "source": "https://kawanishiya.stores.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "隆 黒白ラベル（兵庫山田錦）箱付き",
+    "spec": null,
+    "volume": "720ml",
+    "price": 6050,
+    "price_note": "税込",
+    "source": "https://kawanishiya.stores.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "隆 小藤ラベル（岡山雄町）",
+    "spec": null,
+    "volume": "720ml",
+    "price": 2035,
+    "price_note": "税込",
+    "source": "https://kawanishiya.stores.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "隆 赤紫ラベル（越後五百万石）",
+    "spec": null,
+    "volume": "720ml",
+    "price": 2090,
+    "price_note": "税込",
+    "source": "https://kawanishiya.stores.jp/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://kawanishiya.stores.jp/"
+  ]
+ },
+ "丹澤山": {
+  "brewer": "川西屋酒造店",
+  "official_url": "https://kawanishiya.stores.jp/",
+  "brewery_summary": "神奈川県足柄上郡山北町の酒蔵。「丹沢山」「隆」を醸す。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "丹澤山 麗峰",
+    "spec": null,
+    "volume": "720ml",
+    "price": 2145,
+    "price_note": "税込",
+    "source": "https://kawanishiya.stores.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "丹澤山 秀峰",
+    "spec": null,
+    "volume": "720ml",
+    "price": 1815,
+    "price_note": "税込",
+    "source": "https://kawanishiya.stores.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "丹澤山 凛峰",
+    "spec": null,
+    "volume": "720ml",
+    "price": 2200,
+    "price_note": "税込",
+    "source": "https://kawanishiya.stores.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "丹澤山 純米大吟醸（箱付き）",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 4675,
+    "price_note": "税込",
+    "source": "https://kawanishiya.stores.jp/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://kawanishiya.stores.jp/"
+  ]
+ },
+ "セトイチ": {
+  "brewer": "瀬戸酒造店",
+  "official_url": "https://setosyuzo.ashigarigo.com/",
+  "brewery_summary": "足柄上郡開成町の蔵。飲むシーンをイメージした個性豊かな「セトイチ」シリーズを展開。",
+  "blurb": "「誰と、いつ、どんな肴で飲むか」をイメージした多彩な味わいの日本酒シリーズ。",
+  "rice": [],
+  "products": [
+   {
+    "name": "セトイチ That's Life",
+    "spec": null,
+    "volume": "720ml",
+    "price": 2750,
+    "price_note": "税込",
+    "source": "https://setosyuzo.ashigarigo.com/collections/setoichi",
+    "seasonal": false
+   },
+   {
+    "name": "セトイチ Blowin' in the wind",
+    "spec": null,
+    "volume": "720ml",
+    "price": 2750,
+    "price_note": "税込",
+    "source": "https://setosyuzo.ashigarigo.com/collections/setoichi",
+    "seasonal": false
+   },
+   {
+    "name": "セトイチ Fly me to the moon",
+    "spec": null,
+    "volume": "720ml",
+    "price": 2750,
+    "price_note": "税込",
+    "source": "https://setosyuzo.ashigarigo.com/collections/setoichi",
+    "seasonal": false
+   },
+   {
+    "name": "セトイチ I'll be back",
+    "spec": null,
+    "volume": "720ml",
+    "price": 2420,
+    "price_note": "税込",
+    "source": "https://setosyuzo.ashigarigo.com/collections/setoichi",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://setosyuzo.ashigarigo.com/",
+   "https://setosyuzo.ashigarigo.com/collections/setoichi"
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+  "_comment": "丹後地域（京丹後市・宮津市・伊根町・与謝野町）の酒蔵と代表銘柄。出典: 海の京都観光圏『酒の京都 全12蔵』特集 https://www.uminokyoto.jp/feature/detail.php?spid=84 、谷口酒造=芝の井 https://sakelabo.com/shibanoi/ 、吉岡酒造場=吉野山 https://yoshinoyama-tango.com/ 。中丹の3蔵（池田酒造=舞鶴、東和酒造=福知山、若宮酒造=綾部）は丹後地域から除外。",
+  "region_definition": ["京丹後市", "宮津市", "与謝郡伊根町", "与謝郡与謝野町"],
+  "breweries": [
+    {"brewery": "木下酒造", "municipality": "京丹後市久美浜町", "brands": ["玉川"]},
+    {"brewery": "熊野酒造", "municipality": "京丹後市久美浜町", "brands": ["久美の浦"]},
+    {"brewery": "白杉酒造", "municipality": "京丹後市大宮町", "brands": ["白木久"]},
+    {"brewery": "竹野酒造", "municipality": "京丹後市弥栄町", "brands": ["弥栄鶴"]},
+    {"brewery": "吉岡酒造場", "municipality": "京丹後市弥栄町", "brands": ["吉野山"]},
+    {"brewery": "ハクレイ酒造", "municipality": "宮津市", "brands": ["酒呑童子", "香田", "白嶺"]},
+    {"brewery": "向井酒造", "municipality": "与謝郡伊根町", "brands": ["伊根満開", "京の春"]},
+    {"brewery": "与謝娘酒造", "municipality": "与謝郡与謝野町", "brands": ["与謝娘"]},
+    {"brewery": "谷口酒造", "municipality": "与謝郡与謝野町", "brands": ["芝の井", "若冲"]}
+  ]
+}

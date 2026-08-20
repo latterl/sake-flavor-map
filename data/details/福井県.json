@@ -1,0 +1,1192 @@
+{
+ "源平": {
+  "brewer": "源平酒造",
+  "official_url": "https://genpei1673.buyshop.jp/",
+  "brewery_summary": "源平酒造は福井県大野市にある酒蔵で、「源平」を醸造している。",
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": [
+   "http://www.genpeishuzo.co.jp/"
+  ]
+ },
+ "関西": {
+  "brewer": "片山酒造",
+  "official_url": "https://www.sake-kansai.com/",
+  "brewery_summary": "片山酒造は福井県越前市にある明和年間(1764〜1771年)創業、250年以上の歴史を持つ酒蔵で、現当主は5代目。防腐剤不使用の方針を早くから採用し、蔵元自らが杜氏を務めている。",
+  "blurb": "明治42年に商標登録された主力銘柄で、ほのかな甘みとコクを感じつつ飲み込むとすっと消えるキレの良い味わいが特徴。",
+  "rice": [],
+  "products": [
+   {
+    "name": "佳撰",
+    "spec": "普通酒",
+    "volume": "1800ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.sake-kansai.com/kansai.html",
+    "seasonal": false
+   },
+   {
+    "name": "本醸造",
+    "spec": "本醸造",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.sake-kansai.com/kansai.html",
+    "seasonal": false
+   },
+   {
+    "name": "吟醸純米",
+    "spec": "吟醸純米",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.sake-kansai.com/kansai.html",
+    "seasonal": false
+   },
+   {
+    "name": "純米",
+    "spec": "純米",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.sake-kansai.com/kansai.html",
+    "seasonal": false
+   },
+   {
+    "name": "かたかた 無農薬純米吟醸",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.sake-kansai.com/kansai.html",
+    "seasonal": false
+   },
+   {
+    "name": "佳撰 生詰原酒",
+    "spec": "原酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.sake-kansai.com/kansai.html",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.sake-kansai.com/",
+   "https://www.sake-kansai.com/about.html",
+   "https://www.sake-kansai.com/kansai.html"
+  ]
+ },
+ "福千歳": {
+  "brewer": "田嶋酒造",
+  "official_url": "https://www.fukuchitose.com/",
+  "brewery_summary": "田嶋酒造は福井県福井市にある江戸時代後期創業、170年以上続く酒蔵で、山廃仕込みを基本とした米の旨みと自然な酸を大切にした酒造りを行っている。ワイン製法やオーク樽熟成など新しい酒造りにも挑戦している。",
+  "blurb": "山廃仕込みを基本とし、派手さよりも食卓に寄り添う奥行きを目指す銘柄。",
+  "rice": [],
+  "products": [
+   {
+    "name": "純米大吟醸 さかほまれ",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 3900,
+    "price_note": "税込",
+    "source": "https://www.fukuchitose.com/collections/all",
+    "seasonal": false
+   },
+   {
+    "name": "福",
+    "spec": "山廃純米大吟醸",
+    "volume": "720ml",
+    "price": 3080,
+    "price_note": "税込",
+    "source": "https://www.fukuchitose.com/collections/all",
+    "seasonal": false
+   },
+   {
+    "name": "徳",
+    "spec": "山廃純米吟醸",
+    "volume": "720ml",
+    "price": 2000,
+    "price_note": "税込",
+    "source": "https://www.fukuchitose.com/collections/all",
+    "seasonal": false
+   },
+   {
+    "name": "國酒",
+    "spec": "山廃純米大吟醸",
+    "volume": "720ml",
+    "price": 6000,
+    "price_note": "税込",
+    "source": "https://www.fukuchitose.com/collections/all",
+    "seasonal": false
+   },
+   {
+    "name": "鯖純米",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1700,
+    "price_note": "税込",
+    "source": "https://www.fukuchitose.com/collections/all",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.fukuchitose.com/",
+   "https://www.fukuchitose.com/pages/about",
+   "https://www.fukuchitose.com/collections/all"
+  ]
+ },
+ "越前岬": {
+  "brewer": "田辺酒造",
+  "official_url": "https://echizenmisaki.com/",
+  "brewery_summary": "福井県永平寺町の酒蔵。全量手作業の寒仕込みで越前岬を醸す。",
+  "blurb": "九頭竜川の清流の町・永平寺町の地酒。",
+  "rice": [],
+  "products": [
+   {
+    "name": "越前岬 純米吟醸 中取り生原酒",
+    "spec": "純米吟醸 中取り生原酒",
+    "volume": "720ml",
+    "price": 2640,
+    "price_note": "税込",
+    "source": "https://echizenmisaki.com/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://echizenmisaki.com/"
+  ]
+ },
+ "雪きらら": {
+  "brewer": "畠山酒造",
+  "official_url": "https://yukikirara.co.jp/",
+  "brewery_summary": "福井県南条郡南越前町今庄の酒蔵。代表銘柄「雪きらら」。",
+  "blurb": "宿場町今庄で育まれた地酒。",
+  "rice": [
+   "さかほまれ"
+  ],
+  "products": [
+   {
+    "name": "大吟醸 雪きらら",
+    "spec": "大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://yukikirara.co.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸 さかほまれ",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://yukikirara.co.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "純米吟醸",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://yukikirara.co.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "純米酒",
+    "spec": "純米酒",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://yukikirara.co.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "山廃純米 辛口",
+    "spec": "山廃純米",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://yukikirara.co.jp/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://yukikirara.co.jp/",
+   "https://hatakesake.base.shop/"
+  ]
+ },
+ "真名鶴": {
+  "brewer": "真名鶴酒造",
+  "official_url": "http://www.manaturu.com/",
+  "brewery_summary": "宝暦年間創業、福井県大野市の酒蔵。全製品吟醸規格の高級酒専門蔵。",
+  "blurb": "名水百選「御清水」の水とさかほまれで醸す越前大野の地酒。",
+  "rice": [
+   "さかほまれ",
+   "五百万石"
+  ],
+  "products": [
+   {
+    "name": "mana 1751 premium",
+    "spec": "純米吟醸系",
+    "volume": "720ml",
+    "price": 2750,
+    "price_note": "税込",
+    "source": "https://manaturu.stores.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "mana 1751 classic",
+    "spec": "純米吟醸系",
+    "volume": "720ml",
+    "price": 2750,
+    "price_note": "税込",
+    "source": "https://manaturu.stores.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "林檎酸高生成純米大吟醸 NEWTON77",
+    "spec": "純米大吟醸 林檎酸高生成酵母",
+    "volume": "720ml",
+    "price": 2145,
+    "price_note": "税込",
+    "source": "https://manaturu.stores.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸 酒蔵魂さかほまれ",
+    "spec": "純米大吟醸 さかほまれ",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://manaturu.stores.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "山廃仕込純米酒",
+    "spec": "山廃純米",
+    "volume": "720ml",
+    "price": 1980,
+    "price_note": "税込",
+    "source": "https://manaturu.stores.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "氷点囲い純米酒",
+    "spec": "純米酒 氷点貯蔵",
+    "volume": "720ml",
+    "price": 1650,
+    "price_note": "税込",
+    "source": "https://manaturu.stores.jp/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://manaturu.stores.jp/"
+  ]
+ },
+ "舞美人": {
+  "brewer": "美川酒造場",
+  "official_url": "https://www.maibijin.com/",
+  "brewery_summary": "美川酒造場は福井県福井市にある1887年創業の小さな酒蔵で、少量手造りによる個性豊かすぎる味わいの日本酒を醸している。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "水もとMUKU",
+    "spec": "水もと仕込み",
+    "volume": "720ml",
+    "price": 1980,
+    "price_note": "税込",
+    "source": "https://www.maibijin.com/product-list",
+    "seasonal": false
+   },
+   {
+    "name": "山廃純米大吟醸",
+    "spec": "山廃純米大吟醸",
+    "volume": "720ml",
+    "price": 4400,
+    "price_note": "税込",
+    "source": "https://www.maibijin.com/product-list",
+    "seasonal": false
+   },
+   {
+    "name": "四段仕込sanQ",
+    "spec": "四段仕込",
+    "volume": "720ml",
+    "price": 2035,
+    "price_note": "税込",
+    "source": "https://www.maibijin.com/product-list",
+    "seasonal": false
+   },
+   {
+    "name": "【火入れ】山廃純米",
+    "spec": "山廃純米",
+    "volume": "720ml",
+    "price": 1848,
+    "price_note": "税込",
+    "source": "https://www.maibijin.com/product-list",
+    "seasonal": false
+   },
+   {
+    "name": "純米酒",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1584,
+    "price_note": "税込",
+    "source": "https://www.maibijin.com/product-list",
+    "seasonal": false
+   },
+   {
+    "name": "純米吟醸酒",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 2112,
+    "price_note": "税込",
+    "source": "https://www.maibijin.com/product-list",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.maibijin.com/",
+   "https://www.maibijin.com/product-list"
+  ]
+ },
+ "北の庄": {
+  "brewer": "舟木酒造",
+  "official_url": "http://www.funaki-sake.com/",
+  "brewery_summary": "舟木酒造は福井県福井市にある1866年創業の酒蔵で、現当主は5代目。淡麗辛口で、飲んだ瞬間よりものどを通った後にうまさを感じるさっぱりとした味わいの日本酒を多く手掛けている。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "北の庄 越前雪国そだち にごり酒",
+    "spec": "本醸造酒",
+    "volume": "720ml",
+    "price": 1144,
+    "price_note": "税込",
+    "source": "http://www.funaki-sake.com/",
+    "seasonal": true
+   },
+   {
+    "name": "北の庄 一番搾り 純米生酒",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1485,
+    "price_note": "税込",
+    "source": "http://www.funaki-sake.com/",
+    "seasonal": true
+   }
+  ],
+  "sources": [
+   "http://www.funaki-sake.com/"
+  ]
+ },
+ "華燭": {
+  "brewer": "豊酒造",
+  "official_url": "https://www.yutaka-shuzou.com/",
+  "brewery_summary": "福井県鯖江市の小さな造り酒屋。福井県産米のみを使用し「華燭」を醸す。",
+  "blurb": "食に寄り添う地酒。福井県産米のみを使用。",
+  "rice": [
+   "福井県産米"
+  ],
+  "products": [
+   {
+    "name": "華燭 純米大吟醸 50",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 2750,
+    "price_note": "税込",
+    "source": "https://kashoku.shopselect.net/items/17019599",
+    "seasonal": false
+   },
+   {
+    "name": "華燭 大吟醸",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 2750,
+    "price_note": "税込",
+    "source": "https://kashoku.shopselect.net/items/17019481",
+    "seasonal": false
+   },
+   {
+    "name": "華燭 辛口純米酒",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1980,
+    "price_note": "税込",
+    "source": "https://kashoku.shopselect.net/items/105843379",
+    "seasonal": false
+   },
+   {
+    "name": "華燭 本醸造",
+    "spec": "本醸造",
+    "volume": "1800ml",
+    "price": 2530,
+    "price_note": "税込",
+    "source": "https://kashoku.shopselect.net/items/17020518",
+    "seasonal": false
+   },
+   {
+    "name": "華燭 あつ燗本醸",
+    "spec": "本醸造",
+    "volume": "720ml",
+    "price": 1430,
+    "price_note": "税込",
+    "source": "https://kashoku.shopselect.net/items/17021135",
+    "seasonal": false
+   },
+   {
+    "name": "華燭 ANOTHER -KURO（黒）",
+    "spec": "一段仕込",
+    "volume": "720ml",
+    "price": 2200,
+    "price_note": "税込",
+    "source": "https://kashoku.shopselect.net/items/70785856",
+    "seasonal": false
+   },
+   {
+    "name": "華燭 ANOTHER -SHIRO（白）",
+    "spec": "四割麹仕込",
+    "volume": "720ml",
+    "price": 2200,
+    "price_note": "税込",
+    "source": "https://kashoku.shopselect.net/items/70785911",
+    "seasonal": false
+   },
+   {
+    "name": "華燭 ANOTHER -HAKKIN（白金）",
+    "spec": "四割麹仕込",
+    "volume": "720ml",
+    "price": 8800,
+    "price_note": "税込",
+    "source": "https://kashoku.shopselect.net/items/87116380",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.yutaka-shuzou.com/",
+   "https://kashoku.shopselect.net/"
+  ]
+ },
+ "黒龍": {
+  "brewer": "黒龍酒造",
+  "official_url": "https://www.kokuryu.co.jp/",
+  "brewery_summary": "福井県永平寺町の酒蔵。「黒龍」「九頭龍」を醸す。",
+  "blurb": "永遠へつながる一献。",
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "黒龍 大吟醸 龍",
+    "spec": "大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.kokuryu.co.jp/ja/brew/kokuryu",
+    "seasonal": false
+   },
+   {
+    "name": "黒龍 大吟醸",
+    "spec": "大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.kokuryu.co.jp/ja/brew/kokuryu",
+    "seasonal": false
+   },
+   {
+    "name": "黒龍 いっちょらい 純吟",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.kokuryu.co.jp/ja/brew/kokuryu",
+    "seasonal": false
+   },
+   {
+    "name": "黒龍 いっちょらい 吟醸",
+    "spec": "吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.kokuryu.co.jp/ja/brew/kokuryu",
+    "seasonal": false
+   },
+   {
+    "name": "黒龍 吟のとびら",
+    "spec": "大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.kokuryu.co.jp/ja/brew/kokuryu",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.kokuryu.co.jp/ja/brew/kokuryu",
+   "https://www.kokuryu.co.jp/ja/brew/kuzuryu"
+  ]
+ },
+ "九頭龍": {
+  "brewer": "黒龍酒造",
+  "official_url": "https://www.kokuryu.co.jp/",
+  "brewery_summary": "福井県永平寺町の酒蔵。「黒龍」「九頭龍」を醸す。",
+  "blurb": "自由の扉をあける一杯。",
+  "rice": [],
+  "products": [
+   {
+    "name": "九頭龍 大吟醸",
+    "spec": "大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.kokuryu.co.jp/ja/brew/kuzuryu",
+    "seasonal": false
+   },
+   {
+    "name": "九頭龍 純米",
+    "spec": "純米",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.kokuryu.co.jp/ja/brew/kuzuryu",
+    "seasonal": false
+   },
+   {
+    "name": "九頭龍 貴醸酒",
+    "spec": "貴醸酒",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.kokuryu.co.jp/ja/brew/kuzuryu",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.kokuryu.co.jp/ja/brew/kokuryu",
+   "https://www.kokuryu.co.jp/ja/brew/kuzuryu"
+  ]
+ },
+ "一本義": {
+  "brewer": "一本義久保本店",
+  "official_url": "https://www.ippongi.co.jp/",
+  "brewery_summary": "福井県勝山市の酒蔵。「一本義」「伝心」を醸す。",
+  "blurb": "勝山の辛口を身上とする定番銘柄。",
+  "rice": [],
+  "products": [
+   {
+    "name": "一本義 辛爽系 純米吟醸",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://ippongi-online.shop-pro.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "一本義 辛口純米酒",
+    "spec": "純米",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://ippongi-online.shop-pro.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "一本義 辛口クラシック",
+    "spec": null,
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://ippongi-online.shop-pro.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "一本義 生貯蔵酒",
+    "spec": "生貯蔵酒",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://ippongi-online.shop-pro.jp/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://ippongi-online.shop-pro.jp/",
+   "https://www.ippongi.co.jp/ippongi"
+  ]
+ },
+ "伝心": {
+  "brewer": "一本義久保本店",
+  "official_url": "http://www.ippongi.co.jp/",
+  "brewery_summary": null,
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": []
+ },
+ "越の鷹": {
+  "brewer": "伊藤酒造",
+  "official_url": "http://koshinotaka.jp/",
+  "brewery_summary": "福井市で「越の鷹」を醸す酒蔵。杜氏・伊藤抵治が一人で酒造りを行い、甑で酒米を蒸す伝統的な造りを続けている。",
+  "blurb": null,
+  "rice": [
+   "五百万石",
+   "さかほまれ"
+  ],
+  "products": [
+   {
+    "name": "越の鷹 さかほまれ大吟醸",
+    "spec": "大吟醸 さかほまれ",
+    "volume": "720ml",
+    "price": 5830,
+    "price_note": "税込",
+    "source": "https://koshinotaka.base.shop/",
+    "seasonal": false
+   },
+   {
+    "name": "越の鷹 さかほまれ純米大吟醸",
+    "spec": "純米大吟醸 さかほまれ",
+    "volume": "720ml",
+    "price": 3520,
+    "price_note": "税込",
+    "source": "https://koshinotaka.base.shop/",
+    "seasonal": false
+   },
+   {
+    "name": "越の鷹 辛口純米吟醸",
+    "spec": "純米吟醸 五百万石 日本酒度+4〜+6",
+    "volume": "720ml",
+    "price": 1980,
+    "price_note": "税込",
+    "source": "https://koshinotaka.base.shop/",
+    "seasonal": false
+   },
+   {
+    "name": "越の鷹 薫酒 純米吟醸酒",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 1980,
+    "price_note": "税込",
+    "source": "https://koshinotaka.base.shop/",
+    "seasonal": false
+   },
+   {
+    "name": "越の鷹 大辛口 限定純米酒",
+    "spec": "純米",
+    "volume": "720ml",
+    "price": 1760,
+    "price_note": "税込",
+    "source": "https://koshinotaka.base.shop/",
+    "seasonal": false
+   },
+   {
+    "name": "越の鷹 純米酒",
+    "spec": "純米",
+    "volume": "720ml",
+    "price": 1650,
+    "price_note": "税込",
+    "source": "https://koshinotaka.base.shop/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://koshinotaka.jp/",
+   "http://koshinotaka.jp/seihin.html",
+   "https://koshinotaka.base.shop/"
+  ]
+ },
+ "梵": {
+  "brewer": "加藤吉平商店",
+  "official_url": "https://www.born.co.jp/",
+  "brewery_summary": "加藤吉平商店は1860年創業の福井県鯖江市の日本酒蔵で、かつて両替商・庄屋だった先祖が酒造業に転じたのが始まりである。現在は「梵」ブランドを世界118カ国に輸出し、国際的な品評会で数々の最高賞を獲得している。",
+  "blurb": "国際的な品評会で数々の最高賞を受賞している高級路線の純米大吟醸を中心とした銘柄。",
+  "rice": [],
+  "products": [
+   {
+    "name": "梵・純米55",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1540,
+    "price_note": "税込",
+    "source": "https://www.born.co.jp/product/junmai55/",
+    "seasonal": false
+   },
+   {
+    "name": "梵・特撰純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 3850,
+    "price_note": "税込",
+    "source": "https://www.born.co.jp/product/tokusen_junmai_daiginjo/",
+    "seasonal": false
+   },
+   {
+    "name": "梵・吉平",
+    "spec": "純米大吟醸酒",
+    "volume": "720ml",
+    "price": 3080,
+    "price_note": "税込",
+    "source": "https://www.born.co.jp/product/kichibee/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.born.co.jp/",
+   "https://www.born.co.jp/product",
+   "https://www.born.co.jp/product/junmai55/",
+   "https://www.born.co.jp/product/tokusen_junmai_daiginjo/",
+   "https://www.born.co.jp/product/kichibee/"
+  ]
+ },
+ "花垣": {
+  "brewer": "南部酒造場",
+  "official_url": "https://www.hanagaki.co.jp/",
+  "brewery_summary": "南部酒造場は福井県大野市の日本酒蔵で、「まなごころで醸す たなごころの酒」をコンセプトに越前大野の天然水を活用した酒造りを行っている。熟成大吟醸酒粕を使った商品開発など特色ある取り組みでも知られる。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "花垣 純米",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1650,
+    "price_note": "税込",
+    "source": "https://hanagaki-store.com/collections/nihonshu/products/hanagaki-junmai",
+    "seasonal": false
+   },
+   {
+    "name": "花垣 超辛純米",
+    "spec": "純米酒（超辛口）",
+    "volume": "720ml",
+    "price": 1650,
+    "price_note": "税込",
+    "source": "https://hanagaki-store.com/collections/nihonshu/products/hanagaki-chokarajunmai",
+    "seasonal": false
+   },
+   {
+    "name": "花垣 純米吟醸55%",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 1925,
+    "price_note": "税込",
+    "source": "https://hanagaki-store.com/collections/nihonshu/products/hanagaki-junmaiginjo",
+    "seasonal": false
+   },
+   {
+    "name": "花垣 本醸造",
+    "spec": "本醸造",
+    "volume": "720ml",
+    "price": 1265,
+    "price_note": "税込",
+    "source": "https://hanagaki-store.com/collections/nihonshu/products/hanagaki-honjozo",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.hanagaki.co.jp/",
+   "https://hanagaki-store.com/",
+   "https://hanagaki-store.com/collections/nihonshu",
+   "https://hanagaki-store.com/collections/nihonshu/products/hanagaki-junmai"
+  ]
+ },
+ "白龍": {
+  "brewer": "吉田酒造",
+  "official_url": "http://www.jizakegura.com/",
+  "brewery_summary": "吉田酒造株式会社は1806年に福井県永平寺町で創業した酒造メーカーで、永平寺町産の米と地下水のみを使用した全量純米蔵として知られる。「永平寺テロワール」の考え方に基づき、地元の風土を生かした濃醇できれいな味わいの酒造りに注力している。",
+  "blurb": "永平寺町産米と地下水のみを使用した全量純米造りの銘柄。",
+  "rice": [],
+  "products": [
+   {
+    "name": "永平寺白龍 純米",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.jizakegura.com/j/",
+    "seasonal": false
+   },
+   {
+    "name": "永平寺白龍 純米大吟醸『吉峯』",
+    "spec": "純米大吟醸無濾過原酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.jizakegura.com/jdg-kippou/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.jizakegura.com/",
+   "https://www.jizakegura.com/item/itemgenre/products/hakuryu/",
+   "https://www.jizakegura.com/j/",
+   "https://www.jizakegura.com/jdg-kippou/",
+   "https://yoshida-brewery.jp/"
+  ]
+ },
+ "雲乃井": {
+  "brewer": "吉田金右衛門商店",
+  "official_url": "http://www.kumonoi.jp/",
+  "brewery_summary": "株式会社吉田金右衛門商店は明治4年（1871年）創業の福井市の酒蔵で、地元産の山田錦などを契約栽培し自家精米して使用している。「地場産業として真に価値有る酒をめざして」全ての製品を純米酒で醸造しているのが特徴。",
+  "blurb": "全量純米造りにこだわり、地元契約栽培米を自家精米して仕込む銘柄。",
+  "rice": [
+   "山田錦",
+   "五百万石",
+   "華越前"
+  ],
+  "products": [
+   {
+    "name": "雲乃井 生一本",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 2456,
+    "price_note": "税込",
+    "source": "https://kumonoi.jp/items/",
+    "seasonal": false
+   },
+   {
+    "name": "雲乃井 東雲",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 1282,
+    "price_note": "税込",
+    "source": "https://kumonoi.jp/items/",
+    "seasonal": false
+   },
+   {
+    "name": "雲乃井 白雲",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 1650,
+    "price_note": "税込",
+    "source": "https://kumonoi.jp/items/",
+    "seasonal": false
+   },
+   {
+    "name": "雲乃井 越路",
+    "spec": "純米酒（にごり酒）",
+    "volume": "720ml",
+    "price": 1430,
+    "price_note": "税込",
+    "source": "https://kumonoi.jp/items/",
+    "seasonal": false
+   },
+   {
+    "name": "うららの雲乃井",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1320,
+    "price_note": "税込",
+    "source": "https://kumonoi.jp/items/",
+    "seasonal": false
+   },
+   {
+    "name": "雲乃井 福雲",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1100,
+    "price_note": "税込",
+    "source": "https://kumonoi.jp/items/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.kumonoi.jp/",
+   "https://kumonoi.jp/items/"
+  ]
+ },
+ "一乃谷": {
+  "brewer": "宇野酒造場",
+  "official_url": "http://www.itinotani.co.jp/",
+  "brewery_summary": "宇野酒造場は1620年創業、福井県大野市の歴史ある酒蔵で、名水百選の「お清水」と最高級酒造好適米の山田錦を使用した大吟醸造りに力を入れている。「味と香りに、こだわり続けて390余年」を掲げ、上質な酒造りに取り組んでいる。",
+  "blurb": "名水「お清水」と山田錦を使用した大吟醸を中心とする銘柄。",
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "一乃谷 大吟醸 薫",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.itinotani.co.jp/products/#products194",
+    "seasonal": false
+   },
+   {
+    "name": "一乃谷 大吟醸 暁",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.itinotani.co.jp/products/#products120",
+    "seasonal": false
+   },
+   {
+    "name": "一乃谷 純米酒 純",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.itinotani.co.jp/products/#products147",
+    "seasonal": false
+   },
+   {
+    "name": "一乃谷 本醸造 勝鬼",
+    "spec": "本醸造",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.itinotani.co.jp/products/#products137",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.itinotani.co.jp/",
+   "https://www.itinotani.co.jp/products/"
+  ]
+ },
+ "白岳仙": {
+  "brewer": "安本酒造",
+  "official_url": "https://www.hakugakusen.jp/",
+  "brewery_summary": "福井市で福井県産酒造好適米にこだわり「白岳仙」を醸す酒蔵。",
+  "blurb": "福井県産酒造好適米を用いた酒造りにこだわる銘柄。",
+  "rice": [
+   "吟のさと",
+   "五百万石"
+  ],
+  "products": [
+   {
+    "name": "純米大吟醸 濡烏",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.hakugakusen.jp/products/content/76",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸 アッサンブラージュ 路考",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.hakugakusen.jp/products/content/75",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸 黒鉄",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.hakugakusen.jp/products/content/74",
+    "seasonal": false
+   },
+   {
+    "name": "純米吟醸 白練",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.hakugakusen.jp/products/content/73",
+    "seasonal": false
+   },
+   {
+    "name": "辛口純米 真紅",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.hakugakusen.jp/products/content/72",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.hakugakusen.jp/",
+   "https://www.hakugakusen.jp/products"
+  ]
+ },
+ "常山": {
+  "brewer": "常山酒造",
+  "official_url": "https://www.jozan.co.jp/",
+  "brewery_summary": "福井県福井市の酒蔵。1804年創業。「越山若水」と称される福井の自然との調和を掲げ、辛口の「常山」を醸す。",
+  "blurb": null,
+  "rice": [
+   "五百万石",
+   "山田錦",
+   "美山錦"
+  ],
+  "products": [
+   {
+    "name": "常山 純米辛口〝超〟",
+    "spec": "純米（精米歩合 麹50%/掛65%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.jozan.co.jp/product/",
+    "seasonal": false
+   },
+   {
+    "name": "常山 純米吟醸辛口〝飛〟",
+    "spec": "純米吟醸（精米歩合 麹50%/掛60%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.jozan.co.jp/product/",
+    "seasonal": false
+   },
+   {
+    "name": "常山 純米大吟醸 芳醇辛口〝極〟",
+    "spec": "純米大吟醸（精米歩合50%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.jozan.co.jp/product/",
+    "seasonal": false
+   },
+   {
+    "name": "常山 山田錦",
+    "spec": "特別栽培米 山田錦",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.jozan.co.jp/product/detail.php",
+    "seasonal": false
+   },
+   {
+    "name": "常山 美山錦",
+    "spec": "特別栽培米 美山錦",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.jozan.co.jp/product/detail.php",
+    "seasonal": false
+   },
+   {
+    "name": "常山 越山若水",
+    "spec": "純米大吟醸（さかほまれ・精米歩合45%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.jozan.co.jp/product/detail.php",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.jozan.co.jp/product/"
+  ]
+ },
+ "紗利": {
+  "brewer": "毛利酒造",
+  "official_url": "http://keigetsu2.blog110.fc2.com/",
+  "brewery_summary": null,
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": []
+ },
+ "早瀬浦": {
+  "brewer": "三宅彦右衛門酒造",
+  "official_url": null,
+  "brewery_summary": null,
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": []
+ },
+ "飛鳥井": {
+  "brewer": "丹生酒造",
+  "official_url": "https://www.asukai1716.com/",
+  "brewery_summary": "福井県で最古の歴史を持つ酒蔵（1716年創業）。福井県丹生郡越前町に位置し、地元への愛着と女性蔵元ならではの優しさを大切に、誠実な酒造りに取り組んでいる。",
+  "blurb": null,
+  "rice": [
+   "山田錦",
+   "さかほまれ",
+   "五百万石"
+  ],
+  "products": [
+   {
+    "name": "純米大吟醸 無濾過原酒（R5BY）",
+    "spec": "純米大吟醸",
+    "volume": "1800ml",
+    "price": 7000,
+    "price_note": "税込",
+    "source": "https://www.asukai1716.com/新規ページ/",
+    "seasonal": false
+   },
+   {
+    "name": "さかほまれ大吟醸 無濾過原酒（R6BY）",
+    "spec": "大吟醸",
+    "volume": "1800ml",
+    "price": 6600,
+    "price_note": "税込",
+    "source": "https://www.asukai1716.com/新規ページ/",
+    "seasonal": false
+   },
+   {
+    "name": "純米吟醸 五百万石（R6BY）",
+    "spec": "純米吟醸",
+    "volume": "1800ml",
+    "price": 3300,
+    "price_note": "税込",
+    "source": "https://www.asukai1716.com/新規ページ/",
+    "seasonal": false
+   },
+   {
+    "name": "純米酒（R7BY）",
+    "spec": "純米酒",
+    "volume": "1800ml",
+    "price": 2970,
+    "price_note": "税込",
+    "source": "https://www.asukai1716.com/新規ページ/",
+    "seasonal": false
+   },
+   {
+    "name": "本醸造（R6BY）",
+    "spec": "本醸造",
+    "volume": "1800ml",
+    "price": 2310,
+    "price_note": "税込",
+    "source": "https://www.asukai1716.com/新規ページ/",
+    "seasonal": false
+   },
+   {
+    "name": "生もとづくり純米原酒60%",
+    "spec": "純米原酒",
+    "volume": "1800ml",
+    "price": 3100,
+    "price_note": "税込",
+    "source": "https://www.asukai1716.com/新規ページ/",
+    "seasonal": false
+   },
+   {
+    "name": "上撰",
+    "spec": null,
+    "volume": "1800ml",
+    "price": 2200,
+    "price_note": "税込",
+    "source": "https://www.asukai1716.com/新規ページ/",
+    "seasonal": false
+   },
+   {
+    "name": "佳撰",
+    "spec": null,
+    "volume": "1800ml",
+    "price": 1980,
+    "price_note": "税込",
+    "source": "https://www.asukai1716.com/新規ページ/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.asukai1716.com/",
+   "https://www.asukai1716.com/%E4%BC%9A%E7%A4%BE%E6%A6%82%E8%A6%81/",
+   "https://www.asukai1716.com/新規ページ/"
+  ]
+ }
+}

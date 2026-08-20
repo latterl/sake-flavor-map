@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# GitHub Pages のビルド出力
+_site/
+
+# --- 外部データのうちこのプロジェクトで使っていないファイル ---
+# 再取得は scripts/fetch_vendor_data.sh または docs/DATA_SOURCES.md を参照
+data/land/*
+!data/land/japan.topojson
+!data/land/README.md
+data/localgovjp/*
+!data/localgovjp/localgovjp.json
+!data/localgovjp/README.md
+!data/localgovjp/README.ja.md
+
+# --- 公開しないもの ---
+data/SAKEOpenData/
+
+# 内部ログ
+/CONTINUATION.md

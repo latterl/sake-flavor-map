@@ -1,0 +1,48 @@
+{
+ "WAKAZE": {
+  "brewer": "WAKAZE",
+  "official_url": "https://www.wakaze-store.com/",
+  "brewery_summary": null,
+  "blurb": null,
+  "rice": [
+   "つや姫"
+  ],
+  "products": [
+   {
+    "name": "THE CLASSIC",
+    "spec": "純米酒 精米歩合90% アルコール度数13%",
+    "volume": "750ml",
+    "price": 3300,
+    "price_note": "税込",
+    "source": "https://www.wakaze-store.com/products/the-classic-jp",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.wakaze-store.com/collections/wakaze-series",
+   "https://www.wakaze-store.com/products/the-classic-jp"
+  ]
+ },
+ "Islander": {
+  "brewer": "Islander Sake Brewery",
+  "official_url": "https://islandersake.com/",
+  "brewery_summary": "ハワイの酒蔵 Islander Sake Brewery。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "Mini Barrel Sake “Kotaru”",
+    "spec": "清酒（樽）",
+    "volume": "1.8L",
+    "price": null,
+    "price_note": null,
+    "source": "https://shop.islandersake.com/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://islandersake.com/",
+   "https://shop.islandersake.com/"
+  ]
+ }
+}

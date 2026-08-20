@@ -1,0 +1,412 @@
+{
+ "六十餘洲": {
+  "brewer": "今里酒造",
+  "official_url": "https://rokujuyoshu.com/",
+  "brewery_summary": "長崎県東彼杵郡波佐見町にある酒蔵で、銘柄「六十餘洲」を醸す。",
+  "blurb": "山田錦を中心に醸す蔵の代表銘柄で、大吟醸から本醸造まで幅広いラインアップを持つ。",
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "六十餘洲 雫搾り大吟醸",
+    "spec": "大吟醸（山田錦・精米歩合38%）",
+    "volume": "1800ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://rokujuyoshu.com/product/",
+    "seasonal": false
+   },
+   {
+    "name": "六十餘洲 純米大吟醸",
+    "spec": "純米大吟醸（山田錦・精米歩合38%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://rokujuyoshu.com/product/",
+    "seasonal": false
+   },
+   {
+    "name": "六十餘洲 大吟醸",
+    "spec": "大吟醸（山田錦・精米歩合38%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://rokujuyoshu.com/product/",
+    "seasonal": false
+   },
+   {
+    "name": "六十餘洲 純米吟醸 山田錦",
+    "spec": "純米吟醸（山田錦・精米歩合50%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://rokujuyoshu.com/product/",
+    "seasonal": false
+   },
+   {
+    "name": "六十餘洲 吟醸",
+    "spec": "吟醸（山田錦・精米歩合50%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://rokujuyoshu.com/product/",
+    "seasonal": false
+   },
+   {
+    "name": "六十餘洲 特別純米酒",
+    "spec": "特別純米（山田錦・精米歩合60%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://rokujuyoshu.com/product/",
+    "seasonal": false
+   },
+   {
+    "name": "六十餘洲 純米酒 山田錦",
+    "spec": "純米酒（山田錦・精米歩合65%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://rokujuyoshu.com/product/",
+    "seasonal": false
+   },
+   {
+    "name": "六十餘洲 本醸造",
+    "spec": "本醸造（国産米・精米歩合60%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://rokujuyoshu.com/product/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://rokujuyoshu.com/",
+   "https://rokujuyoshu.com/product/"
+  ]
+ },
+ "萬勝": {
+  "brewer": "吉田屋",
+  "official_url": "http://bansho.info/",
+  "brewery_summary": "吉田屋は長崎県南島原市にある製造数量90石という小規模な酒蔵で、機械を使わない伝統的な「はねぎ搾り製法」で酒を醸している。搾り切らないことで雑味のない「純」な味わいの酒を目指している。",
+  "blurb": "福岡国税局酒類鑑評会で金賞を受賞した銘柄。",
+  "rice": [],
+  "products": [
+   {
+    "name": "純米吟醸酒 はねぎ搾り 萬勝",
+    "spec": "純米吟醸酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://bansho.info/product.html",
+    "seasonal": false
+   },
+   {
+    "name": "純米酒 はね木搾り 萬勝",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://bansho.info/product.html",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://bansho.info/",
+   "https://bansho.info/product.html"
+  ]
+ },
+ "杵の川": {
+  "brewer": "杵の川",
+  "official_url": "http://www.kinokawa.co.jp/",
+  "brewery_summary": "杵の川は長崎県諫早市にある、天保10年創業から180年余りの歴史を持つ蔵元である。地元の原料を用い、旨い食中酒をつくることを信念に酒造りを行っている。",
+  "blurb": null,
+  "rice": [
+   "五百万石"
+  ],
+  "products": [
+   {
+    "name": "特別純米酒 杵の川",
+    "spec": "特別純米酒（精米歩合55%）",
+    "volume": "720ml",
+    "price": 1815,
+    "price_note": "税込",
+    "source": "https://www.kinokawa.co.jp/products/sake/652.html",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.kinokawa.co.jp/",
+   "https://www.kinokawa.co.jp/products/",
+   "https://www.kinokawa.co.jp/products/sake/652.html"
+  ]
+ },
+ "飛鸞": {
+  "brewer": "森酒造場",
+  "official_url": "http://mori-shuzou.jp/",
+  "brewery_summary": "森酒造場は長崎県平戸市にある酒蔵で、世界遺産「潜伏キリシタン関連遺産」の地に蔵を構えている。「ただ、まっすぐな、酒を求めて」を理念に、「飛鸞」「フィランド」を醸している。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "HIRAN Victoria",
+    "spec": "純米生酛",
+    "volume": "720ml",
+    "price": 33000,
+    "price_note": "税込",
+    "source": "https://mori-shuzou.jp/nihonshu_cat/%e9%a3%9b%e9%b8%9e/",
+    "seasonal": false
+   },
+   {
+    "name": "飛鸞 Classic",
+    "spec": "米だけのお酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://mori-shuzou.jp/nihonshu_cat/%e9%a3%9b%e9%b8%9e/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://mori-shuzou.jp/",
+   "https://mori-shuzou.jp/nihonshu/",
+   "https://mori-shuzou.jp/nihonshu_cat/%e9%a3%9b%e9%b8%9e/",
+   "https://mori-shuzou.jp/nihonshu_cat/firando/"
+  ]
+ },
+ "フィランド": {
+  "brewer": "森酒造場",
+  "official_url": "http://mori-shuzou.jp/",
+  "brewery_summary": "森酒造場は長崎県平戸市にある酒蔵で、世界遺産「潜伏キリシタン関連遺産」の地に蔵を構えている。「ただ、まっすぐな、酒を求めて」を理念に、「飛鸞」「フィランド」を醸している。",
+  "blurb": "平戸の春日棚田米を使用した白ワインのような純米原酒。",
+  "rice": [],
+  "products": [
+   {
+    "name": "フィランド",
+    "spec": "純米",
+    "volume": "500ml",
+    "price": 1430,
+    "price_note": "税込",
+    "source": "https://mori-shuzou.jp/nihonshu_cat/firando/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://mori-shuzou.jp/",
+   "https://mori-shuzou.jp/nihonshu/",
+   "https://mori-shuzou.jp/nihonshu_cat/%e9%a3%9b%e9%b8%9e/",
+   "https://mori-shuzou.jp/nihonshu_cat/firando/"
+  ]
+ },
+ "福鶴": {
+  "brewer": "福田酒造",
+  "official_url": "https://fukuda-shuzo.com/",
+  "brewery_summary": "長崎県平戸市にある酒蔵で、銘柄「福鶴」「福海」などを醸す。",
+  "blurb": "バランスの取れた米の旨みと酸味が特徴の、蔵の主力銘柄。",
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "福鶴 純米吟醸酒",
+    "spec": "純米吟醸（山田錦・精米歩合58%）",
+    "volume": "720ml",
+    "price": 2200,
+    "price_note": "税込",
+    "source": "https://fukuda-shuzo.com/",
+    "seasonal": false
+   },
+   {
+    "name": "福鶴 吟醸古酒",
+    "spec": "吟醸（精米歩合60%）",
+    "volume": "720ml",
+    "price": 1760,
+    "price_note": "税込",
+    "source": "https://fukuda-shuzo.com/",
+    "seasonal": false
+   },
+   {
+    "name": "福鶴 特別純米酒",
+    "spec": "特別純米（精米歩合60%）",
+    "volume": "720ml",
+    "price": 1870,
+    "price_note": "税込",
+    "source": "https://fukuda-shuzo.com/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://fukuda-shuzo.com/",
+   "https://fukudashuzo.base.shop/"
+  ]
+ },
+ "福海": {
+  "brewer": "福田酒造",
+  "official_url": "http://www.fukuda-shuzo.com/",
+  "brewery_summary": "福田酒造は長崎県平戸市にある酒蔵である。代表銘柄として「福鶴」「福海」を醸造している。",
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": []
+ },
+ "白嶽": {
+  "brewer": "白嶽酒造",
+  "official_url": "https://www.kawachi-shop.jp/shop/products/list.php?category_id=1",
+  "brewery_summary": "長崎県対馬市にある「国境の島」対馬唯一の酒蔵で、銘柄「白嶽」を醸す。",
+  "blurb": "対馬の風土で醸される定番銘柄で、大吟醸からにごり酒まで幅広い等級を揃える。",
+  "rice": [],
+  "products": [
+   {
+    "name": "白嶽 大吟醸",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 3148,
+    "price_note": "税込",
+    "source": "https://www.kawachi-shop.jp/shop/products/list.php?category_id=1",
+    "seasonal": false
+   },
+   {
+    "name": "白嶽 特撰",
+    "spec": "特撰",
+    "volume": "1800ml",
+    "price": 2741,
+    "price_note": "税込",
+    "source": "https://www.kawachi-shop.jp/shop/products/list.php?category_id=1",
+    "seasonal": false
+   },
+   {
+    "name": "白嶽 上撰",
+    "spec": "上撰",
+    "volume": "720ml",
+    "price": 1185,
+    "price_note": "税込",
+    "source": "https://www.kawachi-shop.jp/shop/products/list.php?category_id=1",
+    "seasonal": false
+   },
+   {
+    "name": "白嶽 佳撰",
+    "spec": "佳撰",
+    "volume": "720ml",
+    "price": 1015,
+    "price_note": "税込",
+    "source": "https://www.kawachi-shop.jp/shop/products/list.php?category_id=1",
+    "seasonal": false
+   },
+   {
+    "name": "白嶽 原酒",
+    "spec": "原酒",
+    "volume": "720ml",
+    "price": 1811,
+    "price_note": "税込",
+    "source": "https://www.kawachi-shop.jp/shop/products/list.php?category_id=1",
+    "seasonal": false
+   },
+   {
+    "name": "白嶽 純米酒つしま",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1472,
+    "price_note": "税込",
+    "source": "https://www.kawachi-shop.jp/shop/products/list.php?category_id=1",
+    "seasonal": false
+   },
+   {
+    "name": "白嶽 にごり酒",
+    "spec": "にごり酒",
+    "volume": "1800ml",
+    "price": 2600,
+    "price_note": "税込",
+    "source": "https://www.kawachi-shop.jp/shop/products/list.php?category_id=1",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.kawachi-shop.jp/shop/products/list.php?category_id=1"
+  ]
+ },
+ "横山五十": {
+  "brewer": "重家酒造",
+  "official_url": "https://www.omoyashuzo.com/",
+  "brewery_summary": "長崎県壱岐市石田町にある酒蔵。印通寺浦の本社（焼酎蔵）と池田西触の日本酒蔵「横山蔵」の二蔵体制で、日本酒「横山五十」「よこやま」を醸している。",
+  "blurb": null,
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "横山五十 純米大吟醸 BLACK 生詰",
+    "spec": "純米大吟醸 山田錦100% 精米50% 16度",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.omoyashuzo.com/product.html",
+    "seasonal": false
+   },
+   {
+    "name": "横山五十 純米大吟醸 WHITE 生詰",
+    "spec": "純米大吟醸 山田錦100% 精米50% 16度",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.omoyashuzo.com/product.html",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.omoyashuzo.com/",
+   "https://www.omoyashuzo.com/product.html"
+  ]
+ },
+ "よこやま": {
+  "brewer": "重家酒造",
+  "official_url": "https://www.omoyashuzo.com/",
+  "brewery_summary": "長崎県壱岐市石田町にある酒蔵。印通寺浦の本社（焼酎蔵）と池田西触の日本酒蔵「横山蔵」の二蔵体制で、日本酒「横山五十」「よこやま」を醸している。",
+  "blurb": null,
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "よこやま 純米吟醸 SILVER7 生詰",
+    "spec": "純米吟醸 山田錦100% 精米 掛米55%/麹米50% 15度",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.omoyashuzo.com/product.html",
+    "seasonal": false
+   },
+   {
+    "name": "よこやま 純米吟醸 SILVER超辛7 生詰",
+    "spec": "純米吟醸 山田錦100% 精米 掛米55%/麹米50% 15度",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.omoyashuzo.com/product.html",
+    "seasonal": false
+   },
+   {
+    "name": "よこやま 純米大吟醸 GOLD",
+    "spec": "純米大吟醸 山田錦100% 精米40% 15度",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.omoyashuzo.com/product.html",
+    "seasonal": false
+   },
+   {
+    "name": "よこやま 純米大吟醸 Princess Michiko",
+    "spec": "純米大吟醸 山田錦100% 精米40% 15度",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.omoyashuzo.com/product.html",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.omoyashuzo.com/",
+   "https://www.omoyashuzo.com/product.html"
+  ]
+ }
+}

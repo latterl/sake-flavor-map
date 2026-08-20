@@ -1,0 +1,1986 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>日本酒フレーバーマップ — 全国の味の傾向と類似銘柄探索</title>
+<style>
+  :root {
+    color-scheme: light;
+    --surface-1: #fcfcfb;
+    --page: #f9f9f7;
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --muted: #898781;
+    --grid: #e1e0d9;
+    --baseline: #c3c2b7;
+    --border: rgba(11,11,11,0.10);
+    --series-1: #2a78d6;  /* 地域（丹後など） */
+    --series-2: #eb6834;  /* 有名銘柄 Top100 */
+    --series-3: #1baf7a;  /* 飲んだ酒 */
+    --dot-other: #c8c7c0;
+    --ghost: rgba(11,11,11,0.045);
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --surface-1: #1a1a19;
+    --page: #0d0d0d;
+    --text-primary: #ffffff;
+    --text-secondary: #c3c2b7;
+    --muted: #898781;
+    --grid: #2c2c2a;
+    --baseline: #383835;
+    --border: rgba(255,255,255,0.10);
+    --series-1: #3987e5;
+    --series-2: #d95926;
+    --series-3: #199e70;
+    --dot-other: #3a3a38;
+    --ghost: rgba(255,255,255,0.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --surface-1: #1a1a19;
+      --page: #0d0d0d;
+      --text-primary: #ffffff;
+      --text-secondary: #c3c2b7;
+      --muted: #898781;
+      --grid: #2c2c2a;
+      --baseline: #383835;
+      --border: rgba(255,255,255,0.10);
+      --series-1: #3987e5;
+      --series-2: #d95926;
+      --series-3: #199e70;
+      --dot-other: #3a3a38;
+      --ghost: rgba(255,255,255,0.06);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--page); color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", Meiryo, sans-serif;
+    font-size: 14px; line-height: 1.5;
+  }
+  header { padding: 18px 20px 4px; display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+  header h1 { font-size: 19px; margin: 0; font-weight: 700; }
+  header .credit { color: var(--text-secondary); font-size: 12px; }
+  header .credit a { color: inherit; }
+  #themeToggle {
+    margin-left: auto; border: 1px solid var(--border); background: var(--surface-1);
+    color: var(--text-secondary); border-radius: 8px; padding: 4px 10px; cursor: pointer; font-size: 12px;
+  }
+  .filters {
+    display: flex; gap: 0; align-items: flex-end; flex-wrap: wrap;
+    padding: 8px 20px 10px; row-gap: 10px;
+  }
+  .fgroup {
+    display: flex; gap: 8px; align-items: flex-end; flex-wrap: wrap;
+    padding: 0 14px; border-left: 1px solid var(--grid);
+  }
+  .fgroup:first-child { border-left: none; padding-left: 0; }
+  .filters label {
+    display: flex; flex-direction: column; gap: 3px;
+    color: var(--muted); font-size: 11px;
+  }
+  .filters select, .filters input[type="search"] {
+    background: var(--surface-1); color: var(--text-primary);
+    border: 1px solid var(--border); border-radius: 8px; padding: 6px 8px; font-size: 13px;
+  }
+  .filters input[type="search"] { width: 200px; }
+  .searchwrap { position: relative; }
+  #searchResults {
+    position: absolute; top: 34px; left: 0; z-index: 30; width: 340px; max-height: 320px; overflow: auto;
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.14); display: none;
+  }
+  #searchResults .row {
+    display: flex; align-items: center; gap: 8px; padding: 6px 10px; cursor: pointer;
+  }
+  #searchResults .row:hover { background: var(--ghost); }
+  #searchResults .row .nm { flex: 1; min-width: 0; }
+  #searchResults .row .nm .b { font-weight: 600; }
+  #searchResults .row .nm .s { color: var(--text-secondary); font-size: 12px; }
+  #searchResults .row button {
+    border: 1px solid var(--border); background: transparent; color: var(--text-secondary);
+    border-radius: 6px; font-size: 11px; padding: 2px 7px; cursor: pointer; white-space: nowrap;
+  }
+  #searchResults .row button:hover { color: var(--text-primary); }
+  main { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 14px; padding: 4px 20px 20px; }
+  @media (max-width: 900px) { main { grid-template-columns: 1fr; } }
+  .card {
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; padding: 14px;
+  }
+  .chartcard { position: relative; }
+  .chartcard .maptitle { font-size: 13px; color: var(--text-secondary); margin: 0 0 6px; }
+  #mapsvg { width: 100%; height: auto; display: block; cursor: grab; touch-action: none; }
+  #mapsvg.dragging { cursor: grabbing; }
+  .legend { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 8px; font-size: 12px; color: var(--text-secondary); }
+  .legend .it { display: flex; align-items: center; gap: 6px; }
+  .legend .sw { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+  #resetView {
+    position: absolute; top: 12px; right: 12px; border: 1px solid var(--border);
+    background: var(--surface-1); color: var(--text-secondary); border-radius: 8px;
+    font-size: 11px; padding: 3px 8px; cursor: pointer;
+  }
+  #tooltip {
+    position: fixed; z-index: 50; pointer-events: none; display: none;
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px;
+    padding: 6px 9px; font-size: 12px; box-shadow: 0 6px 18px rgba(0,0,0,0.16); max-width: 260px;
+  }
+  #tooltip .v { font-weight: 700; }
+  #tooltip .s { color: var(--text-secondary); }
+  .side h2 { font-size: 13px; margin: 0 0 8px; color: var(--text-secondary); font-weight: 600; }
+  .side > div + div { border-top: 1px solid var(--grid); margin-top: 14px; padding-top: 12px; }
+  .side .sel-name { font-size: 17px; font-weight: 700; }
+  .side .sel-sub { color: var(--text-secondary); font-size: 12px; margin-bottom: 6px; }
+  .badges { display: flex; gap: 6px; flex-wrap: wrap; margin: 4px 0 8px; }
+  .badge {
+    font-size: 11px; border-radius: 999px; padding: 1px 8px; border: 1px solid var(--border);
+    color: var(--text-secondary);
+  }
+  .badge .dotc { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 4px; }
+  .tags { color: var(--text-secondary); font-size: 12px; margin-bottom: 8px; }
+  .axisrow { display: grid; grid-template-columns: 88px 1fr 74px; gap: 8px; align-items: center; margin: 3px 0; }
+  .axisrow .al { font-size: 12px; color: var(--text-secondary); }
+  .axisrow .av { font-size: 12px; text-align: right; font-variant-numeric: tabular-nums; }
+  .bartrack { position: relative; height: 16px; }
+  .bartrack .rail { position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: var(--grid); }
+  .bartrack .center { position: absolute; top: 2px; bottom: 2px; width: 1px; background: var(--baseline); }
+  .bartrack .bar { position: absolute; height: 5px; border-radius: 4px; }
+  .bartrack .bar.b1 { background: var(--series-1); top: 2px; }
+  .bartrack .bar.b2 { background: var(--series-2); top: 9px; }
+  .cmp-legend { font-size: 11px; color: var(--text-secondary); display: none; margin: 4px 0; }
+  .cmp-legend .k { display: inline-block; width: 12px; height: 3px; border-radius: 2px; vertical-align: middle; margin-right: 4px; }
+  #drunkBtn {
+    margin: 6px 0 2px; border: 1px solid var(--border); background: transparent; color: var(--text-primary);
+    border-radius: 8px; padding: 5px 12px; cursor: pointer; font-size: 12px;
+  }
+  #drunkBtn.on { border-color: var(--series-3); color: var(--series-3); font-weight: 600; }
+  #memoBox { margin-top: 10px; }
+  .memo-head { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+  .memo-title { font-size: 12px; font-weight: 600; color: var(--text-secondary); }
+  .memo-stars button {
+    border: 0; background: transparent; cursor: pointer; padding: 0 1px; font-size: 15px;
+    line-height: 1; color: var(--muted);
+  }
+  .memo-stars button.on { color: var(--series-2); }
+  .memo-stars button:hover, .memo-stars button:focus-visible { color: var(--series-2); }
+  .memo-stars .clr { font-size: 11px; color: var(--muted); margin-left: 2px; }
+  .memo-status { font-size: 11px; color: var(--muted); margin-left: auto; }
+  #memoText {
+    width: 100%; box-sizing: border-box; min-height: 62px; resize: vertical;
+    font-size: 12.5px; line-height: 1.5; font-family: inherit;
+    background: var(--surface-1); color: var(--text-primary);
+    border: 1px solid var(--border); border-radius: 8px; padding: 6px 8px;
+  }
+  #memoText:focus { outline: 2px solid var(--series-1); outline-offset: -1px; }
+  .tt-memo { color: var(--text-primary); font-size: 11.5px; margin-top: 3px; border-top: 1px solid var(--grid); padding-top: 3px; }
+  .tt-stars { color: var(--series-2); }
+  .simlist { margin: 4px 0 0; padding: 0; list-style: none; }
+  .simlist li { border-top: 1px solid var(--grid); }
+  .simlist button.simrow {
+    display: grid; grid-template-columns: 18px 1fr auto; gap: 8px; align-items: center;
+    width: 100%; text-align: left; background: transparent; border: 0; padding: 6px 2px;
+    color: var(--text-primary); cursor: pointer; font-size: 13px;
+  }
+  .simlist button.simrow:hover, .simlist button.simrow:focus-visible { background: var(--ghost); }
+  .simlist .rk { color: var(--muted); font-size: 11px; text-align: right; }
+  .simlist .nm .b { font-weight: 600; }
+  .simlist .nm .s { color: var(--text-secondary); font-size: 11px; }
+  .simlist .d { font-variant-numeric: tabular-nums; font-size: 12px; color: var(--text-secondary); }
+  .hint { color: var(--muted); font-size: 12px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .chip {
+    display: inline-flex; align-items: center; gap: 5px; font-size: 12px;
+    border: 1px solid var(--border); border-radius: 999px; padding: 2px 8px; color: var(--text-secondary);
+  }
+  .chip button { border: 0; background: transparent; color: var(--muted); cursor: pointer; font-size: 12px; padding: 0; }
+  .chip-pref {
+    font-size: 10px; color: var(--text-secondary); border: 1px solid var(--border);
+    border-radius: 4px; padding: 0 3px; margin-left: 1px; vertical-align: 1px;
+  }
+  details.io { margin-top: 8px; font-size: 12px; color: var(--text-secondary); }
+  details.io textarea {
+    width: 100%; height: 64px; font-size: 11px; background: var(--page); color: var(--text-primary);
+    border: 1px solid var(--border); border-radius: 8px;
+  }
+  details.io button { border: 1px solid var(--border); background: transparent; color: var(--text-secondary); border-radius: 6px; font-size: 11px; padding: 2px 8px; cursor: pointer; }
+  .regionlist { max-height: 65vh; overflow: auto; }
+  body.has-selection .regionlist { max-height: 240px; }
+  .panel-head { display: flex; align-items: baseline; justify-content: space-between; }
+  #deselectBtn {
+    border: 1px solid var(--border); background: transparent; color: var(--text-secondary);
+    border-radius: 6px; font-size: 11px; padding: 2px 8px; cursor: pointer; display: none;
+  }
+  body.has-selection #deselectBtn { display: inline-block; }
+  #tableView { margin: 0 20px 20px; overflow-x: auto; display: none; }
+  #tableView table { border-collapse: collapse; font-size: 12px; width: 100%; }
+  #tableView th, #tableView td { border-bottom: 1px solid var(--grid); padding: 4px 8px; text-align: left; white-space: nowrap; }
+  #tableView td.num, #tableView th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  #tableView th { color: var(--text-secondary); font-weight: 600; }
+  footer { padding: 0 20px 24px; color: var(--muted); font-size: 11.5px; max-width: 1100px; }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+<header>
+  <h1>日本酒フレーバーマップ</h1>
+  <span class="credit" id="creditLine"></span>
+  <button id="themeToggle" type="button">🌓 表示切替</button>
+</header>
+
+<div class="filters">
+  <span class="fgroup">
+    <label>データ
+      <select id="dsSel">
+        <option value="sakenowa">さけのわ（味わい6軸）</option>
+        <option value="specs">独立データ（スペック5軸）</option>
+      </select>
+    </label>
+    <label>マップ
+      <select id="mapViewSel">
+        <option value="taste">味マップ</option>
+        <option value="geo">蔵マップ（地図）</option>
+      </select>
+    </label>
+    <label>色分け
+      <select id="colorModeSel">
+        <option value="std">標準（地域・有名・飲んだ）</option>
+        <option value="cluster">味タイプ</option>
+        <option value="frontier">未踏度</option>
+      </select>
+    </label>
+  </span>
+  <span class="fgroup">
+    <label>地域ハイライト
+      <select id="prefSel"></select>
+    </label>
+    <label>県内地域
+      <select id="regionSel"></select>
+    </label>
+  </span>
+  <span class="fgroup">
+    <label>類似検索の対象
+      <select id="targetSel">
+        <option value="famousdrunk">有名銘柄＋飲んだ酒</option>
+        <option value="famous">有名銘柄（人気Top100）</option>
+        <option value="drunk">飲んだ酒のみ</option>
+        <option value="region">ハイライト中の地域</option>
+        <option value="all">全銘柄</option>
+      </select>
+    </label>
+    <label>タグ絞り込み
+      <span class="searchwrap" id="tagWrap" style="display:flex;gap:6px;align-items:center">
+        <input id="tagBox" type="search" placeholder="例: バナナ・熱燗" autocomplete="off" style="width:130px;background:var(--surface-1);color:var(--text-primary);border:1px solid var(--border);border-radius:8px;padding:6px 8px;font-size:13px">
+        <div id="tagResults" style="position:absolute;top:34px;left:0;z-index:30;width:220px;max-height:260px;overflow:auto;background:var(--surface-1);border:1px solid var(--border);border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.14);display:none"></div>
+        <span id="tagChips" class="chips" style="margin:0"></span>
+      </span>
+    </label>
+  </span>
+  <span class="fgroup">
+    <label>銘柄検索
+      <span class="searchwrap">
+        <input id="searchBox" type="search" placeholder="選択・飲んだ登録" autocomplete="off">
+        <div id="searchResults"></div>
+      </span>
+    </label>
+    <button id="tableToggle" type="button" style="border:1px solid var(--border);background:var(--surface-1);color:var(--text-secondary);border-radius:8px;padding:6px 10px;cursor:pointer;font-size:12px;margin-bottom:1px">表で見る</button>
+  </span>
+</div>
+
+<main>
+  <div class="card chartcard">
+    <p class="maptitle" id="mapTitle"></p>
+    <svg id="mapsvg" viewBox="0 0 820 600" role="img" aria-label="日本酒の味の類似性マップ（2次元射影）"></svg>
+    <button id="resetView" type="button">表示リセット</button>
+    <div class="legend" id="legend"></div>
+  </div>
+  <div class="card side">
+    <div id="selPanel">
+      <div class="panel-head">
+        <h2>選択中の銘柄</h2>
+        <button id="deselectBtn" type="button">✕ 選択解除</button>
+      </div>
+      <div id="selEmpty" class="hint">マップ上の点、地域リスト、または検索から銘柄を選択してください。</div>
+      <div id="selBody" style="display:none">
+        <div class="sel-name" id="selName"></div>
+        <div class="sel-sub" id="selSub"></div>
+        <div class="badges" id="selBadges"></div>
+        <div class="tags" id="selTags"></div>
+        <div class="cmp-legend" id="cmpLegend"><span class="k" style="background:var(--series-1)"></span>選択中　<span class="k" style="background:var(--series-2)"></span><span id="cmpName"></span></div>
+        <div id="axisBars"></div>
+        <button id="drunkBtn" type="button"></button>
+        <div id="memoBox">
+          <div class="memo-head">
+            <span class="memo-title">メモ</span>
+            <span class="memo-stars" id="memoStars"></span>
+            <span class="memo-status" id="memoStatus"></span>
+          </div>
+          <textarea id="memoText" spellcheck="false" placeholder="味の印象、飲んだ場所、入手先など（入力すると自動で保存されます）"></textarea>
+        </div>
+        <div id="selInfo" style="margin-top:10px;font-size:12.5px;color:var(--text-secondary)"></div>
+        <h2 style="margin-top:14px">近い銘柄 <span id="simTargetNote" style="font-weight:400"></span></h2>
+        <ul class="simlist" id="simList"></ul>
+        <p class="hint" id="simHint"></p>
+        <div id="cmpInfo" style="display:none;border:1px solid var(--border);border-radius:10px;padding:8px 10px;margin-top:6px;font-size:12.5px"></div>
+      </div>
+    </div>
+    <div id="clusterPanel" style="margin-top:14px;display:none">
+      <h2>味タイプ（自動分類・クリックでハイライト）</h2>
+      <ul class="simlist" id="clusterList"></ul>
+      <p class="hint">k-means法による自動分類。タイプ名は各クラスタで相対的に強い味軸・特徴的なタグから機械的に命名。</p>
+    </div>
+    <div id="frontierPanel" style="margin-top:14px;display:none">
+      <h2>未体験ゾーンの提案</h2>
+      <div id="frontierBody"></div>
+    </div>
+    <div id="regionPanel" style="margin-top:14px">
+      <div class="panel-head">
+        <h2 id="regionTitle"></h2>
+        <select id="regionSortSel" style="background:var(--surface-1);color:var(--text-secondary);border:1px solid var(--border);border-radius:6px;font-size:11px;padding:2px 4px">
+          <option value="name">名前順</option>
+          <option value="near">飲んだ酒に近い順</option>
+          <option value="far">飲んだ酒に遠い順</option>
+        </select>
+      </div>
+      <p class="hint" id="regionSortHint" style="display:none;margin:4px 0"></p>
+      <div class="regionlist"><ul class="simlist" id="regionList"></ul></div>
+    </div>
+    <div style="margin-top:14px">
+      <h2>飲んだ酒リスト（<span id="drunkCount">0</span>）<span id="memoCount" class="hint" style="font-weight:400;margin-left:6px"></span></h2>
+      <div class="chips" id="drunkChips"></div>
+      <button id="centroidBtn" type="button" style="margin-top:6px;border:1px solid var(--border);background:transparent;color:var(--text-primary);border-radius:8px;padding:5px 12px;cursor:pointer;font-size:12px">★ 好みの中心で探す</button>
+      <p class="hint">銘柄名の左の☆をクリックするとお気に入り（★）指定。★がある場合は★のみ、無い場合は全飲んだ酒の平均を「好みの中心」として使います。</p>
+      <p class="hint">県をまたいで同名の銘柄がある場合（道灌＝兵庫/滋賀、白龍＝新潟/福井、高砂＝三重/静岡、千代鶴＝富山/東京、WAKAZE）は<b>別の銘柄として登録・集計</b>され、リストには県名が添えられます。</p>
+      <p class="hint">※ 飲んだ酒リスト・お気に入り・メモは、このブラウザに自動保存されます（同じブラウザで開けば次回も残ります）。<b>ブラウザの閲覧データを消すと失われる</b>ため、「ファイルに保存」でJSONのバックアップを取り、別のPCやブラウザでは「ファイルから読み込む」で復元してください。</p>
+      <div style="display:flex;gap:8px;margin-top:6px;flex-wrap:wrap">
+        <button id="ioSaveFile" type="button" style="border:1px solid var(--border);background:transparent;color:var(--text-primary);border-radius:8px;padding:5px 12px;cursor:pointer;font-size:12px">💾 ファイルに保存（メモ込み）</button>
+        <button id="ioLoadFile" type="button" style="border:1px solid var(--border);background:transparent;color:var(--text-primary);border-radius:8px;padding:5px 12px;cursor:pointer;font-size:12px">📂 ファイルから読み込む</button>
+        <input id="ioFileInput" type="file" accept=".json,.txt" style="display:none">
+      </div>
+      <details class="io">
+        <summary>テキストで書き出し / 読み込み（コピペ用）</summary>
+        <textarea id="ioArea" spellcheck="false"></textarea>
+        <div style="display:flex;gap:8px;margin-top:4px">
+          <button id="ioExport" type="button">現在のリストを書き出す</button>
+          <button id="ioImport" type="button">貼り付けた内容を読み込む</button>
+        </div>
+      </details>
+    </div>
+  </div>
+</main>
+
+<div id="tableView" class="card"></div>
+
+<div id="tooltip"></div>
+
+<footer id="footNote"></footer>
+
+<script>
+"use strict";
+const DATA_SAKENOWA = __DATA_SAKENOWA__;
+const DATA_SPECS = __DATA_SPECS__;
+const REGION_ORDER = __REGION_ORDER__;  // 都道府県 → 県内地域名の表示順（region_schemes.jsonの定義順）
+const JAPAN_OUTLINE = __JAPAN_OUTLINE__; // 海岸線（出典: 地球地図日本(国土地理院) を簡略化）
+
+const PREF_ORDER = ["北海道","青森県","岩手県","宮城県","秋田県","山形県","福島県","茨城県","栃木県","群馬県","埼玉県","千葉県","東京都","神奈川県","新潟県","富山県","石川県","福井県","山梨県","長野県","岐阜県","静岡県","愛知県","三重県","滋賀県","京都府","大阪府","兵庫県","奈良県","和歌山県","鳥取県","島根県","岡山県","広島県","山口県","徳島県","香川県","愛媛県","高知県","福岡県","佐賀県","長崎県","熊本県","大分県","宮崎県","鹿児島県","沖縄県","その他"];
+
+const CFG = {
+  sakenowa: {
+    data: DATA_SAKENOWA,
+    axisMode: "raw01",
+    unit: {},
+    title: n => `全国 ${n} 銘柄の味わいマップ（さけのわフレーバー6軸 → UMAP 2次元射影）`,
+    label: p => p.brand,
+    sub: p => `${p.brewer}（${p.pref}${p.muni ? "・" + p.muni : ""}${p.reg ? "／" + p.reg : ""}）`,
+    searchText: p => `${p.brand} ${p.brewer}`,
+    unitNote: "軸の値はさけのわのフレーバー値（0〜1）",
+  },
+  specs: {
+    data: DATA_SPECS,
+    axisMode: "z",
+    unit: { smv: "", acidity: "", amino: "", alcohol: "%", polish: "%" },
+    title: n => `全国 ${n} 商品のスペックマップ（日本酒度・酸度など5軸 → UMAP 2次元射影）`,
+    label: p => p.name ? `${p.brand} ${p.name}` : p.brand,
+    sub: p => `${p.brewer}（${p.pref}${p.city ? "・" + p.city : ""}${p.reg ? "／" + p.reg : ""}${p.cls ? "／" + p.cls : ""}）`,
+    searchText: p => `${p.brand} ${p.name || ""} ${p.brewer}`,
+    unitNote: "バーは全商品中の相対位置（z値、中央線=平均）。数値は実測スペック",
+  },
+};
+
+const state = {
+  ds: "sakenowa",
+  selId: null,
+  region: { pref: "京都府", reg: "丹後" },   // reg: "all"=県全域, "unknown"=市町村未特定, または地域名
+  target: "famousdrunk",
+  regionSort: "name",    // 地域リストの並び順: name | near | far
+  drunk: new Set(),      // "都道府県␟銘柄" で保持 — 両データセット共通。同名銘柄（道灌=兵庫/滋賀 等）を別物として扱う
+  favs: new Set(),       // お気に入り（★）。drunkの部分集合。キーは drunk と同じ
+  notes: new Map(),      // メモ。キーは "都道府県␟銘柄"（同名銘柄の県跨ぎ衝突を避ける）→ {r:0-5, t:"本文"}
+  colorMode: "std",      // std | cluster | frontier
+  mapView: "taste",      // taste（UMAP） | geo（地図）
+  activeCluster: null,   // null=全タイプ7色表示 / 数値=そのタイプのみ強調
+  tagFilter: [],         // 選択中のフレーバータグ（AND, 最大3）
+  virtual: false,        // 「好みの中心」仮想選択中か
+  cmpId: null,
+  tableOpen: false,
+  view: { k: 1, tx: 0, ty: 0 },
+};
+
+const $ = id => document.getElementById(id);
+const svg = $("mapsvg");
+const SVGNS = "http://www.w3.org/2000/svg";
+const W = 820, H = 600, PAD = 24;
+
+function cfg() { return CFG[state.ds]; }
+function pts() { return cfg().data.points; }
+function meta() { return cfg().data.meta; }
+function byId(id) { return pts().find(p => p.id === id); }
+
+/* ---------- 幾何・座標 ---------- */
+let scaleXY = null, geoProject = null;
+function computeScale() {
+  if (state.mapView === "geo") {
+    // 等長方形図法（緯度35°で経度を補正）で日本全域を収める
+    const LATMIN = 24, LATMAX = 45.9, LNGMIN = 122.5, LNGMAX = 146.2;
+    const C = Math.cos(35 * Math.PI / 180);
+    const w = (LNGMAX - LNGMIN) * C, h = LATMAX - LATMIN;
+    const s = Math.min((W - 2 * PAD) / w, (H - 2 * PAD) / h);
+    const ox = (W - w * s) / 2, oy = (H - h * s) / 2;
+    geoProject = (lat, lng) => [ox + (lng - LNGMIN) * C * s, oy + (LATMAX - lat) * s];
+    scaleXY = p => p.geo ? geoProject(p.geo[0], p.geo[1]) : [-9999, -9999];
+    return;
+  }
+  const ps = pts();
+  let xmin = Infinity, xmax = -Infinity, ymin = Infinity, ymax = -Infinity;
+  for (const p of ps) {
+    if (p.x < xmin) xmin = p.x; if (p.x > xmax) xmax = p.x;
+    if (p.y < ymin) ymin = p.y; if (p.y > ymax) ymax = p.y;
+  }
+  const sx = (W - 2 * PAD) / (xmax - xmin), sy = (H - 2 * PAD) / (ymax - ymin);
+  scaleXY = p => [PAD + (p.x - xmin) * sx, H - PAD - (p.y - ymin) * sy];
+}
+function hasGeo(p) { return state.mapView !== "geo" || !!p.geo; }
+
+/* ---------- 分類 ---------- */
+function isFamous(p) { return p.rank != null; }
+function isDrunk(p) { return state.drunk.has(pbKey(p)); }
+function inRegion(p) {
+  const r = state.region;
+  if (!r.pref) return false;
+  if (p.pref !== r.pref) return false;
+  if (r.reg === "all") return true;
+  if (r.reg === "unknown") return p.reg == null;
+  return p.reg === r.reg;
+}
+function groupOf(p) {
+  if (inRegion(p)) return "region";
+  if (isDrunk(p)) return "drunk";
+  if (isFamous(p)) return "famous";
+  return "other";
+}
+const GROUP_COLOR = { region: "var(--series-1)", famous: "var(--series-2)", drunk: "var(--series-3)", other: "var(--dot-other)" };
+const GROUP_LABEL = { region: "地域", famous: "有名（人気Top100）", drunk: "飲んだ", other: "その他の銘柄" };
+
+function isFav(p) { return state.favs.has(pbKey(p)); }
+
+/* ---------- メモ（銘柄ごとの自由記述＋★1〜5） ---------- */
+const NOTE_SEP = "␟";
+const STORE_KEY = "sakeFlavorMap.v1";
+function pbKey(p) { return (p.pref || "") + NOTE_SEP + p.brand; }
+function pbSplit(k) { const i = k.indexOf(NOTE_SEP); return i < 0 ? { pref: "", brand: k } : { pref: k.slice(0, i), brand: k.slice(i + 1) }; }
+function noteKey(p) { return pbKey(p); }
+function noteOf(p) { return (p && p.brand) ? (state.notes.get(noteKey(p)) || null) : null; }
+function hasNote(p) { const n = noteOf(p); return !!n && (n.r > 0 || !!n.t); }
+function setNote(p, r, t) {
+  const k = noteKey(p);
+  t = (t || "").trim() ? t : "";
+  if (!r && !t) state.notes.delete(k);
+  else state.notes.set(k, { r: r || 0, t: t, u: new Date().toISOString() });
+  updateMemoCount();
+  saveLocal();
+}
+function notesToArray() {
+  return [...state.notes.entries()].map(([k, v]) => {
+    const i = k.indexOf(NOTE_SEP);
+    return { pref: k.slice(0, i), brand: k.slice(i + 1), rating: v.r || 0, text: v.t || "", updated: v.u || null };
+  }).sort((a, b) => a.pref.localeCompare(b.pref, "ja") || a.brand.localeCompare(b.brand, "ja"));
+}
+function notesFromArray(arr) {
+  const m = new Map();
+  for (const o of (arr || [])) {
+    if (!o || !o.brand) continue;
+    const r = Math.max(0, Math.min(5, Number(o.rating) || 0));
+    const t = typeof o.text === "string" ? o.text : "";
+    if (!r && !t.trim()) continue;
+    m.set((o.pref || "") + NOTE_SEP + o.brand, { r: r, t: t, u: o.updated || null });
+  }
+  return m;
+}
+function saveLocal() {
+  try {
+    localStorage.setItem(STORE_KEY, JSON.stringify({
+      v: 2, drunk: keySetToArray(state.drunk), favs: keySetToArray(state.favs), notes: notesToArray(),
+    }));
+  } catch (_) { /* プライベートモード等で保存できない場合は無視（ファイル保存で代替） */ }
+}
+function loadLocal() {
+  try {
+    const raw = localStorage.getItem(STORE_KEY);
+    if (!raw) return;
+    const o = JSON.parse(raw);
+    if (Array.isArray(o.drunk)) state.drunk = normalizeKeySet(o.drunk);
+    if (Array.isArray(o.favs)) state.favs = new Set([...normalizeKeySet(o.favs)].filter(f => state.drunk.has(f)));
+    if (Array.isArray(o.notes)) state.notes = notesFromArray(o.notes);
+  } catch (_) { /* 壊れていたら無視 */ }
+}
+function starText(r) { return "★".repeat(r) + "☆".repeat(5 - r); }
+
+/* ---------- 同名銘柄（県跨ぎ）の解決 ---------- */
+// 両データセットの全銘柄から「銘柄名 → その名前を持つ都道府県の集合」を作る。
+// 道灌(兵庫/滋賀)・白龍(新潟/福井)・高砂(三重/静岡)・千代鶴(富山/東京)・WAKAZE など、
+// 同名で別蔵のものを飲んだ酒リスト上で区別するために使う。
+let brandPrefs = null;
+function buildBrandPrefs() {
+  brandPrefs = new Map();
+  for (const c of Object.values(CFG)) {
+    for (const p of c.data.points) {
+      if (!brandPrefs.has(p.brand)) brandPrefs.set(p.brand, new Set());
+      brandPrefs.get(p.brand).add(p.pref || "");
+    }
+  }
+}
+function prefsOfBrand(b) { if (!brandPrefs) buildBrandPrefs(); return brandPrefs.get(b) || new Set(); }
+function brewerOfKey(k) {
+  const { pref, brand } = pbSplit(k);
+  for (const c of Object.values(CFG)) {
+    const hit = c.data.points.find(p => p.brand === brand && (p.pref || "") === pref);
+    if (hit) return hit.brewer || "";
+  }
+  return "";
+}
+function isAmbiguousBrand(b) { return prefsOfBrand(b).size > 1; }
+// 旧形式（銘柄名のみ）を (県, 銘柄) キーへ移行する。同名が複数県にある場合は全件を対象にする（従来の挙動を保つ）
+function keysForLegacyName(name) {
+  const ps = prefsOfBrand(name);
+  if (!ps.size) return [NOTE_SEP + name];          // どちらのデータにも無い名前はそのまま保持
+  return [...ps].map(pr => pr + NOTE_SEP + name);
+}
+function normalizeKeySet(arr) {
+  const out = new Set();
+  for (const v of (arr || [])) {
+    if (v && typeof v === "object" && v.brand) { out.add((v.pref || "") + NOTE_SEP + v.brand); continue; }
+    const sv = String(v);
+    if (sv.includes(NOTE_SEP)) out.add(sv);
+    else keysForLegacyName(sv).forEach(k => out.add(k));
+  }
+  return out;
+}
+function keySetToArray(set) {
+  return [...set].map(k => pbSplit(k)).sort((a, b) => a.brand.localeCompare(b.brand, "ja") || a.pref.localeCompare(b.pref, "ja"));
+}
+// 表示名: 同名が複数県にある銘柄だけ県名を添える（「北海道」はそのまま、他は末尾の都/府/県を落とす）
+function shortPref(pref) { return pref === "北海道" ? pref : pref.replace(/[都府県]$/, ""); }
+function drunkLabel(k) {
+  const { pref, brand } = pbSplit(k);
+  return isAmbiguousBrand(brand) && pref ? `${brand}（${shortPref(pref)}）` : brand;
+}
+function updateMemoCount() {
+  const el = document.getElementById("memoCount");
+  if (el) el.textContent = state.notes.size ? `／ メモ ${state.notes.size}件` : "";
+}
+function hasTagMatch(p) {
+  if (!state.tagFilter.length) return true;
+  if (!p.tags) return false;
+  return state.tagFilter.every(t => p.tags.includes(t));
+}
+function isDarkNow() {
+  const t = document.documentElement.dataset.theme;
+  if (t) return t === "dark";
+  return matchMedia("(prefers-color-scheme: dark)").matches;
+}
+// 味タイプ用カテゴリカル7色（パレット準拠、テーマ別ステップ）
+function clusterColors() {
+  return isDarkNow()
+    ? ["#3987e5", "#d95926", "#199e70", "#c98500", "#d55181", "#008300", "#9085e9"]
+    : ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#4a3aa7"];
+}
+// 未踏度用シーケンシャルランプ（青・淡→濃 = 近い→未踏）
+function frontierRamp() {
+  return isDarkNow()
+    ? ["#184f95", "#2a78d6", "#5598e7", "#9ec5f4", "#cde2fb"]   // ダーク面では明るいほど未踏
+    : ["#cde2fb", "#9ec5f4", "#5598e7", "#2a78d6", "#0d366b"];  // ライト面では濃いほど未踏
+}
+function drunkPoints() { return pts().filter(p => isDrunk(p)); }
+function frontierDistances() {
+  const dr = drunkPoints();
+  if (!dr.length) return null;
+  const m = new Map();
+  for (const p of pts()) {
+    let bd = Infinity;
+    for (const q of dr) { if (q.id !== p.id) { const dd = dist(p, q); if (dd < bd) bd = dd; } }
+    m.set(p.id, bd === Infinity ? 0 : bd);
+  }
+  return m;
+}
+// 好みの中心（★があれば★のみ、無ければ飲んだ全体の平均）
+function centroidInfo() {
+  const base = state.favs.size ? p => isFav(p) : p => isDrunk(p);
+  const members = pts().filter(base);
+  if (!members.length) return null;
+  const dim = members[0].z.length;
+  const z = new Array(dim).fill(0);
+  let mx = 0, my = 0, ng = 0;
+  for (const p of members) {
+    for (let i = 0; i < dim; i++) z[i] += p.z[i];
+    const [x, y] = scaleXY(p);
+    if (hasGeo(p)) { mx += x; my += y; ng++; }
+  }
+  for (let i = 0; i < dim; i++) z[i] /= members.length;
+  return {
+    z, n: members.length,
+    mode: state.favs.size ? "★お気に入り" : "飲んだ酒全体",
+    pos: ng ? [mx / ng, my / ng] : null,
+  };
+}
+
+/* ---------- 類似度 ---------- */
+function dist(a, b) {
+  let s = 0;
+  for (let i = 0; i < a.z.length; i++) { const d = a.z[i] - b.z[i]; s += d * d; }
+  return Math.sqrt(s);
+}
+function candidates(sel) {
+  const t = state.target;
+  return pts().filter(p => {
+    if (p.id === sel.id) return false;
+    if (sel.id === -1 && t !== "drunk" && isDrunk(p)) return false;  // 好み中心からの探索では飲んだ酒自体を除外
+    return matchTarget(p);
+  });
+  function matchTarget(p) {
+    if (t === "all") return true;
+    if (t === "famous") return isFamous(p);
+    if (t === "drunk") return isDrunk(p);
+    if (t === "region") return inRegion(p);
+    return isFamous(p) || isDrunk(p);
+  }
+}
+function similar(sel, n = 10) {
+  return candidates(sel).map(p => [dist(sel, p), p]).sort((a, b) => a[0] - b[0]).slice(0, n);
+}
+
+/* ---------- 描画: マップ ---------- */
+let gDots = null, dotEls = new Map(), hoverRing = null, selRing = null, cmpRing = null, centroidMark = null;
+function buildMap() {
+  computeScale();
+  svg.textContent = "";
+  gDots = document.createElementNS(SVGNS, "g");
+  svg.appendChild(gDots);
+  // 蔵マップでは海岸線を下に描く
+  if (state.mapView === "geo" && JAPAN_OUTLINE && JAPAN_OUTLINE.polys) {
+    for (const poly of JAPAN_OUTLINE.polys) {
+      const path = document.createElementNS(SVGNS, "path");
+      let dstr = "";
+      poly.forEach((c, i) => {
+        const [x, y] = geoProject(c[1], c[0]);
+        dstr += (i ? "L" : "M") + x.toFixed(1) + "," + y.toFixed(1);
+      });
+      path.setAttribute("d", dstr + "Z");
+      path.setAttribute("fill", "var(--ghost)");
+      path.setAttribute("stroke", "var(--baseline)");
+      path.dataset.outline = "1";
+      gDots.appendChild(path);
+    }
+  }
+  dotEls = new Map();
+  for (const p of pts()) {
+    if (!hasGeo(p)) continue;
+    const c = document.createElementNS(SVGNS, "circle");
+    const [x, y] = scaleXY(p);
+    c.setAttribute("cx", x); c.setAttribute("cy", y);
+    dotEls.set(p.id, c);
+    gDots.appendChild(c);
+  }
+  hoverRing = document.createElementNS(SVGNS, "circle");
+  hoverRing.setAttribute("fill", "none"); hoverRing.style.display = "none";
+  gDots.appendChild(hoverRing);
+  selRing = document.createElementNS(SVGNS, "circle");
+  selRing.setAttribute("fill", "none"); selRing.style.display = "none";
+  gDots.appendChild(selRing);
+  cmpRing = document.createElementNS(SVGNS, "circle");
+  cmpRing.setAttribute("fill", "none"); cmpRing.style.display = "none";
+  gDots.appendChild(cmpRing);
+  centroidMark = document.createElementNS(SVGNS, "text");
+  centroidMark.textContent = "★";
+  centroidMark.setAttribute("text-anchor", "middle");
+  centroidMark.setAttribute("fill", "var(--series-2)");
+  centroidMark.setAttribute("stroke", "var(--surface-1)");
+  centroidMark.setAttribute("paint-order", "stroke");
+  centroidMark.style.display = "none";
+  gDots.appendChild(centroidMark);
+  restyleDots();
+  applyView();
+}
+// 描画順を色分けモードに応じて調整するため、各点の描画情報を一括計算
+function restyleDots() {
+  const mode = state.colorMode;
+  let fd = null, bins = null, ramp = null;
+  if (mode === "frontier") {
+    fd = frontierDistances();
+    if (fd) {
+      ramp = frontierRamp();
+      const vals = [...fd.values()].sort((a, b) => a - b);
+      const q = f => vals[Math.min(vals.length - 1, Math.floor(f * vals.length))];
+      bins = [q(0.2), q(0.4), q(0.6), q(0.8)];
+      state._frontierBins = bins; state._frontierMax = vals[vals.length - 1];
+    }
+  }
+  for (const p of pts()) {
+    const c = dotEls.get(p.id);
+    if (!c) continue;
+    const dim = !hasTagMatch(p);
+    let fill = "var(--dot-other)", strong = false;
+    if (mode === "std") {
+      const grp = groupOf(p);
+      fill = GROUP_COLOR[grp]; strong = grp !== "other";
+      c.dataset.grp = grp;
+    } else if (mode === "cluster") {
+      const cc = clusterColors();
+      if (state.activeCluster == null) {           // 全タイプを7色表示
+        fill = cc[p.cl % cc.length]; strong = true;
+        c.dataset.grp = "clall";
+      } else {                                      // 1タイプ強調（アクセシブルな代替表示）
+        strong = p.cl === state.activeCluster;
+        fill = strong ? cc[state.activeCluster % cc.length] : "var(--dot-other)";
+        c.dataset.grp = strong ? "region" : "other";
+      }
+    } else if (mode === "frontier") {
+      if (fd) {
+        const dv = fd.get(p.id);
+        let bi = 0; while (bi < 4 && dv > bins[bi]) bi++;
+        fill = ramp[bi]; strong = bi >= 3;
+        c.dataset.grp = strong ? "region" : "other";
+      } else { c.dataset.grp = "other"; }
+    }
+    c.setAttribute("fill", fill);
+    c.style.opacity = dim ? 0.12 : 1;
+    if (strong) c.setAttribute("stroke", "var(--surface-1)");
+    else c.removeAttribute("stroke");
+  }
+  sizeDots();
+  renderLegend();
+  renderCentroidMark();
+  renderFrontierPanel();
+  renderClusterPanel();
+}
+function updateCmpRing() {
+  if (!cmpRing) return;
+  const q = state.cmpId != null ? byId(state.cmpId) : null;
+  if (!q || !hasGeo(q)) { cmpRing.style.display = "none"; return; }
+  placeRing(cmpRing, q.id, "var(--series-2)");
+}
+function sizeDots() {
+  const k = state.view.k;
+  const sq = Math.sqrt(k);
+  for (const p of pts()) {
+    const c = dotEls.get(p.id);
+    if (!c) continue;
+    const grp = c.dataset.grp;
+    const r = (grp === "other" ? 2.6 : grp === "clall" ? 3.2 : 4.2) / sq;
+    c.setAttribute("r", r);
+    if (grp !== "other") c.setAttribute("stroke-width", (grp === "clall" ? 1 : 1.6) / sq);
+  }
+  for (const el of gDots.querySelectorAll("path[data-outline]")) {
+    el.setAttribute("stroke-width", 1 / k);
+  }
+  if (centroidMark && centroidMark.style.display !== "none") renderCentroidMark();
+  if (state.selId != null) placeRing(selRing, state.selId, "var(--text-primary)");
+  updateCmpRing();
+}
+function renderCentroidMark() {
+  if (!centroidMark) return;
+  // ★は「好みの中心で探す」モード中の味マップのみ表示
+  if (!state.virtual || state.mapView === "geo") { centroidMark.style.display = "none"; return; }
+  const ci = (state.drunk.size || state.favs.size) ? centroidInfo() : null;
+  if (!ci || !ci.pos) { centroidMark.style.display = "none"; return; }
+  const k = state.view.k;
+  centroidMark.setAttribute("x", ci.pos[0]);
+  centroidMark.setAttribute("y", ci.pos[1] + 5 / Math.sqrt(k));
+  centroidMark.setAttribute("font-size", 15 / Math.sqrt(k));
+  centroidMark.setAttribute("stroke-width", 2.5 / Math.sqrt(k));
+  centroidMark.style.display = "";
+}
+function placeRing(ring, id, color) {
+  const p = byId(id);
+  if (!p) { ring.style.display = "none"; return; }
+  const [x, y] = scaleXY(p);
+  const k = state.view.k;
+  ring.setAttribute("cx", x); ring.setAttribute("cy", y);
+  ring.setAttribute("r", 7.5 / Math.sqrt(k));
+  ring.setAttribute("stroke", color);
+  ring.setAttribute("stroke-width", 2 / Math.sqrt(k));
+  ring.style.display = "";
+}
+function applyView() {
+  const { k, tx, ty } = state.view;
+  gDots.setAttribute("transform", `translate(${tx},${ty}) scale(${k})`);
+  sizeDots();
+}
+
+/* ズーム・パン */
+let dragging = false, dragStart = null;
+svg.addEventListener("wheel", e => {
+  e.preventDefault();
+  const rect = svg.getBoundingClientRect();
+  const mx = (e.clientX - rect.left) * (W / rect.width);
+  const my = (e.clientY - rect.top) * (H / rect.height);
+  const factor = Math.exp(-e.deltaY * 0.0016);
+  const k2 = Math.min(40, Math.max(0.5, state.view.k * factor));
+  const f = k2 / state.view.k;
+  state.view.tx = mx - f * (mx - state.view.tx);
+  state.view.ty = my - f * (my - state.view.ty);
+  state.view.k = k2;
+  requestAnimationFrame(applyView);
+}, { passive: false });
+svg.addEventListener("pointerdown", e => {
+  dragging = true; svg.classList.add("dragging");
+  dragStart = { x: e.clientX, y: e.clientY, tx: state.view.tx, ty: state.view.ty, moved: false };
+  svg.setPointerCapture(e.pointerId);
+});
+svg.addEventListener("pointermove", e => {
+  if (dragging && dragStart) {
+    const rect = svg.getBoundingClientRect();
+    const dx = (e.clientX - dragStart.x) * (W / rect.width);
+    const dy = (e.clientY - dragStart.y) * (H / rect.height);
+    if (Math.abs(dx) + Math.abs(dy) > 3) dragStart.moved = true;
+    state.view.tx = dragStart.tx + dx; state.view.ty = dragStart.ty + dy;
+    requestAnimationFrame(applyView);
+  } else {
+    hoverAt(e);
+  }
+});
+svg.addEventListener("pointerup", e => {
+  svg.classList.remove("dragging");
+  const wasClick = dragStart && !dragStart.moved;
+  dragging = false;
+  if (wasClick) {
+    const p = nearest(e, 26);
+    if (p) select(p.id, false);
+  }
+  dragStart = null;
+});
+svg.addEventListener("pointerleave", () => { hideTooltip(); });
+$("resetView").addEventListener("click", () => { state.view = { k: 1, tx: 0, ty: 0 }; applyView(); });
+
+function screenPos(p) {
+  const [x, y] = scaleXY(p);
+  const { k, tx, ty } = state.view;
+  return [x * k + tx, y * k + ty];
+}
+function nearest(e, maxPx) {
+  const rect = svg.getBoundingClientRect();
+  const mx = (e.clientX - rect.left) * (W / rect.width);
+  const my = (e.clientY - rect.top) * (H / rect.height);
+  let best = null, bd = Infinity;
+  for (const p of pts()) {
+    const [x, y] = screenPos(p);
+    const d = (x - mx) ** 2 + (y - my) ** 2;
+    if (d < bd) { bd = d; best = p; }
+  }
+  const lim = maxPx * (W / rect.width);
+  return bd <= lim * lim ? best : null;
+}
+const tooltip = $("tooltip");
+function hoverAt(e) {
+  const p = nearest(e, 26);
+  if (!p) { hideTooltip(); return; }
+  const [x, y] = scaleXY(p);
+  const k = state.view.k;
+  hoverRing.setAttribute("cx", x); hoverRing.setAttribute("cy", y);
+  hoverRing.setAttribute("r", 7 / Math.sqrt(k));
+  hoverRing.setAttribute("stroke", "var(--text-secondary)");
+  hoverRing.setAttribute("stroke-width", 1.4 / Math.sqrt(k));
+  hoverRing.style.display = "";
+  tooltip.textContent = "";
+  const l1 = document.createElement("div"); l1.className = "v"; l1.textContent = cfg().label(p);
+  const l2 = document.createElement("div"); l2.className = "s"; l2.textContent = cfg().sub(p);
+  tooltip.appendChild(l1); tooltip.appendChild(l2);
+  const g = groupOf(p);
+  if (g !== "other" || isFamous(p)) {
+    const l3 = document.createElement("div"); l3.className = "s";
+    const parts = [];
+    if (inRegion(p)) parts.push(regionLabel());
+    if (isFamous(p)) parts.push(`人気${p.rank}位`);
+    if (isDrunk(p)) parts.push("飲んだ");
+    l3.textContent = parts.join(" / ");
+    tooltip.appendChild(l3);
+  }
+  const nt = noteOf(p);
+  if (nt && (nt.r > 0 || nt.t)) {
+    const l4 = document.createElement("div"); l4.className = "tt-memo";
+    if (nt.r > 0) {
+      const st = document.createElement("span"); st.className = "tt-stars";
+      st.textContent = starText(nt.r);
+      l4.appendChild(st);
+      if (nt.t) l4.appendChild(document.createTextNode("　"));
+    }
+    if (nt.t) {
+      const one = nt.t.replace(/\s+/g, " ").trim();
+      l4.appendChild(document.createTextNode(one.length > 44 ? one.slice(0, 44) + "…" : one));
+    }
+    tooltip.appendChild(l4);
+  }
+  tooltip.style.display = "block";
+  const vw = window.innerWidth;
+  const tx = Math.min(e.clientX + 14, vw - 270);
+  tooltip.style.left = tx + "px";
+  tooltip.style.top = (e.clientY + 14) + "px";
+}
+function hideTooltip() { tooltip.style.display = "none"; if (hoverRing) hoverRing.style.display = "none"; }
+
+/* ---------- 凡例 ---------- */
+function renderLegend() {
+  const lg = $("legend");
+  lg.textContent = "";
+  function item(color, label) {
+    const it = document.createElement("span"); it.className = "it";
+    const sw = document.createElement("span"); sw.className = "sw"; sw.style.background = color;
+    const tx = document.createElement("span"); tx.textContent = label;
+    it.appendChild(sw); it.appendChild(tx); lg.appendChild(it);
+  }
+  if (state.colorMode === "std") {
+    const counts = { region: 0, famous: 0, drunk: 0, other: 0 };
+    for (const p of pts()) counts[groupOf(p)]++;
+    for (const g of ["region", "famous", "drunk", "other"]) {
+      if (g === "region" && !state.region.pref) continue;
+      item(GROUP_COLOR[g], `${g === "region" ? regionLabel() : GROUP_LABEL[g]}（${counts[g]}）`);
+    }
+  } else if (state.colorMode === "cluster") {
+    const cc = clusterColors();
+    const cms = meta().clusters || [];
+    if (state.activeCluster == null) {
+      cms.forEach(cm => item(cc[cm.id % cc.length], `${cm.name}（${cm.n}）`));
+      const tx = document.createElement("span"); tx.className = "hint";
+      tx.textContent = "※色数が多いため、色覚特性によっては見分けにくい組があります。右の味タイプ一覧のクリックで1タイプ強調表示に切替可能。";
+      lg.appendChild(tx);
+    } else {
+      const cm = cms[state.activeCluster];
+      if (cm) {
+        item(cc[cm.id % cc.length], `${cm.name}（${cm.n}）`);
+        item("var(--dot-other)", "その他の味タイプ");
+      }
+    }
+  } else {
+    if (!drunkPoints().length) {
+      const tx = document.createElement("span"); tx.className = "hint";
+      tx.textContent = "飲んだ酒リストが空です。登録すると各銘柄の「飲んだ酒からの距離」を色で表示します。";
+      lg.appendChild(tx);
+    } else {
+      const ramp = frontierRamp();
+      const bins = state._frontierBins || [];
+      const labels = ["飲んだ味に近い", "やや近い", "中間", "やや未踏", "未踏（遠い）"];
+      ramp.forEach((c, i) => item(c, labels[i] + (bins[i - 1] != null || i === 0 ? "" : "")));
+    }
+  }
+  if (state.tagFilter.length) {
+    const tx = document.createElement("span"); tx.className = "hint";
+    tx.textContent = `タグ絞り込み中: ${state.tagFilter.join("・")}（該当しない銘柄は淡色表示）`;
+    lg.appendChild(tx);
+  }
+  if (state.mapView === "geo") {
+    const missing = pts().filter(p => !p.geo).length;
+    if (missing) {
+      const tx = document.createElement("span"); tx.className = "hint";
+      tx.textContent = `※所在地未特定の${missing}銘柄は地図に非表示`;
+      lg.appendChild(tx);
+    }
+  }
+}
+function renderClusterPanel() {
+  const panel = $("clusterPanel");
+  panel.style.display = state.colorMode === "cluster" ? "" : "none";
+  if (state.colorMode !== "cluster") return;
+  const ul = $("clusterList"); ul.textContent = "";
+  const cc = clusterColors();
+  (meta().clusters || []).forEach(cm => {
+    const li = document.createElement("li");
+    const btn = document.createElement("button"); btn.className = "simrow"; btn.type = "button";
+    const rk = document.createElement("span"); rk.className = "rk";
+    rk.textContent = "●";
+    rk.style.color = (state.activeCluster == null || cm.id === state.activeCluster)
+      ? cc[cm.id % cc.length] : "var(--dot-other)";
+    const nm = document.createElement("span"); nm.className = "nm";
+    const b = document.createElement("span"); b.className = "b"; b.textContent = cm.name;
+    if (cm.id === state.activeCluster) b.style.color = "var(--series-1)";
+    nm.appendChild(b);
+    const dv = document.createElement("span"); dv.className = "d"; dv.textContent = `${cm.n}銘柄`;
+    btn.appendChild(rk); btn.appendChild(nm); btn.appendChild(dv);
+    btn.addEventListener("click", () => {
+      state.activeCluster = (state.activeCluster === cm.id) ? null : cm.id;  // 再クリックで全表示に戻る
+      restyleDots();
+    });
+    li.appendChild(btn); ul.appendChild(li);
+  });
+  const hint = document.createElement("li"); hint.className = "hint";
+  hint.textContent = state.activeCluster == null
+    ? "クリックで1タイプのみ強調（再クリックで全表示）"
+    : "再クリックすると全タイプ7色表示に戻ります";
+  ul.appendChild(hint);
+}
+function renderFrontierPanel() {
+  const panel = $("frontierPanel");
+  panel.style.display = state.colorMode === "frontier" ? "" : "none";
+  if (state.colorMode !== "frontier") return;
+  const body = $("frontierBody"); body.textContent = "";
+  const fd = frontierDistances();
+  if (!fd) {
+    const p = document.createElement("p"); p.className = "hint";
+    p.textContent = "飲んだ酒リストが空です。検索から「飲んだに追加」で登録すると、未体験の味ゾーンを提案します。";
+    body.appendChild(p);
+    return;
+  }
+  // クラスタごとの平均未踏距離ランキング
+  const cms = meta().clusters || [];
+  const agg = cms.map(cm => ({ cm, sum: 0, n: 0 }));
+  for (const p of pts()) { const a = agg[p.cl]; a.sum += fd.get(p.id); a.n++; }
+  agg.forEach(a => a.mean = a.n ? a.sum / a.n : 0);
+  agg.sort((a, b) => b.mean - a.mean);
+  const intro = document.createElement("p");
+  intro.style.cssText = "font-size:12px;color:var(--text-secondary);margin:0 0 6px";
+  intro.textContent = "味タイプごとの「飲んだ酒からの平均距離」が大きい順。上位ほど未体験の味わいゾーンです。";
+  body.appendChild(intro);
+  agg.slice(0, 3).forEach((a, rank) => {
+    const div = document.createElement("div");
+    div.style.cssText = "border-top:1px solid var(--grid);padding:6px 0";
+    const h = document.createElement("div");
+    h.innerHTML = "";
+    const strongEl = document.createElement("strong");
+    strongEl.textContent = `${rank + 1}. ${a.cm.name}`;
+    h.appendChild(strongEl);
+    h.appendChild(document.createTextNode(`　平均距離 ${a.mean.toFixed(2)}（${a.cm.n}銘柄）`));
+    h.style.fontSize = "13px";
+    div.appendChild(h);
+    // 代表銘柄: 有名(rank順)を優先して3つ
+    const members = pts().filter(p => p.cl === a.cm.id);
+    members.sort((x, y) => (x.rank || 9999) - (y.rank || 9999) || fd.get(y.id) - fd.get(x.id));
+    const reps = members.slice(0, 3);
+    const ul = document.createElement("ul"); ul.className = "simlist";
+    reps.forEach(p => {
+      const li = document.createElement("li");
+      const btn = document.createElement("button"); btn.className = "simrow"; btn.type = "button";
+      const rk = document.createElement("span"); rk.className = "rk"; rk.textContent = "・";
+      const nm = document.createElement("span"); nm.className = "nm";
+      const bb = document.createElement("span"); bb.className = "b"; bb.textContent = cfg().label(p);
+      const ss = document.createElement("span"); ss.className = "s";
+      ss.textContent = " " + p.brewer + (p.rank ? `｜人気${p.rank}位` : "");
+      nm.appendChild(bb); nm.appendChild(ss);
+      const dv = document.createElement("span"); dv.className = "d";
+      dv.textContent = "距離 " + fd.get(p.id).toFixed(2);
+      btn.appendChild(rk); btn.appendChild(nm); btn.appendChild(dv);
+      btn.addEventListener("click", () => select(p.id));
+      li.appendChild(btn); ul.appendChild(li);
+    });
+    div.appendChild(ul);
+    body.appendChild(div);
+  });
+}
+function regionLabel() {
+  const r = state.region;
+  if (!r.pref) return "";
+  if (r.reg === "all") return r.pref + "全域";
+  if (r.reg === "unknown") return r.pref + "・市町村未特定";
+  return r.pref + "・" + r.reg;
+}
+
+/* ---------- サイドパネル ---------- */
+function select(id, center = true) {
+  state.selId = id; state.cmpId = null; state.virtual = false;
+  const p = byId(id);
+  if (!p) return;
+  if (center && hasGeo(p)) centerOn(p);
+  renderSel();
+  placeRing(selRing, id, "var(--text-primary)");
+  renderCmpInfo(); updateCmpRing(); renderCentroidMark();
+  renderTable();
+}
+function virtualPoint() {
+  const ci = centroidInfo();
+  if (!ci) return null;
+  const m = meta();
+  const raw = {};
+  m.features.forEach((a, i) => {
+    raw[a] = Math.round((m.feature_means[a] + m.feature_stds[a] * ci.z[i]) * 100) / 100;
+  });
+  return { id: -1, z: ci.z, raw, _ci: ci };
+}
+function centerOn(p) {
+  const [x, y] = scaleXY(p);
+  const k = Math.max(state.view.k, 3);
+  state.view.k = k;
+  state.view.tx = W / 2 - x * k;
+  state.view.ty = H / 2 - y * k;
+  applyView();
+}
+function renderSel() {
+  let p = state.selId != null ? byId(state.selId) : null;
+  if (state.virtual) p = virtualPoint();
+  document.body.classList.toggle("has-selection", !!p);
+  $("selEmpty").style.display = p ? "none" : "";
+  $("selBody").style.display = p ? "" : "none";
+  if (!p) { renderTable(); return; }
+  if (state.virtual) {
+    $("selName").textContent = "★ あなたの好みの中心";
+    $("selSub").textContent = `${p._ci.mode}（${p._ci.n}銘柄）の平均から計算。マップ上の★は構成銘柄の平均位置（参考表示）`;
+    $("selBadges").textContent = "";
+    $("selTags").textContent = "";
+    $("cmpLegend").style.display = "none";
+    renderAxisBars(p, state.cmpId != null ? byId(state.cmpId) : null);
+    $("drunkBtn").style.display = "none"; $("memoBox").style.display = "none"; memoPoint = null;
+    $("selInfo").textContent = "";
+    renderSimilar(p);
+    return;
+  }
+  $("drunkBtn").style.display = ""; $("memoBox").style.display = "";
+  $("selName").textContent = cfg().label(p);
+  $("selSub").textContent = cfg().sub(p);
+  const bd = $("selBadges"); bd.textContent = "";
+  const badges = [];
+  if (inRegion(p)) badges.push([regionLabel(), "var(--series-1)"]);
+  if (isFamous(p)) badges.push([`人気${p.rank}位`, "var(--series-2)"]);
+  if (isDrunk(p)) badges.push(["飲んだ", "var(--series-3)"]);
+  if (state.ds === "specs" && p.imp > 0) badges.push([`欠損${p.imp}項目を中央値補完`, "var(--muted)"]);
+  for (const [t, c] of badges) {
+    const b = document.createElement("span"); b.className = "badge";
+    const d = document.createElement("span"); d.className = "dotc"; d.style.background = c;
+    b.appendChild(d); b.appendChild(document.createTextNode(t)); bd.appendChild(b);
+  }
+  const tg = $("selTags");
+  if (state.ds === "sakenowa" && p.tags && p.tags.length) {
+    tg.textContent = "タグ: " + p.tags.join("・");
+  } else if (state.ds === "specs" && p.raw.sweetness != null) {
+    tg.textContent = `甘辛度 ${p.raw.sweetness}（正=甘口寄り・負=辛口寄りの導出値）`;
+  } else tg.textContent = "";
+  renderAxisBars(p, state.cmpId != null ? byId(state.cmpId) : null);
+  const db = $("drunkBtn");
+  db.textContent = isDrunk(p) ? "✓ 飲んだ酒リストに登録済（クリックで解除）" : "＋ 飲んだ酒リストに追加";
+  db.className = isDrunk(p) ? "on" : "";
+  renderMemo(p);
+  renderSelInfo(p);
+  renderSimilar(p);
+}
+
+/* ---------- メモ欄の描画 ---------- */
+let memoTimer = null, memoPoint = null;
+function memoStatus(msg) {
+  const el = $("memoStatus"); if (!el) return;
+  el.textContent = msg || "";
+}
+function flushMemo() {
+  // 未確定の入力があれば、別の銘柄を描画する前に確定させる
+  if (memoTimer) { clearTimeout(memoTimer); memoTimer = null; }
+  if (memoPoint) setNote(memoPoint, (noteOf(memoPoint) || { r: 0 }).r, $("memoText").value);
+}
+function renderMemo(p) {
+  flushMemo();
+  memoPoint = p;
+  const n = noteOf(p) || { r: 0, t: "" };
+  const ta = $("memoText");
+  ta.value = n.t || "";
+  ta.setAttribute("aria-label", p.brand + " のメモ");
+  const box = $("memoStars"); box.textContent = "";
+  for (let i = 1; i <= 5; i++) {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.textContent = i <= n.r ? "★" : "☆";
+    b.className = i <= n.r ? "on" : "";
+    b.title = `★${i}`;
+    b.setAttribute("aria-label", `${p.brand} を★${i}にする`);
+    b.addEventListener("click", () => {
+      const cur = (noteOf(p) || { r: 0 }).r;
+      setNote(p, cur === i ? 0 : i, $("memoText").value);   // 同じ星をもう一度押すと解除
+      renderMemo(p);
+      memoStatus("保存しました");
+      restyleDots();
+    });
+    box.appendChild(b);
+  }
+  if (n.r) {
+    const c = document.createElement("span"); c.className = "clr"; c.textContent = `★${n.r}`;
+    box.appendChild(c);
+  }
+  memoStatus(n.u ? "保存済み" : "");
+}
+$("memoText").addEventListener("input", () => {
+  if (!memoPoint) return;
+  memoStatus("入力中…");
+  if (memoTimer) clearTimeout(memoTimer);
+  const p = memoPoint;
+  memoTimer = setTimeout(() => {
+    setNote(p, (noteOf(p) || { r: 0 }).r, $("memoText").value);
+    memoStatus("保存しました");
+  }, 500);
+});
+$("memoText").addEventListener("blur", () => {
+  if (!memoPoint) return;
+  if (memoTimer) { clearTimeout(memoTimer); memoTimer = null; }
+  setNote(memoPoint, (noteOf(memoPoint) || { r: 0 }).r, $("memoText").value);
+  memoStatus("保存しました");
+});
+function renderSelInfo(p) {
+  const box = $("selInfo"); box.textContent = "";
+  if (state.ds === "sakenowa" && meta().clusters) {
+    const cm = meta().clusters[p.cl];
+    if (cm) {
+      const badge = document.createElement("div");
+      badge.style.cssText = "margin-bottom:4px";
+      badge.textContent = `味タイプ: ${cm.name}`;
+      box.appendChild(badge);
+    }
+  }
+  if (p.intro) {
+    const d = document.createElement("p"); d.style.margin = "4px 0";
+    d.textContent = p.intro;
+    box.appendChild(d);
+  }
+  if (p.rice && p.rice.length) {
+    const d = document.createElement("p"); d.style.margin = "4px 0";
+    d.textContent = "代表的な使用酒米: " + p.rice.join("・");
+    box.appendChild(d);
+  }
+  if (p.url) {
+    const d = document.createElement("p"); d.style.margin = "4px 0";
+    const a = document.createElement("a");
+    a.href = p.url; a.target = "_blank"; a.rel = "noopener";
+    a.textContent = "蔵元公式サイト ↗";
+    a.style.color = "var(--series-1)";
+    d.appendChild(a);
+    box.appendChild(d);
+  }
+  const det = p.detail;
+  if (det) {
+    const wrap = document.createElement("details");
+    wrap.open = true;
+    wrap.style.cssText = "margin-top:6px;border-top:1px solid var(--grid);padding-top:6px";
+    const sm = document.createElement("summary");
+    sm.textContent = "公式情報より";
+    sm.style.cssText = "cursor:pointer;font-weight:600;font-size:12px";
+    wrap.appendChild(sm);
+    if (det.brewery_summary) {
+      const d = document.createElement("p"); d.style.margin = "6px 0 2px";
+      d.textContent = det.brewery_summary; wrap.appendChild(d);
+    }
+    if (det.blurb) {
+      const d = document.createElement("p"); d.style.margin = "4px 0";
+      d.textContent = det.blurb; wrap.appendChild(d);
+    }
+    const prods = (det.products || []).filter(x => x && x.name);
+    if (prods.length) {
+      const note = document.createElement("div");
+      note.style.cssText = "font-size:11px;color:var(--muted);margin-top:4px";
+      note.textContent = `商品 ${prods.length}件`;
+      wrap.appendChild(note);
+      const tbl = document.createElement("table");
+      tbl.style.cssText = "border-collapse:collapse;font-size:11.5px;width:100%;margin:4px 0";
+      const tb = document.createElement("tbody");
+      const LIMIT = 6;
+      let expanded = prods.length <= LIMIT + 1;  // 7件ならそのまま全表示
+      const renderRows = () => {
+        tb.textContent = "";
+        (expanded ? prods : prods.slice(0, LIMIT)).forEach(pr => {
+        const tr = document.createElement("tr");
+        tr.style.borderTop = "1px solid var(--grid)";
+        const td1 = document.createElement("td");
+        td1.style.cssText = "padding:3px 4px";
+        td1.textContent = pr.name + (pr.spec ? `（${pr.spec}）` : "") + (pr.volume ? " " + pr.volume : "")
+          + (pr.seasonal ? "｜季節限定" : "");
+        const td2 = document.createElement("td");
+        td2.style.cssText = "padding:3px 4px;text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums";
+        if (pr.price != null) {
+          td2.textContent = `¥${Number(pr.price).toLocaleString()}` + (pr.price_note ? `（${pr.price_note}）` : "");
+          if (pr.source) {
+            const a = document.createElement("a");
+            a.href = pr.source; a.target = "_blank"; a.rel = "noopener";
+            a.textContent = " ↗"; a.style.color = "var(--series-1)";
+            td2.appendChild(a);
+          }
+        } else {
+          td2.textContent = "";  // 価格未取得は空欄
+        }
+        tr.appendChild(td1); tr.appendChild(td2); tb.appendChild(tr);
+        });
+      };
+      renderRows();
+      tbl.appendChild(tb); wrap.appendChild(tbl);
+      if (prods.length > LIMIT + 1) {
+        const more = document.createElement("button");
+        more.type = "button";
+        more.style.cssText = "border:1px solid var(--border);background:transparent;color:var(--text-secondary);border-radius:6px;font-size:11px;padding:2px 10px;cursor:pointer";
+        const setLabel = () => { more.textContent = expanded ? "先頭6件に折りたたむ" : `全${prods.length}商品を表示`; };
+        setLabel();
+        more.addEventListener("click", () => { expanded = !expanded; renderRows(); setLabel(); });
+        wrap.appendChild(more);
+      }
+    }
+    if (det.sources && det.sources.length) {
+      const d = document.createElement("p");
+      d.style.cssText = "margin:4px 0;font-size:11px;color:var(--muted)";
+      d.appendChild(document.createTextNode("出典: "));
+      det.sources.slice(0, 3).forEach((u, i) => {
+        if (i) d.appendChild(document.createTextNode(" / "));
+        const a = document.createElement("a");
+        a.href = u; a.target = "_blank"; a.rel = "noopener";
+        try { a.textContent = new URL(u).hostname; } catch (_) { a.textContent = u; }
+        a.style.color = "var(--muted)";
+        d.appendChild(a);
+      });
+      wrap.appendChild(d);
+    }
+    box.appendChild(wrap);
+  }
+}
+function axisKeys() { return meta().features; }
+function renderAxisBars(p, cmp) {
+  const wrap = $("axisBars"); wrap.textContent = "";
+  const labels = meta().feature_labels;
+  const mode = cfg().axisMode;
+  $("cmpLegend").style.display = cmp ? "block" : "none";
+  if (cmp) $("cmpName").textContent = cfg().label(cmp);
+  axisKeys().forEach((a, i) => {
+    const row = document.createElement("div"); row.className = "axisrow";
+    const al = document.createElement("span"); al.className = "al"; al.textContent = labels[a];
+    const tr = document.createElement("div"); tr.className = "bartrack";
+    const rail = document.createElement("div"); rail.className = "rail"; tr.appendChild(rail);
+    function addBar(q, cls) {
+      const bar = document.createElement("div"); bar.className = "bar " + cls;
+      if (mode === "raw01") {
+        bar.style.left = "0";
+        bar.style.width = (Math.max(0.01, Math.min(1, q.raw[a])) * 100) + "%";
+      } else {
+        const z = Math.max(-2.6, Math.min(2.6, q.z[i]));
+        const c = 50, half = Math.abs(z) / 2.6 * 50;
+        bar.style.left = (z < 0 ? c - half : c) + "%";
+        bar.style.width = Math.max(1, half) + "%";
+      }
+      tr.appendChild(bar);
+    }
+    if (mode === "z") { const cl = document.createElement("div"); cl.className = "center"; cl.style.left = "50%"; tr.appendChild(cl); }
+    addBar(p, "b1");
+    if (cmp) addBar(cmp, "b2");
+    const av = document.createElement("span"); av.className = "av";
+    const v = p.raw[a];
+    const cv = cmp ? cmp.raw[a] : null;
+    const u = cfg().unit[a] || "";
+    av.textContent = v == null ? "—" : (cmp ? `${v}${u} / ${cv == null ? "—" : cv + u}` : `${v}${u}`);
+    row.appendChild(al); row.appendChild(tr); row.appendChild(av);
+    wrap.appendChild(row);
+  });
+  const note = document.createElement("div"); note.className = "hint"; note.style.marginTop = "4px";
+  note.textContent = cfg().unitNote;
+  wrap.appendChild(note);
+}
+function renderSimilar(p) {
+  const ul = $("simList"); ul.textContent = "";
+  const tnote = { famousdrunk: "（有名＋飲んだ酒の中から）", famous: "（人気Top100の中から）", drunk: "（飲んだ酒の中から）", region: `（${regionLabel() || "地域未選択"}の中から）`, all: "（全銘柄の中から）" };
+  $("simTargetNote").textContent = tnote[state.target];
+  const sims = similar(p, 10);
+  $("simHint").textContent = sims.length ? "距離＝標準化した味特徴のユークリッド距離（小さいほど近い）。クリック＝マップ上で強調（オレンジ）＋比較・情報表示、ダブルクリック＝その銘柄に移動。" :
+    (state.target === "drunk" ? "飲んだ酒リストが空です。検索から追加してください。" :
+     state.target === "region" ? "地域ハイライトが「なし」か、地域内に対象銘柄がありません。" : "対象銘柄がありません。");
+  sims.forEach(([d, q], idx) => {
+    const li = document.createElement("li");
+    const btn = document.createElement("button"); btn.className = "simrow"; btn.type = "button";
+    const rk = document.createElement("span"); rk.className = "rk"; rk.textContent = String(idx + 1);
+    const nm = document.createElement("span"); nm.className = "nm";
+    const b = document.createElement("span"); b.className = "b"; b.textContent = cfg().label(q);
+    const marks = [];
+    if (isFamous(q)) marks.push(`人気${q.rank}位`);
+    if (isDrunk(q)) marks.push("飲んだ");
+    if (inRegion(q)) marks.push(regionLabel());
+    const s = document.createElement("span"); s.className = "s";
+    s.textContent = " " + cfg().sub(q) + (marks.length ? "｜" + marks.join("・") : "");
+    nm.appendChild(b); nm.appendChild(document.createElement("br")); nm.appendChild(s);
+    const dv = document.createElement("span"); dv.className = "d"; dv.textContent = "距離 " + d.toFixed(2);
+    btn.appendChild(rk); btn.appendChild(nm); btn.appendChild(dv);
+    btn.addEventListener("click", () => {
+      state.cmpId = q.id;
+      renderSelKeepCmp();
+      updateCmpRing();
+      renderCmpInfo();
+    });
+    btn.addEventListener("dblclick", () => select(q.id));
+    li.appendChild(btn); ul.appendChild(li);
+  });
+}
+function renderSelKeepCmp() {
+  const keep = state.cmpId;
+  renderSel();
+  state.cmpId = keep;
+  const p = state.virtual ? virtualPoint() : byId(state.selId);
+  const c = keep != null ? byId(keep) : null;
+  if (p && c) renderAxisBars(p, c);
+  renderCmpInfo();
+  updateCmpRing();
+}
+function renderCmpInfo() {
+  const box = $("cmpInfo");
+  const q = state.cmpId != null ? byId(state.cmpId) : null;
+  if (!q) { box.style.display = "none"; box.textContent = ""; return; }
+  box.textContent = "";
+  const head = document.createElement("div");
+  head.style.cssText = "display:flex;align-items:baseline;gap:8px;flex-wrap:wrap";
+  const sw = document.createElement("span");
+  sw.style.cssText = "width:9px;height:9px;border-radius:50%;background:var(--series-2);display:inline-block;flex:none";
+  const nm = document.createElement("strong"); nm.textContent = cfg().label(q);
+  nm.style.fontSize = "13.5px";
+  const selBtn = document.createElement("button"); selBtn.type = "button";
+  selBtn.textContent = "この銘柄を選択";
+  selBtn.style.cssText = "margin-left:auto;border:1px solid var(--border);background:transparent;color:var(--text-secondary);border-radius:6px;font-size:11px;padding:2px 8px;cursor:pointer";
+  selBtn.addEventListener("click", () => select(q.id));
+  head.appendChild(sw); head.appendChild(nm); head.appendChild(selBtn);
+  box.appendChild(head);
+  const sub = document.createElement("div"); sub.className = "hint";
+  sub.textContent = cfg().sub(q) + "（マップ上ではオレンジのリングで表示）";
+  box.appendChild(sub);
+  if (q.intro) {
+    const d = document.createElement("p");
+    d.style.cssText = "margin:4px 0;color:var(--text-secondary)";
+    d.textContent = q.intro;
+    box.appendChild(d);
+  }
+  if (q.url) {
+    const d = document.createElement("div");
+    const a = document.createElement("a");
+    a.href = q.url; a.target = "_blank"; a.rel = "noopener";
+    a.textContent = "蔵元公式サイト ↗"; a.style.color = "var(--series-1)";
+    d.appendChild(a); box.appendChild(d);
+  }
+  box.style.display = "";
+}
+
+/* ---------- 地域リスト ---------- */
+function nearestDrunk(p) {
+  // p から「飲んだ酒」への最短距離とその銘柄（p自身は除外）
+  let best = null, bd = Infinity;
+  for (const q of pts()) {
+    if (q.id === p.id || !isDrunk(q)) continue;
+    const d = dist(p, q);
+    if (d < bd) { bd = d; best = q; }
+  }
+  return best ? { d: bd, q: best } : null;
+}
+function renderRegionPanel() {
+  const title = $("regionTitle"), ul = $("regionList"), hint = $("regionSortHint");
+  ul.textContent = "";
+  hint.style.display = "none";
+  if (!state.region.pref) { title.textContent = "地域ハイライト: なし"; return; }
+  let list = pts().filter(inRegion).filter(hasTagMatch);
+  title.textContent = `${regionLabel()}の銘柄（${list.length}）` +
+    (state.tagFilter.length ? `※タグ「${state.tagFilter.join("・")}」で絞り込み中` : "");
+  const sort = state.regionSort;
+  const drunkAvailable = pts().some(p => isDrunk(p));
+  let annotated = null;
+  if (sort !== "name" && !drunkAvailable) {
+    hint.textContent = "飲んだ酒リストが空のため名前順で表示しています。検索ボックスから「飲んだに追加」で登録してください。";
+    hint.style.display = "block";
+  }
+  if (sort !== "name" && drunkAvailable) {
+    annotated = new Map(list.map(p => [p.id, nearestDrunk(p)]));
+    list = [...list].sort((a, b) => {
+      const da = annotated.get(a.id), db = annotated.get(b.id);
+      const va = da ? da.d : Infinity, vb = db ? db.d : Infinity;
+      return sort === "near" ? va - vb : vb - va;
+    });
+    hint.textContent = sort === "near"
+      ? "飲んだ酒への最短距離が小さい順（標準化した味特徴のユークリッド距離）。右列は最も近い「飲んだ酒」。"
+      : "飲んだ酒への最短距離が大きい順＝飲んだことのある味から遠い順。右列は最も近い「飲んだ酒」。";
+    hint.style.display = "block";
+  } else {
+    list = [...list].sort((a, b) => (a.brewer + a.brand).localeCompare(b.brewer + b.brand, "ja"));
+  }
+  list.forEach((p, idx) => {
+    const li = document.createElement("li");
+    const btn = document.createElement("button"); btn.className = "simrow"; btn.type = "button";
+    const rk = document.createElement("span"); rk.className = "rk";
+    rk.textContent = (sort !== "name" && annotated) ? String(idx + 1) : "・";
+    const nm = document.createElement("span"); nm.className = "nm";
+    const b = document.createElement("span"); b.className = "b"; b.textContent = cfg().label(p);
+    const muniTxt = p.muni || p.city || "";
+    const regTxt = (state.region.reg === "all" && p.reg) ? `｜${p.reg}` : "";
+    const marks = [];
+    if (isDrunk(p)) marks.push("飲んだ");
+    if (isFamous(p)) marks.push(`人気${p.rank}位`);
+    const s = document.createElement("span"); s.className = "s";
+    s.textContent = " " + p.brewer + (muniTxt ? `（${muniTxt}）` : "") + regTxt +
+      (marks.length ? "｜" + marks.join("・") : "");
+    nm.appendChild(b); nm.appendChild(s);
+    const dv = document.createElement("span"); dv.className = "d";
+    if (annotated) {
+      const nd = annotated.get(p.id);
+      if (nd) {
+        dv.textContent = `${cfg().label(nd.q)} まで ${nd.d.toFixed(2)}`;
+      } else {
+        dv.textContent = "—";
+      }
+    } else {
+      dv.textContent = isDrunk(p) ? "飲んだ" : (isFamous(p) ? `人気${p.rank}位` : "");
+    }
+    btn.appendChild(rk); btn.appendChild(nm); btn.appendChild(dv);
+    btn.addEventListener("click", () => select(p.id));
+    li.appendChild(btn); ul.appendChild(li);
+  });
+}
+$("regionSortSel").addEventListener("change", e => {
+  state.regionSort = e.target.value;
+  renderRegionPanel();
+});
+
+/* ---------- 飲んだ酒 ---------- */
+function toggleDrunkKey(k) {
+  if (state.drunk.has(k)) { state.drunk.delete(k); state.favs.delete(k); }
+  else state.drunk.add(k);
+  refreshAfterDrunkChange();
+}
+function toggleDrunk(p) { toggleDrunkKey(typeof p === "string" ? p : pbKey(p)); }
+function toggleFav(k) {
+  if (state.favs.has(k)) state.favs.delete(k); else state.favs.add(k);
+  refreshAfterDrunkChange();
+}
+function refreshAfterDrunkChange() {
+  $("drunkCount").textContent = String(state.drunk.size);
+  const ch = $("drunkChips"); ch.textContent = "";
+  [...state.drunk].sort((a, b) => (state.favs.has(b) - state.favs.has(a)) || drunkLabel(a).localeCompare(drunkLabel(b), "ja")).forEach(k => {
+    const lab = drunkLabel(k), sp = pbSplit(k);
+    const c = document.createElement("span"); c.className = "chip";
+    const st = document.createElement("button"); st.type = "button";
+    st.textContent = state.favs.has(k) ? "★" : "☆";
+    st.style.color = state.favs.has(k) ? "var(--series-2)" : "var(--muted)";
+    st.setAttribute("aria-label", lab + (state.favs.has(k) ? " のお気に入りを解除" : " をお気に入りに追加"));
+    st.addEventListener("click", () => toggleFav(k));
+    c.appendChild(st);
+    const nmEl = document.createElement("span");
+    nmEl.textContent = sp.brand;
+    if (isAmbiguousBrand(sp.brand) && sp.pref) {
+      const pfx = document.createElement("span");
+      pfx.className = "chip-pref";
+      pfx.textContent = shortPref(sp.pref);
+      nmEl.appendChild(document.createTextNode(" "));
+      nmEl.appendChild(pfx);
+    }
+    const bw = brewerOfKey(k);
+    if (bw) c.title = `${sp.brand}（${sp.pref}${bw ? " / " + bw : ""}）`;
+    c.appendChild(nmEl);
+    const x = document.createElement("button"); x.type = "button"; x.textContent = "✕";
+    x.setAttribute("aria-label", lab + " を削除");
+    x.addEventListener("click", () => toggleDrunkKey(k));
+    c.appendChild(x); ch.appendChild(c);
+  });
+  restyleDots();
+  renderSelKeepCmp();
+  renderRegionPanel();
+  renderTable();
+  updateMemoCount();
+  saveLocal();
+}
+function deselect() {
+  state.selId = null; state.cmpId = null; state.virtual = false;
+  if (selRing) selRing.style.display = "none";
+  renderSel();
+  renderCmpInfo(); updateCmpRing(); renderCentroidMark();
+  renderRegionPanel();
+  renderTable();
+}
+$("centroidBtn").addEventListener("click", () => {
+  if (!state.drunk.size) { alert("飲んだ酒リストが空です。検索から登録してください。"); return; }
+  state.virtual = true; state.selId = null; state.cmpId = null;
+  if (selRing) selRing.style.display = "none";
+  renderSel();
+  renderCmpInfo(); updateCmpRing(); renderCentroidMark();
+  renderTable();
+});
+$("deselectBtn").addEventListener("click", deselect);
+$("drunkBtn").addEventListener("click", () => {
+  const p = byId(state.selId); if (p) toggleDrunk(p);
+});
+function parseDrunkPayload(text) {
+  // 対応形式: {"drunk":[...],"favs":[...],"notes":[...]} / ["銘柄",...] / 1行1銘柄のプレーンテキスト
+  try {
+    const o = JSON.parse(text);
+    if (Array.isArray(o)) return { drunk: o, favs: [], notes: null };
+    if (o && (Array.isArray(o.drunk) || Array.isArray(o.notes))) {
+      return {
+        drunk: Array.isArray(o.drunk) ? o.drunk : [],
+        favs: Array.isArray(o.favs) ? o.favs : [],
+        notes: Array.isArray(o.notes) ? o.notes : null,
+      };
+    }
+  } catch (_) {
+    const lines = text.split(/\r?\n/).map(s => s.trim()).filter(Boolean);
+    if (lines.length) return { drunk: lines, favs: [], notes: null };
+  }
+  return null;
+}
+function applyDrunkPayload(pl) {
+  state.drunk = normalizeKeySet(pl.drunk);
+  state.favs = new Set([...normalizeKeySet(pl.favs)].filter(f => state.drunk.has(f)));
+  if (pl.notes) state.notes = notesFromArray(pl.notes);   // notes を持たない旧形式は既存メモを保持
+  refreshAfterDrunkChange();
+  const p = state.selId != null ? byId(state.selId) : null;
+  if (p && !state.virtual) renderMemo(p);
+}
+$("ioSaveFile").addEventListener("click", () => {
+  const now = new Date();
+  const stamp = `${now.getFullYear()}${String(now.getMonth() + 1).padStart(2, "0")}${String(now.getDate()).padStart(2, "0")}`;
+  const payload = JSON.stringify({
+    app: "sake-flavor-map",
+    saved: now.toISOString(),
+    count: state.drunk.size,
+    noteCount: state.notes.size,
+    drunk: keySetToArray(state.drunk),
+    favs: keySetToArray(state.favs),
+    notes: notesToArray(),
+  }, null, 1);
+  const blob = new Blob([payload], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `nonda_sake_${stamp}.json`;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 2000);
+});
+$("ioLoadFile").addEventListener("click", () => $("ioFileInput").click());
+$("ioFileInput").addEventListener("change", e => {
+  const f = e.target.files && e.target.files[0];
+  if (!f) return;
+  const rd = new FileReader();
+  rd.onload = () => {
+    const names = parseDrunkPayload(String(rd.result));
+    if (names) {
+      applyDrunkPayload(names);
+    } else {
+      alert("ファイルを解釈できませんでした。JSON（{\"drunk\":[...]} または配列）か、1行1銘柄のテキストに対応しています。");
+    }
+    e.target.value = "";
+  };
+  rd.readAsText(f, "utf-8");
+});
+$("ioExport").addEventListener("click", () => {
+  $("ioArea").value = JSON.stringify({ drunk: keySetToArray(state.drunk), favs: keySetToArray(state.favs), notes: notesToArray() }, null, 0);
+});
+
+/* ---------- タグ絞り込み ---------- */
+let tagCounts = null;
+function computeTagCounts() {
+  tagCounts = new Map();
+  for (const p of pts()) {
+    for (const t of (p.tags || [])) tagCounts.set(t, (tagCounts.get(t) || 0) + 1);
+  }
+}
+function renderTagChips() {
+  const ch = $("tagChips"); ch.textContent = "";
+  state.tagFilter.forEach(t => {
+    const c = document.createElement("span"); c.className = "chip";
+    c.appendChild(document.createTextNode(t));
+    const x = document.createElement("button"); x.type = "button"; x.textContent = "✕";
+    x.addEventListener("click", () => {
+      state.tagFilter = state.tagFilter.filter(v => v !== t);
+      renderTagChips(); restyleDots(); renderRegionPanel();
+    });
+    c.appendChild(x); ch.appendChild(c);
+  });
+}
+const tagBox = $("tagBox"), tagRes = $("tagResults");
+function renderTagSuggest() {
+  const q = tagBox.value.trim();
+  tagRes.textContent = "";
+  if (!tagCounts) computeTagCounts();
+  const cands = [...tagCounts.entries()]
+    .filter(([t]) => !state.tagFilter.includes(t) && (!q || t.includes(q)))
+    .sort((a, b) => b[1] - a[1]).slice(0, 14);
+  if (!cands.length) { tagRes.style.display = "none"; return; }
+  cands.forEach(([t, n]) => {
+    const row = document.createElement("div"); row.className = "row";
+    const nm = document.createElement("span"); nm.className = "nm"; nm.textContent = t;
+    const cnt = document.createElement("span"); cnt.className = "s"; cnt.textContent = `${n}銘柄`;
+    row.appendChild(nm); row.appendChild(cnt);
+    row.addEventListener("click", () => {
+      if (state.tagFilter.length < 3) state.tagFilter.push(t);
+      tagBox.value = ""; tagRes.style.display = "none";
+      renderTagChips(); restyleDots(); renderRegionPanel();
+    });
+    tagRes.appendChild(row);
+  });
+  tagRes.style.display = "block";
+}
+tagBox.addEventListener("input", renderTagSuggest);
+tagBox.addEventListener("focus", renderTagSuggest);
+document.addEventListener("click", e => {
+  if (!tagRes.contains(e.target) && e.target !== tagBox) tagRes.style.display = "none";
+});
+$("ioImport").addEventListener("click", () => {
+  const names = parseDrunkPayload($("ioArea").value);
+  if (names) applyDrunkPayload(names);
+  else alert("内容を解釈できませんでした。JSONまたは1行1銘柄のテキストを貼り付けてください。");
+});
+
+/* ---------- 検索 ---------- */
+const sb = $("searchBox"), sr = $("searchResults");
+sb.addEventListener("input", renderSearch);
+sb.addEventListener("focus", renderSearch);
+document.addEventListener("click", e => {
+  if (!sr.contains(e.target) && e.target !== sb) sr.style.display = "none";
+});
+function renderSearch() {
+  const q = sb.value.trim();
+  sr.textContent = "";
+  if (!q) { sr.style.display = "none"; return; }
+  const hits = pts().filter(p => cfg().searchText(p).includes(q)).slice(0, 12);
+  if (!hits.length) {
+    const d = document.createElement("div"); d.className = "row hint"; d.textContent = "該当なし";
+    sr.appendChild(d); sr.style.display = "block"; return;
+  }
+  hits.forEach(p => {
+    const row = document.createElement("div"); row.className = "row";
+    const nm = document.createElement("span"); nm.className = "nm";
+    const b = document.createElement("span"); b.className = "b"; b.textContent = cfg().label(p);
+    const s = document.createElement("span"); s.className = "s"; s.textContent = " " + cfg().sub(p);
+    nm.appendChild(b); nm.appendChild(s);
+    const bt1 = document.createElement("button"); bt1.type = "button"; bt1.textContent = "地図で選択";
+    bt1.addEventListener("click", ev => { ev.stopPropagation(); select(p.id); sr.style.display = "none"; });
+    const bt2 = document.createElement("button"); bt2.type = "button";
+    bt2.textContent = isDrunk(p) ? "✓ 飲んだ" : "飲んだに追加";
+    bt2.addEventListener("click", ev => { ev.stopPropagation(); toggleDrunk(p); renderSearch(); });
+    row.appendChild(nm); row.appendChild(bt1); row.appendChild(bt2);
+    row.addEventListener("click", () => { select(p.id); sr.style.display = "none"; });
+    sr.appendChild(row);
+  });
+  sr.style.display = "block";
+}
+
+/* ---------- 表ビュー ---------- */
+function renderTable() {
+  const tv = $("tableView");
+  tv.style.display = state.tableOpen ? "" : "none";
+  if (!state.tableOpen) return;
+  tv.textContent = "";
+  const labels = meta().feature_labels;
+  const p = state.selId != null ? byId(state.selId) : null;
+  const rows = p ? [[0, p], ...similar(p, 10)] : pts().filter(inRegion).map(q => [null, q]);
+  const capNote = !p && rows.length > 200 ? rows.splice(200) : null;
+  const h = document.createElement("div");
+  h.style.cssText = "font-size:12px;color:var(--text-secondary);margin-bottom:6px";
+  h.textContent = p ? `選択中「${cfg().label(p)}」と近い銘柄（${$("simTargetNote").textContent}）` : `${regionLabel()}の銘柄一覧`;
+  tv.appendChild(h);
+  const table = document.createElement("table");
+  const thead = document.createElement("thead"); const trh = document.createElement("tr");
+  const cols = ["銘柄", "蔵元", "都道府県", "分類"];
+  for (const c of cols) { const th = document.createElement("th"); th.textContent = c; trh.appendChild(th); }
+  for (const a of axisKeys()) { const th = document.createElement("th"); th.className = "num"; th.textContent = labels[a]; trh.appendChild(th); }
+  const thd = document.createElement("th"); thd.className = "num"; thd.textContent = p ? "距離" : ""; trh.appendChild(thd);
+  thead.appendChild(trh); table.appendChild(thead);
+  const tb = document.createElement("tbody");
+  rows.forEach(([d, q]) => {
+    const tr = document.createElement("tr");
+    const marks = [];
+    if (q === p) marks.push("選択中");
+    if (inRegion(q)) marks.push(regionLabel());
+    if (isFamous(q)) marks.push(`人気${q.rank}位`);
+    if (isDrunk(q)) marks.push("飲んだ");
+    const cells = [cfg().label(q), q.brewer, q.pref, marks.join("・")];
+    for (const c of cells) { const td = document.createElement("td"); td.textContent = c; tr.appendChild(td); }
+    for (const a of axisKeys()) {
+      const td = document.createElement("td"); td.className = "num";
+      td.textContent = q.raw[a] == null ? "—" : String(q.raw[a]);
+      tr.appendChild(td);
+    }
+    const td = document.createElement("td"); td.className = "num";
+    td.textContent = d == null || q === p ? "" : d.toFixed(2);
+    tr.appendChild(td);
+    tb.appendChild(tr);
+  });
+  table.appendChild(tb); tv.appendChild(table);
+  if (capNote) {
+    const n = document.createElement("p"); n.className = "hint";
+    n.textContent = `※ 表は200件まで表示（残り ${capNote.length} 件）`;
+    tv.appendChild(n);
+  }
+}
+$("tableToggle").addEventListener("click", () => {
+  state.tableOpen = !state.tableOpen;
+  $("tableToggle").textContent = state.tableOpen ? "表を閉じる" : "表で見る";
+  renderTable();
+});
+
+/* ---------- フィルタ ---------- */
+function populatePrefSel() {
+  const sel = $("prefSel");
+  sel.textContent = "";
+  const optN = document.createElement("option"); optN.value = ""; optN.textContent = "なし";
+  sel.appendChild(optN);
+  const prefs = new Set(pts().map(p => p.pref));
+  for (const pf of PREF_ORDER) {
+    if (!prefs.has(pf)) continue;
+    const o = document.createElement("option"); o.value = pf; o.textContent = pf;
+    sel.appendChild(o);
+  }
+  if (state.region.pref && !prefs.has(state.region.pref)) state.region = { pref: "", reg: "all" };
+  sel.value = state.region.pref;
+  populateRegionSel();
+}
+function populateRegionSel() {
+  const sel = $("regionSel");
+  sel.textContent = "";
+  const pref = state.region.pref;
+  if (!pref) {
+    const o = document.createElement("option"); o.value = "all"; o.textContent = "—";
+    sel.appendChild(o); sel.value = "all"; sel.disabled = true;
+    return;
+  }
+  sel.disabled = false;
+  const inPref = pts().filter(p => p.pref === pref);
+  const regs = [...new Set(inPref.map(p => p.reg).filter(Boolean))];
+  // 定義順（REGION_ORDER）に並べる
+  const orderMap = REGION_ORDER[pref] || [];
+  regs.sort((a, b) => {
+    const ia = orderMap.indexOf(a), ib = orderMap.indexOf(b);
+    return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+  });
+  const optA = document.createElement("option"); optA.value = "all";
+  optA.textContent = `全域（${inPref.length}）`;
+  sel.appendChild(optA);
+  for (const rg of regs) {
+    const n = inPref.filter(p => p.reg === rg).length;
+    const o = document.createElement("option"); o.value = rg; o.textContent = `${rg}（${n}）`;
+    sel.appendChild(o);
+  }
+  const nUnk = inPref.filter(p => p.reg == null).length;
+  if (nUnk > 0) {
+    const o = document.createElement("option"); o.value = "unknown";
+    o.textContent = `市町村未特定（${nUnk}）`;
+    sel.appendChild(o);
+  }
+  if (![...sel.options].some(o => o.value === state.region.reg)) state.region.reg = "all";
+  sel.value = state.region.reg;
+}
+$("dsSel").addEventListener("change", e => {
+  state.ds = e.target.value;
+  state.selId = null; state.cmpId = null; state.virtual = false;
+  state.activeCluster = null; state.tagFilter = []; tagCounts = null;
+  state.view = { k: 1, tx: 0, ty: 0 };
+  initForDataset();
+});
+$("mapViewSel").addEventListener("change", e => {
+  state.mapView = e.target.value;
+  state.view = { k: 1, tx: 0, ty: 0 };
+  buildMap();
+  $("mapTitle").textContent = mapTitleText();
+});
+$("colorModeSel").addEventListener("change", e => {
+  state.colorMode = e.target.value;
+  restyleDots();
+});
+$("prefSel").addEventListener("change", e => {
+  state.region = { pref: e.target.value, reg: "all" };
+  populateRegionSel();
+  restyleDots(); renderSelKeepCmp(); renderRegionPanel(); renderTable();
+});
+$("regionSel").addEventListener("change", e => {
+  state.region.reg = e.target.value;
+  restyleDots(); renderSelKeepCmp(); renderRegionPanel(); renderTable();
+});
+$("targetSel").addEventListener("change", e => {
+  state.target = e.target.value;
+  renderSelKeepCmp(); renderTable();
+});
+$("themeToggle").addEventListener("click", () => {
+  const cur = document.documentElement.dataset.theme ||
+    (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  document.documentElement.dataset.theme = cur === "dark" ? "light" : "dark";
+  if (state.colorMode !== "std") restyleDots();  // ランプ・7色をテーマに合わせ再計算
+});
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
+  if (state.colorMode !== "std") restyleDots();
+});
+
+/* ---------- 初期化 ---------- */
+function mapTitleText() {
+  if (state.mapView === "geo") {
+    const ng = pts().filter(p => p.geo).length;
+    return `蔵マップ — 蔵元所在地（市区町村代表点）に ${ng} 銘柄をプロット。海岸線: 地球地図日本（国土地理院）を簡略化`;
+  }
+  return cfg().title(pts().length);
+}
+function initForDataset() {
+  const m = meta();
+  $("mapTitle").textContent = mapTitleText();
+  // タグ絞り込みはさけのわ（タグあり）のみ
+  const hasTags = pts().some(p => p.tags && p.tags.length);
+  $("tagWrap").closest("label").style.display = hasTags ? "" : "none";
+  tagCounts = null;
+  renderTagChips();
+  populatePrefSel();
+  buildMap();
+  renderSel();
+  renderRegionPanel();
+  renderTable();
+  const foot = $("footNote");
+  foot.textContent = "";
+  const p1 = document.createElement("p");
+  if (state.ds === "sakenowa") {
+    p1.textContent = `マップはさけのわのフレーバー6軸（華やか・芳醇・重厚・穏やか・ドライ・軽快）を標準化しUMAPで2次元に射影したものです。近接＝味の傾向が似ていることを表しますが、2次元射影は歪みを含むため、類似リストは射影前の6次元空間での距離で計算しています。軸自体に単位・意味はありません。銘柄数 ${m.n_with_flavor}（フレーバーデータのある銘柄のみ／全${m.n_brands_total}銘柄中）、人気ランキングは${String(m.ranking_month).slice(0,4)}年${String(m.ranking_month).slice(4)}月版。データ取得日 ${m.retrieved}。`;
+  } else {
+    p1.textContent = `マップは公開スペック（日本酒度・酸度・アミノ酸度・アルコール度数・精米歩合）を標準化しUMAPで2次元に射影したものです。類似リストは射影前の5次元空間での距離で計算しています。商品数 ${m.n_used}（出典${m.n_total_source}件中、スペック欠損の多い${m.n_dropped}件を除外・残る欠損は中央値補完）。出典データは${m.source_date}時点のもので、「有名銘柄」はさけのわ人気Top100と銘柄名が一致した商品です。`;
+  }
+  foot.appendChild(p1);
+  const p2 = document.createElement("p");
+  const a1 = document.createElement("a"); a1.href = "https://sakenowa.com"; a1.target = "_blank"; a1.rel = "noopener";
+  a1.textContent = "さけのわ";
+  const a2 = document.createElement("a"); a2.href = "https://github.com/yoichi1484/sake_dataset"; a2.target = "_blank"; a2.rel = "noopener";
+  a2.textContent = "sake_dataset (MIT)";
+  p2.appendChild(document.createTextNode("データ提供: "));
+  p2.appendChild(a1);
+  p2.appendChild(document.createTextNode("　／　独立データ出典: "));
+  p2.appendChild(a2);
+  p2.appendChild(document.createTextNode("　／　県内地域は各県の一般的な地方区分（例: 新潟=上越/中越/下越/佐渡、兵庫=灘五郷/播磨/…、京都=丹後/中丹/伏見/…）に基づき、蔵元所在地の市区町村から割り当て。所在地の出典: Code for SAKE 酒蔵オープンデータ (MIT)・sake_dataset (MIT)・各蔵元公式サイト等のWeb確認。座標は "));
+  const a4 = document.createElement("a"); a4.href = "https://github.com/code4fukui/localgovjp"; a4.target = "_blank"; a4.rel = "noopener";
+  a4.textContent = "localgovjp (CC0)";
+  p2.appendChild(a4);
+  p2.appendChild(document.createTextNode(" の市区町村代表点。"));
+  foot.appendChild(p2);
+
+  // 国土地理院コンテンツ利用規約（PDL1.0）に基づく出典表示。
+  // 「出典の記載」と「編集・加工を行った旨の記載」を別々に示すことが求められている。
+  const p3 = document.createElement("p");
+  const g1 = document.createElement("a");
+  g1.href = "https://www.gsi.go.jp/kankyochiri/gm_jpn.html"; g1.target = "_blank"; g1.rel = "noopener";
+  g1.textContent = "国土地理院ウェブサイト";
+  p3.appendChild(document.createTextNode("出典：")); p3.appendChild(g1);
+  p3.appendChild(document.createTextNode("（地球地図日本）　／　「地球地図日本」（国土地理院）をもとに本アプリ作成者が海岸線を簡略化して作成。"));
+  foot.appendChild(p3);
+
+  const p4 = document.createElement("p");
+  const t1 = document.createElement("a");
+  t1.href = "https://github.com/latterl/sake-flavor-map/blob/main/THIRD_PARTY_NOTICES.txt"; t1.target = "_blank"; t1.rel = "noopener";
+  t1.textContent = "第三者ライセンス表示（THIRD_PARTY_NOTICES）";
+  const t2 = document.createElement("a");
+  t2.href = "https://github.com/latterl/sake-flavor-map/blob/main/LICENSE"; t2.target = "_blank"; t2.rel = "noopener";
+  t2.textContent = "本アプリのライセンス（MIT）";
+  p4.appendChild(t1);
+  p4.appendChild(document.createTextNode("　／　"));
+  p4.appendChild(t2);
+  p4.appendChild(document.createTextNode("　／　商品名・スペック・価格は各蔵元公式サイトの掲載時点（2026年8月）の情報です。価格は変動するため、購入時は各商品の出典リンク先でご確認ください。"));
+  foot.appendChild(p4);
+  const cr = $("creditLine");
+  cr.textContent = "";
+  const a3 = document.createElement("a"); a3.href = "https://sakenowa.com"; a3.target = "_blank"; a3.rel = "noopener";
+  a3.textContent = "データ提供:さけのわ";
+  cr.appendChild(a3);
+}
+loadLocal();
+initForDataset();
+refreshAfterDrunkChange();
+window.addEventListener("beforeunload", flushMemo);
+</script>
+</body>
+</html>

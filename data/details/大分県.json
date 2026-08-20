@@ -1,0 +1,472 @@
+{
+ "薫長": {
+  "brewer": "クンチョウ酒造",
+  "official_url": "http://www.kuncho.com/",
+  "brewery_summary": "クンチョウ酒造は大分県日田市の酒蔵で、日本酒「薫長」を醸造している。オンラインショップでは純米大吟醸から本醸造まで幅広い規格の商品を展開している。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "薫長 純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 1980,
+    "price_note": "税込",
+    "source": "https://www.kuncho.com/shopbrand/all_items/",
+    "seasonal": false
+   },
+   {
+    "name": "薫長 大吟醸",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 1760,
+    "price_note": "税込",
+    "source": "https://www.kuncho.com/shopbrand/all_items/",
+    "seasonal": false
+   },
+   {
+    "name": "薫長 純米酒",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1500,
+    "price_note": "税込",
+    "source": "https://www.kuncho.com/shopbrand/all_items/",
+    "seasonal": false
+   },
+   {
+    "name": "薫長 本醸造",
+    "spec": "本醸造",
+    "volume": "720ml",
+    "price": 1500,
+    "price_note": "税込",
+    "source": "https://www.kuncho.com/shopbrand/all_items/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.kuncho.com/",
+   "https://www.kuncho.com/shopbrand/all_items/",
+   "https://www.kuncho.com/shopdetail/000000000114/all_items/page1/order/"
+  ]
+ },
+ "和香牡丹": {
+  "brewer": "三和酒類",
+  "official_url": "http://www.iichiko.co.jp/",
+  "brewery_summary": "三和酒類は大分県宇佐市の酒造メーカーで、麦焼酎「いいちこ」で知られるほか、日本酒ブランド「和香牡丹」も製造している。公式サイトの日本酒カテゴリーで純米酒や本醸造などの商品を紹介している。",
+  "blurb": "米、米麹、醸造アルコールを原料としてじっくり仕込んだ、華やかな香味とうまみのあるまろやかな酒。",
+  "rice": [],
+  "products": [
+   {
+    "name": "和香牡丹 福貴野",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1320,
+    "price_note": "税込",
+    "source": "https://www.iichiko.co.jp/products/18-107.html",
+    "seasonal": false
+   },
+   {
+    "name": "本醸造 和香牡丹",
+    "spec": "本醸造",
+    "volume": "720ml",
+    "price": 1048,
+    "price_note": "税込",
+    "source": "https://www.iichiko.co.jp/products/18-51.html",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.iichiko.co.jp/",
+   "https://www.iichiko.co.jp/products/18.html",
+   "https://www.iichiko.co.jp/products/18-107.html",
+   "https://www.iichiko.co.jp/products/18-51.html"
+  ]
+ },
+ "角の井": {
+  "brewer": "井上酒造",
+  "official_url": "https://www.kakunoi.com/",
+  "brewery_summary": "大分県日田市にある酒蔵で、日本酒「角の井」と本格焼酎を醸造する。",
+  "blurb": "地元大分で親しまれる定番銘柄で、本醸造から純米大吟醸まで幅広いラインナップを持つ。",
+  "rice": [
+   "山田錦",
+   "夢一献"
+  ],
+  "products": [
+   {
+    "name": "上撰 角の井",
+    "spec": "清酒（本醸造）",
+    "volume": "900ml",
+    "price": 1078,
+    "price_note": "税込",
+    "source": "https://www.kakunoi.com/lineup/index01.html",
+    "seasonal": false
+   },
+   {
+    "name": "角の井 純米大吟醸",
+    "spec": "純米大吟醸（精米45%）",
+    "volume": "720ml",
+    "price": 3850,
+    "price_note": "税込",
+    "source": "https://www.kakunoi.com/lineup/index01.html",
+    "seasonal": false
+   },
+   {
+    "name": "角の井 純米吟醸",
+    "spec": "純米吟醸（精米50%）",
+    "volume": "720ml",
+    "price": 1760,
+    "price_note": "税込",
+    "source": "https://www.kakunoi.com/lineup/index01.html",
+    "seasonal": false
+   },
+   {
+    "name": "角の井 純米酒",
+    "spec": "純米酒（精米70%）",
+    "volume": "720ml",
+    "price": 1430,
+    "price_note": "税込",
+    "source": "https://www.kakunoi.com/lineup/index01.html",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.kakunoi.com/",
+   "https://www.kakunoi.com/lineup/index01.html"
+  ]
+ },
+ "八鹿": {
+  "brewer": "八鹿酒造",
+  "official_url": "http://www.yatsushika.com/",
+  "brewery_summary": "八鹿酒造は大分県玖珠郡九重町にある老舗酒造メーカーで、百四十余年の歴史を持つ。「酒づくりは、人づくり」を理念に掲げ、日本酒「八鹿」のほか麦焼酎なども製造している。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "八鹿純米大吟醸(金)",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://yatsushika.com/catalog/sake/",
+    "seasonal": false
+   },
+   {
+    "name": "八鹿純米大吟醸(金)五年古酒",
+    "spec": "純米大吟醸(古酒)",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://yatsushika.com/catalog/sake/",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸 源",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://yatsushika.com/catalog/sake/",
+    "seasonal": false
+   },
+   {
+    "name": "八鹿大吟醸(銀)",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://yatsushika.com/catalog/sake/",
+    "seasonal": false
+   },
+   {
+    "name": "八鹿大吟醸(銀)三年古酒",
+    "spec": "大吟醸(古酒)",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://yatsushika.com/catalog/sake/",
+    "seasonal": false
+   },
+   {
+    "name": "八鹿特別純米(緑)",
+    "spec": "特別純米",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://yatsushika.com/catalog/sake/",
+    "seasonal": false
+   },
+   {
+    "name": "八鹿本醸造辛口(青)",
+    "spec": "本醸造",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://yatsushika.com/catalog/sake/",
+    "seasonal": false
+   },
+   {
+    "name": "八鹿吟醸(桃)",
+    "spec": "吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://yatsushika.com/catalog/sake/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.yatsushika.com/",
+   "https://yatsushika.com/catalog/sake/",
+   "https://www.yatsushika-club.com/"
+  ]
+ },
+ "花笑み": {
+  "brewer": "大地酒造",
+  "official_url": "https://oochi.saiki.jp/",
+  "brewery_summary": "大分県佐伯市にある酒蔵で、銘柄「花笑み」を醸す。",
+  "blurb": "純米酒から純米大吟醸まで、辛口を中心に幅広いグレードを揃える銘柄。",
+  "rice": [
+   "山田錦",
+   "美山錦"
+  ],
+  "products": [
+   {
+    "name": "花笑み 純米80",
+    "spec": "純米酒（精米80%）",
+    "volume": "720ml",
+    "price": 1400,
+    "price_note": "税抜",
+    "source": "https://oochi.saiki.jp/shop/index.html",
+    "seasonal": false
+   },
+   {
+    "name": "花笑み 純米酒",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1500,
+    "price_note": "税抜",
+    "source": "https://oochi.saiki.jp/shop/index.html",
+    "seasonal": false
+   },
+   {
+    "name": "花笑み 特別純米",
+    "spec": "特別純米酒",
+    "volume": "720ml",
+    "price": 1800,
+    "price_note": "税抜",
+    "source": "https://oochi.saiki.jp/shop/index.html",
+    "seasonal": false
+   },
+   {
+    "name": "花笑み 純米吟醸",
+    "spec": "純米吟醸酒",
+    "volume": "720ml",
+    "price": 2000,
+    "price_note": "税抜",
+    "source": "https://oochi.saiki.jp/shop/index.html",
+    "seasonal": false
+   },
+   {
+    "name": "花笑み 純米大吟醸",
+    "spec": "純米大吟醸酒",
+    "volume": "720ml",
+    "price": 2700,
+    "price_note": "税抜",
+    "source": "https://oochi.saiki.jp/shop/index.html",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://oochi.saiki.jp/",
+   "https://oochi.saiki.jp/shop/index.html"
+  ]
+ },
+ "豊潤": {
+  "brewer": "小松酒造場",
+  "official_url": "http://koma2.main.jp/",
+  "brewery_summary": "小松酒造場は大分県宇佐市の酒蔵で、日本酒「豊潤」を醸造している。",
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": []
+ },
+ "鷹来屋": {
+  "brewer": "浜嶋酒造",
+  "official_url": "https://www.takakiya.co.jp/",
+  "brewery_summary": "明治22年創業、大分県豊後大野市の酒蔵。蔵元自ら米を育て鷹来屋を醸す。",
+  "blurb": "自家栽培米も使う手造りの地酒。",
+  "rice": [
+   "山田錦",
+   "雄町",
+   "五百万石"
+  ],
+  "products": [
+   {
+    "name": "鷹来屋 純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.takakiya.co.jp/product.php",
+    "seasonal": false
+   },
+   {
+    "name": "鷹来屋 大吟醸",
+    "spec": "大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.takakiya.co.jp/product.php",
+    "seasonal": false
+   },
+   {
+    "name": "鷹来屋 純米吟醸 山田錦",
+    "spec": "純米吟醸 山田錦",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.takakiya.co.jp/product.php",
+    "seasonal": false
+   },
+   {
+    "name": "鷹来屋 純米吟醸 雄町",
+    "spec": "純米吟醸 雄町",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.takakiya.co.jp/product.php",
+    "seasonal": false
+   },
+   {
+    "name": "鷹来屋 純米吟醸 五百万石",
+    "spec": "純米吟醸 五百万石",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.takakiya.co.jp/product.php",
+    "seasonal": false
+   },
+   {
+    "name": "鷹来屋 特別純米酒",
+    "spec": "特別純米",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.takakiya.co.jp/product.php",
+    "seasonal": false
+   },
+   {
+    "name": "鷹来屋 辛口 特別純米酒",
+    "spec": "特別純米 辛口",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.takakiya.co.jp/product.php",
+    "seasonal": false
+   },
+   {
+    "name": "鷹来屋 特別本醸造",
+    "spec": "特別本醸造 自家栽培山田錦",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.takakiya.co.jp/product.php",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.takakiya.co.jp/product.php"
+  ]
+ },
+ "西の関": {
+  "brewer": "萱島酒造",
+  "official_url": "http://www.nishinoseki.com/",
+  "brewery_summary": "萱島酒造は明治6年創業の日本酒醸造元で、大分県国東市に蔵を構える。「甘い辛いを超越した日本酒本来の旨さ」を理念に、日本酒「西の関」を製造している。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "西の関大吟醸",
+    "spec": "大吟醸",
+    "volume": null,
+    "price": 3400,
+    "price_note": "税抜",
+    "source": "http://www.nishinoseki.com/",
+    "seasonal": false
+   },
+   {
+    "name": "西の関本醸造",
+    "spec": "本醸造",
+    "volume": null,
+    "price": 4100,
+    "price_note": "税抜",
+    "source": "http://www.nishinoseki.com/",
+    "seasonal": false
+   },
+   {
+    "name": "純米吟醸 美吟",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.nishinoseki.com/product/",
+    "seasonal": false
+   },
+   {
+    "name": "手造り純米酒",
+    "spec": "純米酒",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.nishinoseki.com/product/",
+    "seasonal": false
+   },
+   {
+    "name": "手造り本醸造",
+    "spec": "本醸造",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.nishinoseki.com/product/",
+    "seasonal": false
+   },
+   {
+    "name": "上撰",
+    "spec": "普通酒",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.nishinoseki.com/product/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.nishinoseki.com/",
+   "https://www.nishinoseki.com/product/",
+   "https://nishinoseki.shop-pro.jp/"
+  ]
+ },
+ "ちえびじん": {
+  "brewer": "中野酒造",
+  "official_url": "https://chiebijin.com/",
+  "brewery_summary": "杵築市の1874年創業の蔵元。「智恵美人」と「ちえびじん」を醸す。",
+  "blurb": "KuraMaster最高賞受賞歴を持つ、地元杵築産米で醸すフルーティーな銘柄。",
+  "rice": [
+   "ヒノヒカリ"
+  ],
+  "products": [
+   {
+    "name": "ちえびじん 純米酒",
+    "spec": "純米（ヒノヒカリ70%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://chiebijin.com/category/sake/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://chiebijin.com/category/sake/"
+  ]
+ }
+}

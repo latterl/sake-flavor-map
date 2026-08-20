@@ -1,0 +1,1191 @@
+{
+ "山丹正宗": {
+  "brewer": "八木酒造部",
+  "official_url": "https://www.yamatan.jp/",
+  "brewery_summary": "1831年創業、愛媛県今治市の酒蔵。越智杜氏伝承の技で山丹正宗を醸す。",
+  "blurb": "今治の地酒。松山三井使いの定番純米が看板。",
+  "rice": [
+   "松山三井",
+   "山田錦",
+   "しずく媛"
+  ],
+  "products": [
+   {
+    "name": "山丹正宗 雫取り純米大吟醸",
+    "spec": "純米大吟醸 雫取り原酒",
+    "volume": "720ml",
+    "price": 7260,
+    "price_note": "税込",
+    "source": "https://www.yamatan.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "山丹正宗 大吟醸酒",
+    "spec": "大吟醸 山田錦 精米歩合35%",
+    "volume": "720ml",
+    "price": 4180,
+    "price_note": "税込",
+    "source": "https://www.yamatan.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "山丹正宗 刀 純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 3300,
+    "price_note": "税込",
+    "source": "https://www.yamatan.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "山丹正宗 純米大吟醸 松山三井",
+    "spec": "純米大吟醸 松山三井",
+    "volume": "720ml",
+    "price": 2750,
+    "price_note": "税込",
+    "source": "https://www.yamatan.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "山丹正宗 しずく媛 純米吟醸",
+    "spec": "純米吟醸 しずく媛 愛媛県酵母",
+    "volume": "720ml",
+    "price": 1870,
+    "price_note": "税込",
+    "source": "https://www.yamatan.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "山丹正宗 MINAMOTO",
+    "spec": "純米酒 辛口 水もと製法",
+    "volume": "720ml",
+    "price": 1815,
+    "price_note": "税込",
+    "source": "https://www.yamatan.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "山丹正宗 吟醸酒",
+    "spec": "吟醸 淡麗辛口",
+    "volume": "720ml",
+    "price": 1705,
+    "price_note": "税込",
+    "source": "https://www.yamatan.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "山丹正宗 純米酒 松山三井",
+    "spec": "純米酒 松山三井",
+    "volume": "720ml",
+    "price": 1650,
+    "price_note": "税込",
+    "source": "https://www.yamatan.jp/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.yamatan.jp/"
+  ]
+ },
+ "初雪盃": {
+  "brewer": "協和酒造",
+  "official_url": "https://www.hatsuyukihai.jp/",
+  "brewery_summary": "協和酒造は愛媛県伊予郡砥部町に蔵を構え、量産せず品質を重視した小仕込みの酒造りを大切にしている。銘酒「初雪盃」は米の旨みを感じられる「味わうための酒」として、飲みあきしないまろやかな口当たりが特徴である。",
+  "blurb": "飲みあきのしない、まろやかな口当たりが特徴",
+  "rice": [],
+  "products": [
+   {
+    "name": "35％純米大吟醸（桐箱）",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 6600,
+    "price_note": "税込",
+    "source": "https://hatsuyukihai.theshop.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "35％大吟醸（桐箱）",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 5500,
+    "price_note": "税込",
+    "source": "https://hatsuyukihai.theshop.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "40％純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 3630,
+    "price_note": "税込",
+    "source": "https://hatsuyukihai.theshop.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "40％大吟醸",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 3500,
+    "price_note": "税込",
+    "source": "https://hatsuyukihai.theshop.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "50％純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 2860,
+    "price_note": "税込",
+    "source": "https://hatsuyukihai.theshop.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "HATSUYUKIHAI-MON 純米吟醸",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 2200,
+    "price_note": "税込",
+    "source": "https://hatsuyukihai.theshop.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "特別純米酒",
+    "spec": "特別純米酒",
+    "volume": "720ml",
+    "price": 1760,
+    "price_note": "税込",
+    "source": "https://hatsuyukihai.theshop.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "HATSUYUKIHAI-MON 純米",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1650,
+    "price_note": "税込",
+    "source": "https://hatsuyukihai.theshop.jp/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.hatsuyukihai.jp/sake",
+   "https://hatsuyukihai.theshop.jp/"
+  ]
+ },
+ "伊予賀儀屋": {
+  "brewer": "成龍酒造",
+  "official_url": "https://www.seiryosyuzo.com/",
+  "brewery_summary": "成龍酒造は1877年（明治10年）創業、愛媛県西条市に蔵を構える酒蔵である。「酒は夢と心で造るもの」を理念に、食事との相性を追求した定番銘柄「伊予賀儀屋」を醸している。",
+  "blurb": "食事との相性を追求した定番銘柄",
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "無濾過 味口本醸造 青ラベル",
+    "spec": "本醸造",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.seiryosyuzo.com/brands/iyokagiya/",
+    "seasonal": false
+   },
+   {
+    "name": "無濾過 純米 赤ラベル",
+    "spec": "純米酒",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.seiryosyuzo.com/brands/iyokagiya/",
+    "seasonal": false
+   },
+   {
+    "name": "無濾過 純米 MASHIROラベル",
+    "spec": "純米酒",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.seiryosyuzo.com/brands/iyokagiya/",
+    "seasonal": false
+   },
+   {
+    "name": "無濾過 純米吟醸 黒ラベル",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.seiryosyuzo.com/brands/iyokagiya/",
+    "seasonal": false
+   },
+   {
+    "name": "無濾過 純米吟醸 愛媛山田錦 漆黒ラベル",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.seiryosyuzo.com/brands/iyokagiya/",
+    "seasonal": false
+   },
+   {
+    "name": "無濾過 純米大吟醸 グリーンラベル",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.seiryosyuzo.com/brands/iyokagiya/",
+    "seasonal": false
+   },
+   {
+    "name": "無濾過 大吟醸 ホワイトラベル",
+    "spec": "大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.seiryosyuzo.com/brands/iyokagiya/",
+    "seasonal": false
+   },
+   {
+    "name": "無濾過 大吟醸 VINTAGE",
+    "spec": "大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.seiryosyuzo.com/brands/iyokagiya/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.seiryosyuzo.com/brands/iyokagiya/"
+  ]
+ },
+ "酒仙栄光": {
+  "brewer": "栄光酒造",
+  "official_url": "https://eikoo.com/",
+  "brewery_summary": "栄光酒造は愛媛県松山市に蔵を構え、120年以上続く歴史を持つ酒蔵である。新酒鑑評会金賞などの受賞歴があり、大吟醸「酒仙栄光」をはじめとする日本酒を製造している。",
+  "blurb": "大粒の山田錦を35％にまで磨き上げ、米の洗いから麹造り、搾り作業まで手造りで丁寧に醸し上げた大吟醸酒",
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "純米大吟醸 夢月夜",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 2640,
+    "price_note": "税込",
+    "source": "https://eikoo.com/shop/products/detail/59",
+    "seasonal": false
+   },
+   {
+    "name": "純米酒 極辛口",
+    "spec": "純米酒",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://eikoo.com/shop/products/detail/29",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸 ささおり（生酒）",
+    "spec": "純米大吟醸生酒",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://eikoo.com/shop/products/detail/25",
+    "seasonal": false
+   },
+   {
+    "name": "純米吟醸活性にごり酒 火の口",
+    "spec": "純米吟醸にごり酒",
+    "volume": null,
+    "price": 1980,
+    "price_note": "税込",
+    "source": "https://eikoo.com/shop/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://eikoo.com/products/",
+   "https://eikoo.com/shop/",
+   "https://eikoo.com/shop/products/detail/59"
+  ]
+ },
+ "桜うづまき": {
+  "brewer": "桜うづまき酒造",
+  "official_url": "https://sakurauzumaki.com/",
+  "brewery_summary": "愛媛県松山市にある明治4年（1871年）創業の酒蔵で、銘柄「桜うづまき」を醸す。高縄山の伏流水と主に県内（北条産）の米を用いる。",
+  "blurb": "看板の「凛然」シリーズを展開。農薬不使用の国産米を用いた純米系の酒を中心に醸す。",
+  "rice": [
+   "国産米"
+  ],
+  "products": [
+   {
+    "name": "凛然 純米大吟醸",
+    "spec": "純米大吟醸（精米歩合50%）",
+    "volume": "720ml",
+    "price": 3492,
+    "price_note": "税込",
+    "source": "https://sakurauzumaki.com/products/",
+    "seasonal": false
+   },
+   {
+    "name": "凛然 純米吟醸",
+    "spec": "純米吟醸（精米歩合60%）",
+    "volume": "720ml",
+    "price": 3025,
+    "price_note": "税込",
+    "source": "https://sakurauzumaki.com/products/",
+    "seasonal": false
+   },
+   {
+    "name": "凛然 純米",
+    "spec": "純米酒（精米歩合70%）",
+    "volume": "720ml",
+    "price": 2750,
+    "price_note": "税込",
+    "source": "https://sakurauzumaki.com/products/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://sakurauzumaki.com/",
+   "https://sakurauzumaki.com/products/",
+   "https://www.ehime-syuzou.com/kuramoto/12/"
+  ]
+ },
+ "梅錦": {
+  "brewer": "梅錦山川",
+  "official_url": "http://www.umenishiki.com/",
+  "brewery_summary": "梅錦山川は明治5年創業、愛媛県四国中央市に本社を置く酒蔵である。「ただひたすらに ただひたむきに うまい酒をつくる」を理念に、日本酒をはじめ焼酎・リキュール・ビールなど幅広いラインナップを製造している。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "梅錦 辛口",
+    "spec": null,
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.umenishiki.com/lineup",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.umenishiki.com/lineup"
+  ]
+ },
+ "日本心": {
+  "brewer": "武田酒造",
+  "official_url": "http://www.yamatogokoro.co.jp/",
+  "brewery_summary": "武田酒造は愛媛県西条市に蔵を構え、杜氏による手造りにこだわった日本酒造りを行う酒蔵である。「日本心」「媛一会」などの銘柄を通じて、造り手の個性を活かした酒を醸している。",
+  "blurb": "武士道にも通じる「日本心」として位置付けられている銘柄",
+  "rice": [
+   "山田錦",
+   "松山三井"
+  ],
+  "products": [
+   {
+    "name": "日本心 大吟醸",
+    "spec": "大吟醸",
+    "volume": null,
+    "price": 6930,
+    "price_note": "税込",
+    "source": "http://www.yamatogokoro.co.jp/item/yamatogokoro",
+    "seasonal": false
+   },
+   {
+    "name": "日本心 純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": 5500,
+    "price_note": "税込",
+    "source": "http://www.yamatogokoro.co.jp/item/yamatogokoro",
+    "seasonal": false
+   },
+   {
+    "name": "日本心 道 純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": 5940,
+    "price_note": "税込",
+    "source": "http://www.yamatogokoro.co.jp/item/yamatogokoro",
+    "seasonal": false
+   },
+   {
+    "name": "日本心 瑠璃 純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": 6600,
+    "price_note": "税込",
+    "source": "http://www.yamatogokoro.co.jp/item/yamatogokoro",
+    "seasonal": false
+   },
+   {
+    "name": "日本心 純米吟醸",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": 4510,
+    "price_note": "税込",
+    "source": "http://www.yamatogokoro.co.jp/item/yamatogokoro",
+    "seasonal": false
+   },
+   {
+    "name": "日本心 道 純米吟醸",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": 4950,
+    "price_note": "税込",
+    "source": "http://www.yamatogokoro.co.jp/item/yamatogokoro",
+    "seasonal": false
+   },
+   {
+    "name": "日本心 特別純米 蒲",
+    "spec": "特別純米",
+    "volume": null,
+    "price": 3300,
+    "price_note": "税込",
+    "source": "http://www.yamatogokoro.co.jp/item/yamatogokoro",
+    "seasonal": false
+   },
+   {
+    "name": "日本心 純米酒 蔵人",
+    "spec": "純米酒",
+    "volume": null,
+    "price": 3080,
+    "price_note": "税込",
+    "source": "http://www.yamatogokoro.co.jp/item/yamatogokoro",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.yamatogokoro.co.jp/item/yamatogokoro",
+   "http://www.yamatogokoro.co.jp/item/himeichie"
+  ]
+ },
+ "媛一会": {
+  "brewer": "武田酒造",
+  "official_url": "http://www.yamatogokoro.co.jp/",
+  "brewery_summary": "武田酒造は愛媛県西条市に蔵を構え、杜氏による手造りにこだわった日本酒造りを行う酒蔵である。「日本心」「媛一会」などの銘柄を通じて、造り手の個性を活かした酒を醸している。",
+  "blurb": "武田杜氏が中心となり立ち上げた新銘柄",
+  "rice": [
+   "吟風",
+   "五百万石"
+  ],
+  "products": [
+   {
+    "name": "媛一会 小槽搾り",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": 3740,
+    "price_note": "税込",
+    "source": "http://www.yamatogokoro.co.jp/item/himeichie",
+    "seasonal": false
+   },
+   {
+    "name": "媛一会 山廃仕込 無濾過生原酒",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": 3960,
+    "price_note": "税込",
+    "source": "http://www.yamatogokoro.co.jp/item/himeichie",
+    "seasonal": false
+   },
+   {
+    "name": "媛一会 円月 一度火入",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": 3850,
+    "price_note": "税込",
+    "source": "http://www.yamatogokoro.co.jp/item/himeichie",
+    "seasonal": false
+   },
+   {
+    "name": "媛一会 旨口",
+    "spec": "純米",
+    "volume": null,
+    "price": 3190,
+    "price_note": "税込",
+    "source": "http://www.yamatogokoro.co.jp/item/himeichie",
+    "seasonal": false
+   },
+   {
+    "name": "媛一会 九號 一度火入",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": 3740,
+    "price_note": "税込",
+    "source": "http://www.yamatogokoro.co.jp/item/himeichie",
+    "seasonal": false
+   },
+   {
+    "name": "媛一会 吟風 火入原酒",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": 3960,
+    "price_note": "税込",
+    "source": "http://www.yamatogokoro.co.jp/item/himeichie",
+    "seasonal": false
+   },
+   {
+    "name": "媛一会 五百万石 火入原酒",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": 3960,
+    "price_note": "税込",
+    "source": "http://www.yamatogokoro.co.jp/item/himeichie",
+    "seasonal": false
+   },
+   {
+    "name": "媛一会 田打ち",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": 4400,
+    "price_note": "税込",
+    "source": "http://www.yamatogokoro.co.jp/item/himeichie",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.yamatogokoro.co.jp/item/yamatogokoro",
+   "http://www.yamatogokoro.co.jp/item/himeichie"
+  ]
+ },
+ "石鎚": {
+  "brewer": "石鎚酒造",
+  "official_url": "https://www.ishizuchi.co.jp/",
+  "brewery_summary": "石鎚酒造は大正9年（1920年）創業、愛媛県西条市に蔵を構える酒蔵である。「食中に活きる酒造り」を理念に、石鎚山系の清冽な水を用いて純米酒・純米吟醸酒を中心とした日本酒「石鎚」を醸している。",
+  "blurb": "食中に活きる酒造りを理念とする",
+  "rice": [
+   "山田錦",
+   "雄町"
+  ],
+  "products": [
+   {
+    "name": "大吟醸 大雄峰",
+    "spec": "大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.ishizuchi.co.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸 石鎚正宗",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.ishizuchi.co.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸 さくらひめ",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.ishizuchi.co.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "純米吟醸 山田錦50",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.ishizuchi.co.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "純米吟醸 備前雄町50",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.ishizuchi.co.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "純米吟醸 プリンセスミチコ",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.ishizuchi.co.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "純米酒 山田錦",
+    "spec": "純米酒",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.ishizuchi.co.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "純米酒 雄町",
+    "spec": "純米酒",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.ishizuchi.co.jp/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.ishizuchi.co.jp/"
+  ]
+ },
+ "華姫桜": {
+  "brewer": "近藤酒造",
+  "official_url": "https://kondousyuzou.com/",
+  "brewery_summary": "近藤酒造は明治11年（1878年）創業、愛媛県新居浜市に蔵を構える酒蔵である。「平成の名水百選」に選ばれた「つづら淵」近くの地下110mから汲み上げる軟水と地元契約農家産の酒造米を用いて、新居浜唯一の地酒「華姫桜」を醸している。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "華姫桜 純米酒",
+    "spec": "純米酒",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://kondousyuzou.com/",
+    "seasonal": false
+   },
+   {
+    "name": "華姫桜 極み辛口",
+    "spec": null,
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://kondousyuzou.com/",
+    "seasonal": false
+   },
+   {
+    "name": "華姫桜 純米大吟醸無濾過原酒（桐箱入）",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://kondousyuzou.com/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://kondousyuzou.com/"
+  ]
+ },
+ "京ひな": {
+  "brewer": "酒六酒造",
+  "official_url": "https://sakaroku-syuzo.co.jp/",
+  "brewery_summary": "酒六酒造は大正9年、8つの蔵元が合併して誕生した、愛媛県喜多郡内子町に蔵を構える酒蔵である。木蝋で栄えた歴史ある内子町の地で、清酒「京ひな」を主力銘柄として醸造している。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "京ひな 吹毛剣 自然しぼり 大吟醸 生酒",
+    "spec": "大吟醸生酒",
+    "volume": null,
+    "price": 7150,
+    "price_note": "税込",
+    "source": "https://shop.sakaroku-syuzo.co.jp/c-item-detail?ic=140000",
+    "seasonal": false
+   },
+   {
+    "name": "京ひな 七星剣 純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": 7150,
+    "price_note": "税込",
+    "source": "https://shop.sakaroku-syuzo.co.jp/c-item-detail?ic=240000",
+    "seasonal": false
+   },
+   {
+    "name": "京ひな 吹毛剣 大吟醸",
+    "spec": "大吟醸",
+    "volume": null,
+    "price": 4180,
+    "price_note": "税込",
+    "source": "https://shop.sakaroku-syuzo.co.jp/c-item-detail?ic=140003",
+    "seasonal": false
+   },
+   {
+    "name": "京ひな 五億年 純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": 4180,
+    "price_note": "税込",
+    "source": "https://shop.sakaroku-syuzo.co.jp/c-item-detail?ic=240011",
+    "seasonal": false
+   },
+   {
+    "name": "京ひな 獅子林 純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": 2530,
+    "price_note": "税込",
+    "source": "https://shop.sakaroku-syuzo.co.jp/c-item-detail?ic=250030",
+    "seasonal": false
+   },
+   {
+    "name": "京ひな 祈り千年 純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": 2420,
+    "price_note": "税込",
+    "source": "https://shop.sakaroku-syuzo.co.jp/c-item-detail?ic=250041",
+    "seasonal": false
+   },
+   {
+    "name": "京ひな 一刀両断 純米大吟醸辛口",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": 2420,
+    "price_note": "税込",
+    "source": "https://shop.sakaroku-syuzo.co.jp/c-item-detail?ic=250000",
+    "seasonal": false
+   },
+   {
+    "name": "京ひな 隠し剣 純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": 2200,
+    "price_note": "税込",
+    "source": "https://shop.sakaroku-syuzo.co.jp/c-item-detail?ic=250020",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://sakaroku-syuzo.co.jp/",
+   "https://shop.sakaroku-syuzo.co.jp/"
+  ]
+ },
+ "雪雀": {
+  "brewer": "雪雀酒造",
+  "official_url": "https://yukisuzume.com/",
+  "brewery_summary": "愛媛県松山市に所在し、瀬戸内の穏やかな気候の中で厳選した原材料を使い、伝統的な日本酒を醸造している酒蔵である。杜氏の技による純米大吟醸「雪雀伝説」をはじめ、宵い媛シリーズなど多彩な銘柄を手掛けている。",
+  "blurb": "愛媛県産山田錦などを用い、瀬戸内の風土を映す純米大吟醸・純米吟醸を中心とした銘柄。",
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "雪雀伝説",
+    "spec": "純米大吟醸(精米歩合30%)",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://yukisuzume.com/product",
+    "seasonal": false
+   },
+   {
+    "name": "宵い媛 三日月",
+    "spec": "純米大吟醸(生酒)",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://yukisuzume.com/product",
+    "seasonal": false
+   },
+   {
+    "name": "宵い媛 半月",
+    "spec": "純米大吟醸(無濾過)",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://yukisuzume.com/product",
+    "seasonal": false
+   },
+   {
+    "name": "宵い媛 満月",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://yukisuzume.com/product",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://yukisuzume.com/product",
+    "seasonal": false
+   },
+   {
+    "name": "純米吟醸",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://yukisuzume.com/product",
+    "seasonal": false
+   },
+   {
+    "name": "風恋",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://yukisuzume.com/product",
+    "seasonal": false
+   },
+   {
+    "name": "しずく媛",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://yukisuzume.com/product",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://yukisuzume.com/",
+   "https://yukisuzume.com/product",
+   "https://yukisuzume.stores.jp/"
+  ]
+ },
+ "城川郷": {
+  "brewer": "中城本家酒造",
+  "official_url": "https://shirokawagou.com/",
+  "brewery_summary": "愛媛県西予市城川町に明治31年（1898年）創業した酒蔵で、銘柄「城川郷」を醸す。裏山の湧水と県産米を用い、旨味のある優しい味わいの酒造りを目指している。",
+  "blurb": "蔵の代表銘柄。地域との結びつきを大切にしながら醸される。",
+  "rice": [
+   "山田錦",
+   "しずく媛",
+   "媛育71号"
+  ],
+  "products": [
+   {
+    "name": "城川郷 特別本醸造",
+    "spec": "特別本醸造",
+    "volume": "720ml",
+    "price": 1650,
+    "price_note": "税抜",
+    "source": "https://shirokawagou.com/?page_id=637",
+    "seasonal": false
+   },
+   {
+    "name": "城川郷 尾根越えて",
+    "spec": "純米",
+    "volume": "720ml",
+    "price": 1760,
+    "price_note": "税抜",
+    "source": "https://shirokawagou.com/?page_id=637",
+    "seasonal": false
+   },
+   {
+    "name": "城川郷 特別本醸造原酒",
+    "spec": "特別本醸造原酒",
+    "volume": "720ml",
+    "price": 1870,
+    "price_note": "税抜",
+    "source": "https://shirokawagou.com/?page_id=637",
+    "seasonal": false
+   },
+   {
+    "name": "城川郷 純米原酒",
+    "spec": "特別純米原酒",
+    "volume": "720ml",
+    "price": 1870,
+    "price_note": "税抜",
+    "source": "https://shirokawagou.com/?page_id=637",
+    "seasonal": false
+   },
+   {
+    "name": "城川郷 吟醸酒",
+    "spec": "吟醸",
+    "volume": "720ml",
+    "price": 2145,
+    "price_note": "税抜",
+    "source": "https://shirokawagou.com/?page_id=637",
+    "seasonal": false
+   },
+   {
+    "name": "城川郷 純米吟醸",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 2145,
+    "price_note": "税抜",
+    "source": "https://shirokawagou.com/?page_id=637",
+    "seasonal": false
+   },
+   {
+    "name": "城川郷 大吟醸",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 3410,
+    "price_note": "税抜",
+    "source": "https://shirokawagou.com/?page_id=637",
+    "seasonal": false
+   },
+   {
+    "name": "城川郷 純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 2805,
+    "price_note": "税抜",
+    "source": "https://shirokawagou.com/?page_id=637",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://shirokawagou.com/",
+   "https://shirokawagou.com/?page_id=637"
+  ]
+ },
+ "千代の亀": {
+  "brewer": "亀岡酒造",
+  "official_url": "https://www.chiyonokame.com/",
+  "brewery_summary": "享保初年創業、愛媛県内子町の酒蔵。千代の亀を醸す。",
+  "blurb": "内子町の老舗蔵。長期熟成凍結酒でも知られる。",
+  "rice": [],
+  "products": [
+   {
+    "name": "千代の亀 純米大吟醸 黒ラベル",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 3630,
+    "price_note": "税込",
+    "source": "https://chiyonokame.shop-pro.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸 銀河鉄道",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 3465,
+    "price_note": "税込",
+    "source": "https://chiyonokame.shop-pro.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸 秘蔵 しずく酒",
+    "spec": "純米大吟醸 しずく取り",
+    "volume": null,
+    "price": 3762,
+    "price_note": "税込",
+    "source": "https://chiyonokame.shop-pro.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "千代の亀 純米吟醸 緑ラベル",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 1958,
+    "price_note": "税込",
+    "source": "https://chiyonokame.shop-pro.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "千代の亀 特別純米 橙ラベル",
+    "spec": "特別純米",
+    "volume": "720ml",
+    "price": 1694,
+    "price_note": "税込",
+    "source": "https://chiyonokame.shop-pro.jp/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://chiyonokame.shop-pro.jp/"
+  ]
+ },
+ "川亀": {
+  "brewer": "川亀酒造",
+  "official_url": null,
+  "brewery_summary": "愛媛県八幡浜市にある明治32年創業の酒蔵で、銘柄「川亀」を醸す。",
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": [
+   "https://www.ehime-syuzou.com/kuramoto/28/"
+  ]
+ },
+ "寿喜心": {
+  "brewer": "首藤酒造",
+  "official_url": "https://sukigokoro.co.jp/",
+  "brewery_summary": "愛媛県西条市小松町で約120年にわたり酒造り一筋に取り組んできた蔵で、三兄弟が中心となって醸造を行っている。祝いの席にふさわしい酒として「寿喜心（寿㐂心）」ブランドを展開し、山田錦をはじめとする複数の酒米を使い分けた純米大吟醸・純米吟醸・純米酒などを製造している。",
+  "blurb": "山田錦を中心に複数の酒米を使い分け、精米歩合ごとに個性を表現する祝いの酒シリーズ。",
+  "rice": [
+   "山田錦",
+   "しずく媛",
+   "ニコマル"
+  ],
+  "products": [
+   {
+    "name": "山田錦35% 純米大吟醸",
+    "spec": "純米大吟醸(精米歩合35%)",
+    "volume": "720ml",
+    "price": 9075,
+    "price_note": "税込",
+    "source": "https://sukigokoro.official.ec/categories/2350905",
+    "seasonal": false
+   },
+   {
+    "name": "しずく媛45% 純米大吟醸",
+    "spec": "純米大吟醸(精米歩合45%)",
+    "volume": "720ml",
+    "price": 2064,
+    "price_note": "税込",
+    "source": "https://sukigokoro.official.ec/categories/2350905",
+    "seasonal": false
+   },
+   {
+    "name": "ニコマル50% 純米大吟醸",
+    "spec": "純米大吟醸(精米歩合50%)",
+    "volume": "720ml",
+    "price": 1791,
+    "price_note": "税込",
+    "source": "https://sukigokoro.official.ec/categories/2350905",
+    "seasonal": false
+   },
+   {
+    "name": "山田錦50% 純米大吟醸",
+    "spec": "純米大吟醸(精米歩合50%)",
+    "volume": "720ml",
+    "price": 2221,
+    "price_note": "税込",
+    "source": "https://sukigokoro.official.ec/categories/2350905",
+    "seasonal": false
+   },
+   {
+    "name": "山田錦35% 大吟醸",
+    "spec": "大吟醸(精米歩合35%)",
+    "volume": "720ml",
+    "price": 5419,
+    "price_note": "税込",
+    "source": "https://sukigokoro.official.ec/categories/2350905",
+    "seasonal": false
+   },
+   {
+    "name": "五百万石50% 純米吟醸",
+    "spec": "純米吟醸(精米歩合50%)",
+    "volume": "720ml",
+    "price": 1876,
+    "price_note": "税込",
+    "source": "https://sukigokoro.official.ec/categories/2350905",
+    "seasonal": false
+   },
+   {
+    "name": "山田錦60% 純米吟醸",
+    "spec": "純米吟醸(精米歩合60%)",
+    "volume": "720ml",
+    "price": 1779,
+    "price_note": "税込",
+    "source": "https://sukigokoro.official.ec/categories/2350905",
+    "seasonal": false
+   },
+   {
+    "name": "雄町55% 純米吟醸",
+    "spec": "純米吟醸(精米歩合55%)",
+    "volume": "720ml",
+    "price": 1816,
+    "price_note": "税込",
+    "source": "https://sukigokoro.official.ec/categories/2350905",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://sukigokoro.co.jp/",
+   "https://sukigokoro.co.jp/lineup/",
+   "https://sukigokoro.official.ec/",
+   "https://sukigokoro.official.ec/categories/2350905"
+  ]
+ },
+ "寿㐂心": {
+  "brewer": "首藤酒造",
+  "official_url": "https://sukigokoro.co.jp/",
+  "brewery_summary": "愛媛県西条市小松町で約120年にわたり酒造り一筋に取り組んできた蔵で、三兄弟が中心となって醸造を行っている。祝いの席にふさわしい酒として「寿喜心（寿㐂心）」ブランドを展開し、山田錦をはじめとする複数の酒米を使い分けた純米大吟醸・純米吟醸・純米酒などを製造している。",
+  "blurb": "山田錦を中心に複数の酒米を使い分け、精米歩合ごとに個性を表現する祝いの酒シリーズ。",
+  "rice": [
+   "山田錦",
+   "しずく媛",
+   "ニコマル"
+  ],
+  "products": [
+   {
+    "name": "山田錦35% 純米大吟醸",
+    "spec": "純米大吟醸(精米歩合35%)",
+    "volume": "720ml",
+    "price": 9075,
+    "price_note": "税込",
+    "source": "https://sukigokoro.official.ec/categories/2350905",
+    "seasonal": false
+   },
+   {
+    "name": "しずく媛45% 純米大吟醸",
+    "spec": "純米大吟醸(精米歩合45%)",
+    "volume": "720ml",
+    "price": 2064,
+    "price_note": "税込",
+    "source": "https://sukigokoro.official.ec/categories/2350905",
+    "seasonal": false
+   },
+   {
+    "name": "ニコマル50% 純米大吟醸",
+    "spec": "純米大吟醸(精米歩合50%)",
+    "volume": "720ml",
+    "price": 1791,
+    "price_note": "税込",
+    "source": "https://sukigokoro.official.ec/categories/2350905",
+    "seasonal": false
+   },
+   {
+    "name": "山田錦50% 純米大吟醸",
+    "spec": "純米大吟醸(精米歩合50%)",
+    "volume": "720ml",
+    "price": 2221,
+    "price_note": "税込",
+    "source": "https://sukigokoro.official.ec/categories/2350905",
+    "seasonal": false
+   },
+   {
+    "name": "山田錦35% 大吟醸",
+    "spec": "大吟醸(精米歩合35%)",
+    "volume": "720ml",
+    "price": 5419,
+    "price_note": "税込",
+    "source": "https://sukigokoro.official.ec/categories/2350905",
+    "seasonal": false
+   },
+   {
+    "name": "五百万石50% 純米吟醸",
+    "spec": "純米吟醸(精米歩合50%)",
+    "volume": "720ml",
+    "price": 1876,
+    "price_note": "税込",
+    "source": "https://sukigokoro.official.ec/categories/2350905",
+    "seasonal": false
+   },
+   {
+    "name": "山田錦60% 純米吟醸",
+    "spec": "純米吟醸(精米歩合60%)",
+    "volume": "720ml",
+    "price": 1779,
+    "price_note": "税込",
+    "source": "https://sukigokoro.official.ec/categories/2350905",
+    "seasonal": false
+   },
+   {
+    "name": "雄町55% 純米吟醸",
+    "spec": "純米吟醸(精米歩合55%)",
+    "volume": "720ml",
+    "price": 1816,
+    "price_note": "税込",
+    "source": "https://sukigokoro.official.ec/categories/2350905",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://sukigokoro.co.jp/",
+   "https://sukigokoro.co.jp/lineup/",
+   "https://sukigokoro.official.ec/",
+   "https://sukigokoro.official.ec/categories/2350905"
+  ]
+ }
+}

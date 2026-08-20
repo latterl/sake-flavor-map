@@ -1,0 +1,75 @@
+{
+ "薩州正宗": {
+  "brewer": "濱田酒造",
+  "official_url": "https://www.hamadasyuzou.co.jp/",
+  "brewery_summary": "鹿児島県いちき串木野市にある蔵元で、焼酎を主力としつつ清酒「薩州正宗」も手がける。",
+  "blurb": "濱田酒造が手がける清酒銘柄。",
+  "rice": [],
+  "products": [],
+  "sources": [
+   "https://www.hamadasyuzou.co.jp/"
+  ]
+ },
+ "天賦": {
+  "brewer": "西酒造",
+  "official_url": "https://www.nishi-shuzo.co.jp/tenbu/",
+  "brewery_summary": "鹿児島県日置市にある蔵元で、焼酎を主力としつつ清酒「天賦」を醸す。",
+  "blurb": "西酒造が手がける清酒ブランドで、様々な酒米による純米吟醸・純米大吟醸を展開する。",
+  "rice": [
+   "山田錦",
+   "愛山",
+   "赤磐雄町"
+  ],
+  "products": [
+   {
+    "name": "天賦 純米吟醸",
+    "spec": "純米吟醸酒（国産米100%・精米歩合50%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.nishi-shuzo.co.jp/tenbu/products/",
+    "seasonal": false
+   },
+   {
+    "name": "天賦 純米吟醸 羽前酒未来",
+    "spec": "純米吟醸酒（酒未来100%・精米歩合50%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.nishi-shuzo.co.jp/tenbu/products/",
+    "seasonal": false
+   },
+   {
+    "name": "天賦 純米吟醸 赤磐雄町 搾立生酒",
+    "spec": "純米吟醸酒（赤磐雄町100%・精米歩合50%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.nishi-shuzo.co.jp/tenbu/products/",
+    "seasonal": true
+   },
+   {
+    "name": "天賦 純米吟醸 播州愛山",
+    "spec": "純米吟醸酒（愛山100%・精米歩合50%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.nishi-shuzo.co.jp/tenbu/products/",
+    "seasonal": false
+   },
+   {
+    "name": "天賦 純米大吟醸",
+    "spec": "純米大吟醸酒（山田錦100%・精米歩合35%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.nishi-shuzo.co.jp/tenbu/products/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.nishi-shuzo.co.jp/tenbu/",
+   "https://www.nishi-shuzo.co.jp/tenbu/products/"
+  ]
+ }
+}

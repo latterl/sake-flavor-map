@@ -1,0 +1,790 @@
+{
+ "北の錦": {
+  "brewer": "小林酒造",
+  "official_url": "http://www.kitanonishiki.com/",
+  "brewery_summary": "明治11年創業、栗山町にある北海道最古級の蔵。代表銘柄は北の錦。",
+  "blurb": "北海道最古級の蔵が醸す道産米の地酒。",
+  "rice": [],
+  "products": [
+   {
+    "name": "北の錦 純米大吟醸 暖簾ラベル",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 4180,
+    "price_note": "税込",
+    "source": "https://kitanonishik.official.ec/",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸 雪心",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 8800,
+    "price_note": "税込",
+    "source": "https://kitanonishik.official.ec/",
+    "seasonal": false
+   },
+   {
+    "name": "蔵囲完熟 秘蔵純米",
+    "spec": "純米（古酒）",
+    "volume": "720ml",
+    "price": 2588,
+    "price_note": "税込",
+    "source": "https://kitanonishik.official.ec/",
+    "seasonal": false
+   },
+   {
+    "name": "特別純米 瑞穂のしずく",
+    "spec": "特別純米",
+    "volume": "720ml",
+    "price": 2188,
+    "price_note": "税込",
+    "source": "https://kitanonishik.official.ec/",
+    "seasonal": false
+   },
+   {
+    "name": "特別純米 北のろまん",
+    "spec": "特別純米",
+    "volume": "720ml",
+    "price": 2188,
+    "price_note": "税込",
+    "source": "https://kitanonishik.official.ec/",
+    "seasonal": false
+   },
+   {
+    "name": "特別純米 雪梟（ゆきふくろう）",
+    "spec": "特別純米",
+    "volume": "720ml",
+    "price": 2188,
+    "price_note": "税込",
+    "source": "https://kitanonishik.official.ec/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.kitanonishiki.com/",
+   "https://kitanonishik.official.ec/"
+  ]
+ },
+ "まる田": {
+  "brewer": "小林酒造",
+  "official_url": "http://www.kitanonishiki.com/",
+  "brewery_summary": "明治11年創業、栗山町にある北海道最古級の蔵。代表銘柄は北の錦。",
+  "blurb": "小林酒造の特別純米ブランド。",
+  "rice": [],
+  "products": [
+   {
+    "name": "特別純米酒 まる田",
+    "spec": "特別純米",
+    "volume": "720ml",
+    "price": 2188,
+    "price_note": "税込",
+    "source": "https://kitanonishik.official.ec/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.kitanonishiki.com/",
+   "https://kitanonishik.official.ec/"
+  ]
+ },
+ "北斗随想": {
+  "brewer": "小林酒造",
+  "official_url": "http://www.kitanonishiki.com/",
+  "brewery_summary": "小林酒造は北海道栗山町にある酒蔵で、道産米を使った酒造りを行っている。公式サイトでは蔵の歴史や酒蔵についての情報を発信している。",
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": [
+   "http://www.kitanonishiki.com/"
+  ]
+ },
+ "十一州": {
+  "brewer": "日本清酒",
+  "official_url": "http://www.nipponseishu.co.jp/",
+  "brewery_summary": null,
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": []
+ },
+ "千歳鶴": {
+  "brewer": "日本清酒",
+  "official_url": "https://nipponseishu.co.jp/",
+  "brewery_summary": "札幌の蔵で、代表銘柄「千歳鶴」を醸す。",
+  "blurb": "札幌唯一の酒蔵が醸す地酒。",
+  "rice": [],
+  "products": [
+   {
+    "name": "千歳鶴 純米吟醸 黒麹仕込",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 2200,
+    "price_note": "税込",
+    "source": "https://nipponseishu.shop-pro.jp/?mode=grp&gid=2479845",
+    "seasonal": false
+   },
+   {
+    "name": "千歳鶴 豪華樽",
+    "spec": null,
+    "volume": "720ml",
+    "price": 4098,
+    "price_note": "税込",
+    "source": "https://nipponseishu.shop-pro.jp/?mode=grp&gid=2479845",
+    "seasonal": false
+   },
+   {
+    "name": "千歳鶴 ふともろ樽 辛口",
+    "spec": null,
+    "volume": "720ml",
+    "price": 1155,
+    "price_note": "税込",
+    "source": "https://nipponseishu.shop-pro.jp/?mode=grp&gid=2479845",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://nipponseishu.co.jp/",
+   "https://nipponseishu.shop-pro.jp/?mode=grp&gid=2479845"
+  ]
+ },
+ "男山": {
+  "brewer": "男山",
+  "official_url": "https://www.otokoyama.com/",
+  "brewery_summary": "北海道旭川市の酒蔵。大雪山の伏流水で北の大地の酒・男山を醸す。",
+  "blurb": "江戸時代からの銘を受け継ぐ旭川の代表蔵。",
+  "rice": [],
+  "products": [
+   {
+    "name": "男山 純米大吟醸",
+    "spec": "純米大吟醸 精米歩合38%",
+    "volume": "720ml",
+    "price": 7791,
+    "price_note": null,
+    "source": "https://www.otokoyama.com/lineup/category01/",
+    "seasonal": false
+   },
+   {
+    "name": "男山 北の稲穂 大吟醸",
+    "spec": "大吟醸 北海道産酒造好適米100% 精米歩合40%",
+    "volume": "720ml",
+    "price": 2599,
+    "price_note": null,
+    "source": "https://www.otokoyama.com/lineup/category01/",
+    "seasonal": false
+   },
+   {
+    "name": "男山 特別純米（大辛口）",
+    "spec": "特別純米 大辛口 精米歩合55%",
+    "volume": "720ml",
+    "price": 1870,
+    "price_note": null,
+    "source": "https://www.otokoyama.com/lineup/category01/",
+    "seasonal": false
+   },
+   {
+    "name": "男山 生酛純米",
+    "spec": "特別純米 生酛 精米歩合60%",
+    "volume": "720ml",
+    "price": 1520,
+    "price_note": null,
+    "source": "https://www.otokoyama.com/lineup/category01/",
+    "seasonal": false
+   },
+   {
+    "name": "男山 特別純米 北の稲穂",
+    "spec": "特別純米 精米歩合55%",
+    "volume": "720ml",
+    "price": 1373,
+    "price_note": null,
+    "source": "https://www.otokoyama.com/lineup/category01/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.otokoyama.com/lineup/category01/"
+  ]
+ },
+ "福司": {
+  "brewer": "福司酒造",
+  "official_url": "https://www.fukutsukasa.jp/",
+  "brewery_summary": "福司酒造は釧路唯一の酒蔵として、その土地だからこそできる酒造りを目指している。地元に根付き愛され続ける銘柄づくりを目標に掲げている。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "福司 大吟醸 カートン入り",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.fukutsukasa.jp/product/?no=1422075383",
+    "seasonal": false
+   },
+   {
+    "name": "福司 吟香造り",
+    "spec": "吟醸酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.fukutsukasa.jp/product/?no=1606378577",
+    "seasonal": false
+   },
+   {
+    "name": "福司 YONAGA 吟醸酒",
+    "spec": "吟醸酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.fukutsukasa.jp/product/?no=1661847577",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.fukutsukasa.jp/",
+   "https://www.fukutsukasa.jp/product/",
+   "https://www.fukutsukasa.jp/product/?no=1422075383",
+   "https://www.fukutsukasa.jp/product/?no=1606378577",
+   "https://www.fukutsukasa.jp/product/?no=1661847577"
+  ]
+ },
+ "金滴": {
+  "brewer": "金滴酒造",
+  "official_url": "http://www.kinteki.co.jp/",
+  "brewery_summary": "金滴酒造は北海道新十津川町にある酒蔵で、地元産の酒造好適米「吟風」を中心に、全量道産米で酒を仕込んでいる。手造りによる少量生産にこだわった酒造りを行っている。",
+  "blurb": null,
+  "rice": [
+   "吟風"
+  ],
+  "products": [
+   {
+    "name": "金滴 純米大吟醸酒 38",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.kinteki.co.jp/売れ筋/",
+    "seasonal": false
+   },
+   {
+    "name": "金滴 大吟醸酒 33",
+    "spec": "大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.kinteki.co.jp/売れ筋/",
+    "seasonal": false
+   },
+   {
+    "name": "金滴 純米吟醸 北の微笑",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.kinteki.co.jp/売れ筋/",
+    "seasonal": false
+   },
+   {
+    "name": "金滴 大吟醸 きたしずく35",
+    "spec": "大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.kinteki.co.jp/売れ筋/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.kinteki.co.jp/",
+   "https://www.kinteki.co.jp/売れ筋/"
+  ]
+ },
+ "三千櫻": {
+  "brewer": "三千櫻酒造",
+  "official_url": "https://michizakura.jp/",
+  "brewery_summary": "明治10年創業、岐阜中津川から2020年に東川町の公設酒蔵へ移転した蔵。",
+  "blurb": "東川町産や兵庫県産の酒米で醸す道産地酒。",
+  "rice": [
+   "彗星",
+   "きたしずく",
+   "愛山"
+  ],
+  "products": [
+   {
+    "name": "普通酒Rclass（火入）",
+    "spec": "普通酒",
+    "volume": "720ml",
+    "price": 1570,
+    "price_note": "税込",
+    "source": "https://michizakura.base.shop/",
+    "seasonal": false
+   },
+   {
+    "name": "純米Rclass（火入）",
+    "spec": "純米",
+    "volume": "720ml",
+    "price": 1700,
+    "price_note": "税込",
+    "source": "https://michizakura.base.shop/",
+    "seasonal": false
+   },
+   {
+    "name": "純米吟醸 彗星55（火入）",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 2340,
+    "price_note": "税込",
+    "source": "https://michizakura.base.shop/",
+    "seasonal": false
+   },
+   {
+    "name": "純米吟醸 きたしずく55（火入）",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 2340,
+    "price_note": "税込",
+    "source": "https://michizakura.base.shop/",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸 きたしずく45（火入）",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 2750,
+    "price_note": "税込",
+    "source": "https://michizakura.base.shop/",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸 山田錦50（火入）",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 2680,
+    "price_note": "税込",
+    "source": "https://michizakura.base.shop/",
+    "seasonal": false
+   },
+   {
+    "name": "純米 愛山60",
+    "spec": "純米",
+    "volume": "720ml",
+    "price": 2310,
+    "price_note": "税込",
+    "source": "https://michizakura.base.shop/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://michizakura.jp/",
+   "https://michizakura.base.shop/"
+  ]
+ },
+ "上川大雪": {
+  "brewer": "上川大雪酒造",
+  "official_url": "https://kamikawa-taisetsu.co.jp/",
+  "brewery_summary": "2017年設立。上川町・帯広市（十勝）・函館市（五稜）に蔵を持つ北海道の新しい酒蔵。",
+  "blurb": "大雪山系の伏流水と北海道産米で醸す「飲まさる酒」。",
+  "rice": [
+   "彗星",
+   "きたしずく"
+  ],
+  "products": [
+   {
+    "name": "「上川大雪」特別純米",
+    "spec": "特別純米",
+    "volume": "720ml",
+    "price": 2420,
+    "price_note": "税込",
+    "source": "https://shop.kamikawa-taisetsu.co.jp/shopbrand/all_items/",
+    "seasonal": false
+   },
+   {
+    "name": "「上川大雪」純米吟醸",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 2970,
+    "price_note": "税込",
+    "source": "https://shop.kamikawa-taisetsu.co.jp/shopbrand/all_items/",
+    "seasonal": false
+   },
+   {
+    "name": "「上川大雪」純米大吟醸40",
+    "spec": "純米大吟醸（精米40%）",
+    "volume": "720ml",
+    "price": 4290,
+    "price_note": "税込",
+    "source": "https://shop.kamikawa-taisetsu.co.jp/shopbrand/all_items/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://shop.kamikawa-taisetsu.co.jp/shopbrand/all_items/"
+  ]
+ },
+ "神川": {
+  "brewer": "上川大雪酒造",
+  "official_url": "https://kamikawa-taisetsu.co.jp/",
+  "brewery_summary": "2017年設立、北海道で戦後初の清酒蔵。小仕込みで地域名を冠した酒を醸す。",
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": [
+   "https://kamikawa-taisetsu.co.jp/",
+   "https://shop.kamikawa-taisetsu.co.jp/"
+  ]
+ },
+ "十勝": {
+  "brewer": "上川大雪酒造",
+  "official_url": "https://kamikawa-taisetsu.co.jp/",
+  "brewery_summary": "2017年設立。上川町・帯広市（十勝）・函館市（五稜）に蔵を持つ北海道の新しい酒蔵。",
+  "blurb": "帯広畜産大学構内の「碧雲蔵」で醸す十勝の地酒。",
+  "rice": [
+   "彗星",
+   "きたしずく"
+  ],
+  "products": [
+   {
+    "name": "「十勝」純米",
+    "spec": "純米",
+    "volume": "720ml",
+    "price": 1980,
+    "price_note": "税込",
+    "source": "https://shop.kamikawa-taisetsu.co.jp/shopbrand/all_items/",
+    "seasonal": false
+   },
+   {
+    "name": "「十勝」特別純米",
+    "spec": "特別純米",
+    "volume": "720ml",
+    "price": 2420,
+    "price_note": "税込",
+    "source": "https://shop.kamikawa-taisetsu.co.jp/shopbrand/all_items/",
+    "seasonal": false
+   },
+   {
+    "name": "「十勝」純米吟醸",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 2860,
+    "price_note": "税込",
+    "source": "https://shop.kamikawa-taisetsu.co.jp/shopbrand/all_items/",
+    "seasonal": false
+   },
+   {
+    "name": "「十勝」純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 4180,
+    "price_note": "税込",
+    "source": "https://shop.kamikawa-taisetsu.co.jp/shopbrand/all_items/",
+    "seasonal": false
+   },
+   {
+    "name": "「十勝」本醸造",
+    "spec": "本醸造",
+    "volume": "720ml",
+    "price": 1650,
+    "price_note": "税込",
+    "source": "https://shop.kamikawa-taisetsu.co.jp/shopbrand/all_items/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://shop.kamikawa-taisetsu.co.jp/shopbrand/all_items/"
+  ]
+ },
+ "五稜": {
+  "brewer": "上川大雪酒造",
+  "official_url": "https://kamikawa-taisetsu.co.jp/",
+  "brewery_summary": "2017年設立、北海道で戦後初の清酒蔵。小仕込みで地域名を冠した酒を醸す。",
+  "blurb": "函館の五稜乃蔵で醸す銘柄。",
+  "rice": [],
+  "products": [],
+  "sources": [
+   "https://kamikawa-taisetsu.co.jp/",
+   "https://shop.kamikawa-taisetsu.co.jp/"
+  ]
+ },
+ "二世古": {
+  "brewer": "二世古酒造",
+  "official_url": "https://niseko-shuzo.com/",
+  "brewery_summary": "後志・倶知安町の老舗蔵。羊蹄山の伏流水で仕込む。",
+  "blurb": "倶知安の水と米で醸す地酒。",
+  "rice": [],
+  "products": [],
+  "sources": [
+   "https://niseko-shuzo.com/"
+  ]
+ },
+ "大雪乃蔵": {
+  "brewer": "合同酒精",
+  "official_url": "https://www.oenon.jp/product/sake/taisetsunokura/",
+  "brewery_summary": "旭川の合同酒精が北海道の自然環境で醸すブランド「大雪乃蔵」。",
+  "blurb": "北海道旭川で醸される大雪乃蔵ブランドの清酒。",
+  "rice": [],
+  "products": [
+   {
+    "name": "純米吟醸 大雪乃蔵 雪渓",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.oenon.jp/product/sake/taisetsunokura/",
+    "seasonal": false
+   },
+   {
+    "name": "大吟醸 大雪乃蔵 鳳雪",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.oenon.jp/product/sake/taisetsunokura/",
+    "seasonal": false
+   },
+   {
+    "name": "純米吟醸 大雪乃蔵 絹雪",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.oenon.jp/product/sake/taisetsunokura/",
+    "seasonal": false
+   },
+   {
+    "name": "特別純米 大雪乃蔵",
+    "spec": "特別純米",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.oenon.jp/product/sake/taisetsunokura/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.oenon.jp/product/sake/taisetsunokura/"
+  ]
+ },
+ "國稀": {
+  "brewer": "國稀酒造",
+  "official_url": "https://www.kunimare.co.jp/",
+  "brewery_summary": "明治15年創業、増毛町にある日本最北の酒蔵。",
+  "blurb": "ニシン漁で栄えた増毛の地酒。",
+  "rice": [],
+  "products": [
+   {
+    "name": "国稀 生酛純米",
+    "spec": "純米",
+    "volume": "720ml",
+    "price": 1609,
+    "price_note": "税込",
+    "source": "https://www.kunimare.co.jp/online_shop/products/detail/99",
+    "seasonal": false
+   },
+   {
+    "name": "北海道限定 純米吟醸",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 2585,
+    "price_note": "税込",
+    "source": "https://www.kunimare.co.jp/online_shop/products/detail/57",
+    "seasonal": false
+   },
+   {
+    "name": "北海道限定 純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 3025,
+    "price_note": "税込",
+    "source": "https://www.kunimare.co.jp/online_shop/products/detail/125",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.kunimare.co.jp/",
+   "https://www.kunimare.co.jp/online_shop/"
+  ]
+ },
+ "宝川": {
+  "brewer": "田中酒造",
+  "official_url": "https://tanakashuzo.com/",
+  "brewery_summary": "小樽の造り酒屋。代表銘柄は宝川。",
+  "blurb": "小樽の地で醸される地酒。",
+  "rice": [],
+  "products": [
+   {
+    "name": "純米大吟醸酒 宝川（40％精米）",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 6600,
+    "price_note": "税込",
+    "source": "https://tanakashuzoec.myshopify.com/products/%E7%B4%94%E7%B1%B3%E5%A4%A7%E5%90%9F%E9%86%B8%E9%85%92-%E5%AE%9D%E5%B7%9D-40-%E7%B2%BE%E7%B1%B3-720ml-1",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://tanakashuzo.com/",
+   "https://tanakashuzoec.myshopify.com/"
+  ]
+ },
+ "北の勝": {
+  "brewer": "碓氷勝三郎商店",
+  "official_url": "http://www.marimo.or.jp/~honda/cybermkt/mall/usui/",
+  "brewery_summary": "根室市にある日本最東端の蔵。代表銘柄は北の勝。",
+  "blurb": "日本最東端の蔵が醸す地元密着の地酒。",
+  "rice": [],
+  "products": [],
+  "sources": [
+   "https://ja.wikipedia.org/wiki/%E7%A2%93%E6%B0%B7%E5%8B%9D%E4%B8%89%E9%83%8E%E5%95%86%E5%BA%97"
+  ]
+ },
+ "郷宝": {
+  "brewer": "箱館醸蔵",
+  "official_url": "https://gohhou.stores.jp/",
+  "brewery_summary": "北海道亀田郡七飯町の酒蔵。「郷宝（ごうほう）」を醸す。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "郷宝 純米大吟醸 壱火 磨き三割五分",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 3300,
+    "price_note": "税込",
+    "source": "https://gohhou.stores.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "郷宝 純米吟醸 壱火 磨き五割",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://gohhou.stores.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "郷宝 特別純米 壱火 磨き五割五分",
+    "spec": "特別純米",
+    "volume": "720ml",
+    "price": 1980,
+    "price_note": "税込",
+    "source": "https://gohhou.stores.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "郷宝 生酛純米 壱火",
+    "spec": "生酛純米",
+    "volume": "720ml",
+    "price": 1870,
+    "price_note": "税込",
+    "source": "https://gohhou.stores.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "郷宝 純米 壱火 扁平磨き六割五分",
+    "spec": "純米",
+    "volume": "720ml",
+    "price": 1760,
+    "price_note": "税込",
+    "source": "https://gohhou.stores.jp/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://gohhou.stores.jp/"
+  ]
+ },
+ "えぞ乃熊": {
+  "brewer": "高砂酒造",
+  "official_url": "https://www.takasagoshuzo.com/",
+  "brewery_summary": "明治32年創業、旭川の蔵。代表銘柄は国士無双。",
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": [
+   "https://www.takasagoshuzo.com/",
+   "https://www.takasagoshuzo-store.com/"
+  ]
+ },
+ "国士無双": {
+  "brewer": "高砂酒造",
+  "official_url": "https://www.takasagoshuzo.com/",
+  "brewery_summary": "明治32年創業、旭川の蔵。代表銘柄は国士無双。",
+  "blurb": "旭川・高砂酒造の淡麗辛口を軸とした看板銘柄。",
+  "rice": [
+   "吟風"
+  ],
+  "products": [
+   {
+    "name": "本醸造酒 国士無双",
+    "spec": "本醸造",
+    "volume": "720ml",
+    "price": 1320,
+    "price_note": "税込",
+    "source": "https://www.takasagoshuzo-store.com/view/category/kokushimusou",
+    "seasonal": false
+   },
+   {
+    "name": "純米酒 国士無双",
+    "spec": "純米",
+    "volume": "720ml",
+    "price": 1485,
+    "price_note": "税込",
+    "source": "https://www.takasagoshuzo-store.com/view/category/kokushimusou",
+    "seasonal": false
+   },
+   {
+    "name": "特別純米酒 国士無双 烈",
+    "spec": "特別純米",
+    "volume": "720ml",
+    "price": 1650,
+    "price_note": "税込",
+    "source": "https://www.takasagoshuzo-store.com/view/category/kokushimusou",
+    "seasonal": false
+   },
+   {
+    "name": "純米吟醸酒 国士無双",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 1760,
+    "price_note": "税込",
+    "source": "https://www.takasagoshuzo-store.com/view/category/kokushimusou",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸酒 国士無双",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 2200,
+    "price_note": "税込",
+    "source": "https://www.takasagoshuzo-store.com/view/category/kokushimusou",
+    "seasonal": false
+   },
+   {
+    "name": "大吟醸酒 国士無双",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 3630,
+    "price_note": "税込",
+    "source": "https://www.takasagoshuzo-store.com/view/category/kokushimusou",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.takasagoshuzo.com/",
+   "https://www.takasagoshuzo-store.com/"
+  ]
+ },
+ "ずZOOっと旭山": {
+  "brewer": "高砂酒造",
+  "official_url": "https://www.takasagoshuzo.com/",
+  "brewery_summary": "明治32年創業、旭川の蔵。代表銘柄は国士無双。",
+  "blurb": "旭山動物園とのコラボ酒（180ml規格のため対象商品なし）。",
+  "rice": [],
+  "products": [],
+  "sources": [
+   "https://www.takasagoshuzo.com/",
+   "https://www.takasagoshuzo-store.com/"
+  ]
+ }
+}

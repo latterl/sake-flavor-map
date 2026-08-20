@@ -1,0 +1,401 @@
+{
+ "七賢": {
+  "brewer": "山梨銘醸",
+  "official_url": "https://www.sake-shichiken.co.jp/",
+  "brewery_summary": "1750年創業、南アルプス甲斐駒ヶ岳の伏流水を仕込み水に用いる老舗蔵。スパークリング日本酒のパイオニアとしても知られ、「七賢」ブランドで純米大吟醸から生酒まで幅広い商品を展開する。",
+  "blurb": "南アルプスの天然水を用い、口あたりの滑らかな酒を追求する看板銘柄。",
+  "rice": [
+   "夢山水"
+  ],
+  "products": [
+   {
+    "name": "甲斐駒",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 3630,
+    "price_note": "税込",
+    "source": "https://www.sake-shichiken.co.jp/products/kaikoma",
+    "seasonal": false
+   },
+   {
+    "name": "白心",
+    "spec": "純米大吟醸",
+    "volume": "750ml",
+    "price": 26400,
+    "price_note": "税込",
+    "source": "https://www.sake-shichiken.co.jp/products/hakushin",
+    "seasonal": false
+   },
+   {
+    "name": "大中屋",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.sake-shichiken.co.jp/products/onakaya",
+    "seasonal": false
+   },
+   {
+    "name": "絹の味",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.sake-shichiken.co.jp/products/kinunoaji",
+    "seasonal": false
+   },
+   {
+    "name": "天鵞絨の味",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.sake-shichiken.co.jp/products/birodonoaji",
+    "seasonal": false
+   },
+   {
+    "name": "風凛美山",
+    "spec": "純米",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.sake-shichiken.co.jp/products/hurinbizan",
+    "seasonal": false
+   },
+   {
+    "name": "なま生",
+    "spec": "純米生酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.sake-shichiken.co.jp/products/namanama",
+    "seasonal": false
+   },
+   {
+    "name": "甘酸辛苦渋",
+    "spec": "本醸造",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.sake-shichiken.co.jp/products/sake",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.sake-shichiken.co.jp/",
+   "https://www.sake-shichiken.co.jp/products/sake",
+   "https://www.sake-shichiken.co.jp/products/kaikoma",
+   "https://www.sake-shichiken.co.jp/products/kinunoaji",
+   "https://www.sake-shichiken.co.jp/products/onakaya"
+  ]
+ },
+ "笹一": {
+  "brewer": "笹一酒造",
+  "official_url": "http://www.sasaichi.co.jp/",
+  "brewery_summary": "大正8年(1919年)創業、山梨県大月市にある酒蔵。自家井戸から湧く御前水を仕込み水とし、契約栽培の山田錦や夢山水などの酒造好適米を用いて醸造している。",
+  "blurb": null,
+  "rice": [
+   "山田錦",
+   "夢山水"
+  ],
+  "products": [
+   {
+    "name": "笹一 大吟醸",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.sasaichi.com/shopbrand/ct31/",
+    "seasonal": false
+   },
+   {
+    "name": "笹一",
+    "spec": null,
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.sasaichi.com/shopbrand/ct31/",
+    "seasonal": false
+   },
+   {
+    "name": "清らか屋 笹一",
+    "spec": null,
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.sasaichi.com/shopbrand/ct31/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.sasaichi.co.jp/",
+   "https://www.sasaichi.co.jp/sasaichi/",
+   "https://www.sasaichi.co.jp/dan/",
+   "https://www.sasaichi.com/",
+   "https://www.sasaichi.com/shopbrand/ct31/"
+  ]
+ },
+ "旦": {
+  "brewer": "笹一酒造",
+  "official_url": "http://www.sasaichi.co.jp/",
+  "brewery_summary": "大正8年(1919年)創業、山梨県大月市にある酒蔵。自家井戸から湧く御前水を仕込み水とし、契約栽培の山田錦や夢山水などの酒造好適米を用いて醸造している。",
+  "blurb": null,
+  "rice": [
+   "山田錦",
+   "夢山水"
+  ],
+  "products": [
+   {
+    "name": "旦 樽熟成",
+    "spec": null,
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.sasaichi.com/shopbrand/ct31/",
+    "seasonal": false
+   },
+   {
+    "name": "旦 無濾過生原酒",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.sasaichi.com/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.sasaichi.co.jp/",
+   "https://www.sasaichi.co.jp/sasaichi/",
+   "https://www.sasaichi.co.jp/dan/",
+   "https://www.sasaichi.com/",
+   "https://www.sasaichi.com/shopbrand/ct31/"
+  ]
+ },
+ "春鶯囀": {
+  "brewer": "萬屋醸造店",
+  "official_url": "https://www.shunnoten.co.jp/",
+  "brewery_summary": "山梨県富士川町の酒蔵。自社精米にこだわり「春鶯囀（しゅんのうてん）」を醸す。",
+  "blurb": null,
+  "rice": [
+   "山田錦",
+   "美山錦"
+  ],
+  "products": [
+   {
+    "name": "春鶯囀 純米大吟醸酒",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.shunnoten.co.jp/items/",
+    "seasonal": false
+   },
+   {
+    "name": "春鶯囀 大吟醸 かもさるゝ蔵",
+    "spec": "大吟醸（山田錦・精米歩合40%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.shunnoten.co.jp/items/",
+    "seasonal": false
+   },
+   {
+    "name": "春鶯囀 純米吟醸 冨嶽",
+    "spec": "純米吟醸（美山錦・精米歩合60%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.shunnoten.co.jp/items/",
+    "seasonal": false
+   },
+   {
+    "name": "春鶯囀 純米吟醸",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.shunnoten.co.jp/items/",
+    "seasonal": false
+   },
+   {
+    "name": "春鶯囀 特別純米酒 辛口",
+    "spec": "特別純米",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.shunnoten.co.jp/items/",
+    "seasonal": false
+   },
+   {
+    "name": "春鶯囀 純米酒 鷹座巣",
+    "spec": "純米",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.shunnoten.co.jp/items/",
+    "seasonal": false
+   },
+   {
+    "name": "春鶯囀 純米酒",
+    "spec": "純米",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.shunnoten.co.jp/items/",
+    "seasonal": false
+   },
+   {
+    "name": "春鶯囀 本醸造",
+    "spec": "本醸造",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.shunnoten.co.jp/items/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.shunnoten.co.jp/",
+   "https://www.shunnoten.co.jp/items/"
+  ]
+ },
+ "谷櫻": {
+  "brewer": "谷櫻酒造",
+  "official_url": "http://www.tanizakura.co.jp/",
+  "brewery_summary": "山梨県北杜市大泉町にある酒蔵で、嘉永元年創業の「古銭屋」を前身とする。八ヶ岳南麓の伏流水を仕込み水に用い、「うまい酒を造るために変わること、変わらないこと」を大切に醸造している。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "純米大吟醸 谷櫻",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.tanizakura.co.jp/product/",
+    "seasonal": false
+   },
+   {
+    "name": "大吟醸谷櫻",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.tanizakura.co.jp/product/",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸生酒 古銭屋の酒",
+    "spec": "純米大吟醸生酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.tanizakura.co.jp/product/",
+    "seasonal": false
+   },
+   {
+    "name": "純米吟醸 谷櫻",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.tanizakura.co.jp/product/",
+    "seasonal": false
+   },
+   {
+    "name": "味吟醸",
+    "spec": "吟醸酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.tanizakura.co.jp/product/",
+    "seasonal": false
+   },
+   {
+    "name": "櫻舞",
+    "spec": "生もと造り純米酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.tanizakura.co.jp/product/",
+    "seasonal": false
+   },
+   {
+    "name": "北の杜",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.tanizakura.co.jp/product/",
+    "seasonal": false
+   },
+   {
+    "name": "本醸造 谷櫻",
+    "spec": "本醸造",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.tanizakura.co.jp/product/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.tanizakura.co.jp/",
+   "https://www.tanizakura.co.jp/product/",
+   "http://www.tanizakura.com/"
+  ]
+ },
+ "青煌": {
+  "brewer": "武の井酒造",
+  "official_url": "https://takenoishuzo.official.ec/",
+  "brewery_summary": "山梨県北杜市にある酒蔵で、銘柄「青煌」を醸す。",
+  "blurb": "武の井酒造が手がける銘柄で、多様な酒米を用いた純米系の酒を展開する。",
+  "rice": [
+   "美山錦",
+   "愛山",
+   "雄町"
+  ],
+  "products": [
+   {
+    "name": "青煌 -爽sou- さかずきんラベル",
+    "spec": "純米（精米歩合65%）",
+    "volume": "720ml",
+    "price": 1760,
+    "price_note": "税込",
+    "source": "https://takenoishuzo.official.ec/",
+    "seasonal": true
+   },
+   {
+    "name": "青煌 純米大吟醸 愛山",
+    "spec": "純米大吟醸（愛山100%・精米歩合40%）",
+    "volume": "720ml",
+    "price": 3850,
+    "price_note": "税込",
+    "source": "https://takenoishuzo.official.ec/",
+    "seasonal": false
+   },
+   {
+    "name": "青煌 純米吟醸 雄町",
+    "spec": "純米吟醸（雄町100%・精米歩合50%）",
+    "volume": "720ml",
+    "price": 2200,
+    "price_note": "税込",
+    "source": "https://takenoishuzo.official.ec/",
+    "seasonal": false
+   },
+   {
+    "name": "青煌 特別純米 辛口",
+    "spec": "特別純米（精米歩合60%）",
+    "volume": "720ml",
+    "price": 1760,
+    "price_note": "税込",
+    "source": "https://takenoishuzo.official.ec/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://takenoishuzo.official.ec/"
+  ]
+ }
+}

@@ -1,0 +1,815 @@
+{
+ "呉春": {
+  "brewer": "呉春株式会社",
+  "official_url": null,
+  "brewery_summary": "大阪府池田市で元禄14年(1701年)頃創業と伝わる老舗蔵。池田で酒造りを続ける数少ない蔵元の一つで、代表銘柄「呉春」は五味の調和をモットーに醸造している。",
+  "blurb": "「池田酒」の伝統を受け継ぐ銘柄。定番は普通酒・本醸造・特別吟醸の3種で、いずれも一升瓶での展開。",
+  "rice": [
+   "雄町(赤磐産)",
+   "五百万石",
+   "朝日"
+  ],
+  "products": [
+   {
+    "name": "呉春 池田酒",
+    "spec": "普通酒",
+    "volume": "1800ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.hyotan.co.jp/cnt/sake/gosyn.html",
+    "seasonal": false
+   },
+   {
+    "name": "呉春 本丸",
+    "spec": "本醸造酒",
+    "volume": "1800ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.hyotan.co.jp/cnt/sake/gosyn.html",
+    "seasonal": false
+   },
+   {
+    "name": "呉春 特吟",
+    "spec": "特別吟醸酒",
+    "volume": "1800ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.hyotan.co.jp/cnt/sake/gosyn.html",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.hyotan.co.jp/cnt/sake/gosyn.html",
+   "https://tanoshiiosake.jp/5795"
+  ]
+ },
+ "國乃長": {
+  "brewer": "壽酒造株式会社",
+  "official_url": "https://kuninocho.jp/",
+  "brewery_summary": "大阪府高槻市で文政5年(1822年)創業、約200年の歴史を持つ蔵元。「新しいもの好きであれ」という家訓のもと、清酒に加えビールや焼酎など多彩な酒造りに挑戦している。",
+  "blurb": "壽酒造の看板銘柄。山田錦を用いた大吟醸から普通酒まで幅広いラインナップを持つ。",
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "國乃長 大吟醸",
+    "spec": "大吟醸酒（精米歩合50%）",
+    "volume": "720ml",
+    "price": 3630,
+    "price_note": "税込",
+    "source": "https://kuninocho-shop.ocnk.net/product-group/3",
+    "seasonal": false
+   },
+   {
+    "name": "國乃長 純米大吟醸",
+    "spec": "純米大吟醸酒",
+    "volume": "720ml",
+    "price": 3630,
+    "price_note": "税込",
+    "source": "https://kuninocho-shop.ocnk.net/product-list/2",
+    "seasonal": false
+   },
+   {
+    "name": "國乃長 純米吟醸",
+    "spec": "純米吟醸酒",
+    "volume": "720ml",
+    "price": 2530,
+    "price_note": "税込",
+    "source": "https://kuninocho-shop.ocnk.net/product-list/2",
+    "seasonal": false
+   },
+   {
+    "name": "國乃長 寿 純金箔入り純米吟醸酒",
+    "spec": "純米吟醸酒（金箔入り）",
+    "volume": "720ml",
+    "price": 2750,
+    "price_note": "税込",
+    "source": "https://kuninocho-shop.ocnk.net/product-list/2",
+    "seasonal": false
+   },
+   {
+    "name": "國乃長 吟醸生貯蔵酒",
+    "spec": "吟醸生貯蔵酒",
+    "volume": "720ml",
+    "price": 1936,
+    "price_note": "税込",
+    "source": "https://kuninocho-shop.ocnk.net/product-list/2",
+    "seasonal": false
+   },
+   {
+    "name": "國乃長 純米酒",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1573,
+    "price_note": "税込",
+    "source": "https://kuninocho-shop.ocnk.net/product-list/2",
+    "seasonal": false
+   },
+   {
+    "name": "國乃長 芳醇酒",
+    "spec": "芳醇酒",
+    "volume": "720ml",
+    "price": 1650,
+    "price_note": "税込",
+    "source": "https://kuninocho-shop.ocnk.net/product-list/2",
+    "seasonal": false
+   },
+   {
+    "name": "國乃長 特撰",
+    "spec": "特撰酒",
+    "volume": "720ml",
+    "price": 1694,
+    "price_note": "税込",
+    "source": "https://kuninocho-shop.ocnk.net/product-list/2",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://kuninocho.jp/",
+   "https://kuninocho-shop.ocnk.net/",
+   "https://kuninocho-shop.ocnk.net/product-list/2",
+   "https://kuninocho-shop.ocnk.net/product-group/3"
+  ]
+ },
+ "清鶴": {
+  "brewer": "清鶴酒造株式会社",
+  "official_url": "https://www.kiyotsuru.jp/",
+  "brewery_summary": "安政3年(1856年)創業、大阪府高槻市富田地区の蔵元。地元で親しまれてきた銘酒「富田酒」を代表する「清鶴」を醸造している。",
+  "blurb": "「香味勝て宜し」と評される富田酒の系譜を継ぐ銘柄。",
+  "rice": [],
+  "products": [
+   {
+    "name": "清鶴 阪急富田酒",
+    "spec": "特別純米酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://jizake-daisuki.com/shopdetail/000000000468/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.kiyotsuru.jp/",
+   "https://jp.sake-times.com/sakagura/osaka/kiyotsurushuzo",
+   "https://jizake-daisuki.com/shopdetail/000000000468/"
+  ]
+ },
+ "秋鹿": {
+  "brewer": "秋鹿酒造有限会社",
+  "official_url": null,
+  "brewery_summary": "明治19年(1886年)創業、大阪府豊能郡能勢町の蔵元。「農醸一貫」を理念に掲げ、約25haの自社田で無農薬・循環型農法により酒米を栽培し、平成15年以降は全量純米酒に切り替えている。",
+  "blurb": "自社栽培の山田錦を中心に、生酛・山廃仕込みなど多様な純米酒を展開する代表銘柄。",
+  "rice": [
+   "山田錦",
+   "日本晴"
+  ],
+  "products": [
+   {
+    "name": "秋鹿 純米 千秋",
+    "spec": "純米酒",
+    "volume": "1800ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.saketime.jp/brands/1520/",
+    "seasonal": false
+   },
+   {
+    "name": "秋鹿 山廃純米 山田錦",
+    "spec": "山廃純米酒",
+    "volume": "1800ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.saketime.jp/brands/1520/",
+    "seasonal": false
+   },
+   {
+    "name": "秋鹿 純米吟醸 倉垣村",
+    "spec": "純米吟醸酒",
+    "volume": "1800ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.saketime.jp/brands/1520/",
+    "seasonal": false
+   },
+   {
+    "name": "秋鹿 純米大吟醸 一貫造り",
+    "spec": "純米大吟醸酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.saketime.jp/brands/1520/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.saketime.jp/brands/1520/",
+   "https://sakeworld.jp/special/20240201-akishika/",
+   "http://www.fukai-nakano.co.jp/cathand/detail-585518.html",
+   "https://sakeroman.com/products/akishika-okuchika-kimotojunmai-yamadanishiki65"
+  ]
+ },
+ "奥鹿": {
+  "brewer": "秋鹿酒造有限会社",
+  "official_url": null,
+  "brewery_summary": "明治19年(1886年)創業、大阪府豊能郡能勢町の蔵元。「農醸一貫」を理念に掲げ、約25haの自社田で無農薬・循環型農法により酒米を栽培し、平成15年以降は全量純米酒に切り替えている。",
+  "blurb": "秋鹿酒造が長期間熟成させた古酒のシリーズ。",
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "奥鹿 生酛純米 山田錦65 熟成酒",
+    "spec": "生酛純米酒（長期熟成）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://sakeroman.com/products/akishika-okuchika-kimotojunmai-yamadanishiki65",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.saketime.jp/brands/1520/",
+   "https://sakeworld.jp/special/20240201-akishika/",
+   "http://www.fukai-nakano.co.jp/cathand/detail-585518.html",
+   "https://sakeroman.com/products/akishika-okuchika-kimotojunmai-yamadanishiki65"
+  ]
+ },
+ "へのへのもへじ": {
+  "brewer": "秋鹿酒造有限会社",
+  "official_url": null,
+  "brewery_summary": "明治19年(1886年)創業、大阪府豊能郡能勢町の蔵元。「農醸一貫」を理念に掲げ、約25haの自社田で無農薬・循環型農法により酒米を栽培し、平成15年以降は全量純米酒に切り替えている。",
+  "blurb": "秋鹿の生酛仕込み「一貫造り」シリーズに用いられるラベル違いの銘柄。",
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "秋鹿 純米吟醸一貫造り へのへのもへじ",
+    "spec": "純米吟醸酒（生もと仕込み）",
+    "volume": "1800ml",
+    "price": null,
+    "price_note": null,
+    "source": "http://www.fukai-nakano.co.jp/cathand/detail-585518.html",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.saketime.jp/brands/1520/",
+   "https://sakeworld.jp/special/20240201-akishika/",
+   "http://www.fukai-nakano.co.jp/cathand/detail-585518.html",
+   "https://sakeroman.com/products/akishika-okuchika-kimotojunmai-yamadanishiki65"
+  ]
+ },
+ "MIYOI": {
+  "brewer": "足立農醸",
+  "official_url": "https://adachi-noujo.com/",
+  "brewery_summary": "足立農醸は2021年1月に設立された、大阪府高槻市の団地の一室で醸造を行うクラフトサケブルワリーです。兵庫県丹波市の西山酒造場に製造を委託し、大阪産のフルーツなどを日本酒の醪と共発酵させる「農醸」スタイルの酒造りを行っています。",
+  "blurb": "「MIYOI（美酔）」は足立農醸のクラフトサケブランドで、大阪産のフルーツやハーブを日本酒の発酵過程で加えた「MIYOI Craft」シリーズなど、味わいの異なる商品を少量ずつ展開しています。",
+  "rice": [
+   "ヒノヒカリ"
+  ],
+  "products": [
+   {
+    "name": "MIYOI Craft -団地と青の灯り-",
+    "spec": "高槻産ブルーベリー・ローズマリー・カシスピューレを醪と共発酵させたクラフトサケ。アルコール度数8%",
+    "volume": "720ml",
+    "price": 2970,
+    "price_note": "税込",
+    "source": "https://adachi-noujo.com/product/miyoi-craft-blueberry-%E3%83%96%E3%83%AB%E3%83%BC%E3%83%99%E3%83%AA%E3%83%BC/",
+    "seasonal": true
+   },
+   {
+    "name": "MIYOI(美酔) -ライチ- 生 12月搾り White Snow（おり増し）",
+    "spec": "ライチ果汁を醪と共発酵させたクラフトサケの生酒。アルコール度数12%",
+    "volume": "720ml",
+    "price": 2420,
+    "price_note": "税込",
+    "source": "https://adachi-noujo.com/product/miyoi-lychee/",
+    "seasonal": true
+   }
+  ],
+  "sources": [
+   "https://adachi-noujo.com/",
+   "https://adachi-noujo.com/product/miyoi-craft-blueberry-%E3%83%96%E3%83%AB%E3%83%BC%E3%83%99%E3%83%AA%E3%83%BC/",
+   "https://adachi-noujo.com/product/miyoi-lychee/"
+  ]
+ },
+ "利休梅": {
+  "brewer": "大門酒造株式会社",
+  "official_url": "https://daimonbrewery.jp/",
+  "brewery_summary": "文政9年(1826年)創業、大阪府交野市の老舗蔵元。「濃醇辛口」を掲げ、良質な米と清澄な水を用いた酒造りを続けながら、近年は海外展開を見据えたDAIMONブランドにも力を入れている。",
+  "blurb": "大門酒造の伝統的な看板ブランドで、純米大吟醸から特別本醸造まで幅広いラインナップを持つ。",
+  "rice": [
+   "山田錦（兵庫県産）"
+  ],
+  "products": [
+   {
+    "name": "利休梅 半左衛門",
+    "spec": "純米大吟醸酒（精米歩合50%）",
+    "volume": "720ml",
+    "price": 2970,
+    "price_note": "税込",
+    "source": "https://daimonbrewery.jp/shop/",
+    "seasonal": false
+   },
+   {
+    "name": "利休梅 静香",
+    "spec": "純米吟醸酒（精米歩合55%）",
+    "volume": "720ml",
+    "price": 1980,
+    "price_note": "税込",
+    "source": "https://daimonbrewery.jp/shop/",
+    "seasonal": false
+   },
+   {
+    "name": "利休梅 青山緑水",
+    "spec": "特別純米酒（精米歩合60%）",
+    "volume": "720ml",
+    "price": 1650,
+    "price_note": "税込",
+    "source": "https://daimonbrewery.jp/shop/",
+    "seasonal": false
+   },
+   {
+    "name": "利休梅 磐船",
+    "spec": "特別本醸造酒（精米歩合60%）",
+    "volume": "720ml",
+    "price": 1540,
+    "price_note": "税込",
+    "source": "https://daimonbrewery.jp/shop/",
+    "seasonal": false
+   },
+   {
+    "name": "利休梅 花影",
+    "spec": "純米吟醸酒",
+    "volume": "720ml",
+    "price": 1980,
+    "price_note": "税込",
+    "source": "https://daimonbrewery.jp/shop/",
+    "seasonal": false
+   },
+   {
+    "name": "利休梅 交野田原",
+    "spec": "純米大吟醸酒",
+    "volume": "720ml",
+    "price": 2200,
+    "price_note": "税込",
+    "source": "https://daimonbrewery.jp/shop/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://daimonbrewery.jp/",
+   "https://daimonbrewery.jp/product/",
+   "https://daimonbrewery.jp/shop/",
+   "https://daimonbrewery.jp/about-history/"
+  ]
+ },
+ "かたの桜": {
+  "brewer": "山野酒造",
+  "official_url": "https://www.katanosakura.com/",
+  "brewery_summary": "江戸時代末期創業、大阪府交野市の酒蔵。全製造数量の約8割が特定名称酒で、その4割を原酒のまま蔵出しするなど原酒にこだわり、最良の状態で商品を届けることをモットーとしている。",
+  "blurb": "中口をベースに、雄町米を使った無濾過生原酒など多彩な味わいを揃える定番ブランド。",
+  "rice": [
+   "雄町"
+  ],
+  "products": [
+   {
+    "name": "かたの桜 純米吟醸",
+    "spec": "純米吟醸（中口）",
+    "volume": "720ml",
+    "price": 2090,
+    "price_note": "税込",
+    "source": "https://www.katanosakura.com/category/8/",
+    "seasonal": false
+   },
+   {
+    "name": "かたの桜 特別純米 雄町（無濾過生原酒）",
+    "spec": "特別純米（無濾過生原酒、中口）",
+    "volume": "720ml",
+    "price": 2035,
+    "price_note": "税込",
+    "source": "https://www.katanosakura.com/category/3/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.katanosakura.com/",
+   "https://www.katanosakura.com/category/8/",
+   "https://www.katanosakura.com/category/2/",
+   "https://www.katanosakura.com/category/3/"
+  ]
+ },
+ "片野桜": {
+  "brewer": "山野酒造",
+  "official_url": "https://www.katanosakura.com/",
+  "brewery_summary": "江戸時代末期創業、大阪府交野市の酒蔵。全製造数量の約8割が特定名称酒で、その4割を原酒のまま蔵出しするなど原酒にこだわり、最良の状態で商品を届けることをモットーとしている。",
+  "blurb": "純米大吟醸「白櫻」（やや甘口）と大吟醸「玄櫻」（やや辛口）を化粧箱入りで展開するほか、山廃仕込みの生原酒シリーズを揃える。",
+  "rice": [
+   "雄町",
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "片野桜 純米大吟醸 白櫻",
+    "spec": "純米大吟醸（やや甘口）",
+    "volume": "720ml",
+    "price": 3850,
+    "price_note": "税込",
+    "source": "https://www.katanosakura.com/category/2/",
+    "seasonal": false
+   },
+   {
+    "name": "片野桜 大吟醸 玄櫻",
+    "spec": "大吟醸（やや辛口）",
+    "volume": "720ml",
+    "price": 3850,
+    "price_note": "税込",
+    "source": "https://www.katanosakura.com/category/2/",
+    "seasonal": false
+   },
+   {
+    "name": "片野桜 山廃純米 雄町・生原酒",
+    "spec": "山廃純米（生原酒、やや辛口）",
+    "volume": "720ml",
+    "price": 2090,
+    "price_note": "税込",
+    "source": "https://www.katanosakura.com/category/3/",
+    "seasonal": false
+   },
+   {
+    "name": "片野桜 山廃純米 山田錦・生原酒",
+    "spec": "山廃純米（生原酒、中口）",
+    "volume": "720ml",
+    "price": 2090,
+    "price_note": "税込",
+    "source": "https://www.katanosakura.com/category/3/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.katanosakura.com/",
+   "https://www.katanosakura.com/category/8/",
+   "https://www.katanosakura.com/category/2/",
+   "https://www.katanosakura.com/category/3/"
+  ]
+ },
+ "天野酒": {
+  "brewer": "西條",
+  "official_url": "https://www.amanosake.com/",
+  "brewery_summary": "創醸享保三年（1718年）、大阪府河内長野市で酒造業を営む老舗蔵元。高品質米の自家精白と南部杜氏による丁寧な醸造で「純米造り」に秀で、全国新酒鑑評会で金賞を重ねている。",
+  "blurb": "甘みと旨みを特徴とする蔵の看板ブランドで、大吟醸から純米酒、本醸造、普通酒まで幅広いラインナップを持つ。",
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "天野酒 大吟醸",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 6000,
+    "price_note": "税込",
+    "source": "https://store.amanosake.com/products/detail/68",
+    "seasonal": false
+   },
+   {
+    "name": "吟醸 吉祥",
+    "spec": "吟醸",
+    "volume": "720ml",
+    "price": 2700,
+    "price_note": "税込",
+    "source": "https://store.amanosake.com/products/list?category_id=6",
+    "seasonal": false
+   },
+   {
+    "name": "吟醸原酒",
+    "spec": "吟醸（原酒）",
+    "volume": "720ml",
+    "price": 2200,
+    "price_note": "税込",
+    "source": "https://store.amanosake.com/products/list?category_id=6",
+    "seasonal": false
+   },
+   {
+    "name": "吟醸 醸るり",
+    "spec": "吟醸",
+    "volume": "720ml",
+    "price": 1700,
+    "price_note": "税込",
+    "source": "https://store.amanosake.com/products/list?category_id=6",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸 天游",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 3300,
+    "price_note": "税込",
+    "source": "https://store.amanosake.com/products/list?category_id=32",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸 りょく",
+    "spec": "純米大吟醸",
+    "volume": "1800ml",
+    "price": 6501,
+    "price_note": "税込",
+    "source": "https://store.amanosake.com/products/list?category_id=32",
+    "seasonal": false
+   },
+   {
+    "name": "純米 天野酒 特別純米",
+    "spec": "特別純米",
+    "volume": "720ml",
+    "price": 1800,
+    "price_note": "税込",
+    "source": "https://store.amanosake.com/products/list?category_id=11",
+    "seasonal": false
+   },
+   {
+    "name": "特別純米 醴（れい）",
+    "spec": "特別純米",
+    "volume": "1800ml",
+    "price": 3350,
+    "price_note": "税込",
+    "source": "https://store.amanosake.com/products/list?category_id=11",
+    "seasonal": false
+   },
+   {
+    "name": "天野酒 本醸造",
+    "spec": "本醸造",
+    "volume": "1800ml",
+    "price": 2700,
+    "price_note": "税込",
+    "source": "https://store.amanosake.com/products/list?category_id=12",
+    "seasonal": false
+   },
+   {
+    "name": "花紋",
+    "spec": "普通酒",
+    "volume": "1800ml",
+    "price": 2250,
+    "price_note": "税込",
+    "source": "https://store.amanosake.com/products/list?category_id=13",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.amanosake.com/",
+   "https://www.amanosake.com/products",
+   "https://store.amanosake.com/products/detail/68",
+   "https://store.amanosake.com/products/list?category_id=6",
+   "https://store.amanosake.com/products/list?category_id=11"
+  ]
+ },
+ "千利休": {
+  "brewer": "利休蔵",
+  "official_url": "https://rikyugura.jp/",
+  "brewery_summary": "大阪・堺で唯一の造り酒屋。かつて灘・伏見と並ぶ銘醸地だった堺の酒造りが44年途絶えた後、地元で日本酒を復興させた蔵で、兵庫県産山田錦と金剛山系の湧き水を用い、全量を小仕込みで丁寧に醸造している。",
+  "blurb": "堺の地酒として復興した銘柄で、やや甘口の純米酒から山田錦三割五分磨きの純米大吟醸まで幅広い精米歩合の商品を展開する。",
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "千利休 純米酒",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 660,
+    "price_note": null,
+    "source": "https://rikyugura.jp/collections/%E5%8D%83%E5%88%A9%E4%BC%91/products/junmaishu",
+    "seasonal": false
+   },
+   {
+    "name": "千利休 特別純米酒 五味からくち",
+    "spec": "特別純米酒",
+    "volume": "720ml",
+    "price": 1870,
+    "price_note": null,
+    "source": "https://rikyugura.jp/collections/%E5%8D%83%E5%88%A9%E4%BC%91/products/gomikarakuti",
+    "seasonal": false
+   },
+   {
+    "name": "千利休 純米吟醸酒",
+    "spec": "純米吟醸酒（精米歩合60%、兵庫県産山田錦100%）",
+    "volume": "720ml",
+    "price": 2420,
+    "price_note": null,
+    "source": "https://rikyugura.jp/collections/%E5%8D%83%E5%88%A9%E4%BC%91/products/junmaiginjou",
+    "seasonal": false
+   },
+   {
+    "name": "千利休 大吟醸 三割五分磨き",
+    "spec": "大吟醸（精米歩合35%）",
+    "volume": "720ml",
+    "price": 6160,
+    "price_note": null,
+    "source": "https://rikyugura.jp/collections/%E5%8D%83%E5%88%A9%E4%BC%91/products/sanwarigobu",
+    "seasonal": false
+   },
+   {
+    "name": "千利休 純米大吟醸 三割五分",
+    "spec": "純米大吟醸（精米歩合35%）",
+    "volume": "720ml",
+    "price": 7370,
+    "price_note": null,
+    "source": "https://rikyugura.jp/collections/%E5%8D%83%E5%88%A9%E4%BC%91/products/junmaidaiginjou",
+    "seasonal": false
+   },
+   {
+    "name": "八段仕込・純米大吟醸 酣楽酒",
+    "spec": "純米大吟醸（八段仕込み）",
+    "volume": "720ml",
+    "price": 12320,
+    "price_note": null,
+    "source": "https://rikyugura.jp/collections/%E5%8D%83%E5%88%A9%E4%BC%91",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://rikyugura.jp/",
+   "https://rikyugura.jp/collections/%E5%8D%83%E5%88%A9%E4%BC%91",
+   "https://sennorikyu-nihonshu.jp/"
+  ]
+ },
+ "荘の郷": {
+  "brewer": "北庄司酒造店",
+  "official_url": "https://kitashouji.jp/",
+  "brewery_summary": "大正十年創醸、大阪府泉佐野市日根野で市内唯一の酒蔵として営業する蔵元。淡麗に流されず辛口過ぎない日本酒本来の旨味を追求し、「佳い酒を少しずつ」をモットーに質重視の酒造りを行っている。",
+  "blurb": "精米歩合35%の山田錦を使った大吟醸・純米大吟醸から、五百万石を使った吟醸「花穂」、蔵の不動の一番人気という純米酒まで揃う看板銘柄。",
+  "rice": [
+   "山田錦",
+   "五百万石"
+  ],
+  "products": [
+   {
+    "name": "荘の郷 大吟醸 雫酒",
+    "spec": "大吟醸（雫酒、山田錦特等米100%、精米歩合35%）",
+    "volume": "720ml",
+    "price": 7150,
+    "price_note": "税込",
+    "source": "https://kitashouji-sake.shop-pro.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "荘の郷 大吟醸",
+    "spec": "大吟醸（山田錦特等米100%、精米歩合35%）",
+    "volume": "720ml",
+    "price": 3960,
+    "price_note": "税込",
+    "source": "https://kitashouji-sake.shop-pro.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "荘の郷 純米大吟醸",
+    "spec": "純米大吟醸（山田錦特等米100%、精米歩合35%）",
+    "volume": "720ml",
+    "price": 3960,
+    "price_note": "税込",
+    "source": "https://kitashouji-sake.shop-pro.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "荘の郷 純米吟醸",
+    "spec": "純米吟醸（山田錦100%、精米歩合55%）",
+    "volume": "720ml",
+    "price": 2530,
+    "price_note": "税込",
+    "source": "https://kitashouji-sake.shop-pro.jp/?mode=cate&cbid=1104778&csid=0",
+    "seasonal": false
+   },
+   {
+    "name": "荘の郷 吟醸 花穂",
+    "spec": "吟醸（五百万石100%、精米歩合55%、スッキリ辛口）",
+    "volume": "720ml",
+    "price": 1980,
+    "price_note": "税込",
+    "source": "https://kitashouji-sake.shop-pro.jp/?mode=cate&cbid=1104778&csid=0",
+    "seasonal": false
+   },
+   {
+    "name": "荘の郷 吟醸 花萌",
+    "spec": "吟醸（最も飲み易い吟醸酒）",
+    "volume": "720ml",
+    "price": 1870,
+    "price_note": "税込",
+    "source": "https://kitashouji-sake.shop-pro.jp/?mode=cate&cbid=1104778&csid=0",
+    "seasonal": false
+   },
+   {
+    "name": "荘の郷 純米酒",
+    "spec": "純米酒（五百万石100%、精米歩合65%、辛口）",
+    "volume": "720ml",
+    "price": 1650,
+    "price_note": "税込",
+    "source": "https://kitashouji-sake.shop-pro.jp/?mode=cate&cbid=1104816&csid=0",
+    "seasonal": false
+   },
+   {
+    "name": "荘の郷 純米山田錦",
+    "spec": "純米酒（山田錦100%、精米歩合70%、燗酒向き）",
+    "volume": "720ml",
+    "price": 1870,
+    "price_note": "税込",
+    "source": "https://kitashouji-sake.shop-pro.jp/?mode=cate&cbid=1104816&csid=0",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://kitashouji.jp/",
+   "https://kitashouji.jp/sake/",
+   "https://kitashouji-sake.shop-pro.jp/",
+   "https://kitashouji-sake.shop-pro.jp/?mode=cate&cbid=1104778&csid=0",
+   "https://kitashouji-sake.shop-pro.jp/?mode=cate&cbid=1104816&csid=0"
+  ]
+ },
+ "浪花正宗": {
+  "brewer": "浪花酒造",
+  "official_url": "https://naniwamasamune.com/",
+  "brewery_summary": "1716年（享保元年）創業、大阪府阪南市の老舗蔵元で大阪府最古の手造り地酒蔵とされる。全国新酒鑑評会で通算10回の金賞受賞歴を持ち、誠実・丁寧な手造りにこだわった酒造りを続けている。",
+  "blurb": "金賞受賞酒の大吟醸や純米大吟醸から、初心者向けの軽やかな「酒見知り」まで幅広く展開する蔵の主力ブランド。",
+  "rice": [],
+  "products": [
+   {
+    "name": "浪花正宗 純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 3850,
+    "price_note": "税込",
+    "source": "https://naniwamasamune.com/nihonsyu/junmai-daiginjou/",
+    "seasonal": false
+   },
+   {
+    "name": "浪花正宗 大吟醸（南部杜氏優等賞・大阪府優等賞）",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 3300,
+    "price_note": "税込",
+    "source": "https://naniwamasamune.com/nihonsyu/daiginjou/",
+    "seasonal": false
+   },
+   {
+    "name": "浪花正宗 金賞受賞酒 大吟醸",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 7000,
+    "price_note": "税込",
+    "source": "https://naniwamasamune.com/nihonsyu/daiginjou/",
+    "seasonal": false
+   },
+   {
+    "name": "浪花正宗 純米吟醸",
+    "spec": "純米吟醸（フルーティー）",
+    "volume": "720ml",
+    "price": 2080,
+    "price_note": "税込",
+    "source": "https://naniwamasamune.com/nihonsyu/junmai-ginjou/",
+    "seasonal": false
+   },
+   {
+    "name": "浪花正宗 吟醸",
+    "spec": "吟醸（フルーティー）",
+    "volume": "720ml",
+    "price": 1720,
+    "price_note": "税込",
+    "source": "https://naniwamasamune.com/nihonsyu/ginjou/",
+    "seasonal": false
+   },
+   {
+    "name": "浪花正宗 特別純米",
+    "spec": "特別純米",
+    "volume": "720ml",
+    "price": 1600,
+    "price_note": "税込",
+    "source": "https://naniwamasamune.com/nihonsyu/junmai/",
+    "seasonal": false
+   },
+   {
+    "name": "浪花正宗 特別純米 辛口",
+    "spec": "特別純米（辛口）",
+    "volume": "720ml",
+    "price": 1760,
+    "price_note": "税込",
+    "source": "https://naniwamasamune.com/nihonsyu/junmai/",
+    "seasonal": false
+   },
+   {
+    "name": "浪花正宗 酒見知り",
+    "spec": "清酒（ビギナー向け）",
+    "volume": "720ml",
+    "price": 1540,
+    "price_note": "税込",
+    "source": "https://naniwamasamune.com/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://naniwamasamune.com/",
+   "https://naniwamasamune.com/access/",
+   "https://naniwamasamune.com/nihonsyu/junmai-daiginjou/",
+   "https://naniwamasamune.com/nihonsyu/daiginjou/",
+   "https://naniwamasamune.com/nihonsyu/junmai-ginjou/"
+  ]
+ }
+}

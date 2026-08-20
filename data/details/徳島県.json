@@ -1,0 +1,218 @@
+{
+ "三芳菊": {
+  "brewer": "三芳菊酒造",
+  "official_url": "http://www.miyoshikiku.co.jp/",
+  "brewery_summary": null,
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": []
+ },
+ "鳴門鯛": {
+  "brewer": "本家松浦酒造場",
+  "official_url": "https://www.narutotai-sake.jp/",
+  "brewery_summary": "徳島県鳴門市にある酒蔵で、銘柄「鳴門鯛」を醸す。ワインのように食中酒として楽しむ「日本酒マリアージュ」を掲げる。",
+  "blurb": "蔵の代表銘柄。定番の「巴」シリーズから上位クラスの純米大吟醸まで揃う。",
+  "rice": [
+   "あわいちば山田錦",
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "鳴門鯛 純米 巴",
+    "spec": "純米酒（精米歩合65%）",
+    "volume": "720ml",
+    "price": 1628,
+    "price_note": "税込",
+    "source": "https://www.narutotai-sake.jp/SHOP/13008_13007_13006_tomoejm.html",
+    "seasonal": false
+   },
+   {
+    "name": "鳴門鯛 純米吟醸 巴",
+    "spec": "純米吟醸（山田錦100%・精米歩合58%）",
+    "volume": "720ml",
+    "price": 2068,
+    "price_note": "税込",
+    "source": "https://www.narutotai-sake.jp/SHOP/13005_13004_tomoejg.html",
+    "seasonal": false
+   },
+   {
+    "name": "鳴門鯛 純米超辛口 巴",
+    "spec": "純米酒（精米歩合70%）",
+    "volume": "720ml",
+    "price": 1848,
+    "price_note": "税込",
+    "source": "https://www.narutotai-sake.jp/SHOP/13011_13010_13009_tomoeck.html",
+    "seasonal": false
+   },
+   {
+    "name": "鳴門鯛 純米大吟醸 寿",
+    "spec": "純米大吟醸（あわいちば山田錦100%・精米歩合40%）",
+    "volume": "720ml",
+    "price": 5500,
+    "price_note": "税込",
+    "source": "https://www.narutotai-sake.jp/SHOP/11854junmaidaiginjo720.html",
+    "seasonal": false
+   },
+   {
+    "name": "鳴門鯛 純米大吟醸 褒",
+    "spec": "純米大吟醸（あわいちば山田錦100%・精米歩合48%）",
+    "volume": "720ml",
+    "price": 3300,
+    "price_note": "税込",
+    "source": "https://www.narutotai-sake.jp/SHOP/63029_hou720.html",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.narutotai-sake.jp/",
+   "https://www.narutotai-sake.jp/SHOP/96740/list.html",
+   "https://www.narutotai-sake.jp/SHOP/96743/list.html"
+  ]
+ },
+ "芳水": {
+  "brewer": "芳水酒造",
+  "official_url": "https://housui.com/",
+  "brewery_summary": "大正2年創業、徳島県三好市の酒蔵。吉野川の伏流水で芳水を醸す。",
+  "blurb": "詩人・吉井勇ゆかりの銘。淡麗で食に寄り添う酒質。",
+  "rice": [],
+  "products": [
+   {
+    "name": "芳水 特撰仕込 純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://housui.com/products/",
+    "seasonal": false
+   },
+   {
+    "name": "芳水 純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://housui.com/products/",
+    "seasonal": false
+   },
+   {
+    "name": "芳水 大吟醸",
+    "spec": "大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://housui.com/products/",
+    "seasonal": false
+   },
+   {
+    "name": "芳水 純米吟醸 淡遠",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://housui.com/products/",
+    "seasonal": false
+   },
+   {
+    "name": "芳水 吟醸",
+    "spec": "吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://housui.com/products/",
+    "seasonal": false
+   },
+   {
+    "name": "芳水 山廃仕込 特別純米酒",
+    "spec": "山廃特別純米",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://housui.com/products/",
+    "seasonal": false
+   },
+   {
+    "name": "芳水 特別純米酒",
+    "spec": "特別純米",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://housui.com/products/",
+    "seasonal": false
+   },
+   {
+    "name": "芳水 上撰特別本醸造",
+    "spec": "特別本醸造",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://housui.com/products/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://housui.com/products/"
+  ]
+ },
+ "瓢太閤": {
+  "brewer": "太閤酒造場",
+  "official_url": "https://www.nissin-shurui.co.jp/",
+  "brewery_summary": "徳島県阿波市の酒蔵で、日新酒類株式会社（太閤酒造場）が銘柄「瓢太閤」を醸す。全国新酒鑑評会で通算20回受賞の実績を持つ。",
+  "blurb": "蔵の看板銘柄。純米吟醸から特別純米、大吟醸まで幅広いラインナップを持つ。",
+  "rice": [],
+  "products": [
+   {
+    "name": "瓢太閤 純米吟醸",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 1650,
+    "price_note": "税込",
+    "source": "https://nissin-shurui.com/?pid=182866348",
+    "seasonal": false
+   },
+   {
+    "name": "瓢太閤 特別純米",
+    "spec": "特別純米",
+    "volume": "720ml",
+    "price": 1540,
+    "price_note": "税込",
+    "source": "https://nissin-shurui.com/?pid=188248559",
+    "seasonal": false
+   },
+   {
+    "name": "瓢太閤 純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 3300,
+    "price_note": "税込",
+    "source": "https://nissin-shurui.com/?pid=22375070",
+    "seasonal": false
+   },
+   {
+    "name": "瓢太閤 辛口",
+    "spec": "辛口",
+    "volume": "720ml",
+    "price": 1100,
+    "price_note": "税込",
+    "source": "https://nissin-shurui.com/?pid=53104853",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.nissin-shurui.co.jp/",
+   "https://www.nissin-shurui.co.jp/gaiyo.html",
+   "https://nissin-shurui.com/"
+  ]
+ },
+ "旭若松": {
+  "brewer": "那賀酒造",
+  "official_url": "http://wwwd.pikara.ne.jp/asahiwakamatu/index.html",
+  "brewery_summary": "徳島県那賀郡那賀町にある酒蔵で、銘柄「旭若松」を醸す。江戸時代から続く米と水だけの酒造りを続ける。",
+  "blurb": "蔵の代表銘柄。伝統的な米と水だけによる酒造りが特徴。",
+  "rice": [],
+  "products": [],
+  "sources": [
+   "http://wwwd.pikara.ne.jp/asahiwakamatu/index.html"
+  ]
+ }
+}

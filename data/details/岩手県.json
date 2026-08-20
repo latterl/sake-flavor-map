@@ -1,0 +1,1107 @@
+{
+ "あさ開": {
+  "brewer": "あさ開",
+  "official_url": "http://www.asabiraki-net.jp/",
+  "brewery_summary": "1868年（明治元年）創業、岩手県盛岡市にある南部杜氏の伝統を受け継ぐ酒蔵。純米酒・本醸造から季節限定酒まで幅広い商品を手掛けている。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "あさ開 純米吟醸 旭扇 雄町",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.rakuten.co.jp/asabiraki/",
+    "seasonal": false
+   },
+   {
+    "name": "あさ開 純米大吟醸 吟ぎんが仕込み",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.rakuten.co.jp/asabiraki/",
+    "seasonal": false
+   },
+   {
+    "name": "あさ開 純米酒 黄ラベル",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.rakuten.co.jp/asabiraki/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.asabiraki-net.jp/",
+   "https://www.rakuten.co.jp/asabiraki/"
+  ]
+ },
+ "水神": {
+  "brewer": "あさ開",
+  "official_url": "http://www.asabiraki-net.jp/",
+  "brewery_summary": "1868年（明治元年）創業、岩手県盛岡市にある南部杜氏の伝統を受け継ぐ酒蔵。純米酒・本醸造から季節限定酒まで幅広い商品を手掛けている。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "水神 純米大辛口",
+    "spec": "純米酒（大辛口）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.rakuten.co.jp/asabiraki/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.asabiraki-net.jp/",
+   "https://www.rakuten.co.jp/asabiraki/"
+  ]
+ },
+ "鷲の尾": {
+  "brewer": "わしの尾",
+  "official_url": "https://www.washinoo.co.jp/",
+  "brewery_summary": "岩手県八幡平市の酒蔵で、清酒「鷲の尾」を中心に純米吟醸酒や吟醸酒などを製造・販売している。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "蔵人の酒 純米吟醸酒",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 3460,
+    "price_note": "税込",
+    "source": "https://www.washinoo.co.jp/products/",
+    "seasonal": false
+   },
+   {
+    "name": "蔵人の酒 吟醸酒",
+    "spec": "吟醸",
+    "volume": "720ml",
+    "price": 2880,
+    "price_note": "税込",
+    "source": "https://www.washinoo.co.jp/products/",
+    "seasonal": false
+   },
+   {
+    "name": "北窓三友",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1850,
+    "price_note": "税込",
+    "source": "https://www.washinoo.co.jp/products/",
+    "seasonal": false
+   },
+   {
+    "name": "蔵の舞",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1950,
+    "price_note": "税込",
+    "source": "https://www.washinoo.co.jp/products/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.washinoo.co.jp/products/"
+  ]
+ },
+ "南部美人": {
+  "brewer": "南部美人",
+  "official_url": "https://www.nanbubijin.co.jp/",
+  "brewery_summary": "岩手県二戸市の酒蔵で、国内外の品評会での受賞歴を持つ「南部美人」を製造。純米大吟醸・特別純米酒・純米吟醸・大吟醸などをラインナップする。",
+  "blurb": "大吟醸には山田錦および岩手県二戸市産「ぎんおとめ」を使用。",
+  "rice": [
+   "山田錦",
+   "ぎんおとめ"
+  ],
+  "products": [
+   {
+    "name": "南部美人 大吟醸",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 6930,
+    "price_note": "税込",
+    "source": "https://www.nanbubijin.jp/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.nanbubijin.co.jp/products/",
+   "https://www.nanbubijin.jp/"
+  ]
+ },
+ "あづまみね": {
+  "brewer": "吾妻嶺酒造店",
+  "official_url": "https://azumamine.com/",
+  "brewery_summary": "岩手県紫波郡紫波町の酒蔵で、南部杜氏発祥の地に蔵を構え、「あづまみね」ブランドを中心に日本酒を製造している。",
+  "blurb": null,
+  "rice": [
+   "美山錦",
+   "ぎんおとめ"
+  ],
+  "products": [
+   {
+    "name": "あづまみね 純米吟醸 美山錦",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://azumamine.com/product/",
+    "seasonal": false
+   },
+   {
+    "name": "あづまみね 純米 美山錦",
+    "spec": "純米",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://azumamine.com/product/",
+    "seasonal": false
+   },
+   {
+    "name": "あづまみね 純米吟醸 ぎんおとめ",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://azumamine.com/product/",
+    "seasonal": false
+   },
+   {
+    "name": "あづまみね 純米 ぎんおとめ",
+    "spec": "純米",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://azumamine.com/product/",
+    "seasonal": false
+   },
+   {
+    "name": "あづまみね 元撰",
+    "spec": "純米",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://azumamine.com/product/",
+    "seasonal": false
+   },
+   {
+    "name": "あづまみね 元撰 燗",
+    "spec": "純米（燗用）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://azumamine.com/product/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://azumamine.com/product/"
+  ]
+ },
+ "タクシードライバー": {
+  "brewer": "喜久盛酒造",
+  "official_url": "http://kikuzakari.jp",
+  "brewery_summary": null,
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": [
+   "http://kikuzakari.jp"
+  ]
+ },
+ "喜久盛": {
+  "brewer": "喜久盛酒造",
+  "official_url": "http://kikuzakari.jp",
+  "brewery_summary": null,
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": [
+   "http://kikuzakari.jp"
+  ]
+ },
+ "岩手誉": {
+  "brewer": "岩手銘醸",
+  "official_url": "http://www.iwate-meijo.com",
+  "brewery_summary": "岩手県奥州市前沢にある岩手銘醸株式会社。清酒・焼酎の製造販売を行っており、「岩手誉」を主力銘柄とする。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "岩手誉 純米酒",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "http://www.iwate-meijo.com",
+    "seasonal": false
+   },
+   {
+    "name": "岩手誉 純米酒辛口",
+    "spec": "純米酒（辛口）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "http://www.iwate-meijo.com",
+    "seasonal": false
+   },
+   {
+    "name": "岩手誉 純米吟醸",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "http://www.iwate-meijo.com",
+    "seasonal": false
+   },
+   {
+    "name": "岩手誉 本醸造",
+    "spec": "本醸造",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "http://www.iwate-meijo.com",
+    "seasonal": false
+   },
+   {
+    "name": "岩手誉 結の香",
+    "spec": null,
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "http://www.iwate-meijo.com",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.iwate-meijo.com",
+   "https://iwate-meijo.stores.jp/"
+  ]
+ },
+ "奥六": {
+  "brewer": "岩手銘醸",
+  "official_url": "http://www.iwate-meijo.com",
+  "brewery_summary": "岩手県奥州市前沢にある岩手銘醸株式会社。清酒・焼酎の製造販売を行っており、「岩手誉」を主力銘柄とする。",
+  "blurb": "生酛づくり・山廃づくりなど酒造りの原点にこだわる特約店限定ブランド。",
+  "rice": [],
+  "products": [],
+  "sources": [
+   "http://www.iwate-meijo.com",
+   "https://iwate-meijo.stores.jp/"
+  ]
+ },
+ "酉与右衛門": {
+  "brewer": "川村酒造店",
+  "official_url": "http://homepage1.nifty.com/nanbuzeki/",
+  "brewery_summary": "岩手県花巻市石鳥谷町にある合資会社川村酒造店。「酉与右衛門」を看板銘柄とする南部杜氏の蔵元。",
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": [
+   "http://homepage1.nifty.com/nanbuzeki/"
+  ]
+ },
+ "酔右衛門": {
+  "brewer": "川村酒造店",
+  "official_url": "http://homepage1.nifty.com/nanbuzeki/",
+  "brewery_summary": "岩手県花巻市石鳥谷町にある合資会社川村酒造店。「酉与右衛門」を看板銘柄とする南部杜氏の蔵元。",
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": [
+   "http://homepage1.nifty.com/nanbuzeki/"
+  ]
+ },
+ "月の輪": {
+  "brewer": "月の輪酒造店",
+  "official_url": "http://www.tsukinowa-iwate.com/",
+  "brewery_summary": "岩手県紫波町、南部杜氏発祥の地にある有限会社月の輪酒造店。「企業としてではなく家業として」を信条に酒造りを行っている。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "大吟醸 月の輪",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 3597,
+    "price_note": "税込",
+    "source": "http://www.tsukinowa-iwate.com/wakasaya/",
+    "seasonal": false
+   },
+   {
+    "name": "大吟醸 宵の月",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 2266,
+    "price_note": "税込",
+    "source": "http://www.tsukinowa-iwate.com/wakasaya/",
+    "seasonal": false
+   },
+   {
+    "name": "純米吟醸 月の輪",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 2332,
+    "price_note": "税込",
+    "source": "http://www.tsukinowa-iwate.com/wakasaya/",
+    "seasonal": false
+   },
+   {
+    "name": "特別純米酒 月の輪",
+    "spec": "特別純米酒",
+    "volume": "720ml",
+    "price": 1837,
+    "price_note": "税込",
+    "source": "http://www.tsukinowa-iwate.com/wakasaya/",
+    "seasonal": false
+   },
+   {
+    "name": "純米酒 月の輪",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1562,
+    "price_note": "税込",
+    "source": "http://www.tsukinowa-iwate.com/wakasaya/",
+    "seasonal": false
+   },
+   {
+    "name": "滓酒 月の輪",
+    "spec": "にごり酒（滓酒）",
+    "volume": "900ml",
+    "price": 1584,
+    "price_note": "税込",
+    "source": "http://www.tsukinowa-iwate.com/wakasaya/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.tsukinowa-iwate.com/",
+   "http://www.tsukinowa-iwate.com/wakasaya/"
+  ]
+ },
+ "桜顔": {
+  "brewer": "桜顔酒造",
+  "official_url": "https://sakuragao.com/",
+  "brewery_summary": "岩手県盛岡市の酒蔵で、南部杜氏の伝統を受け継ぎ「桜顔」「南部の雫」など幅広い商品を製造している。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "桜顔 旨口本醸造",
+    "spec": "本醸造",
+    "volume": "720ml",
+    "price": 1397,
+    "price_note": "税込",
+    "source": "https://sakuragao.com/item-list",
+    "seasonal": false
+   },
+   {
+    "name": "桜顔 特別純米酒 南部富士",
+    "spec": "特別純米",
+    "volume": "720ml",
+    "price": 1760,
+    "price_note": "税込",
+    "source": "https://sakuragao.com/item-list",
+    "seasonal": false
+   },
+   {
+    "name": "桜顔 特別純米酒 五割五分",
+    "spec": "特別純米",
+    "volume": "720ml",
+    "price": 1870,
+    "price_note": "税込",
+    "source": "https://sakuragao.com/item-list",
+    "seasonal": false
+   },
+   {
+    "name": "純米吟醸 銀河鉄道の夜",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 1892,
+    "price_note": "税込",
+    "source": "https://sakuragao.com/item-list",
+    "seasonal": false
+   },
+   {
+    "name": "桜顔 純米吟醸（吟ぎんが五割磨き）",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 2046,
+    "price_note": "税込",
+    "source": "https://sakuragao.com/item-list",
+    "seasonal": false
+   },
+   {
+    "name": "大吟醸 南部杜氏仕込み",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 2475,
+    "price_note": "税込",
+    "source": "https://sakuragao.com/item-list",
+    "seasonal": false
+   },
+   {
+    "name": "南部の雫 大吟醸",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 2530,
+    "price_note": "税込",
+    "source": "https://sakuragao.com/item-list",
+    "seasonal": false
+   },
+   {
+    "name": "南部の雫 純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 2640,
+    "price_note": "税込",
+    "source": "https://sakuragao.com/item-list",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://sakuragao.com/",
+   "https://sakuragao.com/item-list"
+  ]
+ },
+ "龍泉八重桜": {
+  "brewer": "泉金酒造",
+  "official_url": "https://www.ginga.or.jp/senkin/",
+  "brewery_summary": "岩手県下閉伊郡岩泉町の酒蔵で、龍泉洞の水を仕込み水に用いた「龍泉八重桜」を製造・蔵元直送で販売している。",
+  "blurb": "龍泉洞の伏流水を仕込み水に用いた蔵元直送の日本酒。",
+  "rice": [
+   "吟ぎんが",
+   "秋田酒こまち"
+  ],
+  "products": [
+   {
+    "name": "龍泉八重桜 純米吟醸 吟ぎんが",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 2090,
+    "price_note": "税込",
+    "source": "https://www.ginga.or.jp/senkin/oursake/index.html",
+    "seasonal": false
+   },
+   {
+    "name": "龍泉八重桜 純米吟醸 酒こまち",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 2090,
+    "price_note": "税込",
+    "source": "https://www.ginga.or.jp/senkin/oursake/index.html",
+    "seasonal": false
+   },
+   {
+    "name": "龍泉八重桜 大吟醸（木箱なし）",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 4950,
+    "price_note": "税込",
+    "source": "https://www.ginga.or.jp/senkin/oursake/index.html",
+    "seasonal": false
+   },
+   {
+    "name": "龍泉八重桜 結の香（箱なし）",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 4400,
+    "price_note": "税込",
+    "source": "https://www.ginga.or.jp/senkin/oursake/index.html",
+    "seasonal": false
+   },
+   {
+    "name": "龍泉八重桜 純米大吟醸（箱なし）",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 3850,
+    "price_note": "税込",
+    "source": "https://www.ginga.or.jp/senkin/oursake/index.html",
+    "seasonal": false
+   },
+   {
+    "name": "龍泉八重桜 森と水の囁き（箱なし）",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 3960,
+    "price_note": "税込",
+    "source": "https://www.ginga.or.jp/senkin/oursake/index.html",
+    "seasonal": false
+   },
+   {
+    "name": "龍泉八重桜 火の鳥純米吟醸（箱なし）",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 2970,
+    "price_note": "税込",
+    "source": "https://www.ginga.or.jp/senkin/oursake/index.html",
+    "seasonal": false
+   },
+   {
+    "name": "龍泉八重桜 特別純米酒",
+    "spec": "特別純米",
+    "volume": "720ml",
+    "price": 1650,
+    "price_note": "税込",
+    "source": "https://www.ginga.or.jp/senkin/oursake/index.html",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.ginga.or.jp/senkin/oursake/index.html"
+  ]
+ },
+ "浜千鳥": {
+  "brewer": "浜千鳥",
+  "official_url": "https://hamachidori.net/",
+  "brewery_summary": "浜千鳥は岩手県釜石市で1923年に創業した酒蔵である。看板銘柄「浜千鳥」は大吟醸から本醸造まで幅広いラインナップを醸造している。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "浜千鳥 大吟醸",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 4620,
+    "price_note": "税込",
+    "source": "https://hamachidori.net/?mode=cate&cbid=2423970&csid=0",
+    "seasonal": false
+   },
+   {
+    "name": "浜千鳥 吟醸",
+    "spec": "吟醸",
+    "volume": "720ml",
+    "price": 3850,
+    "price_note": "税込",
+    "source": "https://hamachidori.net/?mode=cate&cbid=2423970&csid=0",
+    "seasonal": false
+   },
+   {
+    "name": "浜千鳥 純米",
+    "spec": "純米",
+    "volume": "720ml",
+    "price": 2090,
+    "price_note": "税込",
+    "source": "https://hamachidori.net/?mode=cate&cbid=2423970&csid=0",
+    "seasonal": false
+   },
+   {
+    "name": "浜千鳥 本醸造",
+    "spec": "本醸造",
+    "volume": "1800ml",
+    "price": 2552,
+    "price_note": "税込",
+    "source": "https://hamachidori.net/?mode=cate&cbid=2423970&csid=0",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://hamachidori.net/",
+   "https://hamachidori.net/?mode=cate&cbid=2423970&csid=0"
+  ]
+ },
+ "百磐": {
+  "brewer": "磐乃井酒造",
+  "official_url": "https://www.iwanoi.co.jp/",
+  "brewery_summary": "岩手県一関市花泉町の酒蔵。地元産米を用い「磐乃井」「百磐」を醸す。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "磐乃井 純米大吟醸 真心 紫ラベル",
+    "spec": "純米大吟醸（精米歩合40%）",
+    "volume": "720ml",
+    "price": 4015,
+    "price_note": "税込",
+    "source": "https://www.iwanoi.co.jp/sakeofiwanoi",
+    "seasonal": false
+   },
+   {
+    "name": "磐乃井 純米大吟醸 真心 紺ラベル",
+    "spec": "純米大吟醸（精米歩合45%）",
+    "volume": "720ml",
+    "price": 2640,
+    "price_note": "税込",
+    "source": "https://www.iwanoi.co.jp/sakeofiwanoi",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸 アチャラパ天国",
+    "spec": "純米大吟醸（精米歩合45%）",
+    "volume": "720ml",
+    "price": 3025,
+    "price_note": "税込",
+    "source": "https://www.iwanoi.co.jp/sakeofiwanoi",
+    "seasonal": false
+   },
+   {
+    "name": "磐乃井 純米吟醸 真心 緑ラベル",
+    "spec": "純米吟醸（精米歩合55%）",
+    "volume": "1800ml",
+    "price": 4180,
+    "price_note": "税込",
+    "source": "https://www.iwanoi.co.jp/sakeofiwanoi",
+    "seasonal": false
+   },
+   {
+    "name": "IWANOI",
+    "spec": "純米吟醸（精米歩合55%）",
+    "volume": "500ml",
+    "price": 1760,
+    "price_note": "税込",
+    "source": "https://www.iwanoi.co.jp/sakeofiwanoi",
+    "seasonal": false
+   },
+   {
+    "name": "特別純米酒 カルイワノイ",
+    "spec": "特別純米（精米歩合60%）",
+    "volume": "720ml",
+    "price": 2145,
+    "price_note": "税込",
+    "source": "https://www.iwanoi.co.jp/sakeofiwanoi",
+    "seasonal": false
+   },
+   {
+    "name": "磐乃井 純米酒 真心 白ラベル",
+    "spec": "純米酒（精米歩合65%）",
+    "volume": "720ml",
+    "price": 1540,
+    "price_note": "税込",
+    "source": "https://www.iwanoi.co.jp/sakeofiwanoi",
+    "seasonal": false
+   },
+   {
+    "name": "磐乃井 本醸造 流郷 花泉",
+    "spec": "本醸造（精米歩合65%）",
+    "volume": "720ml",
+    "price": 1518,
+    "price_note": "税込",
+    "source": "https://www.iwanoi.co.jp/sakeofiwanoi",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.iwanoi.co.jp/sakeofiwanoi"
+  ]
+ },
+ "菊の司": {
+  "brewer": "菊の司酒造",
+  "official_url": "https://kikunotsukasa.jp/",
+  "brewery_summary": "菊の司酒造は1772年創業、岩手県最古の歴史を持つ岩手郡雫石町の酒蔵である。盛岡市内を流れる中津川の伏流水を仕込み水に用い、「菊の司」や「七福神」などの銘柄を醸造している。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "菊の司 新星-Shinboshi-",
+    "spec": null,
+    "volume": "720ml",
+    "price": 2121,
+    "price_note": "税込",
+    "source": "https://kikunotsukasa.shop-pro.jp/?mode=cate&cbid=2482420&csid=0",
+    "seasonal": false
+   },
+   {
+    "name": "菊之司 樽酒 新樽ボトル",
+    "spec": "樽酒",
+    "volume": "720ml",
+    "price": 1760,
+    "price_note": "税込",
+    "source": "https://kikunotsukasa.shop-pro.jp/?mode=cate&cbid=2482420&csid=0",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://kikunotsukasa.jp/",
+   "https://kikunotsukasa.shop-pro.jp/",
+   "https://kikunotsukasa.shop-pro.jp/?mode=cate&cbid=2482420&csid=0"
+  ]
+ },
+ "七福神": {
+  "brewer": "菊の司酒造",
+  "official_url": "https://kikunotsukasa.jp/",
+  "brewery_summary": "菊の司酒造は1772年創業、岩手県最古の歴史を持つ岩手郡雫石町の酒蔵である。盛岡市内を流れる中津川の伏流水を仕込み水に用い、「菊の司」や「七福神」などの銘柄を醸造している。",
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": [
+   "https://kikunotsukasa.jp/",
+   "https://kikunotsukasa.shop-pro.jp/",
+   "https://kikunotsukasa.shop-pro.jp/?mode=cate&cbid=2482420&csid=0"
+  ]
+ },
+ "千両男山": {
+  "brewer": "菱屋酒造店",
+  "official_url": "https://hisiya-miyako.ocnk.net/",
+  "brewery_summary": "嘉永5年（1852年）創業、岩手県宮古市の三陸海岸の漁師町にある蔵元。三陸の海産物との相性を意識した純米酒を中心に製造している。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "千両男山 純米酒「港に朝日、水面の光」",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1700,
+    "price_note": "税込",
+    "source": "https://hisiya-miyako.ocnk.net/product-list",
+    "seasonal": false
+   },
+   {
+    "name": "千両男山 純米大吟醸",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 3639,
+    "price_note": "税込",
+    "source": "https://hisiya-miyako.ocnk.net/product-list",
+    "seasonal": false
+   },
+   {
+    "name": "千両男山 純米吟醸 結の香",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 2780,
+    "price_note": "税込",
+    "source": "https://hisiya-miyako.ocnk.net/product-list",
+    "seasonal": false
+   },
+   {
+    "name": "千両男山 純米吟醸",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 2510,
+    "price_note": "税込",
+    "source": "https://hisiya-miyako.ocnk.net/product-list",
+    "seasonal": false
+   },
+   {
+    "name": "千両男山 純米酒",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1595,
+    "price_note": "税込",
+    "source": "https://hisiya-miyako.ocnk.net/product-list",
+    "seasonal": false
+   },
+   {
+    "name": "千両男山 山廃純米酒",
+    "spec": "山廃純米酒",
+    "volume": "720ml",
+    "price": 1800,
+    "price_note": "税込",
+    "source": "https://hisiya-miyako.ocnk.net/product-list",
+    "seasonal": false
+   },
+   {
+    "name": "千両男山 上撰",
+    "spec": "上撰",
+    "volume": "720ml",
+    "price": 1250,
+    "price_note": "税込",
+    "source": "https://hisiya-miyako.ocnk.net/product-list",
+    "seasonal": false
+   },
+   {
+    "name": "千両男山 金印",
+    "spec": "金印",
+    "volume": "720ml",
+    "price": 989,
+    "price_note": "税込",
+    "source": "https://hisiya-miyako.ocnk.net/product-list",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://hisiya-miyako.ocnk.net/product-list"
+  ]
+ },
+ "AKABU": {
+  "brewer": "赤武酒造",
+  "official_url": "https://www.akabu1.com/",
+  "brewery_summary": "赤武酒造株式会社は明治29年創業、岩手県盛岡市に蔵を置く酒造会社である。「AKABU」や「浜娘」といった銘柄を全国の特約店を通じて販売している。",
+  "blurb": "フレッシュな果実香とフルーティーな香りが特徴の純米吟醸などを展開",
+  "rice": [],
+  "products": [
+   {
+    "name": "AKABU 純米酒",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.akabu1.com/gallery/",
+    "seasonal": false
+   },
+   {
+    "name": "AKABU 純米吟醸",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.akabu1.com/gallery/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.akabu1.com/",
+   "https://www.akabu1.com/store/",
+   "https://www.akabu1.com/gallery/"
+  ]
+ },
+ "浜娘": {
+  "brewer": "赤武酒造",
+  "official_url": "https://www.akabu1.com/",
+  "brewery_summary": "赤武酒造株式会社は明治29年創業、岩手県盛岡市に蔵を置く酒造会社である。「AKABU」や「浜娘」といった銘柄を全国の特約店を通じて販売している。",
+  "blurb": "やさしく芳醇な香りに心地よい甘みとクリアな後味が特徴",
+  "rice": [],
+  "products": [
+   {
+    "name": "浜娘 純米酒",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.akabu1.com/gallery/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.akabu1.com/",
+   "https://www.akabu1.com/store/",
+   "https://www.akabu1.com/gallery/"
+  ]
+ },
+ "酔仙": {
+  "brewer": "酔仙酒造",
+  "official_url": "https://suisenshuzo.jp/",
+  "brewery_summary": "岩手県陸前高田市・大船渡市に蔵を構える酒造会社。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "酔仙",
+    "spec": "日本酒",
+    "volume": "720ml",
+    "price": 3300,
+    "price_note": "税込",
+    "source": "https://suisenshuzo.shop-pro.jp/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://suisenshuzo.shop-pro.jp/",
+   "https://suisenshuzo.shop-pro.jp/?mode=grp&gid=760909"
+  ]
+ },
+ "雪っこ": {
+  "brewer": "酔仙酒造",
+  "official_url": "https://suisenshuzo.jp/",
+  "brewery_summary": "岩手県陸前高田市・大船渡市に蔵を構える酒造会社。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "みずしぼり 雪っこ",
+    "spec": "清酒",
+    "volume": "720ml",
+    "price": 2200,
+    "price_note": "税込",
+    "source": "https://suisenshuzo.shop-pro.jp/?mode=grp&gid=760909",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://suisenshuzo.shop-pro.jp/",
+   "https://suisenshuzo.shop-pro.jp/?mode=grp&gid=760909"
+  ]
+ },
+ "Re:vive": {
+  "brewer": "平六醸造",
+  "official_url": "https://www.hiraroku.com/",
+  "brewery_summary": "岩手県紫波郡紫波町（日詰平井邸）のクラフトサケ醸造所。「Re:vive」を基本レシピとし、発芽玄米を取り入れた酒造りを行っている。",
+  "blurb": "発芽玄米を取り入れた平六醸造の基本レシピシリーズ。",
+  "rice": [],
+  "products": [
+   {
+    "name": "Re:vive Origin アカツキ",
+    "spec": "クラフトサケ",
+    "volume": "720ml",
+    "price": 12100,
+    "price_note": "税込",
+    "source": "https://hiraroku.theshop.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "Re:vive 無涯 -むがい-",
+    "spec": "クラフトサケ",
+    "volume": "720ml",
+    "price": 3630,
+    "price_note": "税込",
+    "source": "https://hiraroku.theshop.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "Re:vive 空我 -くうが-",
+    "spec": "クラフトサケ",
+    "volume": "720ml",
+    "price": 2200,
+    "price_note": "税込",
+    "source": "https://hiraroku.theshop.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "Re:vive 刹那 -せつな-",
+    "spec": "クラフトサケ",
+    "volume": "720ml",
+    "price": 2420,
+    "price_note": "税込",
+    "source": "https://hiraroku.theshop.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "Re:vive 刹那 -せつな- おりがらみ",
+    "spec": "クラフトサケ（おりがらみ）",
+    "volume": "720ml",
+    "price": 2420,
+    "price_note": "税込",
+    "source": "https://hiraroku.theshop.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "Re:vive 久遠 -くおん-",
+    "spec": "クラフトサケ",
+    "volume": "720ml",
+    "price": 2420,
+    "price_note": "税込",
+    "source": "https://hiraroku.theshop.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "Re:vive 久遠 -くおん- おりがらみ",
+    "spec": "クラフトサケ（おりがらみ）",
+    "volume": "720ml",
+    "price": 2420,
+    "price_note": "税込",
+    "source": "https://hiraroku.theshop.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "Re:vive OBORO",
+    "spec": "クラフトサケ",
+    "volume": "720ml",
+    "price": 3630,
+    "price_note": "税込",
+    "source": "https://hiraroku.theshop.jp/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.hiraroku.com/brewery",
+   "https://hiraroku.theshop.jp/"
+  ]
+ },
+ "layer": {
+  "brewer": "平六醸造",
+  "official_url": "https://www.hiraroku.com/",
+  "brewery_summary": "岩手県紫波郡紫波町（日詰平井邸）のクラフトサケ醸造所。「Re:vive」を基本レシピとし、発芽玄米を取り入れた酒造りを行っている。",
+  "blurb": "果実酒（リキュール）シリーズのため清酒製品なし。",
+  "rice": [],
+  "products": [],
+  "sources": [
+   "https://www.hiraroku.com/brewery",
+   "https://hiraroku.theshop.jp/"
+  ]
+ },
+ "民宿とおののどぶろく": {
+  "brewer": "民宿とおの",
+  "official_url": "http://www.minshuku-tono.com/wp/",
+  "brewery_summary": null,
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": []
+ },
+ "廣喜": {
+  "brewer": "紫波酒造店",
+  "official_url": "https://www.shiwa-shuzoten.com/",
+  "brewery_summary": "南部杜氏発祥の地、岩手県紫波町にある蔵元。人の手による酒造りにこだわり、常に新しい創意工夫で日本酒造りに挑戦している。",
+  "blurb": "酸基醴酛仕込みの日本酒。",
+  "rice": [],
+  "products": [
+   {
+    "name": "廣喜 特別純米 磨き六割",
+    "spec": "特別純米酒",
+    "volume": "720ml",
+    "price": 1540,
+    "price_note": "税込",
+    "source": "https://hiroki-hirotasyzuouten.com/SHOP/A-17_18.html",
+    "seasonal": false
+   },
+   {
+    "name": "廣喜 純米吟醸 磨き五割五分",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 1980,
+    "price_note": "税込",
+    "source": "https://hiroki-hirotasyzuouten.com/SHOP/A-14_15_16.html",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.shiwa-shuzoten.com/",
+   "https://hiroki-hirotasyzuouten.com/",
+   "https://hiroki-hirotasyzuouten.com/SHOP/167855/31475/list.html",
+   "https://hiroki-hirotasyzuouten.com/SHOP/167855/31478/list.html",
+   "https://hiroki-hirotasyzuouten.com/SHOP/A-17_18.html"
+  ]
+ },
+ "紫宙": {
+  "brewer": "紫波酒造店",
+  "official_url": "https://www.shiwa-shuzoten.com/",
+  "brewery_summary": "南部杜氏発祥の地、岩手県紫波町にある蔵元。人の手による酒造りにこだわり、常に新しい創意工夫で日本酒造りに挑戦している。",
+  "blurb": "純米吟醸酒などの銘柄。",
+  "rice": [],
+  "products": [],
+  "sources": [
+   "https://www.shiwa-shuzoten.com/",
+   "https://hiroki-hirotasyzuouten.com/",
+   "https://hiroki-hirotasyzuouten.com/SHOP/167855/31475/list.html",
+   "https://hiroki-hirotasyzuouten.com/SHOP/167855/31478/list.html",
+   "https://hiroki-hirotasyzuouten.com/SHOP/A-17_18.html"
+  ]
+ },
+ "堀の井": {
+  "brewer": "高橋酒造店",
+  "official_url": "https://shop.horinoi.jp/",
+  "brewery_summary": "岩手県紫波郡紫波町の酒蔵。創業時に堀米の井戸の水で仕込んだ酒が評判だったことが「堀の井」の名の由来。酒造用米の自社田を保有し、自家米での酒造りを行っている。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "純米酒 堀の井",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1320,
+    "price_note": "税込",
+    "source": "https://shop.horinoi.jp/categories/3322275",
+    "seasonal": false
+   },
+   {
+    "name": "本醸造酒 手作り 堀の井",
+    "spec": "本醸造酒",
+    "volume": "720ml",
+    "price": 1320,
+    "price_note": "税込",
+    "source": "https://shop.horinoi.jp/categories/3322268",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://shop.horinoi.jp/",
+   "https://shop.horinoi.jp/categories/3322275",
+   "https://shop.horinoi.jp/law"
+  ]
+ }
+}

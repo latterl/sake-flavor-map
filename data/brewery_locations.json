@@ -1,0 +1,4712 @@
+{
+ "1": {
+  "muni": "樺戸郡新十津川町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "2": {
+  "muni": "旭川市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "4": {
+  "muni": "小樽市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "6": {
+  "muni": "旭川市",
+  "src": "sake_dataset",
+  "how": "sake_dataset"
+ },
+ "7": {
+  "muni": "夕張郡栗山町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "10": {
+  "muni": "八戸市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "12": {
+  "muni": "上北郡おいらせ町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "14": {
+  "muni": "八戸市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "15": {
+  "muni": "上北郡七戸町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "16": {
+  "muni": "青森市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "22": {
+  "muni": "釜石市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "25": {
+  "muni": "二戸市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "26": {
+  "muni": "盛岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "28": {
+  "muni": "花巻市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "29": {
+  "muni": "宮古市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "30": {
+  "muni": "下閉伊郡岩泉町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "31": {
+  "muni": "陸前高田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "32": {
+  "muni": "盛岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "33": {
+  "muni": "紫波郡紫波町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "34": {
+  "muni": "登米市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "35": {
+  "muni": "遠田郡美里町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "36": {
+  "muni": "加美郡加美町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "39": {
+  "muni": "石巻市",
+  "src": "sake_dataset",
+  "how": "sake_dataset"
+ },
+ "40": {
+  "muni": "石巻市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "41": {
+  "muni": "加美郡加美町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "42": {
+  "muni": "大崎市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "43": {
+  "muni": "仙台市泉区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "44": {
+  "muni": "栗原市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "45": {
+  "muni": "大崎市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "46": {
+  "muni": "気仙沼市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "48": {
+  "muni": "気仙沼市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "49": {
+  "muni": "塩竈市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "50": {
+  "muni": "由利本荘市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "51": {
+  "muni": "由利本荘市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "52": {
+  "muni": "潟上市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "53": {
+  "muni": "横手市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "54": {
+  "muni": "秋田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "56": {
+  "muni": "秋田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "58": {
+  "muni": "湯沢市",
+  "src": "sake_dataset",
+  "how": "sake_dataset"
+ },
+ "60": {
+  "muni": "秋田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "61": {
+  "muni": "大館市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "62": {
+  "muni": "横手市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "63": {
+  "muni": "秋田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "64": {
+  "muni": "大仙市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "66": {
+  "muni": "横手市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "67": {
+  "muni": "湯沢市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "68": {
+  "muni": "にかほ市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "69": {
+  "muni": "大仙市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "70": {
+  "muni": "横手市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "71": {
+  "muni": "大仙市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "72": {
+  "muni": "山本郡八峰町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "73": {
+  "muni": "仙北郡美郷町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "76": {
+  "muni": "秋田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "77": {
+  "muni": "湯沢市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "78": {
+  "muni": "南秋田郡五城目町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "80": {
+  "muni": "山形市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "82": {
+  "muni": "鶴岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "83": {
+  "muni": "酒田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "84": {
+  "muni": "酒田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "85": {
+  "muni": "寒河江市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "86": {
+  "muni": "長井市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "87": {
+  "muni": "酒田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "88": {
+  "muni": "寒河江市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "89": {
+  "muni": "天童市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "90": {
+  "muni": "西村山郡河北町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "91": {
+  "muni": "鶴岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "94": {
+  "muni": "東置賜郡川西町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "96": {
+  "muni": "村山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "99": {
+  "muni": "山形市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "100": {
+  "muni": "鶴岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "101": {
+  "muni": "天童市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "102": {
+  "muni": "東置賜郡高畠町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "103": {
+  "muni": "酒田市",
+  "src": "sake_dataset",
+  "how": "sake_dataset"
+ },
+ "105": {
+  "muni": "鶴岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "108": {
+  "muni": "米沢市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "112": {
+  "muni": "鶴岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "113": {
+  "muni": "酒田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "114": {
+  "muni": "酒田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "115": {
+  "muni": "東置賜郡高畠町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "118": {
+  "muni": "会津若松市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "119": {
+  "muni": "二本松市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "120": {
+  "muni": "会津若松市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "121": {
+  "muni": "白河市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "123": {
+  "muni": "郡山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "125": {
+  "muni": "会津若松市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "126": {
+  "muni": "河沼郡会津坂下町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "127": {
+  "muni": "会津若松市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "128": {
+  "muni": "二本松市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "130": {
+  "muni": "会津若松市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "131": {
+  "muni": "耶麻郡磐梯町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "132": {
+  "muni": "南会津郡南会津町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "133": {
+  "muni": "喜多方市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "134": {
+  "muni": "喜多方市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "135": {
+  "muni": "河沼郡会津坂下町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "138": {
+  "muni": "双葉郡浪江町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "139": {
+  "muni": "大沼郡会津美里町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "141": {
+  "muni": "南会津郡南会津町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "142": {
+  "muni": "二本松市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "143": {
+  "muni": "南会津郡南会津町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "144": {
+  "muni": "南会津郡南会津町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "146": {
+  "muni": "郡山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "148": {
+  "muni": "西白河郡矢吹町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "149": {
+  "muni": "喜多方市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "150": {
+  "muni": "喜多方市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "151": {
+  "muni": "喜多方市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "152": {
+  "muni": "笠間市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "153": {
+  "muni": "つくば市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "154": {
+  "muni": "石岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "157": {
+  "muni": "筑西市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "159": {
+  "muni": "日立市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "160": {
+  "muni": "常総市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "163": {
+  "muni": "結城市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "166": {
+  "muni": "猿島郡境町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "167": {
+  "muni": "水戸市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "169": {
+  "muni": "桜川市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "171": {
+  "muni": "小山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "173": {
+  "muni": "宇都宮市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "174": {
+  "muni": "宇都宮市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "176": {
+  "muni": "小山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "177": {
+  "muni": "大田原市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "178": {
+  "muni": "大田原市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "179": {
+  "muni": "佐野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "180": {
+  "muni": "小山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "182": {
+  "muni": "宇都宮市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "183": {
+  "muni": "小山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "184": {
+  "muni": "芳賀郡市貝町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "185": {
+  "muni": "藤岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "186": {
+  "muni": "前橋市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "187": {
+  "muni": "吾妻郡長野原町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "188": {
+  "muni": "太田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "189": {
+  "muni": "利根郡川場村",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "190": {
+  "muni": "みどり市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "191": {
+  "muni": "沼田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "193": {
+  "muni": "高崎市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "194": {
+  "muni": "佐波郡玉村",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "196": {
+  "muni": "吾妻郡中之条町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "198": {
+  "muni": "沼田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "199": {
+  "muni": "館林市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "200": {
+  "muni": "館林市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "202": {
+  "muni": "蓮田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "205": {
+  "muni": "さいたま市西区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "206": {
+  "muni": "深谷市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "207": {
+  "muni": "熊谷市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "211": {
+  "muni": "秩父市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "214": {
+  "muni": "入間郡越生町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "216": {
+  "muni": "山武市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "217": {
+  "muni": "富津市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "218": {
+  "muni": "香取郡神崎町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "220": {
+  "muni": "勝浦市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "221": {
+  "muni": "夷隅郡御宿町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "222": {
+  "muni": "君津市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "223": {
+  "muni": "いすみ市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "224": {
+  "muni": "香取郡神崎町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "225": {
+  "muni": "福生市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "228": {
+  "muni": "福生市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "229": {
+  "muni": "青梅市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "231": {
+  "muni": "海老名市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "232": {
+  "muni": "相模原市緑区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "233": {
+  "muni": "秦野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "235": {
+  "muni": "愛甲郡愛川町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "237": {
+  "muni": "足柄上郡山北町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "239": {
+  "muni": "東蒲原郡阿賀町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "241": {
+  "muni": "上越市大潟区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "242": {
+  "muni": "佐渡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "243": {
+  "muni": "南魚沼郡湯沢町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "244": {
+  "muni": "小千谷市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "245": {
+  "muni": "糸魚川市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "246": {
+  "muni": "南魚沼市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "247": {
+  "muni": "長岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "250": {
+  "muni": "佐渡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "252": {
+  "muni": "新潟市西区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "253": {
+  "muni": "五泉市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "255": {
+  "muni": "新潟市北区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "257": {
+  "muni": "新潟市中央区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "258": {
+  "muni": "村上市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "259": {
+  "muni": "長岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "260": {
+  "muni": "新潟市中央区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "261": {
+  "muni": "柏崎市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "262": {
+  "muni": "新潟市西区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "266": {
+  "muni": "上越市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "267": {
+  "muni": "阿賀野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "268": {
+  "muni": "上越市三和区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "269": {
+  "muni": "新潟市西蒲区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "271": {
+  "muni": "新潟市北区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "272": {
+  "muni": "新潟市西蒲区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "273": {
+  "muni": "南魚沼市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "275": {
+  "muni": "新潟市江南区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "276": {
+  "muni": "小千谷市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "279": {
+  "muni": "長岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "280": {
+  "muni": "新潟市北区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "281": {
+  "muni": "長岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "282": {
+  "muni": "糸魚川市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "283": {
+  "muni": "妙高市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "285": {
+  "muni": "南魚沼市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "286": {
+  "muni": "上越市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "287": {
+  "muni": "上越市柿崎区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "288": {
+  "muni": "加茂市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "289": {
+  "muni": "加茂市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "291": {
+  "muni": "上越市浦川原区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "292": {
+  "muni": "村上市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "294": {
+  "muni": "加茂市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "296": {
+  "muni": "新潟市西蒲区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "297": {
+  "muni": "長岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "298": {
+  "muni": "長岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "299": {
+  "muni": "佐渡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "300": {
+  "muni": "魚沼市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "301": {
+  "muni": "糸魚川市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "302": {
+  "muni": "十日町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "303": {
+  "muni": "魚沼市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "304": {
+  "muni": "上越市柿崎区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "305": {
+  "muni": "長岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "308": {
+  "muni": "新発田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "311": {
+  "muni": "東蒲原郡阿賀町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "312": {
+  "muni": "長岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "313": {
+  "muni": "黒部市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "315": {
+  "muni": "富山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "316": {
+  "muni": "富山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "317": {
+  "muni": "富山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "318": {
+  "muni": "下新川郡朝日町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "319": {
+  "muni": "南砺市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "320": {
+  "muni": "砺波市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "321": {
+  "muni": "南砺市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "322": {
+  "muni": "氷見市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "323": {
+  "muni": "黒部市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "324": {
+  "muni": "砺波市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "325": {
+  "muni": "富山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "327": {
+  "muni": "小松市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "328": {
+  "muni": "白山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "329": {
+  "muni": "白山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "332": {
+  "muni": "鳳珠郡能登町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "333": {
+  "muni": "鹿島郡中能登町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "334": {
+  "muni": "珠洲市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "335": {
+  "muni": "加賀市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "336": {
+  "muni": "河北郡津幡町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "337": {
+  "muni": "加賀市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "338": {
+  "muni": "金沢市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "339": {
+  "muni": "白山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "340": {
+  "muni": "小松市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "342": {
+  "muni": "白山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "344": {
+  "muni": "金沢市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "345": {
+  "muni": "金沢市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "346": {
+  "muni": "鯖江市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "348": {
+  "muni": "福井市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "351": {
+  "muni": "南条郡南越前町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "352": {
+  "muni": "福井市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "356": {
+  "muni": "福井市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "357": {
+  "muni": "丹生郡越前町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "359": {
+  "muni": "福井市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "360": {
+  "muni": "福井市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "361": {
+  "muni": "福井市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "363": {
+  "muni": "大野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "364": {
+  "muni": "勝山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "366": {
+  "muni": "福井市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "367": {
+  "muni": "福井市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "368": {
+  "muni": "吉田郡永平寺町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "369": {
+  "muni": "越前市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "371": {
+  "muni": "吉田郡永平寺町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "372": {
+  "muni": "大野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "377": {
+  "muni": "吉田郡永平寺町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "378": {
+  "muni": "南巨摩郡富士川町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "379": {
+  "muni": "大月市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "381": {
+  "muni": "北杜市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "382": {
+  "muni": "安曇野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "383": {
+  "muni": "佐久市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "384": {
+  "muni": "佐久市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "385": {
+  "muni": "大町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "386": {
+  "muni": "木曾郡木曾町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "387": {
+  "muni": "長野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "388": {
+  "muni": "小諸市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "389": {
+  "muni": "伊那市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "390": {
+  "muni": "飯田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "393": {
+  "muni": "佐久市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "394": {
+  "muni": "上田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "395": {
+  "muni": "諏訪市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "397": {
+  "muni": "上田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "398": {
+  "muni": "松本市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "400": {
+  "muni": "伊那市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "401": {
+  "muni": "上高井郡小布施町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "402": {
+  "muni": "須坂市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "403": {
+  "muni": "岡谷市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "405": {
+  "muni": "木曾郡木曾町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "407": {
+  "muni": "中野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "409": {
+  "muni": "上伊那郡中川村",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "411": {
+  "muni": "養老郡養老町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "414": {
+  "muni": "高山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "416": {
+  "muni": "高山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "418": {
+  "muni": "可児市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "420": {
+  "muni": "下呂市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "421": {
+  "muni": "大垣市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "422": {
+  "muni": "中津川市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "424": {
+  "muni": "飛騨市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "426": {
+  "muni": "瑞浪市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "427": {
+  "muni": "揖斐郡揖斐川町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "428": {
+  "muni": "多治見市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "431": {
+  "muni": "飛騨市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "432": {
+  "muni": "美濃加茂市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "433": {
+  "muni": "羽島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "434": {
+  "muni": "美濃市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "435": {
+  "muni": "各務原市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "437": {
+  "muni": "島田市",
+  "src": "sake_dataset",
+  "how": "sake_dataset"
+ },
+ "438": {
+  "muni": "富士宮市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "440": {
+  "muni": "藤枝市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "441": {
+  "muni": "焼津市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "442": {
+  "muni": "静岡市清水区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "443": {
+  "muni": "藤枝市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "445": {
+  "muni": "静岡市清水区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "448": {
+  "muni": "藤枝市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "450": {
+  "muni": "浜松市浜北区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "451": {
+  "muni": "掛川市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "452": {
+  "muni": "藤枝市",
+  "src": "sake_dataset",
+  "how": "sake_dataset"
+ },
+ "453": {
+  "muni": "西尾市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "455": {
+  "muni": "岡崎市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "457": {
+  "muni": "半田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "458": {
+  "muni": "名古屋市緑区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "459": {
+  "muni": "常滑市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "461": {
+  "muni": "愛西市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "462": {
+  "muni": "北設楽郡設楽町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "464": {
+  "muni": "半田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "467": {
+  "muni": "豊橋市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "468": {
+  "muni": "名古屋市守山区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "469": {
+  "muni": "知多郡阿久比町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "470": {
+  "muni": "四日市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "474": {
+  "muni": "三重郡菰野町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "476": {
+  "muni": "伊賀市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "479": {
+  "muni": "津市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "480": {
+  "muni": "伊賀市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "481": {
+  "muni": "多気郡大台町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "482": {
+  "muni": "四日市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "483": {
+  "muni": "名張市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "484": {
+  "muni": "四日市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "487": {
+  "muni": "四日市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "491": {
+  "muni": "伊賀市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "492": {
+  "muni": "長浜市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "494": {
+  "muni": "東近江市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "495": {
+  "muni": "甲賀市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "496": {
+  "muni": "甲賀市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "497": {
+  "muni": "大津市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "498": {
+  "muni": "湖南市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "499": {
+  "muni": "湖南市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "500": {
+  "muni": "高島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "501": {
+  "muni": "犬上郡豊郷町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "508": {
+  "muni": "高島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "509": {
+  "muni": "高島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "510": {
+  "muni": "高島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "513": {
+  "muni": "京都市伏見区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "514": {
+  "muni": "京都市左京区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "515": {
+  "muni": "京都市伏見区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "516": {
+  "muni": "京丹後市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "520": {
+  "muni": "京都市伏見区",
+  "src": "sake_dataset",
+  "how": "sake_dataset"
+ },
+ "522": {
+  "muni": "京都市伏見区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "523": {
+  "muni": "京都市伏見区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "524": {
+  "muni": "京都市伏見区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "525": {
+  "muni": "京都市下京区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "526": {
+  "muni": "京都市伏見区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "528": {
+  "muni": "城陽市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "529": {
+  "muni": "宮津市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "530": {
+  "muni": "舞鶴市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "531": {
+  "muni": "京都市伏見区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "532": {
+  "muni": "京都市伏見区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "533": {
+  "muni": "京都市伏見区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "535": {
+  "muni": "京都市上京区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "537": {
+  "muni": "与謝郡伊根町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "538": {
+  "muni": "交野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "539": {
+  "muni": "河内長野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "542": {
+  "muni": "豊能郡能勢町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "548": {
+  "muni": "朝来市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "552": {
+  "muni": "西宮市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "555": {
+  "muni": "南あわじ市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "556": {
+  "muni": "宍粟市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "559": {
+  "muni": "丹波市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "562": {
+  "muni": "姫路市網干区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "563": {
+  "muni": "伊丹市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "564": {
+  "muni": "神戸市東灘区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "565": {
+  "muni": "明石市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "567": {
+  "muni": "西宮市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "568": {
+  "muni": "神戸市東灘区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "571": {
+  "muni": "姫路市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "572": {
+  "muni": "西宮市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "573": {
+  "muni": "加西市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "574": {
+  "muni": "神戸市東灘区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "576": {
+  "muni": "神戸市灘区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "577": {
+  "muni": "神戸市東灘区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "580": {
+  "muni": "姫路市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "581": {
+  "muni": "吉野郡吉野町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "584": {
+  "muni": "橿原市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "585": {
+  "muni": "御所市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "589": {
+  "muni": "御所市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "590": {
+  "muni": "吉野郡吉野町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "592": {
+  "muni": "奈良市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "594": {
+  "muni": "北葛城郡広陵町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "596": {
+  "muni": "御所市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "597": {
+  "muni": "吉野郡吉野町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "598": {
+  "muni": "葛城市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "599": {
+  "muni": "香芝市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "600": {
+  "muni": "桜井市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "601": {
+  "muni": "奈良市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "602": {
+  "muni": "新宮市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "603": {
+  "muni": "和歌山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "604": {
+  "muni": "海南市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "608": {
+  "muni": "海南市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "609": {
+  "muni": "岩出市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "610": {
+  "muni": "鳥取市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "611": {
+  "muni": "鳥取市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "613": {
+  "muni": "八頭郡若桜町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "614": {
+  "muni": "米子市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "616": {
+  "muni": "境港市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "617": {
+  "muni": "東伯郡琴浦町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "618": {
+  "muni": "八頭郡智頭町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "620": {
+  "muni": "松江市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "621": {
+  "muni": "益田市",
+  "src": "sake_dataset",
+  "how": "sake_dataset"
+ },
+ "627": {
+  "muni": "出雲市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "628": {
+  "muni": "松江市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "629": {
+  "muni": "松江市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "630": {
+  "muni": "安来市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "635": {
+  "muni": "赤磐市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "639": {
+  "muni": "高梁市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "640": {
+  "muni": "浅口市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "642": {
+  "muni": "倉敷市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "643": {
+  "muni": "岡山市中区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "646": {
+  "muni": "倉敷市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "647": {
+  "muni": "真庭市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "648": {
+  "muni": "浅口市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "651": {
+  "muni": "福山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "652": {
+  "muni": "広島市安佐北区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "653": {
+  "muni": "東広島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "657": {
+  "muni": "竹原市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "658": {
+  "muni": "廿日市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "659": {
+  "muni": "東広島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "660": {
+  "muni": "呉市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "661": {
+  "muni": "東広島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "662": {
+  "muni": "竹原市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "665": {
+  "muni": "三原市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "666": {
+  "muni": "東広島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "667": {
+  "muni": "東広島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "668": {
+  "muni": "三次市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "669": {
+  "muni": "竹原市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "672": {
+  "muni": "岩国市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "674": {
+  "muni": "岩国市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "675": {
+  "muni": "萩市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "677": {
+  "muni": "岩国市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "681": {
+  "muni": "山口市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "682": {
+  "muni": "宇部市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "683": {
+  "muni": "鳴門市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "685": {
+  "muni": "三好市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "689": {
+  "muni": "三好市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "691": {
+  "muni": "仲多度郡多度津町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "692": {
+  "muni": "観音寺市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "694": {
+  "muni": "松山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "695": {
+  "muni": "西条市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "698": {
+  "muni": "西条市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "702": {
+  "muni": "西条市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "703": {
+  "muni": "西条市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "704": {
+  "muni": "新居浜市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "705": {
+  "muni": "伊予郡砥部町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "706": {
+  "muni": "今治市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "707": {
+  "muni": "喜多郡内子町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "709": {
+  "muni": "松山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "713": {
+  "muni": "四国中央市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "716": {
+  "muni": "土佐市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "717": {
+  "muni": "高知市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "719": {
+  "muni": "高岡郡佐川町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "720": {
+  "muni": "高岡郡中土佐町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "721": {
+  "muni": "安芸郡芸西村",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "724": {
+  "muni": "安芸市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "725": {
+  "muni": "安芸郡安田町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "726": {
+  "muni": "安芸市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "727": {
+  "muni": "安芸郡田野町",
+  "src": "sake_dataset",
+  "how": "sake_dataset"
+ },
+ "729": {
+  "muni": "大川市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "730": {
+  "muni": "糸島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "733": {
+  "muni": "北九州市八幡東区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "735": {
+  "muni": "久留米市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "736": {
+  "muni": "三井郡大刀洗町",
+  "src": "sake_dataset",
+  "how": "sake_dataset"
+ },
+ "737": {
+  "muni": "八女市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "738": {
+  "muni": "久留米市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "740": {
+  "muni": "久留米市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "744": {
+  "muni": "久留米市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "745": {
+  "muni": "八女市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "746": {
+  "muni": "福岡市博多区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "748": {
+  "muni": "多久市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "750": {
+  "muni": "小城市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "751": {
+  "muni": "鹿島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "752": {
+  "muni": "嬉野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "754": {
+  "muni": "鹿島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "756": {
+  "muni": "三養基郡みやき町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "757": {
+  "muni": "伊万里市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "758": {
+  "muni": "鹿島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "759": {
+  "muni": "南島原市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "760": {
+  "muni": "諫早市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "761": {
+  "muni": "東彼杵郡波佐見町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "763": {
+  "muni": "平戸市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "764": {
+  "muni": "熊本市",
+  "src": "sake_dataset",
+  "how": "sake_dataset"
+ },
+ "765": {
+  "muni": "阿蘇郡高森町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "766": {
+  "muni": " 熊本市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "767": {
+  "muni": "杵築市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "772": {
+  "muni": "日田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "773": {
+  "muni": "国東市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "776": {
+  "muni": "宇佐市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "777": {
+  "muni": "豊後大野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "778": {
+  "muni": "宇佐市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "779": {
+  "muni": "日田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "781": {
+  "muni": "玖珠郡九重町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "782": {
+  "muni": "延岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "832": {
+  "muni": "呉市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "835": {
+  "muni": "鈴鹿市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "836": {
+  "muni": "山県郡北広島町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "837": {
+  "muni": "北安曇郡池田町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "839": {
+  "muni": "高槻市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "841": {
+  "muni": "京丹後市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "842": {
+  "muni": "会津若松市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "843": {
+  "muni": "与謝郡与謝野町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "844": {
+  "muni": "泉佐野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "846": {
+  "muni": "北上市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "847": {
+  "muni": "蒲生郡竜王町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "848": {
+  "muni": "入間郡毛呂山町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "849": {
+  "muni": "塩谷郡塩谷町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "851": {
+  "muni": "大沼郡会津美里町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "853": {
+  "muni": "十日町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "854": {
+  "muni": "広島市佐伯区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "855": {
+  "muni": "印旙郡酒々井町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "856": {
+  "muni": "真岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "857": {
+  "muni": "鶴岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "861": {
+  "muni": "妙高市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "862": {
+  "muni": "柴田郡村田町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "863": {
+  "muni": "あきる野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "864": {
+  "muni": "諏訪市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "866": {
+  "muni": " 京都郡みやこ町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "867": {
+  "muni": "阿賀野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "869": {
+  "muni": "白石市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "870": {
+  "muni": "あきる野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "873": {
+  "muni": "阪南市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "874": {
+  "muni": "山武市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "875": {
+  "muni": "飯能市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "876": {
+  "muni": "弘前市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "878": {
+  "muni": "東伯郡北栄町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "881": {
+  "muni": "栃木市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "885": {
+  "muni": "西松浦郡有田町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "886": {
+  "muni": "東広島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "887": {
+  "muni": "東村",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "889": {
+  "muni": "大田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "890": {
+  "muni": "邑智郡邑南町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "892": {
+  "muni": "赤磐市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "895": {
+  "muni": "輪島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "896": {
+  "muni": "木曾郡木祖村",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "898": {
+  "muni": "盛岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "900": {
+  "muni": "塩尻市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "903": {
+  "muni": "結城市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "904": {
+  "muni": "鹿島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "906": {
+  "muni": "糸魚川市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "910": {
+  "muni": "神戸市東灘区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "911": {
+  "muni": "呉市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "912": {
+  "muni": "能美市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "913": {
+  "muni": "長野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "914": {
+  "muni": "高島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "915": {
+  "muni": "揖斐郡池田町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "916": {
+  "muni": "久留米市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "918": {
+  "muni": "沼津市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "919": {
+  "muni": "伊万里市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "920": {
+  "muni": "鯖江市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "921": {
+  "muni": "弘前市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "922": {
+  "muni": "弘前市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "924": {
+  "muni": "山口市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "925": {
+  "muni": "呉市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "927": {
+  "muni": "松江市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "932": {
+  "muni": "嘉麻市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "934": {
+  "muni": "久留米市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "938": {
+  "muni": "うきは市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "939": {
+  "muni": "喜多方市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "942": {
+  "muni": "足柄上郡松田町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "946": {
+  "muni": "大垣市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "947": {
+  "muni": "神戸市東灘区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "948": {
+  "muni": "笠間市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "949": {
+  "muni": "会津若松市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "953": {
+  "muni": "高岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "955": {
+  "muni": "那須烏山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "957": {
+  "muni": "海南市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "960": {
+  "muni": "出雲市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "963": {
+  "muni": "高山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "965": {
+  "muni": "那珂市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "967": {
+  "muni": "高槻市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "968": {
+  "muni": "香南市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "971": {
+  "muni": "糸魚川市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "972": {
+  "muni": "西宮市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "974": {
+  "muni": "西松浦郡有田町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "976": {
+  "muni": "耶麻郡猪苗代町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "978": {
+  "muni": "駒ケ根市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "982": {
+  "muni": "大仙市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "984": {
+  "muni": "佐久市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "985": {
+  "muni": "西津軽郡鯵ケ沢町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "987": {
+  "muni": "岡崎市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "988": {
+  "muni": "神石郡神石高原町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "989": {
+  "muni": "須坂市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "990": {
+  "muni": "上田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "992": {
+  "muni": "佐久市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "994": {
+  "muni": "中野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "995": {
+  "muni": "鹿島郡中能登町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "997": {
+  "muni": "長生郡一宮町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1001": {
+  "muni": "加古川市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1002": {
+  "muni": "倉吉市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1003": {
+  "muni": "姫路市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1005": {
+  "muni": "滑川市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1010": {
+  "muni": "渋川市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1013": {
+  "muni": "邑智郡邑南町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1016": {
+  "muni": "能美市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1017": {
+  "muni": "大町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1020": {
+  "muni": "加美郡加美町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1021": {
+  "muni": "久留米市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1022": {
+  "muni": "塩釜市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1023": {
+  "muni": "大野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1024": {
+  "muni": "紫波郡紫波町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1025": {
+  "muni": "香取市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1028": {
+  "muni": "東伯郡湯梨浜町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1030": {
+  "muni": "下呂市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1032": {
+  "muni": "津島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1033": {
+  "muni": "川越市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1035": {
+  "muni": "美方郡香美町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1037": {
+  "muni": "京都市伏見区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1038": {
+  "muni": "長野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1039": {
+  "muni": "宇部市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1041": {
+  "muni": "諏訪市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1043": {
+  "muni": "明石市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1045": {
+  "muni": "北杜市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1047": {
+  "muni": "長野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1048": {
+  "muni": "伊丹市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1050": {
+  "muni": "静岡市清水区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1051": {
+  "muni": "田村",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1052": {
+  "muni": "北杜市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1054": {
+  "muni": "京都市伏見区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1055": {
+  "muni": "鹿島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1056": {
+  "muni": "丹波市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1057": {
+  "muni": "出雲市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1058": {
+  "muni": "上伊那郡辰野町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1062": {
+  "muni": "篠山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1063": {
+  "muni": "神戸市東灘区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1064": {
+  "muni": "佐久市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1065": {
+  "muni": "厚木市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1068": {
+  "muni": "広島市安芸区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1069": {
+  "muni": "邑智郡邑南町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1071": {
+  "muni": "茅ケ崎市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1072": {
+  "muni": "岩国市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1076": {
+  "muni": "木曾郡木祖村",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1077": {
+  "muni": "上益城郡山都町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1080": {
+  "muni": "富山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1085": {
+  "muni": "桑名市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1087": {
+  "muni": "京丹後市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1096": {
+  "muni": "大崎市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1098": {
+  "muni": "西村山郡河北町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1099": {
+  "muni": "山鹿市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1100": {
+  "muni": "糟屋郡宇美町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1101": {
+  "muni": "盛岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1102": {
+  "muni": "浜田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1105": {
+  "muni": "常陸太田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1106": {
+  "muni": "出雲市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1110": {
+  "muni": "周南市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1111": {
+  "muni": "藤岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1112": {
+  "muni": "うるま市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1113": {
+  "muni": "札幌市中央区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1114": {
+  "muni": "加須市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1115": {
+  "muni": "津山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1116": {
+  "muni": "諏訪市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1117": {
+  "muni": "岡谷市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1119": {
+  "muni": "八幡平市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1121": {
+  "muni": "羽生市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1122": {
+  "muni": "秩父市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1123": {
+  "muni": "下高井郡山ノ内町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1125": {
+  "muni": "足柄上郡大井町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1126": {
+  "muni": "東茨城郡大洗町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1127": {
+  "muni": "大野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1129": {
+  "muni": "長岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1130": {
+  "muni": "真庭市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1132": {
+  "muni": "呉市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1133": {
+  "muni": "草津市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1135": {
+  "muni": "一関市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1137": {
+  "muni": "いわき市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1139": {
+  "muni": "京都市右京区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1140": {
+  "muni": "玉名郡和水町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1141": {
+  "muni": "新潟市秋葉区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1145": {
+  "muni": "佐久市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1152": {
+  "muni": "佐渡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1153": {
+  "muni": "福島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1155": {
+  "muni": "明石市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1157": {
+  "muni": "久留米市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1158": {
+  "muni": "筑紫野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1159": {
+  "muni": "岐阜市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1161": {
+  "muni": "水戸市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1163": {
+  "muni": "浅口市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1164": {
+  "muni": "南佐久郡佐久穂町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1168": {
+  "muni": "さくら市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1170": {
+  "muni": "加須市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1172": {
+  "muni": "菊池市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1178": {
+  "muni": "釧路市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1181": {
+  "muni": "幸手市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1184": {
+  "muni": "松山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1188": {
+  "muni": "黒石市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1192": {
+  "muni": "比企郡小川町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1193": {
+  "muni": "上水内郡信濃町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1196": {
+  "muni": "京丹後市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1199": {
+  "muni": "日光市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1200": {
+  "muni": "中野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1202": {
+  "muni": "米沢市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1206": {
+  "muni": "萩市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1208": {
+  "muni": "嬉野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1209": {
+  "muni": "松本市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1211": {
+  "muni": "甲賀市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1218": {
+  "muni": "鴨川市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1219": {
+  "muni": "黒川郡富谷町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1221": {
+  "muni": "倉吉市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1223": {
+  "muni": "勝浦市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1230": {
+  "muni": "西伯郡伯耆町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1234": {
+  "muni": "浜松市中区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1237": {
+  "muni": "長浜市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1238": {
+  "muni": "名古屋市緑区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1239": {
+  "muni": "西蒲原郡弥彦村",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1243": {
+  "muni": "諏訪市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1246": {
+  "muni": "朝来市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1252": {
+  "muni": "鳳珠郡能登町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1255": {
+  "muni": "矢板市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1256": {
+  "muni": "瑞浪市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1259": {
+  "muni": "西置賜郡飯豊町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1260": {
+  "muni": "葦北郡津奈木町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1262": {
+  "muni": "三木市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1267": {
+  "muni": "柏崎市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1273": {
+  "muni": "愛西市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1276": {
+  "muni": "隠岐郡隠岐の島町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1279": {
+  "muni": "妙高市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1280": {
+  "muni": "揖斐郡大野町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1282": {
+  "muni": "亀岡市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1284": {
+  "muni": "下都賀郡岩舟町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1286": {
+  "muni": "常滑市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1289": {
+  "muni": "名張市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1293": {
+  "muni": "三養基郡基山町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1295": {
+  "muni": "みやま市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1296": {
+  "muni": "菊川市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1301": {
+  "muni": "那須郡那珂川町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1305": {
+  "muni": "名古屋市緑区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1309": {
+  "muni": "四日市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1310": {
+  "muni": "土佐郡土佐町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1318": {
+  "muni": "四万十市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1320": {
+  "muni": "大津市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1321": {
+  "muni": "上田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1325": {
+  "muni": "綾歌郡綾川町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1326": {
+  "muni": "美祢市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1327": {
+  "muni": "吾川郡いの町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1329": {
+  "muni": "矢板市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1330": {
+  "muni": "生駒市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1339": {
+  "muni": "成田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1344": {
+  "muni": "稲沢市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1347": {
+  "muni": "安城市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1349": {
+  "muni": "恵那市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1358": {
+  "muni": "富士宮市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1362": {
+  "muni": "長浜市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1363": {
+  "muni": "飯山市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1364": {
+  "muni": "西宮市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1368": {
+  "muni": "南陽市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1375": {
+  "muni": "掛川市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1376": {
+  "muni": "中津川市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1377": {
+  "muni": "愛知郡愛荘町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1378": {
+  "muni": "東広島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1382": {
+  "muni": "生駒市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1388": {
+  "muni": "周南市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1390": {
+  "muni": "日光市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1391": {
+  "muni": "中魚沼郡津南町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1394": {
+  "muni": "東広島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1399": {
+  "muni": "東広島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1403": {
+  "muni": "古河市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1413": {
+  "muni": "唐津市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1414": {
+  "muni": "喜多方市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1421": {
+  "muni": "新見市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1425": {
+  "muni": "上田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1427": {
+  "muni": "上越市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1435": {
+  "muni": "蒲生郡日野町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1436": {
+  "muni": "甲賀市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1439": {
+  "muni": "上田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1440": {
+  "muni": "白河市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1447": {
+  "muni": "長野市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1448": {
+  "muni": "可児市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1450": {
+  "muni": "甲賀市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1473": {
+  "muni": "富津市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1474": {
+  "muni": "芳賀郡益子町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1489": {
+  "muni": "赤磐市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1507": {
+  "muni": "江南市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1514": {
+  "muni": "奥州市前沢区",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1520": {
+  "muni": "嘉麻市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1540": {
+  "muni": "阿蘇郡小国町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1565": {
+  "muni": "明石市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1596": {
+  "muni": "新潟市",
+  "src": "sake_dataset",
+  "how": "sake_dataset"
+ },
+ "1607": {
+  "muni": "大里郡寄居町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1612": {
+  "muni": "多気郡多気町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1677": {
+  "muni": "安芸郡熊野町",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1691": {
+  "muni": "輪島市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1753": {
+  "muni": "伊勢市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1763": {
+  "muni": "十和田市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1792": {
+  "muni": "平戸市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1837": {
+  "muni": "佐伯市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1884": {
+  "muni": "甲賀市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "1891": {
+  "muni": "桜川市",
+  "src": "Code for SAKE (SAKEOpenData)",
+  "how": "cfs"
+ },
+ "3": {
+  "muni": "旭川市",
+  "src": "https://www.kamikawa.pref.hokkaido.lg.jp/ss/srk/kamitabe/096_taisetsu.html",
+  "how": "websearch"
+ },
+ "13": {
+  "muni": "弘前市",
+  "src": "https://aomori-sake.or.jp/kuramoto/matsumidori.html",
+  "how": "websearch"
+ },
+ "18": {
+  "muni": "黒石市",
+  "src": "https://aomori-sake.or.jp/kuramoto/kamekichi.html",
+  "how": "websearch"
+ },
+ "24": {
+  "muni": "紫波郡紫波町",
+  "src": "https://www.sakeno.com/meigara/1415/",
+  "how": "websearch"
+ },
+ "37": {
+  "muni": "栗原市",
+  "src": "https://miyagisake.jp/kuramoto/chida/",
+  "how": "websearch"
+ },
+ "47": {
+  "muni": "黒川郡大和町",
+  "src": "https://miyagisake.jp/kuramoto/taiwagura/",
+  "how": "websearch"
+ },
+ "74": {
+  "muni": "鹿角市",
+  "src": "https://chitosezakari.jp/",
+  "how": "websearch"
+ },
+ "79": {
+  "muni": "東田川郡庄内町",
+  "src": "https://yamagata-sake.or.jp/pages/60/",
+  "how": "websearch"
+ },
+ "81": {
+  "muni": "東置賜郡高畠町",
+  "src": "https://kuraport.com/ja/brewery/kinran",
+  "how": "websearch"
+ },
+ "92": {
+  "muni": "鶴岡市",
+  "src": "https://tsuruoka-sakemeguri.com/haneda/",
+  "how": "websearch"
+ },
+ "93": {
+  "muni": "飽海郡遊佐町",
+  "src": "https://touhokuizumi.co.jp/aboutus/",
+  "how": "websearch"
+ },
+ "95": {
+  "muni": "最上郡大蔵村",
+  "src": "https://hanauyo.co.jp/",
+  "how": "websearch"
+ },
+ "104": {
+  "muni": "山形市",
+  "src": "https://yamagata-sake.or.jp/pages/69/",
+  "how": "websearch"
+ },
+ "106": {
+  "muni": "酒田市",
+  "src": "http://www.sakenote.com/d/%E5%B1%B1%E5%BD%A2%E7%9C%8C/%E8%97%A4%E5%B1%8B%E9%85%92%E9%80%A0%E6%9C%AC%E5%BA%97",
+  "how": "websearch"
+ },
+ "109": {
+  "muni": "東根市",
+  "src": "https://yamagata-sake.or.jp/pages/49/",
+  "how": "websearch"
+ },
+ "111": {
+  "muni": "飽海郡遊佐町",
+  "src": "https://yamagata-sake.or.jp/pages/72/",
+  "how": "websearch"
+ },
+ "116": {
+  "muni": "米沢市",
+  "src": "http://kurouzaemon.com/jp/",
+  "how": "websearch"
+ },
+ "136": {
+  "muni": "石川郡古殿町",
+  "src": "https://fukufukumarche.com/media/archives/1301",
+  "how": "websearch"
+ },
+ "137": {
+  "muni": "河沼郡会津坂下町",
+  "src": "https://ja.wikipedia.org/wiki/%E8%B1%8A%E5%9B%BD%E9%85%92%E9%80%A0_(%E4%BC%9A%E6%B4%A5%E5%9D%82%E4%B8%8B%E7%94%BA)",
+  "how": "websearch"
+ },
+ "161": {
+  "muni": "石岡市",
+  "src": "https://www.ibarakiguide.jp/site/seasons/sake/shiragiku.html",
+  "how": "websearch"
+ },
+ "195": {
+  "muni": "甘楽郡甘楽町",
+  "src": "https://seitoku.co.jp/company/",
+  "how": "websearch"
+ },
+ "197": {
+  "muni": "北群馬郡吉岡町",
+  "src": "https://www.pref.gunma.jp/site/sake/500065.html",
+  "how": "websearch"
+ },
+ "238": {
+  "muni": "長岡市",
+  "src": "https://sake-niigata.com/sakagura/nakagawa/",
+  "how": "websearch"
+ },
+ "295": {
+  "muni": "新発田市",
+  "src": "https://aumont.jp/",
+  "how": "websearch"
+ },
+ "309": {
+  "muni": "新潟市西区",
+  "src": "https://www.sakenomy.jp/brewery/K01N015020/",
+  "how": "websearch"
+ },
+ "314": {
+  "muni": "魚津市",
+  "src": "https://uozushuzo.co.jp/",
+  "how": "websearch"
+ },
+ "349": {
+  "muni": "三方郡美浜町",
+  "src": "https://www.fukuisake.jp/kuramoto.php?id=30",
+  "how": "websearch"
+ },
+ "392": {
+  "muni": "伊那市",
+  "src": "https://kasuga-shuzo.co.jp/about/",
+  "how": "websearch"
+ },
+ "399": {
+  "muni": "大町市",
+  "src": "https://hakubanishiki.co.jp/about/",
+  "how": "websearch"
+ },
+ "412": {
+  "muni": "上川郡東川町",
+  "src": "https://www.daisetsu-kamikawa-ainu.jp/5_series1/",
+  "how": "websearch"
+ },
+ "425": {
+  "muni": "下呂市",
+  "src": "https://www.okuhida-sake.jp/about/",
+  "how": "websearch"
+ },
+ "488": {
+  "muni": "名張市",
+  "src": "https://kiyashow.com/",
+  "how": "websearch"
+ },
+ "518": {
+  "muni": "京都市伏見区",
+  "src": "https://www.fushimi.or.jp/brewery/syotoku.html",
+  "how": "websearch"
+ },
+ "536": {
+  "muni": "京都市伏見区",
+  "src": "https://www.fushimi.or.jp/brewery/higashiyama.html",
+  "how": "websearch"
+ },
+ "540": {
+  "muni": "池田市",
+  "src": "https://www.sakeno.com/meigara/801/",
+  "how": "websearch"
+ },
+ "547": {
+  "muni": "姫路市",
+  "src": "https://www.sakeno.com/meigara/866/",
+  "how": "websearch"
+ },
+ "633": {
+  "muni": "倉敷市",
+  "src": "https://www.okayama-kanko.jp/spot/10309",
+  "how": "websearch"
+ },
+ "638": {
+  "muni": "倉敷市",
+  "src": "https://www.kojima-sanpo.jp/tabisuru/buy/sake/sankanshuzou.html",
+  "how": "websearch"
+ },
+ "655": {
+  "muni": "三次市",
+  "src": "https://www.sakagura-press.com/sake/miwasakura2023/",
+  "how": "websearch"
+ },
+ "676": {
+  "muni": "萩市",
+  "src": "https://hagi-gochi.jp/feature/hagisake_004",
+  "how": "websearch"
+ },
+ "679": {
+  "muni": "岩国市",
+  "src": "https://kankou.iwakuni-city.net/dassai.html",
+  "how": "websearch"
+ },
+ "688": {
+  "muni": "阿波市",
+  "src": "https://www.awa-kankou.jp/odekake/nissinsyurui/",
+  "how": "websearch"
+ },
+ "693": {
+  "muni": "仲多度郡琴平町",
+  "src": "https://shinise.tv/maruo-kotohira/",
+  "how": "websearch"
+ },
+ "701": {
+  "muni": "西予市",
+  "src": "https://www.ehime-syuzou.com/kuramoto/31/",
+  "how": "websearch"
+ },
+ "708": {
+  "muni": "喜多郡内子町",
+  "src": "https://www.ehime-syuzou.com/kuramoto/23/",
+  "how": "websearch"
+ },
+ "714": {
+  "muni": "香美市",
+  "src": "https://sakestreet.com/ja/media/sakagura-arisawa-kochi",
+  "how": "websearch"
+ },
+ "722": {
+  "muni": "安芸郡安田町",
+  "src": "https://imadeya.co.jp/blogs/brewery/minami_shuzojo",
+  "how": "websearch"
+ },
+ "762": {
+  "muni": "壱岐市",
+  "src": "https://ikishochu.org/omoya-brewery/",
+  "how": "websearch"
+ },
+ "833": {
+  "muni": "伊賀市",
+  "src": "http://www.sakekoba.com/?cat=83",
+  "how": "websearch"
+ },
+ "834": {
+  "muni": "稲沢市",
+  "src": "https://www.sakeno.com/meigara/2290/",
+  "how": "websearch"
+ },
+ "879": {
+  "muni": "横手市",
+  "src": "https://dainagawa.co.jp/",
+  "how": "websearch"
+ },
+ "882": {
+  "muni": "宇陀市",
+  "src": "https://www.sakeno.com/meigara/903/",
+  "how": "websearch"
+ },
+ "883": {
+  "muni": "岩瀬郡天栄村",
+  "src": "https://www.jizakeyakodama.com/%E5%8F%96%E3%82%8A%E6%89%B1%E3%81%84%E9%8A%98%E6%9F%84%E4%B8%80%E8%A6%A7/%E6%9D%B1%E5%8C%97%E5%9C%B0%E5%8C%BA/%E5%BB%A3%E6%88%B8%E5%B7%9D/",
+  "how": "websearch"
+ },
+ "893": {
+  "muni": "上高井郡小布施町",
+  "src": "https://banshakuzukan.com/producer/obuse-winery/",
+  "how": "websearch"
+ },
+ "897": {
+  "muni": "東近江市",
+  "src": "https://www.sakeno.com/meigara/792",
+  "how": "websearch"
+ },
+ "902": {
+  "muni": "根室市",
+  "src": "https://harada-sake.jp/kitanokatu.html",
+  "how": "websearch"
+ },
+ "923": {
+  "muni": "虻田郡倶知安町",
+  "src": "https://hands-on-local.com/blogs/sakebrewer/niseko",
+  "how": "websearch"
+ },
+ "931": {
+  "muni": "常陸太田市",
+  "src": "https://ibaraki-stayle.net/stayle/isakashuzou/",
+  "how": "websearch"
+ },
+ "937": {
+  "muni": "紫波郡紫波町",
+  "src": "https://www.shiwa-shuzoten.com/",
+  "how": "websearch"
+ },
+ "952": {
+  "muni": "茅野市",
+  "src": "https://ja.wikipedia.org/wiki/%E6%88%B8%E7%94%B0%E9%85%92%E9%80%A0",
+  "how": "websearch"
+ },
+ "954": {
+  "muni": "那賀郡那賀町",
+  "src": "https://www.awanavi.jp/archives/spot/2156",
+  "how": "websearch"
+ },
+ "956": {
+  "muni": "長井市",
+  "src": "http://www.iw-kotobuki.co.jp/",
+  "how": "websearch"
+ },
+ "961": {
+  "muni": "八幡浜市",
+  "src": "https://www.ehime-syuzou.com/kuramoto/28/",
+  "how": "websearch"
+ },
+ "977": {
+  "muni": "静岡市駿河区",
+  "src": "https://www.at-s.com/gourmet/article/123981",
+  "how": "websearch"
+ },
+ "980": {
+  "muni": "有田郡有田川町",
+  "src": "https://takagakishuzo.com/",
+  "how": "websearch"
+ },
+ "991": {
+  "muni": "静岡市駿河区",
+  "src": "https://www.shizuoka-sake.jp/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E9%A7%BF%E6%B2%B3%E9%85%92%E9%80%A0%E5%A0%B4/",
+  "how": "websearch"
+ },
+ "998": {
+  "muni": "袋井市",
+  "src": "https://www.sakeno.com/meigara/1573/",
+  "how": "websearch"
+ },
+ "1018": {
+  "muni": "橿原市",
+  "src": "https://www.syusseotoko.jp/pages/syusseotoko-about",
+  "how": "websearch"
+ },
+ "1019": {
+  "muni": "増毛郡増毛町",
+  "src": "https://www.kunimare.co.jp/whats_kunimare/company_profile",
+  "how": "websearch"
+ },
+ "1031": {
+  "muni": "周南市",
+  "src": "https://nakashimaya1823.jp/",
+  "how": "websearch"
+ },
+ "1046": {
+  "muni": "佐賀市",
+  "src": "https://ja.wikipedia.org/wiki/%E4%BD%90%E5%98%89%E9%85%92%E9%80%A0",
+  "how": "websearch"
+ },
+ "1060": {
+  "muni": "神戸市東灘区",
+  "src": "https://www.sakeno.com/kuramoto/1835/",
+  "how": "websearch"
+ },
+ "1066": {
+  "muni": "神戸市東灘区",
+  "src": "https://www.sakeno.com/kuramoto/1973/",
+  "how": "websearch"
+ },
+ "1074": {
+  "muni": "紀の川市",
+  "src": "https://www.sakeno.com/meigara/914",
+  "how": "websearch"
+ },
+ "1078": {
+  "muni": "対馬市",
+  "src": "https://shiratakeshuzo.co.jp/pages/legal",
+  "how": "websearch"
+ },
+ "1082": {
+  "muni": "静岡市駿河区",
+  "src": "https://shizuokahirakishuzo.com/",
+  "how": "websearch"
+ },
+ "1084": {
+  "muni": "栗原市",
+  "src": "https://miyagisake.jp/kuramoto/kanenoi/",
+  "how": "websearch"
+ },
+ "1093": {
+  "muni": "赤穂市",
+  "src": "https://www.sakeno.com/meigara/2472/",
+  "how": "websearch"
+ },
+ "1128": {
+  "muni": "喜多方市",
+  "src": "https://www.tif.ne.jp/jp/spot/spot_disp.php?id=6482",
+  "how": "websearch"
+ },
+ "1144": {
+  "muni": "伊勢原市",
+  "src": "https://ja.wikipedia.org/wiki/%E5%90%89%E5%B7%9D%E9%86%B8%E9%80%A0",
+  "how": "websearch"
+ },
+ "1146": {
+  "muni": "東広島市",
+  "src": "https://saijotsuru.co.jp/",
+  "how": "websearch"
+ },
+ "1174": {
+  "muni": "遠野市",
+  "src": "http://www.minshuku-tono.com/",
+  "how": "websearch"
+ },
+ "1180": {
+  "muni": "栗原市",
+  "src": "https://www.sakeno.com/meigara/2912/",
+  "how": "websearch"
+ },
+ "1187": {
+  "muni": "佐久市",
+  "src": "https://www.sakeno.com/meigara/523/",
+  "how": "websearch"
+ },
+ "1204": {
+  "muni": "小松市",
+  "src": "https://discoverjapan-web.com/article/126703",
+  "how": "websearch"
+ },
+ "1224": {
+  "muni": "丹波篠山市",
+  "src": "https://tourism.sasayama.jp/kariba_sakebrewing/",
+  "how": "websearch"
+ },
+ "1244": {
+  "muni": "仁多郡奥出雲町",
+  "src": "https://sake-hikami.co.jp/",
+  "how": "websearch"
+ },
+ "1253": {
+  "muni": "神戸市東灘区",
+  "src": "https://www.hamafukutsuru.co.jp/factory/",
+  "how": "websearch"
+ },
+ "1294": {
+  "muni": "つがる市",
+  "src": "https://hirosaki.keizai.biz/headline/1603/",
+  "how": "websearch"
+ },
+ "1300": {
+  "muni": "広島市中区",
+  "src": "https://www.sakenomy.jp/brewery/K01N034001/",
+  "how": "websearch"
+ },
+ "1303": {
+  "muni": "大田原市",
+  "src": "https://jp.sake-times.com/knowledge/description/sake_kyokukou",
+  "how": "websearch"
+ },
+ "1313": {
+  "muni": "東近江市",
+  "src": "https://www.sakeno.com/meigara/1655/",
+  "how": "websearch"
+ },
+ "1324": {
+  "muni": "田村郡三春町",
+  "src": "https://miharukoma.com/eat/1026",
+  "how": "websearch"
+ },
+ "1341": {
+  "muni": "丹波市",
+  "src": "https://www.kamonosho.co.jp/",
+  "how": "websearch"
+ },
+ "1353": {
+  "muni": "嬉野市",
+  "src": "https://www.azumacho.co.jp/products/profile.html",
+  "how": "websearch"
+ },
+ "1357": {
+  "muni": "飯山市",
+  "src": "https://www.mizuo.co.jp/",
+  "how": "websearch"
+ },
+ "1359": {
+  "muni": "由利本荘市",
+  "src": "https://dewanofuji.co.jp/",
+  "how": "websearch"
+ },
+ "1460": {
+  "muni": "名張市",
+  "src": "https://nabarichouju.com/liquor/21_fukumochi/",
+  "how": "websearch"
+ },
+ "1465": {
+  "muni": "堺市堺区",
+  "src": "https://www.hyotan.co.jp/cnt/sake/sennorikyu.html",
+  "how": "websearch"
+ },
+ "1499": {
+  "muni": "港区",
+  "src": "https://dancyu.jp/read/2020_00002774.html",
+  "how": "websearch"
+ },
+ "1535": {
+  "muni": "阿武郡阿武町",
+  "src": "https://www.sakeno.com/meigara/3429/",
+  "how": "websearch"
+ },
+ "1550": {
+  "muni": "奈良市",
+  "src": "https://www.city.nara.lg.jp/narajikan/interview/sake/%E5%80%89%E6%9C%AC%E9%85%92%E9%80%A0/index.html",
+  "how": "websearch"
+ },
+ "1556": {
+  "muni": "日立市",
+  "src": "https://koya-tatami.com/archives/3520",
+  "how": "websearch"
+ },
+ "1577": {
+  "muni": "弘前市",
+  "src": "https://www.tohoku-sakurakaido.jp/sakagurakaido/sakagura/view/100",
+  "how": "websearch"
+ },
+ "1585": {
+  "muni": "上川郡上川町",
+  "src": "https://kamikawa-taisetsu.co.jp/ryokkyu/",
+  "how": "websearch"
+ },
+ "1613": {
+  "muni": "鶴岡市",
+  "src": "https://oujiman.com/",
+  "how": "websearch"
+ },
+ "1629": {
+  "muni": "小松市",
+  "src": "https://www.komatsuguide.jp/spot/detail_318.html",
+  "how": "websearch"
+ },
+ "1670": {
+  "muni": "江南市",
+  "src": "https://www.jizakeyakodama.com/%E5%8F%96%E3%82%8A%E6%89%B1%E3%81%84%E9%8A%98%E6%9F%84%E4%B8%80%E8%A6%A7/%E4%B8%AD%E9%83%A8%E5%9C%B0%E5%8C%BA/%E6%A5%BD%E3%81%AE%E4%B8%96/",
+  "how": "websearch"
+ },
+ "1673": {
+  "muni": "上尾市",
+  "src": "https://saisake.com/kuramoto/%E5%8C%97%E8%A5%BF%E9%85%92%E9%80%A0/",
+  "how": "websearch"
+ },
+ "1741": {
+  "muni": "佐渡市",
+  "src": "https://www.sakeno.com/kuramoto/755",
+  "how": "websearch"
+ },
+ "1762": {
+  "muni": "足柄上郡開成町",
+  "src": "https://www.kanagawa-kankou.or.jp/spot/1813",
+  "how": "websearch"
+ },
+ "1812": {
+  "muni": "世田谷区",
+  "src": "https://prtimes.jp/main/html/rd/p/000000008.000017151.html",
+  "how": "websearch"
+ },
+ "1836": {
+  "muni": "小城市",
+  "src": "https://www.sakeno.com/kuramoto/1932",
+  "how": "websearch"
+ },
+ "1841": {
+  "muni": "台東区",
+  "src": "https://t-navi.city.taito.lg.jp/features/24",
+  "how": "websearch"
+ },
+ "1844": {
+  "muni": "日置市",
+  "src": "https://www.nishi-shuzo.co.jp/tenbu/",
+  "how": "websearch"
+ },
+ "1845": {
+  "muni": "千代田区",
+  "src": "https://www.gransta.jp/mall/gransta_tokyo/hasegawasaketen_granstatokyo/",
+  "how": "websearch"
+ },
+ "1850": {
+  "muni": "下関市",
+  "src": "https://ja.wikipedia.org/wiki/%E9%95%B7%E5%B7%9E%E9%85%92%E9%80%A0",
+  "how": "websearch"
+ },
+ "1854": {
+  "muni": "諏訪郡下諏訪町",
+  "src": "https://jp.sake-times.com/knowledge/sakagura/sake_g_suwa_mikotsuru",
+  "how": "websearch"
+ },
+ "1857": {
+  "muni": "亀田郡七飯町",
+  "src": "https://www.town.nanae.hokkaido.jp/hotnews/detail/00012976.html",
+  "how": "websearch"
+ },
+ "1858": {
+  "muni": "多気郡多気町",
+  "src": "https://www.fukuwagura.jp/",
+  "how": "websearch"
+ },
+ "1859": {
+  "muni": "小田原市",
+  "src": "https://www.townnews.co.jp/0607/2021/06/12/578596.html",
+  "how": "websearch"
+ },
+ "1861": {
+  "muni": "大沼郡会津美里町",
+  "src": "https://aizuotokoyama.com/",
+  "how": "websearch"
+ },
+ "1871": {
+  "muni": "半田市",
+  "src": "https://aichinow.pref.aichi.jp/features/detail/428/",
+  "how": "websearch"
+ },
+ "1880": {
+  "muni": "京都市伏見区",
+  "src": "https://www.sakenomy.jp/brewery/K01N049005/",
+  "how": "websearch"
+ },
+ "1883": {
+  "muni": "男鹿市",
+  "src": "https://sakestreet.com/ja/media/sakagura-inetoagave-brewery-akita",
+  "how": "websearch"
+ },
+ "1896": {
+  "muni": "雲南市",
+  "src": "https://wakamatsuyasaketen.com/archives/15379/tanabetakesitashuzou202307/",
+  "how": "websearch"
+ },
+ "1897": {
+  "muni": "福岡市中央区",
+  "src": "https://fukuoka-yokamon.com/cities/fukuoka_city/librom-craftsake",
+  "how": "websearch"
+ },
+ "1898": {
+  "muni": "京都市伏見区",
+  "src": "https://www.fushimi.or.jp/brewery/matsuyama.html",
+  "how": "websearch"
+ },
+ "1900": {
+  "muni": "中新川郡立山町",
+  "src": "https://arnon.jp/shiraiwa/",
+  "how": "websearch"
+ },
+ "1902": {
+  "muni": "新潟市北区",
+  "src": "https://lagoonbrew.official.ec/about",
+  "how": "websearch"
+ },
+ "1903": {
+  "muni": "遠賀郡岡垣町",
+  "src": "https://www.f-chousonkai.gr.jp/sight/detail264.html",
+  "how": "websearch"
+ },
+ "1904": {
+  "muni": "塩尻市",
+  "src": "https://www.naraijuku.com/shop/suginomori/",
+  "how": "websearch"
+ },
+ "1915": {
+  "muni": "紫波郡紫波町",
+  "src": "https://jizake-mie.jp/SHOP/hiraroku-setsuna02-720.html",
+  "how": "websearch"
+ },
+ "1923": {
+  "muni": "北安曇郡松川村",
+  "src": "https://sakestreet.com/ja/media/sakagura-ilaka-shuzo-nagano",
+  "how": "websearch"
+ },
+ "1925": {
+  "muni": "高槻市",
+  "src": "公式サイト確認（gapfill調査）",
+  "how": "websearch"
+ },
+ "1926": {
+  "muni": "吾川郡いの町",
+  "src": "https://www.tosazake.com/shopbrand/kawazawa/",
+  "how": "websearch"
+ },
+ "788": {
+  "muni": "横手市",
+  "src": "https://kuraport.com/ja/brewery/asamai",
+  "how": "websearch"
+ },
+ "789": {
+  "muni": "東置賜郡高畠町",
+  "src": "https://kuraport.com/ja/brewery/goto-syuzo",
+  "how": "websearch"
+ },
+ "790": {
+  "muni": "郡山市",
+  "src": "https://www.sakeno.com/meigara/387/",
+  "how": "websearch"
+ },
+ "798": {
+  "muni": "東蒲原郡阿賀町",
+  "src": "https://www.niigata-sake.net/kirinzan_shuzo_home/",
+  "how": "websearch"
+ },
+ "799": {
+  "muni": "氷見市",
+  "src": "https://www.saketime.jp/brands/979/",
+  "how": "websearch"
+ },
+ "803": {
+  "muni": "木曽郡木祖村",
+  "src": "https://www.navitime.co.jp/poi?spot=02022-1181834",
+  "how": "websearch"
+ },
+ "804": {
+  "muni": "加茂郡八百津町",
+  "src": "https://www.kura-yamada.com/",
+  "how": "websearch"
+ },
+ "810": {
+  "muni": "交野市",
+  "src": "https://www.sakeno.com/meigara/1301/",
+  "how": "websearch"
+ },
+ "811": {
+  "muni": "神戸市東灘区",
+  "src": "https://www.saketime.jp/brands/4957/",
+  "how": "websearch"
+ },
+ "817": {
+  "muni": "呉市",
+  "src": "https://www.sakeno.com/kuramoto/373/",
+  "how": "websearch"
+ },
+ "783": {
+  "muni": "いちき串木野市",
+  "src": "https://www.sakeno.com/kuramoto/1356/ ほかで確認（濱田酒造 薩摩金山蔵）",
+  "how": "websearch"
+ }
+}

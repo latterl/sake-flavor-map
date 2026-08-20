@@ -1,0 +1,203 @@
+{
+ "綾菊": {
+  "brewer": "綾菊酒造",
+  "official_url": "https://www.ayakiku.com/",
+  "brewery_summary": "寛政2年創業、香川県綾川町の酒蔵。地元香川県産米オオセトで綾菊を醸す。",
+  "blurb": "オオセトを基本に醸す讃岐の地酒。全国新酒鑑評会金賞常連。",
+  "rice": [
+   "オオセト"
+  ],
+  "products": [
+   {
+    "name": "綾菊 オリーブ純米酒",
+    "spec": "純米酒 さぬきオリーブ酵母",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.ayakiku.com/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.ayakiku.com/"
+  ]
+ },
+ "月中天": {
+  "brewer": "西野金陵",
+  "official_url": "http://www.nishino-kinryo.co.jp/",
+  "brewery_summary": "西野金陵は香川県仲多度郡多度津町にある酒蔵で、「月中天」「金陵」を主要銘柄として日本酒を製造している。",
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": [
+   "http://www.nishino-kinryo.co.jp/"
+  ]
+ },
+ "金陵": {
+  "brewer": "西野金陵",
+  "official_url": "https://www.nishino-kinryo.co.jp/",
+  "brewery_summary": "香川県仲多度郡琴平町の酒蔵。金刀比羅宮（こんぴらさん）の御神酒醸造元として「金陵」を醸す。",
+  "blurb": null,
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "金陵 純米大吟醸 山田錦",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 3982,
+    "price_note": "税込",
+    "source": "https://www.nishino-kinryo.co.jp/store/products/kind/",
+    "seasonal": false
+   },
+   {
+    "name": "煌 金陵 純米大吟醸酒",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 6732,
+    "price_note": "税込",
+    "source": "https://www.nishino-kinryo.co.jp/store/products/kind/",
+    "seasonal": false
+   },
+   {
+    "name": "金陵 大吟醸",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 3267,
+    "price_note": "税込",
+    "source": "https://www.nishino-kinryo.co.jp/store/products/kind/",
+    "seasonal": false
+   },
+   {
+    "name": "超金陵（大吟醸）",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 2607,
+    "price_note": "税込",
+    "source": "https://www.nishino-kinryo.co.jp/store/products/kind/",
+    "seasonal": false
+   },
+   {
+    "name": "金陵楠神 特別純米酒",
+    "spec": "特別純米",
+    "volume": "720ml",
+    "price": 1694,
+    "price_note": "税込",
+    "source": "https://www.nishino-kinryo.co.jp/store/products/kind/",
+    "seasonal": false
+   },
+   {
+    "name": "金陵 濃醇純米",
+    "spec": "純米",
+    "volume": "720ml",
+    "price": 1287,
+    "price_note": "税込",
+    "source": "https://www.nishino-kinryo.co.jp/store/products/kind/",
+    "seasonal": false
+   },
+   {
+    "name": "金陵 うどんに合う酒 純米",
+    "spec": "純米",
+    "volume": null,
+    "price": 1628,
+    "price_note": "税込",
+    "source": "https://www.nishino-kinryo.co.jp/store/products/kind/",
+    "seasonal": false
+   },
+   {
+    "name": "金陵 上撰 本醸造 辛口",
+    "spec": "本醸造",
+    "volume": null,
+    "price": 2453,
+    "price_note": "税込",
+    "source": "https://www.nishino-kinryo.co.jp/store/products/kind/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.nishino-kinryo.co.jp/",
+   "https://www.nishino-kinryo.co.jp/store/products/kind/"
+  ]
+ },
+ "悦凱陣": {
+  "brewer": "丸尾本店",
+  "official_url": null,
+  "brewery_summary": "香川県仲多度郡琴平町にある酒蔵で、銘柄「悦凱陣」を醸す。",
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": []
+ },
+ "川鶴": {
+  "brewer": "川鶴酒造",
+  "official_url": "https://kawatsuru.com/",
+  "brewery_summary": "香川県観音寺市にある酒蔵で、財田川の伏流水と地元産米を使い「川鶴」を醸す。",
+  "blurb": "香川県産米と地下伏流水にこだわり、繊細な旨みと爽やかな酸を目指す食中酒。",
+  "rice": [
+   "オオセト",
+   "さぬきよいまい"
+  ],
+  "products": [
+   {
+    "name": "川鶴 純米大吟醸",
+    "spec": "純米大吟醸（精米歩合50%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://kawatsuru.com/product/product01/",
+    "seasonal": false
+   },
+   {
+    "name": "川鶴 純米 オオセト",
+    "spec": "純米酒（オオセト・精米歩合65%・生酛）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://kawatsuru.com/product/product02/",
+    "seasonal": false
+   },
+   {
+    "name": "川鶴 純米 さぬきよいまい",
+    "spec": "純米酒（さぬきよいまい・精米歩合40%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://kawatsuru.com/product/product03/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://kawatsuru.com/",
+   "https://kawatsuru.com/product/product01/",
+   "https://kawatsuru.com/product/product02/",
+   "https://kawatsuru.com/product/product03/",
+   "https://kawatsuru.com/product/product20/"
+  ]
+ },
+ "讃岐くらうでぃ": {
+  "brewer": "川鶴酒造",
+  "official_url": "https://kawatsuru.com/",
+  "brewery_summary": "香川県観音寺市にある酒蔵で、財田川の伏流水と地元産米を使い「川鶴」を醸す。",
+  "blurb": "白麹を使用した低アルコールの甘酸っぱいにごり酒。",
+  "rice": [],
+  "products": [
+   {
+    "name": "讃岐くらうでぃ",
+    "spec": "にごり酒（白麹・アルコール度数約6%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://kawatsuru.com/product/product20/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://kawatsuru.com/",
+   "https://kawatsuru.com/product/product01/",
+   "https://kawatsuru.com/product/product02/",
+   "https://kawatsuru.com/product/product03/",
+   "https://kawatsuru.com/product/product20/"
+  ]
+ }
+}

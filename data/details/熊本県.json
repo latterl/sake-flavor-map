@@ -1,0 +1,466 @@
+{
+ "亀萬": {
+  "brewer": "亀萬酒造",
+  "official_url": "https://www.kameman.co.jp/",
+  "brewery_summary": "亀萬酒造は1916年創業、熊本県葦北郡津奈木町にある「日本最南端の天然醸造蔵元」。醪の温度を氷で調整する独自製法「南端氷仕込み」で品質のよい清酒を造り続けている。",
+  "blurb": null,
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "純米限定",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1458,
+    "price_note": "税込",
+    "source": "https://www.kameman.co.jp/products/list.php",
+    "seasonal": false
+   },
+   {
+    "name": "萬坊",
+    "spec": null,
+    "volume": "720ml",
+    "price": 2100,
+    "price_note": "税込",
+    "source": "https://www.kameman.co.jp/products/list.php",
+    "seasonal": false
+   },
+   {
+    "name": "熊本純米",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1650,
+    "price_note": "税込",
+    "source": "https://www.kameman.co.jp/products/list.php",
+    "seasonal": false
+   },
+   {
+    "name": "珍珠",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 6000,
+    "price_note": "税込",
+    "source": "https://www.kameman.co.jp/products/list.php",
+    "seasonal": false
+   },
+   {
+    "name": "特選吟醸原酒",
+    "spec": "吟醸酒",
+    "volume": "720ml",
+    "price": 3300,
+    "price_note": "税込",
+    "source": "https://www.kameman.co.jp/products/list.php",
+    "seasonal": false
+   },
+   {
+    "name": "今茲",
+    "spec": null,
+    "volume": "720ml",
+    "price": 2145,
+    "price_note": "税込",
+    "source": "https://www.kameman.co.jp/products/list.php",
+    "seasonal": false
+   },
+   {
+    "name": "特別本醸造 Dry Taste 辛口",
+    "spec": "本醸造",
+    "volume": "720ml",
+    "price": 1348,
+    "price_note": "税込",
+    "source": "https://www.kameman.co.jp/products/list.php",
+    "seasonal": false
+   },
+   {
+    "name": "宝亀",
+    "spec": null,
+    "volume": "720ml",
+    "price": 16500,
+    "price_note": "税込",
+    "source": "https://www.kameman.co.jp/products/list.php",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.kameman.co.jp/",
+   "https://www.kameman.co.jp/products/list.php"
+  ]
+ },
+ "千代の園": {
+  "brewer": "千代の園酒造",
+  "official_url": "https://www.chiyonosono.co.jp/",
+  "brewery_summary": "千代の園酒造は明治29年創業、熊本県山鹿市に蔵を構える老舗酒蔵。日本酒のほか赤酒、焼酎、リキュールも製造販売している。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "大吟醸 千代の園 エクセル",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 5500,
+    "price_note": "税込",
+    "source": "https://chiyonosono-shop.com/item-list?campaignId=4651",
+    "seasonal": false
+   },
+   {
+    "name": "特別本醸造 ちよのその",
+    "spec": "特別本醸造",
+    "volume": "1800ml",
+    "price": 2750,
+    "price_note": "税込",
+    "source": "https://chiyonosono-shop.com/item-list?campaignId=4651",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.chiyonosono.co.jp/",
+   "https://chiyonosono-shop.com",
+   "https://chiyonosono-shop.com/item-list?categoryId=53910",
+   "https://chiyonosono-shop.com/item-list?campaignId=4651"
+  ]
+ },
+ "泰斗": {
+  "brewer": "千代の園酒造",
+  "official_url": "https://www.chiyonosono.co.jp/",
+  "brewery_summary": "千代の園酒造は明治29年創業、熊本県山鹿市に蔵を構える老舗酒蔵。日本酒のほか赤酒、焼酎、リキュールも製造販売している。",
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": [
+   "https://www.chiyonosono.co.jp/",
+   "https://chiyonosono-shop.com",
+   "https://chiyonosono-shop.com/item-list?categoryId=53910",
+   "https://chiyonosono-shop.com/item-list?campaignId=4651"
+  ]
+ },
+ "れいざん": {
+  "brewer": "山村酒造",
+  "official_url": "http://www.reizan.com/",
+  "brewery_summary": null,
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": []
+ },
+ "七歩蛇": {
+  "brewer": "河津酒造",
+  "official_url": "https://kawazu-syuzou.com/",
+  "brewery_summary": "熊本県阿蘇郡小国町にある酒蔵で、日本酒・焼酎・無添加石鹸などを製造し、銘柄「七歩蛇」を醸す。",
+  "blurb": "河津酒造の代表銘柄。純米吟醸・純米大吟醸などがラインナップされる。",
+  "rice": [],
+  "products": [
+   {
+    "name": "純米吟醸 七歩蛇",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "http://kawazu-syuzou.shop-pro.jp/?pid=119130853",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸 七歩蛇 箱入り",
+    "spec": "純米大吟醸（箱入り）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://kawazu-syuzou.shop-pro.jp/?pid=102125948",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://kawazu-syuzou.com/",
+   "https://kawazu-syuzou.com/about/",
+   "http://kawazu-syuzou.shop-pro.jp/?pid=119130853",
+   "https://kawazu-syuzou.shop-pro.jp/?pid=102125948"
+  ]
+ },
+ "瑞鷹": {
+  "brewer": "瑞鷹酒造",
+  "official_url": "https://www.zuiyo.co.jp/",
+  "brewery_summary": "慶応3年創業、熊本市川尻の酒蔵。瑞鷹と赤酒を醸す。",
+  "blurb": "熊本の清酒文化を支えてきた銘柄。",
+  "rice": [],
+  "products": [
+   {
+    "name": "瑞鷹 大吟醸 雫取り YK35",
+    "spec": "大吟醸 山田錦 精米歩合35%",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.zuiyo.co.jp/products/nihonshu/",
+    "seasonal": false
+   },
+   {
+    "name": "瑞鷹 純米大吟醸 金",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.zuiyo.co.jp/products/nihonshu/",
+    "seasonal": false
+   },
+   {
+    "name": "瑞鷹 純米吟醸酒 銅",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.zuiyo.co.jp/products/nihonshu/",
+    "seasonal": false
+   },
+   {
+    "name": "瑞鷹 蔵囲い純米酒",
+    "spec": "純米酒",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.zuiyo.co.jp/products/nihonshu/",
+    "seasonal": false
+   },
+   {
+    "name": "瑞鷹 本醸造 超辛口",
+    "spec": "本醸造 超辛口",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.zuiyo.co.jp/products/nihonshu/",
+    "seasonal": false
+   },
+   {
+    "name": "上撰 瑞鷹",
+    "spec": "普通酒",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.zuiyo.co.jp/products/nihonshu/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.zuiyo.co.jp/products/nihonshu/"
+  ]
+ },
+ "崇薫": {
+  "brewer": "瑞鷹酒造",
+  "official_url": "https://www.zuiyo.co.jp/",
+  "brewery_summary": "慶応3年創業、熊本市川尻の酒蔵。瑞鷹と赤酒を醸す。",
+  "blurb": "瑞鷹の純米吟醸ブランド。",
+  "rice": [],
+  "products": [
+   {
+    "name": "純米吟醸酒 崇薫",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://www.zuiyo.co.jp/products/nihonshu/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.zuiyo.co.jp/products/nihonshu/"
+  ]
+ },
+ "美少年": {
+  "brewer": "美少年",
+  "official_url": null,
+  "brewery_summary": null,
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": []
+ },
+ "花の香": {
+  "brewer": "花の香酒造",
+  "official_url": "http://www.hananoka.co.jp/",
+  "brewery_summary": "花の香酒造は熊本県玉名郡和水町にある「和水町をまるごと醸す」を理念とする酒蔵。阿蘇山噴火由来の地質で濾過された岩清水と、地元産の熊本在来種「穂増」を無施肥無農薬で栽培した米を用いた酒造りを行っている。",
+  "blurb": null,
+  "rice": [
+   "穂増",
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "花の香 桜花",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "http://www.hananoka.co.jp/products/",
+    "seasonal": false
+   },
+   {
+    "name": "花の香 菊花",
+    "spec": "純米吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "http://www.hananoka.co.jp/products/",
+    "seasonal": false
+   },
+   {
+    "name": "花の香 梅花",
+    "spec": "純米大吟醸",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "http://www.hananoka.co.jp/products/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.hananoka.co.jp/",
+   "http://www.hananoka.co.jp/products/"
+  ]
+ },
+ "産土": {
+  "brewer": "花の香酒造",
+  "official_url": "http://www.hananoka.co.jp/",
+  "brewery_summary": "花の香酒造は熊本県玉名郡和水町にある「和水町をまるごと醸す」を理念とする酒蔵。阿蘇山噴火由来の地質で濾過された岩清水と、地元産の熊本在来種「穂増」を無施肥無農薬で栽培した米を用いた酒造りを行っている。",
+  "blurb": null,
+  "rice": [
+   "穂増"
+  ],
+  "products": [
+   {
+    "name": "産土 香子",
+    "spec": null,
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "http://www.hananoka.co.jp/products/",
+    "seasonal": false
+   },
+   {
+    "name": "産土 穂増",
+    "spec": null,
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "http://www.hananoka.co.jp/products/",
+    "seasonal": false
+   },
+   {
+    "name": "産土 山田錦",
+    "spec": null,
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "http://www.hananoka.co.jp/products/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://www.hananoka.co.jp/",
+   "http://www.hananoka.co.jp/products/"
+  ]
+ },
+ "蝉": {
+  "brewer": "通潤酒造",
+  "official_url": "https://tuzyun.com/",
+  "brewery_summary": "熊本県上益城郡山都町にある酒蔵で、銘柄「蝉」を醸す。",
+  "blurb": "通潤酒造の代表銘柄。純米吟醸酒として通年販売されている。",
+  "rice": [],
+  "products": [
+   {
+    "name": "純米吟醸酒「蝉」",
+    "spec": "純米吟醸（精米歩合50%）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://shop.tuzyun.com/shopdetail/002000000004/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://tuzyun.com/",
+   "https://shop.tuzyun.com/",
+   "https://shop.tuzyun.com/shopdetail/002000000004/"
+  ]
+ },
+ "香露": {
+  "brewer": "熊本県酒造研究所",
+  "official_url": "https://www.kumamotoken-shuzoukenkyusho.com/",
+  "brewery_summary": "熊本市にある酒蔵で、熊本酵母（協会9号酵母）発祥の蔵として知られ、銘柄「香露」を醸す。",
+  "blurb": "熊本酵母発祥の蔵が醸す代表銘柄。定番として複数の等級・精米度の商品を揃える。",
+  "rice": [],
+  "products": [
+   {
+    "name": "香露 特別本醸造",
+    "spec": "特別本醸造（アルコール分15度）",
+    "volume": "1800ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.kumamotoken-shuzoukenkyusho.com/",
+    "seasonal": false
+   },
+   {
+    "name": "香露 本醸造",
+    "spec": "本醸造（アルコール分15度）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.kumamotoken-shuzoukenkyusho.com/",
+    "seasonal": false
+   },
+   {
+    "name": "香露 上撰",
+    "spec": "上撰（アルコール分15度）",
+    "volume": "1800ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.kumamotoken-shuzoukenkyusho.com/",
+    "seasonal": false
+   },
+   {
+    "name": "くまもとの酒 香露",
+    "spec": "普通酒（アルコール分15度）",
+    "volume": "1800ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.kumamotoken-shuzoukenkyusho.com/",
+    "seasonal": false
+   },
+   {
+    "name": "香露 特別純米",
+    "spec": "特別純米（アルコール分15度）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.kumamotoken-shuzoukenkyusho.com/",
+    "seasonal": false
+   },
+   {
+    "name": "香露 大吟醸",
+    "spec": "大吟醸（アルコール分17度）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.kumamotoken-shuzoukenkyusho.com/",
+    "seasonal": false
+   },
+   {
+    "name": "香露 純米吟醸",
+    "spec": "純米吟醸（アルコール分16度）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.kumamotoken-shuzoukenkyusho.com/",
+    "seasonal": false
+   },
+   {
+    "name": "香露 吟醸",
+    "spec": "吟醸（アルコール分16度）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://www.kumamotoken-shuzoukenkyusho.com/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.kumamotoken-shuzoukenkyusho.com/"
+  ]
+ }
+}

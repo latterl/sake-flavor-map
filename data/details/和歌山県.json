@@ -1,0 +1,445 @@
+{
+ "南方": {
+  "brewer": "世界一統",
+  "official_url": "https://sekaiitto.co.jp/",
+  "brewery_summary": "世界一統は1884年に創業した和歌山市の酒蔵で、創業者・南方弥右衛門が米蔵を譲り受け酒造業を始めた。1907年には大隈重信により主力銘柄「世界一統」と命名された歴史を持つ。",
+  "blurb": null,
+  "rice": [
+   "山田錦",
+   "雄町"
+  ],
+  "products": [
+   {
+    "name": "純米吟醸 南方",
+    "spec": "純米吟醸",
+    "volume": "720ml",
+    "price": 1705,
+    "price_note": "税込",
+    "source": "https://sekaiitto.co.jp/products/",
+    "seasonal": false
+   },
+   {
+    "name": "超辛口純米酒 南方",
+    "spec": "純米酒（超辛口）",
+    "volume": "720ml",
+    "price": 1540,
+    "price_note": "税込",
+    "source": "https://sekaiitto.co.jp/products/",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸 南方 山田錦",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 3146,
+    "price_note": "税込",
+    "source": "https://sekaiitto.co.jp/products/",
+    "seasonal": false
+   },
+   {
+    "name": "純米大吟醸 南方 雄町",
+    "spec": "純米大吟醸",
+    "volume": "720ml",
+    "price": 2365,
+    "price_note": "税込",
+    "source": "https://sekaiitto.co.jp/products/",
+    "seasonal": false
+   },
+   {
+    "name": "大吟醸 南方 極撰",
+    "spec": "大吟醸（桐箱入り）",
+    "volume": "720ml",
+    "price": 6050,
+    "price_note": "税込",
+    "source": "https://sekaiitto.co.jp/products/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://sekaiitto.co.jp/products/"
+  ]
+ },
+ "紀伊国屋文左衛門": {
+  "brewer": "中野BC",
+  "official_url": "https://www.nakano-group.co.jp/",
+  "brewery_summary": "中野BC株式会社は和歌山県海南市の企業で、日本酒のほか梅酒・梅果汁・焼酎などを製造している。酒造事業に加えヘルスケアや観光関連の事業も展開する。",
+  "blurb": null,
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "純米吟醸 紀伊国屋文左衛門",
+    "spec": "純米吟醸",
+    "volume": "1800ml",
+    "price": 3382,
+    "price_note": "税込",
+    "source": "https://shop.nakano-group.co.jp/c/sake/kinokuniyabunzaemon/gd38",
+    "seasonal": false
+   },
+   {
+    "name": "大吟醸 紀伊国屋文左衛門《黒》",
+    "spec": "大吟醸（箱入り）",
+    "volume": "1800ml",
+    "price": 11000,
+    "price_note": "税込",
+    "source": "https://shop.nakano-group.co.jp/c/sake/kinokuniyabunzaemon/gd20",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.nakano-group.co.jp/product/nihonshu01/",
+   "https://shop.nakano-group.co.jp/c/sake/kinokuniyabunzaemon/gd38",
+   "https://shop.nakano-group.co.jp/c/sake/kinokuniyabunzaemon/gd20",
+   "https://shop.nakano-group.co.jp/c/sake/chokyu/gd63",
+   "https://shop.nakano-group.co.jp/c/sake/chokyu/gd65"
+  ]
+ },
+ "超久": {
+  "brewer": "中野BC",
+  "official_url": "https://www.nakano-group.co.jp/",
+  "brewery_summary": "中野BC株式会社は和歌山県海南市の企業で、日本酒のほか梅酒・梅果汁・焼酎などを製造している。酒造事業に加えヘルスケアや観光関連の事業も展開する。",
+  "blurb": null,
+  "rice": [],
+  "products": [
+   {
+    "name": "長久「上撰」",
+    "spec": "上撰（普通酒）",
+    "volume": "1800ml",
+    "price": 2300,
+    "price_note": "税込",
+    "source": "https://shop.nakano-group.co.jp/c/sake/chokyu/gd63",
+    "seasonal": false
+   },
+   {
+    "name": "長久「金印」",
+    "spec": "金印（普通酒）",
+    "volume": "1800ml",
+    "price": 2007,
+    "price_note": "税込",
+    "source": "https://shop.nakano-group.co.jp/c/sake/chokyu/gd65",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://www.nakano-group.co.jp/product/nihonshu01/",
+   "https://shop.nakano-group.co.jp/c/sake/kinokuniyabunzaemon/gd38",
+   "https://shop.nakano-group.co.jp/c/sake/kinokuniyabunzaemon/gd20",
+   "https://shop.nakano-group.co.jp/c/sake/chokyu/gd63",
+   "https://shop.nakano-group.co.jp/c/sake/chokyu/gd65"
+  ]
+ },
+ "車坂": {
+  "brewer": "吉村秀雄商店",
+  "official_url": "https://nihonsyu-nihonjyou.co.jp/",
+  "brewery_summary": "和歌山県岩出市にある蔵元「日本城・車坂醸造元」で、銘柄「車坂」等を醸す。",
+  "blurb": "熊野古道ゆかりの「小栗判官伝説」に由来する銘柄名で、山廃・生酛仕込みシリーズと定番シリーズを持つ。",
+  "rice": [],
+  "products": [
+   {
+    "name": "車坂 山廃純米大吟醸酒",
+    "spec": "山廃純米大吟醸酒",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://nihonsyu-nihonjyou.co.jp/sake/kurumazaka/",
+    "seasonal": false
+   },
+   {
+    "name": "車坂 山廃純米吟醸酒",
+    "spec": "山廃純米吟醸酒",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://nihonsyu-nihonjyou.co.jp/sake/kurumazaka/",
+    "seasonal": false
+   },
+   {
+    "name": "車坂 山廃純米酒",
+    "spec": "山廃純米酒",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://nihonsyu-nihonjyou.co.jp/sake/kurumazaka/",
+    "seasonal": false
+   },
+   {
+    "name": "車坂 生酛純米酒",
+    "spec": "生酛純米酒",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://nihonsyu-nihonjyou.co.jp/sake/kurumazaka/",
+    "seasonal": false
+   },
+   {
+    "name": "車坂 純米大吟醸酒",
+    "spec": "純米大吟醸酒",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://nihonsyu-nihonjyou.co.jp/sake/kurumazaka/",
+    "seasonal": false
+   },
+   {
+    "name": "車坂 特別純米酒",
+    "spec": "特別純米酒",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://nihonsyu-nihonjyou.co.jp/sake/kurumazaka/",
+    "seasonal": false
+   },
+   {
+    "name": "車坂 魚に合う吟醸酒",
+    "spec": "吟醸酒",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://nihonsyu-nihonjyou.co.jp/sake/kurumazaka/",
+    "seasonal": false
+   },
+   {
+    "name": "車坂 純米酒",
+    "spec": "純米酒",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://nihonsyu-nihonjyou.co.jp/sake/kurumazaka/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://nihonsyu-nihonjyou.co.jp/sake/kurumazaka/"
+  ]
+ },
+ "黒牛": {
+  "brewer": "名手酒造店",
+  "official_url": "https://kuroushi.co.jp/",
+  "brewery_summary": "海南市黒江の蔵元。万葉集の「黒牛潟」にちなむ「黒牛」を醸す。",
+  "blurb": "米の旨味を引き出した幅のある味わいの旨口食中酒。",
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "純米酒 黒牛",
+    "spec": "純米（山田錦）",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://kuroushi.co.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "純米吟醸 黒牛",
+    "spec": "純米吟醸（山田錦）",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://kuroushi.co.jp/",
+    "seasonal": false
+   },
+   {
+    "name": "碧山 黒牛",
+    "spec": "純米吟醸（山田錦）",
+    "volume": null,
+    "price": null,
+    "price_note": null,
+    "source": "https://kuroushi.co.jp/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://kuroushi.co.jp/"
+  ]
+ },
+ "太平洋": {
+  "brewer": "尾崎酒造",
+  "official_url": "http://ozakisyuzou.jp/",
+  "brewery_summary": "尾崎酒造は世界遺産・熊野三山地域で唯一の蔵元で、和歌山県新宮市に所在する。熊野川の伏流水を汲み上げ、丹念に磨いた山田錦などを用いて伝統手造りの酒を醸している。",
+  "blurb": null,
+  "rice": [
+   "山田錦"
+  ],
+  "products": [
+   {
+    "name": "太平洋 大吟醸",
+    "spec": "大吟醸",
+    "volume": "720ml",
+    "price": 4840,
+    "price_note": "税込",
+    "source": "https://ozakisyuzou.stores.jp/items/60e65235561e171e3e25550e",
+    "seasonal": false
+   },
+   {
+    "name": "太平洋 純米酒",
+    "spec": "純米酒",
+    "volume": "720ml",
+    "price": 1452,
+    "price_note": "税込",
+    "source": "https://ozakisyuzou.stores.jp/items/60e688c759a26c4a0a4bee4f",
+    "seasonal": false
+   },
+   {
+    "name": "太平洋 山廃仕込み 特別純米酒",
+    "spec": "特別純米酒（山廃仕込み）",
+    "volume": "720ml",
+    "price": 1815,
+    "price_note": "税込",
+    "source": "https://ozakisyuzou.stores.jp/items/60e685090850a00be2362bf5",
+    "seasonal": false
+   },
+   {
+    "name": "太平洋 本醸造酒",
+    "spec": "本醸造",
+    "volume": "720ml",
+    "price": 1375,
+    "price_note": "税込",
+    "source": "https://ozakisyuzou.stores.jp/items/60e6a0860079067ef91b4ffa",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "http://ozakisyuzou.jp/item/",
+   "https://ozakisyuzou.stores.jp/items",
+   "https://ozakisyuzou.stores.jp/items/60e65235561e171e3e25550e",
+   "https://ozakisyuzou.stores.jp/items/60e688c759a26c4a0a4bee4f",
+   "https://ozakisyuzou.stores.jp/items/60e685090850a00be2362bf5"
+  ]
+ },
+ "紀土": {
+  "brewer": "平和酒造",
+  "official_url": "https://www.heiwashuzou.co.jp/",
+  "brewery_summary": "平和酒造は昭和3年創業の和歌山県海南市の蔵元で、日本酒「紀土」のほか梅酒「鶴梅」やクラフトビールも手掛けている。",
+  "blurb": null,
+  "rice": [],
+  "products": [],
+  "sources": [
+   "https://www.heiwashuzou.co.jp/"
+  ]
+ },
+ "雑賀": {
+  "brewer": "九重雑賀K",
+  "official_url": "https://kokonoesaika.co.jp/",
+  "brewery_summary": "和歌山県紀の川市にある蔵元で、赤酢・日本酒・梅酒を醸す。清酒銘柄「雑賀」を展開する。",
+  "blurb": "国際的な賞を多数受賞している九重雑賀の清酒ブランドで、純米大吟醸から山廃仕込みまで幅広いラインナップを持つ。",
+  "rice": [
+   "山田錦",
+   "雄町"
+  ],
+  "products": [
+   {
+    "name": "雑賀 純米大吟醸 山田錦",
+    "spec": "純米大吟醸（山田錦）",
+    "volume": "720ml",
+    "price": 2640,
+    "price_note": "税込",
+    "source": "https://kokonoesaika.myshopify.com/products/ns-2010",
+    "seasonal": false
+   },
+   {
+    "name": "雑賀 純米吟醸 雄町",
+    "spec": "純米吟醸（雄町）",
+    "volume": "720ml",
+    "price": 1980,
+    "price_note": "税込",
+    "source": "https://kokonoesaika.myshopify.com/products/ns-2013",
+    "seasonal": false
+   },
+   {
+    "name": "雑賀 純米吟醸 辛口",
+    "spec": "純米吟醸（辛口）",
+    "volume": "720ml",
+    "price": 1705,
+    "price_note": "税込",
+    "source": "https://kokonoesaika.myshopify.com/products/ns-2014",
+    "seasonal": false
+   },
+   {
+    "name": "雑賀 純米 山廃仕込",
+    "spec": "純米酒（山廃仕込み）",
+    "volume": "720ml",
+    "price": 1540,
+    "price_note": "税込",
+    "source": "https://kokonoesaika.myshopify.com/products/ns-2023",
+    "seasonal": false
+   },
+   {
+    "name": "雑賀 吟醸 大辛口",
+    "spec": "吟醸酒（大辛口）",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://kokonoesaika.myshopify.com/products/ns-2015",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://kokonoesaika.co.jp/saika/",
+   "https://kokonoesaika.myshopify.com/collections/saika"
+  ]
+ },
+ "龍神丸": {
+  "brewer": "高垣酒造",
+  "official_url": "https://takagakishuzo.com/",
+  "brewery_summary": "和歌山県有田郡有田川町にある天保11年創業の蔵元で、銘柄「龍神丸」「喜楽里」を醸す。",
+  "blurb": "高垣酒造の銘柄の一つ。",
+  "rice": [],
+  "products": [],
+  "sources": [
+   "https://takagakishuzo.com/"
+  ]
+ },
+ "喜楽里": {
+  "brewer": "高垣酒造",
+  "official_url": "https://takagakishuzo.com/",
+  "brewery_summary": "和歌山県有田川町、高野山の麓で天保11年創業の小さな老舗蔵。",
+  "blurb": null,
+  "rice": [
+   "山田錦",
+   "五百万石"
+  ],
+  "products": [
+   {
+    "name": "喜楽里 大吟醸 原酒（火入れ）",
+    "spec": "大吟醸原酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://takagakishuzo.com/%e3%81%8a%e9%85%92%e3%81%ae%e7%b4%b9%e4%bb%8b/",
+    "seasonal": false
+   },
+   {
+    "name": "喜楽里 純米吟醸 生原酒",
+    "spec": "純米吟醸生原酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://takagakishuzo.com/%e3%81%8a%e9%85%92%e3%81%ae%e7%b4%b9%e4%bb%8b/",
+    "seasonal": false
+   },
+   {
+    "name": "喜楽里 純米 原酒（火入れ）",
+    "spec": "純米原酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://takagakishuzo.com/%e3%81%8a%e9%85%92%e3%81%ae%e7%b4%b9%e4%bb%8b/",
+    "seasonal": false
+   },
+   {
+    "name": "喜楽里 本醸造 原酒",
+    "spec": "本醸造原酒",
+    "volume": "720ml",
+    "price": null,
+    "price_note": null,
+    "source": "https://takagakishuzo.com/%e3%81%8a%e9%85%92%e3%81%ae%e7%b4%b9%e4%bb%8b/",
+    "seasonal": false
+   }
+  ],
+  "sources": [
+   "https://takagakishuzo.com/%e3%81%8a%e9%85%92%e3%81%ae%e7%b4%b9%e4%bb%8b/"
+  ]
+ }
+}

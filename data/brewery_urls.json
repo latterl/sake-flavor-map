@@ -1,0 +1,5087 @@
+{
+ "_note": "Code for SAKE 酒蔵オープンデータ (MIT) から蔵元公式URLのみを抽出した派生ファイル。メールアドレス・電話番号・住所は意図的に含めていない。元データ: https://github.com/Code-for-SAKE/SAKEOpenData",
+ "_license": "MIT License (Code for SAKE). THIRD_PARTY_NOTICES.txt を参照",
+ "_derived": "諏訪酒造の url は旧ドメイン失効のため https://suwaizumi.jp/ に更新済み",
+ "breweries": [
+  {
+   "pref": "",
+   "brewer": "浜川商店",
+   "url": "http://www.bijofu.jp/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "タカハシ酒造",
+   "url": "http://ise-shiroki.com/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "中山酒造",
+   "url": "http://www.ac.auone-net.jp/~hakumai/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "丸彦酒造",
+   "url": "http://www.mienokanbai.jp/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "伊勢萬",
+   "url": "http://www.iseman.co.jp/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "伊藤酒造",
+   "url": "http://www.suzukasanroku.com/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "元坂酒造",
+   "url": "http://www.gensaka.com/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "大田酒造",
+   "url": "http://www.hanzo-sake.com/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "安達本家酒造",
+   "url": "http://www.fujinohikari.com/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "宮崎本店",
+   "url": "http://www.miyanoyuki.co.jp/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "寒紅梅酒造",
+   "url": "http://www.kankoubai.com/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "小川本家",
+   "url": "http://www.ogawahonke.com/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "後藤酒造場",
+   "url": "http://www.sake-seiun.com/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "早川酒造",
+   "url": "http://www4.cty-net.ne.jp/~soushun/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "早川酒造部",
+   "url": "http://www.sam.hi-ho.ne.jp/hayakawakeisuke/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "旭酒造",
+   "url": "http://www.asahisyuzou.jp/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "森喜酒造場",
+   "url": "http://homepage3.nifty.com/moriki/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "森本仙右衛門商店",
+   "url": "http://www.kuromatsu-okina.co.jp/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "橋本酒造場",
+   "url": "http://www.ict.ne.jp/~h-bashou/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "河武醸造",
+   "url": "http://www.hokosugi.com/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "油正",
+   "url": "http://www.abusyou-hatsuhi.co.jp/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "清水清三郎商店",
+   "url": "http://suzukagawa.com/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "瀧自慢酒造",
+   "url": "http://www.takijiman.jp/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "石川酒造",
+   "url": "http://e-sakagura.co.jp/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "細川酒造",
+   "url": "http://www.ji-beer.co.jp/"
+  },
+  {
+   "pref": "三重県",
+   "brewer": "若戎酒造",
+   "url": "http://www.wakaebis.co.jp/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "キンシ正宗",
+   "url": "http://www.kinshimasamune.com/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "ハクレイ酒造",
+   "url": "http://www.hakurei.co.jp/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "与謝娘酒造",
+   "url": "http://www.yosano.or.jp/yosamusume/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "丹山酒造",
+   "url": "http://www.tanzan.co.jp/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "佐々木酒造",
+   "url": "http://www.jurakudai.com/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "北川本家",
+   "url": "http://www.tomio-sake.co.jp/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "吉岡酒造場",
+   "url": "http://www.yoshinoyama-tango.com/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "向井酒造",
+   "url": "http://kuramoto-mukai.jp/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "城陽酒造",
+   "url": "http://www.joyo-shuzo.co.jp/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "増田徳兵衛商店",
+   "url": "http://www.tsukinokatsura.co.jp/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "大石酒造",
+   "url": "http://okinazuru.co.jp/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "宝酒造",
+   "url": "http://www.takarashuzo.co.jp/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "宝酒造",
+   "url": "http://www.takarashuzo.co.jp/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "山本本家",
+   "url": "http://www.yamamotohonke.jp/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "招德酒造",
+   "url": "http://www.shoutoku.co.jp/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "月桂冠",
+   "url": "http://www.gekkeikan.co.jp/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "木下酒造",
+   "url": "http://www.sake-tamagawa.com/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "松井酒造",
+   "url": "http://matsuishuzo.com/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "松本酒造",
+   "url": "http://www.momonoshizuku.com/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "永雄酒造",
+   "url": "http://www.skyheart.jp/nagao/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "池田酒造",
+   "url": "http://www.ikekumo.com/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "熊野酒造",
+   "url": "http://www.kuminoura.com/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "玉乃光酒造",
+   "url": "http://www.tamanohikari.co.jp/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "白杉酒造",
+   "url": "http://www.shirakiku.info/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "白糸酒造",
+   "url": "http://sake-shiraito.com/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "竹野酒造",
+   "url": "http://www.yasakaturu.co.jp/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "羽田酒造",
+   "url": "http://www.hanedashuzo.co.jp/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "若宮酒造",
+   "url": "http://www5.nkansai.ne.jp/com/ayakomachi/sub4.htm"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "藤岡酒造",
+   "url": "http://www.sookuu.net/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "都鶴酒造",
+   "url": "http://www.miyakotsuru.co.jp/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "長老",
+   "url": "http://www.chourou.co.jp/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "黄桜酒造",
+   "url": "http://kizakura.co.jp/ja/"
+  },
+  {
+   "pref": "京都府",
+   "brewer": "齊藤酒造",
+   "url": "http://www.eikun.com/"
+  },
+  {
+   "pref": "佐賀県",
+   "brewer": "五町田酒造",
+   "url": "http://www.azumaichi.com/"
+  },
+  {
+   "pref": "佐賀県",
+   "brewer": "井手酒造",
+   "url": "http://www.toranoko.co.jp/"
+  },
+  {
+   "pref": "佐賀県",
+   "brewer": "光武酒造場",
+   "url": "http://www.kinpa.jp/"
+  },
+  {
+   "pref": "佐賀県",
+   "brewer": "基山商店",
+   "url": "http://www.sagasake.or.jp/kihoutsuru"
+  },
+  {
+   "pref": "佐賀県",
+   "brewer": "大和酒造",
+   "url": "http://www.sake-yamato.co.jp/"
+  },
+  {
+   "pref": "佐賀県",
+   "brewer": "天吹酒造",
+   "url": "http://www.amabuki.co.jp/"
+  },
+  {
+   "pref": "佐賀県",
+   "brewer": "天山酒造",
+   "url": "http://www.tenzan.co.jp/"
+  },
+  {
+   "pref": "佐賀県",
+   "brewer": "宗政酒造",
+   "url": "http://www.nonnoko.com/"
+  },
+  {
+   "pref": "佐賀県",
+   "brewer": "富久千代酒造",
+   "url": "http://nabeshima.cside.com/"
+  },
+  {
+   "pref": "佐賀県",
+   "brewer": "幸姫酒造",
+   "url": "http://www.sachihime.co.jp/"
+  },
+  {
+   "pref": "佐賀県",
+   "brewer": "松浦一酒造",
+   "url": "http://www.matsuuraichi.com/"
+  },
+  {
+   "pref": "佐賀県",
+   "brewer": "矢野酒造",
+   "url": "http://www.yanoshuzou.jp/"
+  },
+  {
+   "pref": "佐賀県",
+   "brewer": "窓乃梅酒造",
+   "url": "http://www.madonoume.co.jp/"
+  },
+  {
+   "pref": "佐賀県",
+   "brewer": "馬場酒造場",
+   "url": "http://www.nogomi.co.jp/"
+  },
+  {
+   "pref": "佐賀県",
+   "brewer": "鳴滝酒造",
+   "url": "http://mpn.cjn.or.jp/narutaki/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "キング醸造",
+   "url": "http://www.hinode-mirin.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "ヤヱガキ酒造",
+   "url": "http://www.yaegaki.co.jp/sake/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "下村酒造店",
+   "url": "http://www.okuharima.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "井澤本家",
+   "url": "http://www3.ocn.ne.jp/~izawa818/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "伊丹老松酒造",
+   "url": "http://www.oimatsu.biz/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "北山酒造",
+   "url": "http://www.bijinclub-shimabijin.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "千年一酒造",
+   "url": "http://www.sennenichi.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "吉村酒造",
+   "url": "http://sake.taihaku.biz/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "名城酒造",
+   "url": "http://www.meijoshuzou.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "壺坂酒造",
+   "url": "http://www.seppiko.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "大澤本家酒造",
+   "url": "http://www.ohsawasyuzo.com/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "大関",
+   "url": "http://www.ozeki.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "太陽酒造",
+   "url": "http://taiyoshuzo.sunnyday.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "安福又四郎商店",
+   "url": "http://daikoku-m.com/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "富久錦",
+   "url": "http://www.fukunishiki.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "小西酒造",
+   "url": "http://www.konishi.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "山名酒造",
+   "url": "http://www.okutamba.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "山陽盃酒造",
+   "url": "http://www.sanyouhai.com/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "岡村酒造場",
+   "url": "http://www.eonet.ne.jp/~okamura-sake/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "岡田本家",
+   "url": "http://www.seiten-sake.com/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "川辺酒造",
+   "url": "http://www.hanagoromo.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "日本盛",
+   "url": "http://www.nihonsakari.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "明石酒類醸造",
+   "url": "http://www.akashi-tai.com/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "木谷酒造",
+   "url": "http://www.kiichi-osake.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "本田商店",
+   "url": "http://www.taturiki.com/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "櫻正宗",
+   "url": "http://www.sakuramasamune.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "此の友酒造",
+   "url": "http://www.konotomo.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "江井ヶ嶋酒造",
+   "url": "http://www.ei-sake.jp/index.html"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "沢の鶴",
+   "url": "http://www.sawanotsuru.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "泉酒造",
+   "url": "http://www.izumisyuzou.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "浜福鶴銘醸",
+   "url": "http://www.hamafukutsuru.co.jp/kaisya.html"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "灘菊酒造",
+   "url": "http://www.nadagiku.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "狩場酒造場‎",
+   "url": "http://syuugetu.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "田治米",
+   "url": "http://www.chikusen-1702.com/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "白鶴酒造",
+   "url": "http://www.hakutsuru.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "白鷹",
+   "url": "http://www.hakutaka.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "神崎酒造",
+   "url": "http://www1.winknet.ne.jp/~carrot/k-osake1.html"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "神戸酒心館",
+   "url": "http://www.shushinkan.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "神結酒造",
+   "url": "http://www.kamimusubi.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "稲見酒造",
+   "url": "http://www.aoitsuru.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "老松酒造",
+   "url": "http://s-oimatsu.com/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "茨木酒造",
+   "url": "http://rairaku.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "菊正宗酒造",
+   "url": "http://www.kikumasamune.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "西山酒造場",
+   "url": "http://www.kotsuzumi.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "西海酒造",
+   "url": "http://www.soranotsuru.com/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "辰馬本家酒造",
+   "url": "http://www.hakushika.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "都美人酒造",
+   "url": "http://www.miyakobijin.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "金盃酒造",
+   "url": "http://www.kinpai.co.jp/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "銀海酒造",
+   "url": "https://www.facebook.com/zizake.ginkai"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "香住鶴",
+   "url": "http://www.geocities.jp/hyogosake/"
+  },
+  {
+   "pref": "兵庫県",
+   "brewer": "鳳鳴酒造",
+   "url": "http://www.houmei.com/"
+  },
+  {
+   "pref": "北海道",
+   "brewer": "北の誉酒造",
+   "url": "http://www.kitanohomare.com/"
+  },
+  {
+   "pref": "北海道",
+   "brewer": "国稀酒造",
+   "url": "http://www.kunimare.co.jp/"
+  },
+  {
+   "pref": "北海道",
+   "brewer": "小林酒造",
+   "url": "http://www.kitanonishiki.com/"
+  },
+  {
+   "pref": "北海道",
+   "brewer": "日本清酒",
+   "url": "http://www.nipponseishu.co.jp/"
+  },
+  {
+   "pref": "北海道",
+   "brewer": "男山",
+   "url": "http://www.otokoyama.com/"
+  },
+  {
+   "pref": "北海道",
+   "brewer": "福司酒造",
+   "url": "http://www.fukutsukasa.jp/"
+  },
+  {
+   "pref": "北海道",
+   "brewer": "金滴酒造",
+   "url": "http://www.kinteki.co.jp/"
+  },
+  {
+   "pref": "北海道",
+   "brewer": "高砂酒蔵",
+   "url": "http://www.takasagoshuzo.com/"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "亀田酒造",
+   "url": "http://www.awa.or.jp/home/kameda/"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "吉崎酒造",
+   "url": "http://kichiju-gekka.com"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "吉野酒造",
+   "url": "http://koshigoi.com/"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "守屋酒造",
+   "url": "http://maizakura.com/"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "宮崎本家",
+   "url": "http://www.miyazaki-honke.com/"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "寒菊銘醸",
+   "url": "http://www.kankiku.com/"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "寺田本家",
+   "url": "http://www.teradahonke.co.jp/"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "小泉酒造",
+   "url": "http://www.sommelier.co.jp/"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "岩瀬酒造",
+   "url": "http://www.iwanoi.com/"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "旭鶴",
+   "url": "http://www.asahiduru.jp/"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "木戸泉酒造",
+   "url": "http://kidoizumi.jpn.com/"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "東灘醸造",
+   "url": "http://www.azumanada.jp/"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "東薫酒造",
+   "url": "http://www.tokun.co.jp/"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "梅一輪酒造",
+   "url": "http://www.umeichirin.com/"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "滝沢本店",
+   "url": "http://www.nctv.co.jp/~takizawa/"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "石上酒造",
+   "url": "http://www.isbc.co.jp/"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "秀楽酒造",
+   "url": "http://shurakushuzo.goods.officelive.com/"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "稲花酒造",
+   "url": "http://www.inahana-syuzou.com/"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "窪田酒造",
+   "url": "http://www.chuokai-chiba.or.jp/sake/kura/kura41.html"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "花の友",
+   "url": "http://homepage3.nifty.com/hananotomo/"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "藤平酒造",
+   "url": "http://www.fukuiwai.jp/index.html"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "豊乃鶴酒造",
+   "url": "http://www.toyonotsuru.com/"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "鍋店",
+   "url": "http://www.nabedana.co.jp/"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "飯沼本家",
+   "url": "http://www.iinumahonke.co.jp/"
+  },
+  {
+   "pref": "千葉県",
+   "brewer": "馬場本店酒造",
+   "url": "http://www.babahonten.com/"
+  },
+  {
+   "pref": "和歌山県",
+   "brewer": "世界一統",
+   "url": "http://www.sekaiitto.co.jp/"
+  },
+  {
+   "pref": "和歌山県",
+   "brewer": "中野ＢＣ",
+   "url": "http://www.nakano-group.co.jp/"
+  },
+  {
+   "pref": "和歌山県",
+   "brewer": "初光酒造",
+   "url": "http://www.yorokobi.jp/"
+  },
+  {
+   "pref": "和歌山県",
+   "brewer": "初桜酒造",
+   "url": "http://www.hatsusakura.co.jp/"
+  },
+  {
+   "pref": "和歌山県",
+   "brewer": "吉村秀雄商店",
+   "url": "http://www.nihonsyu-nihonjyou.co.jp/"
+  },
+  {
+   "pref": "和歌山県",
+   "brewer": "名手酒造店",
+   "url": "http://www.kuroushi.com/"
+  },
+  {
+   "pref": "和歌山県",
+   "brewer": "天長島村酒造",
+   "url": "http://tencho-shimamura.jp/"
+  },
+  {
+   "pref": "和歌山県",
+   "brewer": "尾崎酒造",
+   "url": "http://ozakisyuzou.jp/"
+  },
+  {
+   "pref": "和歌山県",
+   "brewer": "岸野酒造本家",
+   "url": "http://www.kisyubijin.com/"
+  },
+  {
+   "pref": "和歌山県",
+   "brewer": "平和酒造",
+   "url": "http://www.heiwashuzou.co.jp/"
+  },
+  {
+   "pref": "和歌山県",
+   "brewer": "田端酒造",
+   "url": "http://www.rashomon-kuramoto.co.jp/"
+  },
+  {
+   "pref": "和歌山県",
+   "brewer": "祝砲酒造",
+   "url": "http://www.shukuhou.co.jp/"
+  },
+  {
+   "pref": "和歌山県",
+   "brewer": "鈴木宗右衛門酒造",
+   "url": "http://suzumon.co.jp/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "丸山酒造",
+   "url": "http://www.maruyamasz.com/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "五十嵐酒造",
+   "url": "http://www.snw.co.jp/~iga_s/index.html"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "佐藤酒造店",
+   "url": "http://www.satoshuzou.co.jp/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "内木酒造",
+   "url": "http://home.att.ne.jp/omega/uchiki/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "南陽醸造",
+   "url": "http://www.nanyo-jozo.com/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "大瀧酒造",
+   "url": "http://members2.jcom.home.ne.jp/ootaki_shuzou/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "寒梅酒造",
+   "url": "http://www.kanbai.co.jp/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "小山本家酒造",
+   "url": "http://www.koyamahonke.co.jp/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "小江戸鏡山酒造",
+   "url": "http://www.kagamiyama.jp/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "川端酒造",
+   "url": "http://www.kawabatashuzou.co.jp/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "文楽",
+   "url": "http://www.bunraku.net/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "晴雲酒造",
+   "url": "http://www.kumagaya.or.jp/~seiun/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "東亜酒造",
+   "url": "http://www.toashuzo.com/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "松岡醸造",
+   "url": "http://www.mikadomatsu.com/index.html"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "権田酒造",
+   "url": "http://www.ksky.ne.jp/~gonda/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "横田酒造",
+   "url": "http://www.yokota-shuzou.co.jp/index.html"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "横関酒造店",
+   "url": "http://park3.wakwak.com/~yokozeki/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "武甲酒造",
+   "url": "http://www.bukou.co.jp/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "武蔵鶴酒造",
+   "url": "http://www.musashitsuru.co.jp/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "清龍酒造",
+   "url": "http://www.seiryu-syuzou.co.jp/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "滝澤酒造",
+   "url": "http://homepage3.nifty.com/kikuizumi/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "矢尾本店",
+   "url": "http://www.yao.co.jp/chichibunishiki/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "石井酒造",
+   "url": "http://www.ishii-syuzo.jp/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "秩父菊水酒造",
+   "url": "http://www.chichibu-kikusui.com/index.html"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "藤崎摠兵衛商店",
+   "url": "http://www.seisyu-hakusen.co.jp/index.html"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "藤橋藤三郎商店",
+   "url": "http://fujihashi.fcciweb.jp/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "釜屋",
+   "url": "http://www.rikishi.co.jp/indexnew.html"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "鈴木酒造",
+   "url": "http://www.sakekura.net/"
+  },
+  {
+   "pref": "埼玉県",
+   "brewer": "麻原酒造",
+   "url": "http://www.musashino-asahara.jp/"
+  },
+  {
+   "pref": "大分県",
+   "brewer": "ぶんご銘醸",
+   "url": "http://www.bungomeijyo.co.jp/"
+  },
+  {
+   "pref": "大分県",
+   "brewer": "クンチョウ酒造",
+   "url": "http://www.kuncho.com/"
+  },
+  {
+   "pref": "大分県",
+   "brewer": "三和酒類",
+   "url": "http://www.iichiko.co.jp/"
+  },
+  {
+   "pref": "大分県",
+   "brewer": "丹誠酒類",
+   "url": "http://www14.plala.or.jp/tansei/"
+  },
+  {
+   "pref": "大分県",
+   "brewer": "久保酒蔵",
+   "url": "http://www.kubosyuzou.jp/"
+  },
+  {
+   "pref": "大分県",
+   "brewer": "久家本店",
+   "url": "http://www.ichinoide.co.jp/"
+  },
+  {
+   "pref": "大分県",
+   "brewer": "井上酒造",
+   "url": "http://www.kuncho.com/"
+  },
+  {
+   "pref": "大分県",
+   "brewer": "八鹿酒造",
+   "url": "http://www.yatsushika.com/"
+  },
+  {
+   "pref": "大分県",
+   "brewer": "大地酒造",
+   "url": "http://www.saiki.tv/%5Eochi-s/about.html"
+  },
+  {
+   "pref": "大分県",
+   "brewer": "小手川酒造",
+   "url": "http://www.fundokin.co.jp/kotegawa/"
+  },
+  {
+   "pref": "大分県",
+   "brewer": "小松酒造場",
+   "url": "http://koma2.main.jp/"
+  },
+  {
+   "pref": "大分県",
+   "brewer": "民潮酒舗",
+   "url": "http://minchousyuho.co.jp/"
+  },
+  {
+   "pref": "大分県",
+   "brewer": "浜嶋酒造",
+   "url": "http://www.takakiya.co.jp/"
+  },
+  {
+   "pref": "大分県",
+   "brewer": "老松酒造",
+   "url": "http://www.oimatsu.com/"
+  },
+  {
+   "pref": "大分県",
+   "brewer": "萱島酒造",
+   "url": "http://www.nishinoseki.com/"
+  },
+  {
+   "pref": "大分県",
+   "brewer": "藤居酒造",
+   "url": "http://www.fujii-shuzo.com/"
+  },
+  {
+   "pref": "大分県",
+   "brewer": "西の誉銘醸",
+   "url": "http://www.yukichinosato.com/"
+  },
+  {
+   "pref": "大阪府",
+   "brewer": "元朝",
+   "url": "http://www.gancho.net/"
+  },
+  {
+   "pref": "大阪府",
+   "brewer": "北庄司酒造店",
+   "url": "http://kitashouji.jp/"
+  },
+  {
+   "pref": "大阪府",
+   "brewer": "大門酒造",
+   "url": "http://www.sakahan.com/"
+  },
+  {
+   "pref": "大阪府",
+   "brewer": "山野酒造",
+   "url": "http://www.katanosakura.com/"
+  },
+  {
+   "pref": "大阪府",
+   "brewer": "浪花酒造",
+   "url": "http://www.naniwamasamune.com/"
+  },
+  {
+   "pref": "大阪府",
+   "brewer": "清鶴酒造",
+   "url": "http://www.kiyotsuru.jp/"
+  },
+  {
+   "pref": "大阪府",
+   "brewer": "藤本酒造場",
+   "url": "http://www.fujimotosyuzou.com/"
+  },
+  {
+   "pref": "大阪府",
+   "brewer": "西條",
+   "url": "http://www.amanosake.com/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "上田酒造",
+   "url": "http://www.ueda-syuzou.co.jp/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "中本酒造店",
+   "url": "http://www1.kcn.ne.jp/~yozaemon/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "中谷酒造",
+   "url": "http://www.sake-asaka.co.jp/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "五條酒造",
+   "url": "http://sake-goshin.com/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "今西清兵衛商店",
+   "url": "http://www.harushika.com/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "今西酒造",
+   "url": "http://www.imanishisyuzou.com/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "八木酒造",
+   "url": "http://homepage2.nifty.com/sho-hei/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "北岡本店",
+   "url": "http://www.kitaoka-honten.com/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "北村酒造",
+   "url": "http://www.kitamurasyuzou.co.jp/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "千代酒造",
+   "url": "http://www.chiyoshuzo.co.jp/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "喜多酒造",
+   "url": "http://www.miyokiku.com/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "大倉本家",
+   "url": "http://www.kinko-ookura.com/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "奈良豊澤酒造",
+   "url": "http://nara-toyosawa.jp/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "山本本家",
+   "url": "http://www.yamamoto.com/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "岡本本家",
+   "url": "http://park6.wakwak.com/~okamotohonke/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "梅乃宿酒造",
+   "url": "http://umenoyado.com/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "油長酒造",
+   "url": "http://www.yucho-sake.jp/Site/TOP.html"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "澤田酒造",
+   "url": "http://www.kankiko.jp/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "稲田酒造",
+   "url": "http://inaten.com/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "美吉野醸造",
+   "url": "http://www.hanatomoe.com/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "芳村酒造",
+   "url": "http://www.begin.or.jp/~inadoya/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "葛城酒造",
+   "url": "http://www.hyakurakumon.com/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "藤村酒造",
+   "url": "http://www.yoshino-umazake.com/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "西田酒造",
+   "url": "http://www.morohaku.net/"
+  },
+  {
+   "pref": "奈良県",
+   "brewer": "長龍酒造",
+   "url": "http://www.choryo.jp/"
+  },
+  {
+   "pref": "宮城県",
+   "brewer": "はさまや酒造店",
+   "url": "http://www.e-na.co.jp/bansui/"
+  },
+  {
+   "pref": "宮城県",
+   "brewer": "一ノ蔵",
+   "url": "http://www.ichinokura.co.jp/"
+  },
+  {
+   "pref": "宮城県",
+   "brewer": "中勇酒造店",
+   "url": "http://www.mugen-kuramoto.co.jp/"
+  },
+  {
+   "pref": "宮城県",
+   "brewer": "仙台伊澤家勝山酒造",
+   "url": "http://www.katsu-yama.com/company/index.html"
+  },
+  {
+   "pref": "宮城県",
+   "brewer": "佐浦",
+   "url": "http://www.urakasumi.com/"
+  },
+  {
+   "pref": "宮城県",
+   "brewer": "宮城ふるさと酒造",
+   "url": "http://www.furusatoshuzo.com/index.htm"
+  },
+  {
+   "pref": "宮城県",
+   "brewer": "寒梅酒造",
+   "url": "http://homepage3.nifty.com/miyakanbai/"
+  },
+  {
+   "pref": "宮城県",
+   "brewer": "山和酒造店",
+   "url": "http://www.nona.dti.ne.jp/~yamawa/"
+  },
+  {
+   "pref": "宮城県",
+   "brewer": "川敬商店",
+   "url": "http://www.k2.dion.ne.jp/~koganesa/"
+  },
+  {
+   "pref": "宮城県",
+   "brewer": "森民酒造本家",
+   "url": "http://www.moritami.jp/"
+  },
+  {
+   "pref": "宮城県",
+   "brewer": "男山本店",
+   "url": "http://www.kesennuma.co.jp/"
+  },
+  {
+   "pref": "宮城県",
+   "brewer": "蔵王酒造",
+   "url": "http://www.zaoshuzo.com"
+  },
+  {
+   "pref": "宮城県",
+   "brewer": "角星",
+   "url": "http://kakuboshi.co.jp/"
+  },
+  {
+   "pref": "宮城県",
+   "brewer": "阿部勘酒造店",
+   "url": "http://www.iiosake.com/abekan.html"
+  },
+  {
+   "pref": "富山県",
+   "brewer": "千代鶴酒造",
+   "url": "http://www.chiyozuru.com/"
+  },
+  {
+   "pref": "富山県",
+   "brewer": "吉乃友酒造",
+   "url": "http://www.toyama-smenet.or.jp/~jun/"
+  },
+  {
+   "pref": "富山県",
+   "brewer": "富美菊酒造",
+   "url": "http://www.fumigiku.co.jp/"
+  },
+  {
+   "pref": "富山県",
+   "brewer": "成政酒造",
+   "url": "http://www1.tst.ne.jp/narimasa/"
+  },
+  {
+   "pref": "富山県",
+   "brewer": "林酒造場",
+   "url": "http://www.hayashisyuzo.com/"
+  },
+  {
+   "pref": "富山県",
+   "brewer": "桝田酒造店",
+   "url": "http://www.masuizumi.co.jp/"
+  },
+  {
+   "pref": "富山県",
+   "brewer": "玉旭酒造",
+   "url": "http://www.tamaasahi.jp/"
+  },
+  {
+   "pref": "富山県",
+   "brewer": "皇国晴酒造",
+   "url": "http://www.mabotaki.co.jp/"
+  },
+  {
+   "pref": "富山県",
+   "brewer": "福鶴酒造",
+   "url": "http://www.kazenobon.co.jp/"
+  },
+  {
+   "pref": "富山県",
+   "brewer": "立山酒造",
+   "url": "http://www.tateyamabrewing.jp/"
+  },
+  {
+   "pref": "富山県",
+   "brewer": "若鶴酒造",
+   "url": "http://www.wakatsuru.co.jp/"
+  },
+  {
+   "pref": "富山県",
+   "brewer": "銀盤酒造",
+   "url": "http://www.ginban.co.jp/"
+  },
+  {
+   "pref": "富山県",
+   "brewer": "高澤酒造場",
+   "url": "http://www1.cnh.ne.jp/akebono/"
+  },
+  {
+   "pref": "富山県",
+   "brewer": "黒田酒造",
+   "url": "http://www.hokuichi.com/"
+  },
+  {
+   "pref": "山口県",
+   "brewer": "はつもみぢ",
+   "url": "http://www.hatsumomidi.co.jp/"
+  },
+  {
+   "pref": "山口県",
+   "brewer": "下関酒造",
+   "url": "http://www.sekimusume.co.jp/"
+  },
+  {
+   "pref": "山口県",
+   "brewer": "中村酒造",
+   "url": "http://www.shirouo.com/"
+  },
+  {
+   "pref": "山口県",
+   "brewer": "八千代酒造",
+   "url": "http://www.e-hagi.jp/~yatiyo/"
+  },
+  {
+   "pref": "山口県",
+   "brewer": "八百新酒造",
+   "url": "http://www.yaoshin.co.jp/"
+  },
+  {
+   "pref": "山口県",
+   "brewer": "堀江酒場",
+   "url": "http://horiesakaba.com/"
+  },
+  {
+   "pref": "山口県",
+   "brewer": "大嶺酒造",
+   "url": "http://www.ohmine.jp/"
+  },
+  {
+   "pref": "山口県",
+   "brewer": "山城屋酒造",
+   "url": "http://www.sugihime.com/"
+  },
+  {
+   "pref": "山口県",
+   "brewer": "山縣本店",
+   "url": "http://www.oboshi.co.jp/kuramoto/yamagata/"
+  },
+  {
+   "pref": "山口県",
+   "brewer": "岡崎酒造場",
+   "url": "http://www.e-hagi.jp/~chomonkyo/"
+  },
+  {
+   "pref": "山口県",
+   "brewer": "岩崎酒造",
+   "url": "http://www.fukumusume.jp/"
+  },
+  {
+   "pref": "山口県",
+   "brewer": "新谷酒造",
+   "url": "http://wakamusume.com/"
+  },
+  {
+   "pref": "山口県",
+   "brewer": "旭酒造",
+   "url": "http://asahishuzo.ne.jp/"
+  },
+  {
+   "pref": "山口県",
+   "brewer": "村重酒造",
+   "url": "http://www.kinkan-kuromatsu.jp/"
+  },
+  {
+   "pref": "山口県",
+   "brewer": "永山酒造",
+   "url": "http://www.urban.ne.jp/home/nsg/"
+  },
+  {
+   "pref": "山口県",
+   "brewer": "酒井酒造",
+   "url": "http://www.gokyo-sake.co.jp/"
+  },
+  {
+   "pref": "山口県",
+   "brewer": "金光酒造",
+   "url": "http://www.santouka.com/"
+  },
+  {
+   "pref": "山口県",
+   "brewer": "金分銅酒造",
+   "url": "http://www.kinfundou.com/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "冨士酒造",
+   "url": "http://www.e-sakenom.com/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "出羽桜酒造",
+   "url": "http://www.dewazakura.co.jp/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "加藤嘉八郎酒造",
+   "url": "http://katokahachiro.web.fc2.com/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "千代寿虎屋",
+   "url": "http://www.chiyokotobuki.com/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "古澤酒造",
+   "url": "http://www.furusawa.co.jp/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "和田酒造",
+   "url": "http://www.hinanet.ne.jp/~aratama/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "寿虎屋酒造",
+   "url": "http://kotobukitoraya.co.jp/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "小嶋総本店",
+   "url": "http://www.sake-toko.co.jp/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "後藤酒造店",
+   "url": "http://www.benten-goto.com/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "月山酒造",
+   "url": "http://www.gassan-sake.co.jp/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "朝日川酒造",
+   "url": "http://www.hinanet.ne.jp/~asahikawa/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "東の麓酒造",
+   "url": "http://www3.omn.ne.jp/~yamaei/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "東北銘醸",
+   "url": "http://www.hatsumago.co.jp/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "楯の川酒造",
+   "url": "http://www.tatenokawa.jp/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "樽平酒造",
+   "url": "http://www.taruhei.co.jp/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "水戸部酒造",
+   "url": "http://www.mitobesake.com/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "浜田",
+   "url": "http://www.okimasamune.com/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "渡會本店",
+   "url": "http://www.dewanoyuki.com/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "男山酒造",
+   "url": "http://www.otokoyama.co.jp/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "竹の露",
+   "url": "http://www.takenotsuyu.com/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "米鶴酒造",
+   "url": "http://yonetsuru.com/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "若乃井酒造",
+   "url": "http://www.wakanoi.jp/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "菊勇",
+   "url": "http://www.kikuisami.co.jp/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "野沢酒造店",
+   "url": "http://www.sake-sakuragawa.net/"
+  },
+  {
+   "pref": "山形県",
+   "brewer": "香坂酒造",
+   "url": "http://www8.ocn.ne.jp/~ko-bai/"
+  },
+  {
+   "pref": "山梨県",
+   "brewer": "井出醸造店",
+   "url": "http://www.kainokaiun.jp/"
+  },
+  {
+   "pref": "山梨県",
+   "brewer": "太冠酒造",
+   "url": "http://www.taikan-y.co.jp/"
+  },
+  {
+   "pref": "山梨県",
+   "brewer": "山梨銘醸",
+   "url": "http://www.sake-shichiken.co.jp/"
+  },
+  {
+   "pref": "山梨県",
+   "brewer": "福徳長酒類",
+   "url": "http://www.oenon.jp/company/group/fukutokucho.html"
+  },
+  {
+   "pref": "山梨県",
+   "brewer": "笹一酒造",
+   "url": "http://www.sasaichi.co.jp/"
+  },
+  {
+   "pref": "山梨県",
+   "brewer": "腕相撲酒造",
+   "url": "http://www.udezumou.co.jp/"
+  },
+  {
+   "pref": "山梨県",
+   "brewer": "萬屋醸造店",
+   "url": "http://www.shunnoten.co.jp/"
+  },
+  {
+   "pref": "山梨県",
+   "brewer": "谷櫻酒造",
+   "url": "http://www.tanizakura.co.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "はざま酒造",
+   "url": "http://www.enasan.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "三千櫻酒造",
+   "url": "http://michizakura.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "三千盛",
+   "url": "http://www.michisakari.com/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "三輪酒造",
+   "url": "http://www.miwashuzo.co.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "中島醸造",
+   "url": "http://www.kozaemon.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "二木酒造",
+   "url": "http://www.niki-sake.com/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "千代菊",
+   "url": "http://chiyogiku.co.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "千古乃岩酒造",
+   "url": "http://www.chigonoiwa.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "原田酒造場",
+   "url": "http://www.sansya.co.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "大坪酒造店",
+   "url": "http://www.hida-ootsubo.com/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "大塚酒造",
+   "url": "http://www.ikeda-net.or.jp/mall/otsuka/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "大橋酒造",
+   "url": "http://www.k-tsuru.com/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "天領酒造",
+   "url": "http://www.tenryou.com/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "奥飛騨酒造",
+   "url": "http://www.okuhida.co.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "小坂酒造場",
+   "url": "http://www.kuramoto-kosaka.com/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "小町酒造",
+   "url": "http://www.nagaragawa.co.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "山内酒造場",
+   "url": "http://www.yamauchisyuzou.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "山田商店",
+   "url": "http://www.kura-yamada.com/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "岩村醸造",
+   "url": "http://www.torokko.co.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "川尻酒造場",
+   "url": "http://www.hidamasamune.com/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "布屋",
+   "url": "http://genbun.sakura.ne.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "平和錦酒造",
+   "url": "http://www.kinsen.pu.shopserve.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "平瀬酒造店",
+   "url": "http://www.kusudama.co.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "御代桜醸造",
+   "url": "http://www.miyozakura.co.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "所酒造",
+   "url": "http://www.ibi.or.jp/~bojimaya/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "日本泉酒造",
+   "url": "http://www.nihonizumi.co.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "杉原酒造",
+   "url": "http://www.sugiharasake.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "松井屋酒造場",
+   "url": "http://matsuiya-sake.jimdo.com/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "林本店",
+   "url": "http://www.eiichi.co.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "林酒造",
+   "url": "http://www.minotengu.co.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "武内酒造",
+   "url": "http://www.takeuchi-shuzo.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "池田屋酒造",
+   "url": "http://www.ikedaya1689.co.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "渡辺酒造店",
+   "url": "http://www.sake-hourai.co.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "渡辺酒造醸",
+   "url": "http://www.minonishiki.com/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "玉泉堂酒造",
+   "url": "http://minogiku.co.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "白扇酒造",
+   "url": "http://www.hakusenshuzou.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "白木恒助商店",
+   "url": "http://www.daruma-masamune.co.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "花盛酒造",
+   "url": "http://www.hanazakari.co.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "若葉",
+   "url": "http://www.wakaba-sake.com/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "菊川",
+   "url": "http://www.sake-kikukawa.co.jp/"
+  },
+  {
+   "pref": "岐阜県",
+   "brewer": "蒲酒造場",
+   "url": "http://www.yancha.com/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "三光正宗",
+   "url": "http://www.sake-sanko.co.jp/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "三宅酒造",
+   "url": "http://suifu-miyake.jp/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "丸本酒造",
+   "url": "http://www.kamomidori.co.jp/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "利守酒造",
+   "url": "http://www.sakehitosuji.co.jp/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "十八盛酒造",
+   "url": "http://www.juhachi.jp/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "嘉美心酒造",
+   "url": "http://www.kamikokoro.co.jp/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "多胡本家酒造場",
+   "url": "http://www.tsuyamabeer.co.jp/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "大内酒造場",
+   "url": "http://homepage1.nifty.com/ohuchi/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "室町酒造",
+   "url": "http://sakuramuromachi.co.jp/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "宮下酒造",
+   "url": "http://www.msb.co.jp/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "小坂酒造",
+   "url": "http://www.turunoike.co.jp/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "山成酒造",
+   "url": "http://yamanari.jp/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "平喜酒造",
+   "url": "http://www.hirakishuzo.co.jp/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "板野酒造本店",
+   "url": "http://www10.ocn.ne.jp/~futamo/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "森田酒造",
+   "url": "http://www.moritasyuzou.co.jp/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "牧野酒造本店",
+   "url": "http://makinosyuzo.web.fc2.com/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "田中酒造場",
+   "url": "http://www.musashi-sake.com/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "白菊酒造",
+   "url": "http://www.shiragiku.com/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "磯千鳥酒造",
+   "url": "http://www.isochidori.co.jp/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "神露酒造",
+   "url": "http://www.sinro.co.jp/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "芳烈酒造",
+   "url": "http://www.houretu.jp/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "菊池酒造",
+   "url": "http://www.kikuchishuzo.co.jp/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "赤磐酒造",
+   "url": "http://www.akaiwa.co.jp/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "辻本店",
+   "url": "http://www.gozenshu.co.jp/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "酔宝酒造",
+   "url": "http://www.optic.or.jp/com/suiho/suiho.html"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "金剛酒造",
+   "url": "http://ww31.tiki.ne.jp/~kongo/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "難波酒造",
+   "url": "http://musashi-sake.jp/"
+  },
+  {
+   "pref": "岡山県",
+   "brewer": "高祖酒造",
+   "url": "http://www.kouso-senju.co.jp/"
+  },
+  {
+   "pref": "岩手県",
+   "brewer": "あさ開",
+   "url": "http://www.asabiraki-net.jp/"
+  },
+  {
+   "pref": "岩手県",
+   "brewer": "わしの尾",
+   "url": "http://www.washinoo.co.jp/"
+  },
+  {
+   "pref": "岩手県",
+   "brewer": "世嬉の一酒造",
+   "url": "http://www.sekinoichi.co.jp/"
+  },
+  {
+   "pref": "岩手県",
+   "brewer": "両磐酒造",
+   "url": "http://www.seisyu-kanzan.com"
+  },
+  {
+   "pref": "岩手県",
+   "brewer": "南部美人",
+   "url": "http://www.nanbubijin.co.jp/"
+  },
+  {
+   "pref": "岩手県",
+   "brewer": "吾妻嶺酒造店",
+   "url": "http://www.azumamine.com"
+  },
+  {
+   "pref": "岩手県",
+   "brewer": "喜久盛酒造",
+   "url": "http://kikuzakari.jp"
+  },
+  {
+   "pref": "岩手県",
+   "brewer": "岩手銘醸",
+   "url": "http://www.iwate-meijo.com"
+  },
+  {
+   "pref": "岩手県",
+   "brewer": "川村酒造店",
+   "url": "http://homepage1.nifty.com/nanbuzeki/"
+  },
+  {
+   "pref": "岩手県",
+   "brewer": "廣田酒造店",
+   "url": "http://hiroki.xm.shopserve.jp/"
+  },
+  {
+   "pref": "岩手県",
+   "brewer": "月の輪酒造店",
+   "url": "http://www.tsukinowa-iwate.com/"
+  },
+  {
+   "pref": "岩手県",
+   "brewer": "桜顔酒造",
+   "url": "http://www.sakuragao.jp"
+  },
+  {
+   "pref": "岩手県",
+   "brewer": "泉金酒造",
+   "url": "http://www.ginga.or.jp/~senkin/"
+  },
+  {
+   "pref": "岩手県",
+   "brewer": "浜千鳥",
+   "url": "http://www.hamachidori.net"
+  },
+  {
+   "pref": "岩手県",
+   "brewer": "磐乃井酒造",
+   "url": "http://www.iwanoi.co.jp/"
+  },
+  {
+   "pref": "岩手県",
+   "brewer": "福来",
+   "url": "http://www3.alpha-net.ne.jp/users/fukurai"
+  },
+  {
+   "pref": "岩手県",
+   "brewer": "菊の司酒造",
+   "url": "http://www.rnac.ne.jp/~esake/kiku/"
+  },
+  {
+   "pref": "岩手県",
+   "brewer": "菱屋酒造店",
+   "url": "http://homepage3.nifty.com/hisiya/"
+  },
+  {
+   "pref": "岩手県",
+   "brewer": "赤武酒造",
+   "url": "http://www.akabu1.com"
+  },
+  {
+   "pref": "岩手県",
+   "brewer": "酔仙酒造",
+   "url": "http://www.suisen.co.jp/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "一宮酒造",
+   "url": "http://www.ichinomiya-s.jp/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "下森酒造場",
+   "url": "http://www.sabumi.com/index.php"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "加茂福酒造",
+   "url": "http://www.kamofuku.co.jp/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "古橋酒造",
+   "url": "http://www.madbam.jp/uijin/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "右田本店",
+   "url": "http://www13.ocn.ne.jp/~migita"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "吉田酒造",
+   "url": "http://www.e-gassan.co.jp/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "國暉酒造",
+   "url": "http://www.kokki.jp/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "天佑酒造",
+   "url": "http://www.oboshi.co.jp/kuramoto/tenyu/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "奥出雲酒造",
+   "url": "http://www.okuizumosyuzou.com/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "富士酒造",
+   "url": "http://www.izumofuji.com/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "日本海酒造",
+   "url": "http://www.kan-nihonkai.com/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "旭日酒造",
+   "url": "http://www.jujiasahi.co.jp/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "木次酒造",
+   "url": "http://www.kisukisyuzou.com/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "李白酒造",
+   "url": "http://www.rihaku.co.jp/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "板倉酒造",
+   "url": "http://www.tenon.jp/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "池月酒造",
+   "url": "http://www.ikezuki.com/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "玉櫻酒造",
+   "url": "http://www.tamazakura.com/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "王祿酒造",
+   "url": "http://www.ouroku.com/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "竹下本店",
+   "url": "http://www.takeshita-honten.com/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "簸上清酒",
+   "url": "http://www.sake-hikami.co.jp/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "米田酒造",
+   "url": "http://www.toyonoaki.com/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "若林酒造",
+   "url": "http://www.kaishun.co.jp/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "都錦酒造",
+   "url": "http://www.miyakonishiki.co.jp/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "酒持田本店",
+   "url": "http://www.sakemochida.jp/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "金鳳酒造",
+   "url": "http://www.kinpo.jp/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "隠岐酒造",
+   "url": "http://fish.miracle.ne.jp/okishzou/"
+  },
+  {
+   "pref": "島根県",
+   "brewer": "青砥酒造",
+   "url": "http://www.aotoshuzo.co.jp/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "アシードブリュー",
+   "url": "http://www.shurakunosato.jp/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "三宅本店",
+   "url": "http://www.sempuku.co.jp/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "三輪酒造",
+   "url": "http://www16.ocn.ne.jp/~shin_rai/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "中国醸造",
+   "url": "http://www.chugoku-jozo.co.jp/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "中尾醸造",
+   "url": "http://www.maboroshi.co.jp/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "中野光次郎本店",
+   "url": "http://suiryu.hiroshima.jp/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "今田酒造本店",
+   "url": "http://fukucho.info/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "八幡川酒造",
+   "url": "http://www.yahatagawa.co.jp/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "吉源酒造場",
+   "url": "http://www5.ocn.ne.jp/~yoshigen/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "天宝一",
+   "url": "http://www.tenpo1.co.jp/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "宝剣酒造",
+   "url": "http://www2u.biglobe.ne.jp/~houken/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "小泉本店",
+   "url": "http://www2u.biglobe.ne.jp/~mi-yuki/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "小野酒造",
+   "url": "http://oigame.co.jp/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "山岡酒造",
+   "url": "http://www.fuchu.or.jp/~zuikan/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "山陽鶴酒造",
+   "url": "http://www.sanyotsuru.jp/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "旭鳳酒造",
+   "url": "http://www.kyokuhou.co.jp/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "柄酒造",
+   "url": "http://www.tsukasyuzou.jp/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "梅田酒造場",
+   "url": "http://www.honshu-ichi.com/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "榎酒造",
+   "url": "http://hanahato.ocnk.net/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "江田島銘醸",
+   "url": "http://www.doukinosakura.jp/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "白牡丹酒造",
+   "url": "http://www.hakubotan.co.jp/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "白蘭酒造",
+   "url": "http://www.pionet.ne.jp/~hakuran/indextesuto.html"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "盛川酒造",
+   "url": "http://morikawa-shuzo.com/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "相原酒造",
+   "url": "http://www.ugonotsuki.com/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "福美人酒造",
+   "url": "http://www.fukubijin.co.jp/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "花酔酒造",
+   "url": "http://www.rakuten.co.jp/hanayoi/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "藤井酒造",
+   "url": "http://www.fujiishuzou.com/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "藤岡酒造店",
+   "url": "http://homepage3.nifty.com/moai/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "賀茂泉酒造",
+   "url": "http://www.kamoizumi.co.jp/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "賀茂鶴酒造",
+   "url": "http://www.kamotsuru.jp/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "酔心山根本店",
+   "url": "http://www.suishinsake.co.jp/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "金光酒造",
+   "url": "http://www.kamokin.com/"
+  },
+  {
+   "pref": "広島県",
+   "brewer": "馬上酒造場",
+   "url": "http://www.e-na.co.jp/bajo/"
+  },
+  {
+   "pref": "徳島県",
+   "brewer": "三芳菊酒造",
+   "url": "http://www.miyoshikiku.co.jp/"
+  },
+  {
+   "pref": "徳島県",
+   "brewer": "中和商店",
+   "url": "http://www.nigi.or.jp/komachi/"
+  },
+  {
+   "pref": "徳島県",
+   "brewer": "勢玉酒造",
+   "url": "http://seigyokushuzo-sakagura.co.jp/"
+  },
+  {
+   "pref": "徳島県",
+   "brewer": "司菊酒造",
+   "url": "http://www.tsukasagiku.com/"
+  },
+  {
+   "pref": "徳島県",
+   "brewer": "吉本醸造",
+   "url": "http://www.awa-yoshimoto.com/"
+  },
+  {
+   "pref": "徳島県",
+   "brewer": "斎藤酒造場",
+   "url": "http://www.e-awa.com/hp/gotensakura"
+  },
+  {
+   "pref": "徳島県",
+   "brewer": "日新酒類",
+   "url": "http://www.nissin-shurui.co.jp/"
+  },
+  {
+   "pref": "徳島県",
+   "brewer": "本家松浦酒造場",
+   "url": "http://www.shumurie.co.jp/"
+  },
+  {
+   "pref": "徳島県",
+   "brewer": "花乃春酒造",
+   "url": "http://www.hananoharu.com/"
+  },
+  {
+   "pref": "徳島県",
+   "brewer": "芳水酒造",
+   "url": "http://www.housui.com/"
+  },
+  {
+   "pref": "愛媛県",
+   "brewer": "かち鶴酒造",
+   "url": "http://www.kachizuru.com/"
+  },
+  {
+   "pref": "愛媛県",
+   "brewer": "元見屋酒店",
+   "url": "http://www.motomiya.jp/"
+  },
+  {
+   "pref": "愛媛県",
+   "brewer": "八木酒造部",
+   "url": "http://www.yamatanmasamune.jp/"
+  },
+  {
+   "pref": "愛媛県",
+   "brewer": "千代の亀酒造",
+   "url": "http://www.chiyonokame.com/"
+  },
+  {
+   "pref": "愛媛県",
+   "brewer": "協和酒造",
+   "url": "http://hatsuyukihai.jp/"
+  },
+  {
+   "pref": "愛媛県",
+   "brewer": "成龍酒造",
+   "url": "http://www.seiryosyuzo.com/"
+  },
+  {
+   "pref": "愛媛県",
+   "brewer": "松田酒造",
+   "url": "http://miyanomai.jp/"
+  },
+  {
+   "pref": "愛媛県",
+   "brewer": "栄光酒造",
+   "url": "http://www.eikoo.com/"
+  },
+  {
+   "pref": "愛媛県",
+   "brewer": "桜うづまき酒造",
+   "url": "http://www.sakurauzumaki.co.jp/"
+  },
+  {
+   "pref": "愛媛県",
+   "brewer": "梅美人酒造",
+   "url": "http://www.ume-bijin.co.jp/"
+  },
+  {
+   "pref": "愛媛県",
+   "brewer": "梅錦山川",
+   "url": "http://www.umenishiki.com/"
+  },
+  {
+   "pref": "愛媛県",
+   "brewer": "武田酒造",
+   "url": "http://www.yamatogokoro.co.jp/"
+  },
+  {
+   "pref": "愛媛県",
+   "brewer": "水口酒造",
+   "url": "http://www.dogobeer.co.jp/"
+  },
+  {
+   "pref": "愛媛県",
+   "brewer": "石鎚酒造",
+   "url": "http://www.ishizuchi.co.jp/"
+  },
+  {
+   "pref": "愛媛県",
+   "brewer": "秋川酒造",
+   "url": "http://www5b.biglobe.ne.jp/~sake/"
+  },
+  {
+   "pref": "愛媛県",
+   "brewer": "近藤酒造",
+   "url": "http://www.kondousyuzou.com/"
+  },
+  {
+   "pref": "愛媛県",
+   "brewer": "酒六酒造",
+   "url": "http://www.sakaroku-syuzo.co.jp/"
+  },
+  {
+   "pref": "愛媛県",
+   "brewer": "雪雀酒造",
+   "url": "http://www.yukisuzume.com/"
+  },
+  {
+   "pref": "愛媛県",
+   "brewer": "首藤酒造",
+   "url": "http://www.sukigokoro.co.jp/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "中埜酒造",
+   "url": "http://www.nakanoshuzou.jp/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "丸一酒造",
+   "url": "http://www.sake01.co.jp/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "丸石醸造",
+   "url": "http://www.014.co.jp/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "内藤醸造",
+   "url": "http://www.naitojouzou.com/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "原田酒造",
+   "url": "http://www.ikujii.co.jp/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "山星酒造",
+   "url": "http://www.hoshizakari.co.jp/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "山盛酒造",
+   "url": "http://takanoyume.co.jp/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "山﨑",
+   "url": "http://www.sonnoh.co.jp/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "日野屋商店",
+   "url": "http://www.tees.ne.jp/~asahidake/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "東春酒造",
+   "url": "http://www.azumaryu.co.jp/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "東洋自慢酒造",
+   "url": "http://www.one-da.com/toyojiman/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "柴田酒造場",
+   "url": "http://www.kounotsukasa.co.jp/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "浦野",
+   "url": "http://www.kikuishi.com/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "清洲桜醸造",
+   "url": "http://www.onikoroshi.co.jp/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "澤田酒造",
+   "url": "http://www.hakurou.com/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "甘強酒造",
+   "url": "http://www.kankyo-shuzo.co.jp/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "盛田",
+   "url": "http://moritakk.com/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "盛田金しゃち酒造",
+   "url": "http://www.kinshachi.co.jp/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "相生ユニビオ",
+   "url": "http://www.unibio.jp/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "神の井酒造",
+   "url": "http://kaminoi.co.jp/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "福井酒造",
+   "url": "http://www.fukui-syuzo.co.jp/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "萬乗醸造",
+   "url": "http://kuheiji.co.jp/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "金虎酒造",
+   "url": "http://www.kintora.jp/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "金銀花酒造",
+   "url": "http://www.kinginka.jp/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "長珍酒造",
+   "url": "http://nihonshu.exblog.jp/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "関谷醸造",
+   "url": "http://www.houraisen.co.jp/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "青木酒造",
+   "url": "http://www.yamahai.co.jp/"
+  },
+  {
+   "pref": "愛知県",
+   "brewer": "鶴見酒造",
+   "url": "http://www.tsurumi-jp.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "お福酒造",
+   "url": "http://www.ofuku-shuzo.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "ふじの井酒造",
+   "url": "http://www.sake-fujinoi.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "よしかわ杜氏の郷",
+   "url": "http://www.yoshikawa-touji.co.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "マスカガミ",
+   "url": "http://www.masukagami.co.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "下越酒造",
+   "url": "http://www.sake-kirin.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "久須美酒造",
+   "url": "http://www.kamenoo.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "今代司酒造",
+   "url": "http://www.imayotsukasa.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "住乃井酒造",
+   "url": "http://www.suminoi.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "八海醸造",
+   "url": "http://www.hakkaisan.co.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "加茂錦酒造",
+   "url": "http://www.kamonishiki.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "加賀の井酒造",
+   "url": "http://www.kaganoi.co.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "北雪酒造",
+   "url": "http://sake-hokusetsu.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "千代の光酒造",
+   "url": "http://www.2.ocn.ne.jp/~sa-chiyo"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "原酒造",
+   "url": "http://www.harashuzou.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "吉乃川",
+   "url": "http://www.yosinogawa.co.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "君の井酒造",
+   "url": "http://www.kiminoi.co.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "塩川酒造",
+   "url": "http://www.shiokawa.biz/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "大洋酒造",
+   "url": "http://www4.ocn.ne.jp/~taiyobrw/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "天領盃酒造",
+   "url": "http://www.tenryohai.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "妙高酒造",
+   "url": "http://www.myokoshuzo.co.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "宝山酒造",
+   "url": "http://www.takarayama-sake.co.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "宮尾酒造",
+   "url": "http://www.shimeharitsuru.co.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "小山酒造店",
+   "url": "http://koyamasyuzou.jimdo.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "小黒酒造",
+   "url": "http://www.bairi.net/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "尾畑酒造",
+   "url": "http://www.obata-shuzo.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "市島酒造",
+   "url": "http://www.ichishima.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "恩田酒造",
+   "url": "http://www.maitsuru.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "新潟第一酒造",
+   "url": "http://www.sake-hakuchou.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "新潟銘醸",
+   "url": "http://www.sake-no-choja.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "朝妻酒造",
+   "url": "http://www.yukinomaboroshi.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "朝日酒造",
+   "url": "http://www.asahi-shuzo.co.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "松乃井酒造場",
+   "url": "http://www.matsunoi.net/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "柏露酒造",
+   "url": "http://www.hakuroshuzo.co.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "武蔵野酒造",
+   "url": "http://www.musashino-shuzo.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "池浦酒造",
+   "url": "http://www.ikeura-syuzo.co.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "河忠酒造",
+   "url": "http://www.soutenbou.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "渡辺酒造店",
+   "url": "http://www.nechiotokoyama.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "猪又酒造",
+   "url": "http://www.tsukimizunoike.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "玉川酒造",
+   "url": "http://www.yukikura.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "田中酒造",
+   "url": "http://web01.joetsu.ne.jp/~t-syuzou/index.html"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "田原酒造",
+   "url": "http://taharashuzo.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "白瀧酒造",
+   "url": "http://www.jozen.co.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "白龍酒造",
+   "url": "http://hakuryu-sake.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "石塚酒造",
+   "url": "http://park23.wakwak.com/~kameguchi/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "福井酒造",
+   "url": "http://www.minenohakubai.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "福顔酒造",
+   "url": "http://www.fukugao.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "竹田酒造店",
+   "url": "http://katafune.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "笹祝酒造",
+   "url": "http://www.sasaiwai.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "苗場酒造",
+   "url": "http://www.naebasan.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "菊水酒造",
+   "url": "http://www.kikusui-sake.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "菊波酒造",
+   "url": "http://www.e-sadonet.tv/~kikunami/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "諸橋酒造",
+   "url": "http://www.morohashi-shuzo.co.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "越つかの酒造",
+   "url": "http://www.osakenet.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "越の華酒造",
+   "url": "http://www.oenon.jp/company/group/koshinohana.html"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "越後伝衛門",
+   "url": "http://www.denemon.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "越後桜酒造",
+   "url": "http://www.nihonsakura.co.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "越後酒造場",
+   "url": "http://www.echigoshuzojo.co.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "越後鶴亀",
+   "url": "http://www.echigotsurukame.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "近藤酒造",
+   "url": "http://www.suganadake.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "逸見酒造",
+   "url": "http://henmisyuzo.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "金升酒造",
+   "url": "http://kanemasu-sake.co.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "金鵄盃酒造",
+   "url": "http://www.kinshihai.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "長谷川酒造",
+   "url": "http://www.sekkobai.ecnet.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "関原酒造",
+   "url": "http://www.sake-sekihara.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "阿部酒造",
+   "url": "http://www5.ocn.ne.jp/~abesyuzo/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "雪椿酒造",
+   "url": "http://www.yukitsubaki.co.jp/index.html"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "青木酒造",
+   "url": "http://www.kakurei.co.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "頚城酒造",
+   "url": "http://www.kubiki-shuzo.co.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "高の井酒造",
+   "url": "http://www.hatsuume.co.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "高千代酒造",
+   "url": "http://www.takachiyo.co.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "高橋酒造",
+   "url": "http://www.echigo-choryo.co.jp/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "高野酒造",
+   "url": "http://homepage2.nifty.com/takano1899"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "魚沼酒造",
+   "url": "http://www4.ocn.ne.jp/~tenjinkk/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "鮎正宗酒造",
+   "url": "http://www.ayumasamune.com/"
+  },
+  {
+   "pref": "新潟県",
+   "brewer": "麒麟山酒造",
+   "url": "http://www.kirinzan.co.jp/"
+  },
+  {
+   "pref": "東京都",
+   "brewer": "中村酒造場",
+   "url": "http://www.chiyotsuru.com/"
+  },
+  {
+   "pref": "東京都",
+   "brewer": "小山酒造",
+   "url": "http://www.koyamashuzo.co.jp/"
+  },
+  {
+   "pref": "東京都",
+   "brewer": "小澤酒造",
+   "url": "http://www.sawanoi-sake.com/"
+  },
+  {
+   "pref": "東京都",
+   "brewer": "田村酒造場",
+   "url": "http://www.seishu-kasen.com/top.html"
+  },
+  {
+   "pref": "東京都",
+   "brewer": "石川酒造",
+   "url": "http://www.tamajiman.com/"
+  },
+  {
+   "pref": "東京都",
+   "brewer": "豊島屋酒造",
+   "url": "http://www.toshimayasyuzou.co.jp/"
+  },
+  {
+   "pref": "東京都",
+   "brewer": "野崎酒造",
+   "url": "http://www.kisho-sake.jp/"
+  },
+  {
+   "pref": "栃木県",
+   "brewer": "せんきん",
+   "url": "http://www.senkin.co.jp"
+  },
+  {
+   "pref": "栃木県",
+   "brewer": "井上清吉商店",
+   "url": "http://sawahime.co.jp/"
+  },
+  {
+   "pref": "栃木県",
+   "brewer": "外池酒造店",
+   "url": "http://tonoike.jp/"
+  },
+  {
+   "pref": "栃木県",
+   "brewer": "天鷹酒造",
+   "url": "http://www.tentaka.co.jp/index2.php"
+  },
+  {
+   "pref": "栃木県",
+   "brewer": "宇都宮酒造",
+   "url": "http://www.shikisakura.co.jp/"
+  },
+  {
+   "pref": "栃木県",
+   "brewer": "富川酒造店",
+   "url": "http://www.kubun.jp/"
+  },
+  {
+   "pref": "栃木県",
+   "brewer": "島崎酒造",
+   "url": "http://www.azumarikishi.co.jp"
+  },
+  {
+   "pref": "栃木県",
+   "brewer": "惣誉酒造",
+   "url": "http://www.sohomare.co.jp/"
+  },
+  {
+   "pref": "栃木県",
+   "brewer": "杉田酒造",
+   "url": "http://sugitasyuzou.co.jp/index.html"
+  },
+  {
+   "pref": "栃木県",
+   "brewer": "松井酒造店",
+   "url": "http://www.matsunokotobuki.jp"
+  },
+  {
+   "pref": "栃木県",
+   "brewer": "池島酒造",
+   "url": "http://www.ikenishiki.co.jp/"
+  },
+  {
+   "pref": "栃木県",
+   "brewer": "渡邊佐平商店",
+   "url": "http://www.watanabesahei.co.jp/"
+  },
+  {
+   "pref": "栃木県",
+   "brewer": "片山酒造",
+   "url": "http://www.kashiwazaki.com/"
+  },
+  {
+   "pref": "栃木県",
+   "brewer": "相澤酒造",
+   "url": "http://www4.ocn.ne.jp/~ainosawa/"
+  },
+  {
+   "pref": "栃木県",
+   "brewer": "相良酒造",
+   "url": "http://asahisakae.omiki.com/"
+  },
+  {
+   "pref": "栃木県",
+   "brewer": "第一酒造",
+   "url": "http://www.sakekaika.co.jp/"
+  },
+  {
+   "pref": "栃木県",
+   "brewer": "虎屋本店",
+   "url": "http://www.toratora.co.jp/"
+  },
+  {
+   "pref": "栃木県",
+   "brewer": "西堀酒造",
+   "url": "http://wakazakari.kir.jp/"
+  },
+  {
+   "pref": "栃木県",
+   "brewer": "辻善兵衛商店",
+   "url": "http://www.nextftp.com/dotcom/sakuragawa/"
+  },
+  {
+   "pref": "栃木県",
+   "brewer": "飯沼銘醸",
+   "url": "http://www.cc9.ne.jp/~suginamiki/"
+  },
+  {
+   "pref": "栃木県",
+   "brewer": "鳳鸞酒造",
+   "url": "http://www.horan.co.jp/"
+  },
+  {
+   "pref": "沖縄県",
+   "brewer": "泰石酒造",
+   "url": "http://www.taikokushuzo.com/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "上原酒造",
+   "url": "http://www.ex.biwa.ne.jp/%5Efuro-sen"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "佐藤酒造",
+   "url": "http://www.nagahamanosake.com/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "冨田酒造",
+   "url": "http://www.7yari.co.jp/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "北島酒造",
+   "url": "http://www.kitajima-shuzo.jp/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "吉田酒造",
+   "url": "http://www11.ocn.ne.jp/~sekka/index.html"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "喜多酒造",
+   "url": "http://kirakucho.jp/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "増本酒造場",
+   "url": "http://www.ususakura.jp/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "多賀",
+   "url": "http://www.sakenotaga.co.jp/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "太田酒造",
+   "url": "http://www.ohta-shuzou.co.jp/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "安井酒造場",
+   "url": "http://www.kouka.ne.jp/~h-sakura"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "山路酒造",
+   "url": "http://www.hokkokukaidou.com/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "岡村本家",
+   "url": "http://kin-kame.co.jp/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "川島酒造",
+   "url": "http://www.matsu87.jp/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "平井商店",
+   "url": "http://www.biwa.ne.jp/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "望月酒造",
+   "url": "http://suzukabuto.blog.fc2.com/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "松瀬酒造",
+   "url": "http://matsunotsukasa.com/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "池本酒造",
+   "url": "http://www.biwa-cho.com/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "浪乃音酒造",
+   "url": "http://www.naminooto.jp/top/jp/product.php"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "滋賀酒造",
+   "url": "http://www.brwady.com/shiga-syuzo/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "瀬古酒造",
+   "url": "http://www.sekoshuzo.co.jp/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "田中酒造",
+   "url": "http://harunomine.com/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "矢尾酒造",
+   "url": "http://yaosyuzou.web.fc2.com/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "福井弥平商店",
+   "url": "http://www.haginotsuyu.co.jp/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "竹内酒造",
+   "url": "http://www.kanoizumi.jp/link.html"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "笑四季酒造",
+   "url": "http://www.emishiki.com/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "美冨久酒造",
+   "url": "http://www.mifuku.co.jp/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "藤居本家",
+   "url": "http://www.fujiihonke.jp/"
+  },
+  {
+   "pref": "滋賀県",
+   "brewer": "近江酒造",
+   "url": "http://shigasakari.jp/"
+  },
+  {
+   "pref": "熊本県",
+   "brewer": "亀萬酒造",
+   "url": "http://www.kameman.co.jp/"
+  },
+  {
+   "pref": "熊本県",
+   "brewer": "千代の園酒造",
+   "url": "http://www.chiyonosono.co.jp/"
+  },
+  {
+   "pref": "熊本県",
+   "brewer": "山村酒造",
+   "url": "http://www.reizan.com/"
+  },
+  {
+   "pref": "熊本県",
+   "brewer": "河津酒造",
+   "url": "http://www.oguni-go.ne.jp/4/kawadu/"
+  },
+  {
+   "pref": "熊本県",
+   "brewer": "瑞鷹酒造",
+   "url": "http://www.zuiyo.co.jp/"
+  },
+  {
+   "pref": "熊本県",
+   "brewer": "美少年",
+   "url": "http://bishonen.co.jp/"
+  },
+  {
+   "pref": "熊本県",
+   "brewer": "花の香酒造",
+   "url": "http://www.hananoka.co.jp/"
+  },
+  {
+   "pref": "熊本県",
+   "brewer": "菊の城本舗",
+   "url": "http://www.kikunoshiro.com/index.html"
+  },
+  {
+   "pref": "熊本県",
+   "brewer": "通潤酒造",
+   "url": "http://www.tuzyun.co.jp/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "やちや酒造",
+   "url": "http://www.yachiya-sake.co.jp/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "中島酒造店",
+   "url": "http://www.noto-suehiro.co.jp/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "中村酒造",
+   "url": "http://www.nakamura-shuzou.co.jp/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "久世酒造店",
+   "url": "http://www.choseimai.co.jp/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "加越",
+   "url": "http://www.kanpaku.co.jp/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "吉田酒造店",
+   "url": "http://www.tedorigawa.com/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "宗玄酒造",
+   "url": "http://www.sougen-shuzou.com/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "宮本酒造店",
+   "url": "http://www.mujou.co.jp/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "小堀酒造店",
+   "url": "http://www.manzairaku.co.jp/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "数馬酒造",
+   "url": "http://www.kazuma.co.jp/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "日吉酒造店",
+   "url": "http://www.hiyoshisyuzou.com/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "東酒造",
+   "url": "http://www.sake-sinsen.co.jp/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "松波酒造",
+   "url": "http://www.o-eyama.com/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "松浦酒造",
+   "url": "http://www.shishinosato.com/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "橋本酒造",
+   "url": "http://www.judaime.com/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "櫻田酒造",
+   "url": "http://www.sakurada.biz/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "清水酒造店",
+   "url": "http://www.notohomare.com/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "白藤酒造店",
+   "url": "http://www.hakutousyuzou.jp/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "福光屋",
+   "url": "http://www.fukumitsuya.co.jp/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "菊姫",
+   "url": "http://www.kikuhime.co.jp/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "車多酒造",
+   "url": "http://www.tengumai.co.jp/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "農口酒造",
+   "url": "http://www.noguchisyuzohonke.com/index.htm"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "金紋酒造",
+   "url": "http://kinmon.jp/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "金谷酒造店",
+   "url": "http://www.hakusan-takasago.jp/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "鶴野酒造店",
+   "url": "http://www.taniizumi.jp/"
+  },
+  {
+   "pref": "石川県",
+   "brewer": "鹿野酒造",
+   "url": "http://www.jokigen.co.jp/"
+  },
+  {
+   "pref": "神奈川県",
+   "brewer": "中澤酒造",
+   "url": "http://www.matsumidori.jp/"
+  },
+  {
+   "pref": "神奈川県",
+   "brewer": "久保田酒造",
+   "url": "http://www.tsukui.ne.jp/kubota/"
+  },
+  {
+   "pref": "神奈川県",
+   "brewer": "井上酒造",
+   "url": "http://www.hakoneyama.co.jp/"
+  },
+  {
+   "pref": "神奈川県",
+   "brewer": "大矢孝酒造",
+   "url": "http://www.hourai.jp/"
+  },
+  {
+   "pref": "神奈川県",
+   "brewer": "泉橋酒造",
+   "url": "http://izumibashi.com/"
+  },
+  {
+   "pref": "神奈川県",
+   "brewer": "熊澤酒造",
+   "url": "http://www.kumazawa.jp/"
+  },
+  {
+   "pref": "神奈川県",
+   "brewer": "石井醸造",
+   "url": "http://www.ishiijozo.com/"
+  },
+  {
+   "pref": "神奈川県",
+   "brewer": "金井酒造店",
+   "url": "http://www.shirasasa.com/"
+  },
+  {
+   "pref": "神奈川県",
+   "brewer": "黄金井酒造",
+   "url": "http://www.koganeishuzou.com/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "わかさ冨士",
+   "url": "http://www3.ocn.ne.jp/~hemmi/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "一本義久保本店",
+   "url": "http://www.ippongi.co.jp/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "久保田酒造",
+   "url": "http://www.fukukoma.co.jp/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "伊藤酒造",
+   "url": "http://www.koshinotaka.com/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "力泉酒造",
+   "url": "http://tutuzi.com/rikisen/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "加藤吉平商店",
+   "url": "http://www.born.co.jp/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "南部酒造場",
+   "url": "http://www.hanagaki.co.jp/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "吉田酒造",
+   "url": "http://www.jizakegura.com/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "吉田金右衛門商店",
+   "url": "http://www.kumonoi.jp/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "宇野酒造場",
+   "url": "http://www.itinotani.co.jp/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "安本酒造",
+   "url": "http://www.yasumoto-shuzo.jp/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "寿喜娘酒造",
+   "url": "http://www.sukimusume.co.jp/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "常山酒造",
+   "url": "http://www.jozan.co.jp/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "朝日酒造",
+   "url": "http://asahisyuzo.com/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "毛利酒造",
+   "url": "http://keigetsu2.blog110.fc2.com/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "源平酒造",
+   "url": "http://www.genpeishuzo.co.jp/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "片山酒造",
+   "url": "http://www.sake-kansai.com/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "田嶋酒造",
+   "url": "http://www.fukuchitose.com/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "田辺酒造",
+   "url": "http://www.echizenmisaki.com/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "畠山酒造",
+   "url": "http://www.yukikirara.co.jp/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "白駒酒造",
+   "url": "http://hakukomasyuzo.com/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "真名鶴酒造",
+   "url": "http://www.manaturu.com/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "美川酒造場",
+   "url": "http://www.maibijin.com/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "舟木酒造",
+   "url": "http://www.funaki-sake.com/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "菊桂酒造",
+   "url": "http://www11.ocn.ne.jp/~osake"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "西岡河村酒造",
+   "url": "http://tsukimaru.com/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "豊酒造",
+   "url": "http://www.sake-kashoku.com/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "越の磯",
+   "url": "http://www.j-brewery.com/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "鳥浜酒造",
+   "url": "http://www.torihama.jp/"
+  },
+  {
+   "pref": "福井県",
+   "brewer": "黒龍酒造",
+   "url": "http://www.kokuryu.co.jp/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "いそのさわ",
+   "url": "http://www.isonosawa.jp/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "伊豆本店",
+   "url": "http://www.kamenoo.com/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "光酒造",
+   "url": "http://www.hakata-hikari.co.jp/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "勝屋酒造",
+   "url": "http://www.katsuyashuzo.com/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "千年乃松酒造",
+   "url": "http://www.chitosenomatu.jp"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "喜多屋",
+   "url": "http://www.kitaya.co.jp/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "大賀酒造",
+   "url": "http://www.ogashuzo.com/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "大里酒造",
+   "url": "http://www.kurodabusi.com/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "寒北斗酒造",
+   "url": "http://kanhokuto.com/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "小林酒造本店",
+   "url": "http://sakebandai.com/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "山の壽酒造",
+   "url": "http://yamanokotobuki.seesaa.net/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "山口酒造場",
+   "url": "http://www.niwanouguisu.com/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "旭松酒造",
+   "url": "http://www.asahimatsusyuzou.co.jp/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "旭菊酒造",
+   "url": "http://www.asahigiku.com/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "杜の蔵",
+   "url": "http://www.morinokura.co.jp/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "林龍平酒造場",
+   "url": "http://www.kusugiku.jp/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "池亀酒造",
+   "url": "http://www.ikekame.com/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "浜地酒造",
+   "url": "http://www.suginoya.co.jp/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "清力酒造",
+   "url": "http://www.seiriki.net/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "溝上酒造",
+   "url": "http://www.sake-tenshin.co.jp/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "無法松酒造",
+   "url": "http://muhomatsu.ntf.ne.jp/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "片岡酒造場",
+   "url": "http://www.k4.dion.ne.jp/~kataoka/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "瑞穂菊酒造",
+   "url": "http://www.mizuhogiku.com/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "白糸酒造",
+   "url": "http://www.shiraito.com/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "目野酒造",
+   "url": "http://www.kuninokotobuki.co.jp/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "石蔵酒造",
+   "url": "http://www.ishikura-shuzou.co.jp/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "筑紫の誉酒造",
+   "url": "http://www.c-homare.com/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "篠崎",
+   "url": "http://www.shinozaki-shochu.co.jp/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "綾杉酒造場",
+   "url": "http://www.ayasugi.co.jp/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "花関酒造",
+   "url": "http://www.hananoseki.co.jp/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "若波酒造",
+   "url": "http://www.wakanami.jp/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "若竹屋酒造場",
+   "url": "http://www.wakatakeya.com/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "菊美人酒造",
+   "url": "http://www.kikubijin.co.jp/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "萬年亀酒造",
+   "url": "http://www.mannengame.info/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "高橋商店",
+   "url": "http://www.shigemasu.co.jp/"
+  },
+  {
+   "pref": "福岡県",
+   "brewer": "鷹正宗",
+   "url": "http://www.takamasamune.co.jp/"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "ほまれ酒造",
+   "url": "http://www.aizuhomare.jp/"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "人気酒造",
+   "url": "http://www.ninki.co.jp"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "仁井田本家",
+   "url": "http://www.kinpou.co.jp/"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "会津酒造",
+   "url": "http://www.kinmon.aizu.or.jp/"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "会津錦",
+   "url": "http://aizunishiki.jp/"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "佐藤酒造店",
+   "url": "http://www.fujinoi.com/"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "千駒酒造",
+   "url": "http://www.senkoma-shuzou.co.jp/"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "名倉山酒造",
+   "url": "http://www.nagurayama.jp/"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "国権酒造",
+   "url": "http://www.kokken.co.jp"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "夢心酒造",
+   "url": "http://www.yumegokoro.com"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "大七酒造",
+   "url": "http://www.daishichi.co.jp/"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "大和川酒造店",
+   "url": "http://www.yauemon.co.jp/"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "大天狗酒造",
+   "url": "http://www.daiteng.com/"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "大谷忠吉本店",
+   "url": "http://www.hakuyou.co.jp"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "太平桜酒造",
+   "url": "http://www.sake-iwaki.com"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "奥の松酒造",
+   "url": "http://www.okunomatsu.co.jp"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "宮泉銘醸",
+   "url": "http://www.miyaizumi.co.jp"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "小原酒造",
+   "url": "http://www.oharashuzo.co.jp/"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "峰の雪酒造場",
+   "url": "http://minenoyuki.com/"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "曙酒造",
+   "url": "http://www.akebono-syuzou.com"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "有賀醸造",
+   "url": "http://www.arinokawa.com/index.html"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "末廣酒造",
+   "url": "http://www.sake-suehiro.jp/"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "榮川酒造",
+   "url": "http://www.eisen.jp/"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "渡辺酒造本店",
+   "url": "http://www.yukikomachi.co.jp/index.html"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "白河銘醸",
+   "url": "http://www.4.ocn.ne.jp/~srmeijo/"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "磐梯酒造",
+   "url": "http://www12.ocn.ne.jp/~mtbandai/"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "稲川酒造店",
+   "url": "http://www.sake-inagawa.com/"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "笹の川酒造",
+   "url": "http://www.sasanokawa.co.jp"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "笹正宗酒造",
+   "url": "http://www.sasamasamune.com/indext.html"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "花春酒造",
+   "url": "http://www.hanaharu.co.jp"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "花泉酒造",
+   "url": "http://www.hanaizumi.ne.jp"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "若清水酒造",
+   "url": "http://www.wakashimizu.jp/"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "藤井酒造店",
+   "url": "http://www.nango41.jp"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "豊国酒造",
+   "url": "http://azuma-toyokuni.com"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "豊国酒造",
+   "url": "http://aizu-toyokuni.com"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "辰泉酒造",
+   "url": "http://www.tatsuizumi.co.jp/"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "金水晶酒造店",
+   "url": "http://www.kinsuisho.com.jp"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "開当男山酒造",
+   "url": "http://otokoyama.jp/"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "高橋庄作酒造店",
+   "url": "http://homepage3.nifty.com/sakeshou/"
+  },
+  {
+   "pref": "福島県",
+   "brewer": "鶴乃江酒造",
+   "url": "http://www.d3.dion.ne.jp/~seibo/"
+  },
+  {
+   "pref": "秋田県",
+   "brewer": "佐藤酒造店",
+   "url": "http://www.dewanofuji.co.jp/"
+  },
+  {
+   "pref": "秋田県",
+   "brewer": "備前酒造本店",
+   "url": "http://dainagawa.jp/"
+  },
+  {
+   "pref": "秋田県",
+   "brewer": "八千代酒造",
+   "url": "http://www9.plala.or.jp/yatiyo/"
+  },
+  {
+   "pref": "秋田県",
+   "brewer": "北鹿",
+   "url": "http://www.hokushika.jp/"
+  },
+  {
+   "pref": "秋田県",
+   "brewer": "喜久水酒造",
+   "url": "http://www.shirakami.or.jp/~kikusui/"
+  },
+  {
+   "pref": "秋田県",
+   "brewer": "天寿酒造",
+   "url": "http://www.tenju.co.jp"
+  },
+  {
+   "pref": "秋田県",
+   "brewer": "小玉醸造",
+   "url": "http://www.kodamajozo.co.jp"
+  },
+  {
+   "pref": "秋田県",
+   "brewer": "山本",
+   "url": "http://www.shirataki.net/"
+  },
+  {
+   "pref": "秋田県",
+   "brewer": "新政酒造",
+   "url": "http://www.aramasa.jp"
+  },
+  {
+   "pref": "秋田県",
+   "brewer": "福禄寿酒造",
+   "url": "http://www.fukurokuju.jp/"
+  },
+  {
+   "pref": "秋田県",
+   "brewer": "秋田酒造",
+   "url": "http://www.akitabare.jp/"
+  },
+  {
+   "pref": "秋田県",
+   "brewer": "秋田酒類製造",
+   "url": "http://www.takashimizu.co.jp/"
+  },
+  {
+   "pref": "秋田県",
+   "brewer": "西村醸造店",
+   "url": "http://www.shirakami.or.jp/~rakuizumi/"
+  },
+  {
+   "pref": "秋田県",
+   "brewer": "那波商店",
+   "url": "http://jizakemonogatari.net/"
+  },
+  {
+   "pref": "秋田県",
+   "brewer": "阿櫻酒造",
+   "url": "http://www.azakura.co.jp/"
+  },
+  {
+   "pref": "秋田県",
+   "brewer": "飛良泉本舗",
+   "url": "http://www.hiraizumi.co.jp/"
+  },
+  {
+   "pref": "秋田県",
+   "brewer": "高橋酒造店",
+   "url": "http://www.egao-okusimizu.com/"
+  },
+  {
+   "pref": "秋田県",
+   "brewer": "齋彌酒造店",
+   "url": "http://www.yukinobousha.jp/"
+  },
+  {
+   "pref": "群馬県",
+   "brewer": "七ツ星醸造",
+   "url": "http://www.kiminomatsu.co.jp/"
+  },
+  {
+   "pref": "群馬県",
+   "brewer": "今井酒造店",
+   "url": "http://www.nihonsyu.org/"
+  },
+  {
+   "pref": "群馬県",
+   "brewer": "分福酒造",
+   "url": "http://www.bunbuku.net/"
+  },
+  {
+   "pref": "群馬県",
+   "brewer": "土田酒造",
+   "url": "http://www.homare.biz/"
+  },
+  {
+   "pref": "群馬県",
+   "brewer": "大利根酒造",
+   "url": "http://www6.wind.ne.jp/sadaijin/"
+  },
+  {
+   "pref": "群馬県",
+   "brewer": "山崎酒造",
+   "url": "http://www.yamazaki-shuzo.com/"
+  },
+  {
+   "pref": "群馬県",
+   "brewer": "松屋酒造",
+   "url": "http://tousenkura.jp/"
+  },
+  {
+   "pref": "群馬県",
+   "brewer": "栁澤酒造",
+   "url": "http://www.katsuragawa-sake.co.jp"
+  },
+  {
+   "pref": "群馬県",
+   "brewer": "永井本家",
+   "url": "http://www.nagaihonke.co.jp/"
+  },
+  {
+   "pref": "群馬県",
+   "brewer": "永井酒造",
+   "url": "http://www.mizubasho.jp/"
+  },
+  {
+   "pref": "群馬県",
+   "brewer": "浅間酒造",
+   "url": "http://www.asama-sakagura.co.jp/"
+  },
+  {
+   "pref": "群馬県",
+   "brewer": "清水屋酒造",
+   "url": "http://www.sakaemasu.com"
+  },
+  {
+   "pref": "群馬県",
+   "brewer": "牧野酒造",
+   "url": "http://www.makino-sake.co.jp/"
+  },
+  {
+   "pref": "群馬県",
+   "brewer": "美峰酒類",
+   "url": "http://www.mihoshurui.co.jp/"
+  },
+  {
+   "pref": "群馬県",
+   "brewer": "聖酒造",
+   "url": "http://www.hijiri-sake.co.jp"
+  },
+  {
+   "pref": "群馬県",
+   "brewer": "貴娘酒造",
+   "url": "http://gunma-sake.or.jp/kimusume/index.php"
+  },
+  {
+   "pref": "群馬県",
+   "brewer": "近藤酒造",
+   "url": "http://www.akagisan.com/"
+  },
+  {
+   "pref": "群馬県",
+   "brewer": "龍神酒造",
+   "url": "http://www.ryujin.jp/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "剛烈富永酒造店",
+   "url": "http://www.ibaraki-jizake.com/gouretu/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "吉久保酒造",
+   "url": "http://www.ippin.co.jp/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "宏和商工",
+   "url": "http://www.mylabel-kowa.co.jp/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "山中酒造店",
+   "url": "http://store.shopping.yahoo.co.jp/hitorimusume/index.html"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "岡部",
+   "url": "http://www.matsuzakari.co.jp/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "府中誉",
+   "url": "http://www.huchuhomare.com/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "愛友酒造",
+   "url": "http://www.aiyu-sake.jp/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "明利酒類",
+   "url": "http://www.meirishurui.com/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "月の井酒造店",
+   "url": "http://www.tsukinoi.co.jp/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "木内酒造",
+   "url": "http://www.kodawari.cc/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "来福酒造",
+   "url": "http://www.raifuku.co.jp/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "根本酒造",
+   "url": "http://kujinoyama.com/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "森島酒造",
+   "url": "http://www.taikan.co.jp/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "檜山酒造",
+   "url": "http://www.hiyama.co.jp/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "武勇",
+   "url": "http://www.buyu.jp/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "浦里酒造店",
+   "url": "http://www.kiritsukuba.co.jp/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "田中酒造店",
+   "url": "http://www.kimibandai.sake-ten.jp/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "白菊酒造",
+   "url": "http://www.shiragiku-shuzou.co.jp/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "石岡酒造",
+   "url": "http://www.ishiokashuzo.co.jp/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "磯蔵酒造",
+   "url": "http://isokura.jp/home.html"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "稲葉酒造場",
+   "url": "http://www.minanogawa.jp/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "笹目宗兵衛商店",
+   "url": "http://www.matsumidori.com/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "萩原酒造",
+   "url": "http://www.tokumasamune.com/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "西岡本店",
+   "url": "http://www.hananoi.jp/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "酔富銘醸",
+   "url": "http://www.suifu.co.jp/index.htm"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "野村醸造",
+   "url": "http://www.tsumugibijin.co.jp/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "青木酒造",
+   "url": "http://www.aokishuzou.com/"
+  },
+  {
+   "pref": "茨城県",
+   "brewer": "須藤本家",
+   "url": "http://www.sudohonke.co.jp/"
+  },
+  {
+   "pref": "長崎県",
+   "brewer": "今里酒造",
+   "url": "http://www.64sake.com/"
+  },
+  {
+   "pref": "長崎県",
+   "brewer": "吉田屋",
+   "url": "http://bansho.info/"
+  },
+  {
+   "pref": "長崎県",
+   "brewer": "山崎本店酒造場",
+   "url": "http://www.yamasaki-syuzo.co.jp/"
+  },
+  {
+   "pref": "長崎県",
+   "brewer": "杵の川",
+   "url": "http://www.kinokawa.co.jp/"
+  },
+  {
+   "pref": "長崎県",
+   "brewer": "梅ヶ枝酒造",
+   "url": "http://umegae-shuzo.com/"
+  },
+  {
+   "pref": "長崎県",
+   "brewer": "森酒造場",
+   "url": "http://mori-shuzou.jp/"
+  },
+  {
+   "pref": "長崎県",
+   "brewer": "河内酒造",
+   "url": "http://kawachi.shop-pro.jp/"
+  },
+  {
+   "pref": "長崎県",
+   "brewer": "潜龍酒造",
+   "url": "http://www.sake-honjin.com/"
+  },
+  {
+   "pref": "長崎県",
+   "brewer": "福田酒造",
+   "url": "http://www.fukuda-shuzo.com/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "EH酒造",
+   "url": "http://www.eh-shuzo.com/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "七笑酒造",
+   "url": "http://www.nanawarai.co.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "中善酒造店",
+   "url": "http://www.nakanorisan.com/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "丸永酒造場",
+   "url": "http://www.takanami-sake.co.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "亀田屋酒造店",
+   "url": "http://www.kametaya.co.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "井賀屋酒造場",
+   "url": "http://www.iwasimizu.com/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "今井酒造店",
+   "url": "http://www.wakamidori.com/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "仙醸",
+   "url": "http://www.senjyo.co.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "伊東酒造",
+   "url": "http://www.yokobue.co.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "伴野酒造",
+   "url": "http://www.sawanohana.com"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "信州銘醸",
+   "url": "http://www.shinmei-net.com/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "北安醸造",
+   "url": "http://www.dhk.janis.or.jp/~hokuan/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "千曲錦酒造",
+   "url": "http://www.chikumanishiki.com"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "古屋酒造店",
+   "url": "http://www.miyamazakura.com"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "和田龍酒造",
+   "url": "http://www.wadaryu.com/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "善哉酒造",
+   "url": "http://www.mcci.or.jp/www/yoikana/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "喜久水酒造",
+   "url": "http://www.kikusuisake.co.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "土屋酒造店",
+   "url": "http://www15.ocn.ne.jp/~tsuchiya/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "坂井銘醸",
+   "url": "http://www.sakagura.co.jp/index.html"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "大信州酒造",
+   "url": "http://www.daishinsyu.com/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "大國酒造",
+   "url": "http://www.ookuni.com/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "大塚酒造",
+   "url": "http://www.asamadake.co.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "大雪渓酒造",
+   "url": "http://www.jizake.co.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "天領誉酒造",
+   "url": "http://www.tenryohomare.co.jp/index.html"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "宮坂醸造",
+   "url": "http://www.masumi.co.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "宮島酒店",
+   "url": "http://www.miyajima.net/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "尾澤酒造場",
+   "url": "http://www.misuzunishiki.co.jp"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "山三酒造",
+   "url": "http://www.rokumonsen.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "山清酒造",
+   "url": "http://www.sansei-syuzo.co.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "岡崎酒造",
+   "url": "http://www.ueda.ne.jp/~okazaki/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "岩波酒造",
+   "url": "http://www.mcci.or.jp/www/iwanami/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "市野屋商店",
+   "url": "http://www.ichinoya.com/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "志賀泉酒造",
+   "url": "http://shigaizumi.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "戸塚酒造店",
+   "url": "http://www.kanchiku.com"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "明科酒造",
+   "url": "http://www7.ocn.ne.jp/~akashina/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "東飯田酒造店",
+   "url": "http://www.motooi.com/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "松葉屋",
+   "url": "http://www.suzaka.net/garyuzan/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "松葉屋本店",
+   "url": "http://matsubaya-honten.co.jp"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "桝一市村酒造場",
+   "url": "http://www.masuichi.com"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "橘倉酒造",
+   "url": "http://kitsukura.co.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "武重本家酒造",
+   "url": "http://www.takeshige-honke.co.jp"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "沓掛酒造",
+   "url": "http://www.fukumuryo.co.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "湯川酒造店",
+   "url": "http://www.sake-kisoji.com/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "漆戸醸造",
+   "url": "http://www.urushido.co.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "玉村本店",
+   "url": "http://www.tamamura-honten.co.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "田中屋酒造店",
+   "url": "http://www.mizuo.co.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "福源酒造",
+   "url": "http://www.sake-fukugen.com/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "笑亀酒造",
+   "url": "http://www.syoki.com/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "笹井酒造",
+   "url": "http://www.sasanohomare.co.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "米澤酒造",
+   "url": "http://www.imanisiki.co.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "美寿々酒造",
+   "url": "http://www.appale.ne.jp/~misuzu-sake/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "舞姫酒造",
+   "url": "http://www.maihime.co.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "若林醸造",
+   "url": "http://wakasake.com/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "菱友醸造",
+   "url": "http://www.mikotsuru.com/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "薄井商店",
+   "url": "http://www.hakubanishiki.co.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "西飯田酒造店",
+   "url": "http://w2.avis.ne.jp/~nishiida/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "角口酒造店",
+   "url": "http://www.kadoguchi.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "諏訪大津屋本家酒造",
+   "url": "http://www.shopdaiya.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "豊島屋",
+   "url": "http://jizake.miwatari.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "遠藤酒造場",
+   "url": "http://www.keiryu.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "酒ぬのや本金酒造",
+   "url": "http://www.honkin.net/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "酒千蔵野",
+   "url": "http://www.shusen.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "長野銘醸",
+   "url": "http://www.obasute.co.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "雲山銘醸",
+   "url": "http://www.nagano-arcs.jp/guide/unzan/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "高天酒造",
+   "url": "http://www.koten-sake.co.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "高橋助作酒造店",
+   "url": "http://www.matsuwo.co.jp/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "高沢酒造",
+   "url": "http://members.stvnet.home.ne.jp/yonekawa/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "麗人酒造",
+   "url": "http://www.reijin.com/"
+  },
+  {
+   "pref": "長野県",
+   "brewer": "黒澤酒造",
+   "url": "http://www.kurosawa.biz/"
+  },
+  {
+   "pref": "青森県",
+   "brewer": "八戸酒造",
+   "url": "http://www.mutsu8000.com/"
+  },
+  {
+   "pref": "青森県",
+   "brewer": "八戸酒類",
+   "url": "http://www1.odn.ne.jp/hachituru/"
+  },
+  {
+   "pref": "青森県",
+   "brewer": "六花酒造",
+   "url": "http://www.joppari.com/"
+  },
+  {
+   "pref": "青森県",
+   "brewer": "尾崎酒造",
+   "url": "http://www.ozakishuzo.com"
+  },
+  {
+   "pref": "青森県",
+   "brewer": "桃川",
+   "url": "http://www.momokawa.co.jp"
+  },
+  {
+   "pref": "青森県",
+   "brewer": "白神酒造",
+   "url": "http://www.sirakami-sake.jp/"
+  },
+  {
+   "pref": "青森県",
+   "brewer": "盛田庄兵衛",
+   "url": "http://www.morishou.co.jp"
+  },
+  {
+   "pref": "青森県",
+   "brewer": "菊駒酒造",
+   "url": "http://www.kikukoma.com/"
+  },
+  {
+   "pref": "青森県",
+   "brewer": "西田酒造店",
+   "url": "http://www.densyu.co.jp"
+  },
+  {
+   "pref": "青森県",
+   "brewer": "関乃井酒造",
+   "url": "http://www.sekinoi.co.jp"
+  },
+  {
+   "pref": "青森県",
+   "brewer": "鳩正宗",
+   "url": "http://www.hatomasa.jp"
+  },
+  {
+   "pref": "青森県",
+   "brewer": "鳴海醸造店",
+   "url": "http://www.applet1181.jp/furusatobin/"
+  },
+  {
+   "pref": "青森県",
+   "brewer": "齋藤酒造店",
+   "url": "http://www.matsumidori.co.jp"
+  },
+  {
+   "pref": "静岡県",
+   "brewer": "万大醸造",
+   "url": "http://www.maroon.dti.ne.jp/banndai-jozo/"
+  },
+  {
+   "pref": "静岡県",
+   "brewer": "三和酒造",
+   "url": "http://www.garyubai.com/"
+  },
+  {
+   "pref": "静岡県",
+   "brewer": "千寿酒造",
+   "url": "http://www.e-senju.co.jp/"
+  },
+  {
+   "pref": "静岡県",
+   "brewer": "土井酒造場",
+   "url": "http://kaiunsake.com/"
+  },
+  {
+   "pref": "静岡県",
+   "brewer": "富士正酒造",
+   "url": "http://www.fujimasa-sake.com/"
+  },
+  {
+   "pref": "静岡県",
+   "brewer": "富士錦酒造",
+   "url": "http://www.fujinishiki.com/"
+  },
+  {
+   "pref": "静岡県",
+   "brewer": "富士高砂酒造",
+   "url": "http://www.fuji-takasago.com/"
+  },
+  {
+   "pref": "静岡県",
+   "brewer": "山中酒造",
+   "url": "http://www5a.biglobe.ne.jp/~yamanaka/"
+  },
+  {
+   "pref": "静岡県",
+   "brewer": "志太泉酒造",
+   "url": "http://shidaizumi.com/"
+  },
+  {
+   "pref": "静岡県",
+   "brewer": "杉井酒造",
+   "url": "http://suginishiki.com/"
+  },
+  {
+   "pref": "静岡県",
+   "brewer": "浜松酒造",
+   "url": "http://www.tenjingura.com/"
+  },
+  {
+   "pref": "静岡県",
+   "brewer": "牧野酒造",
+   "url": "http://www.makino-shuzo.com/"
+  },
+  {
+   "pref": "静岡県",
+   "brewer": "磯自慢酒造",
+   "url": "http://www.isojiman-sake.jp/"
+  },
+  {
+   "pref": "静岡県",
+   "brewer": "花の舞酒造",
+   "url": "http://www.hananomai.co.jp/"
+  },
+  {
+   "pref": "静岡県",
+   "brewer": "英君酒造",
+   "url": "http://eikun.fc2web.com/"
+  },
+  {
+   "pref": "静岡県",
+   "brewer": "高嶋酒造",
+   "url": "http://www.hakuinmasamune.com/"
+  },
+  {
+   "pref": "香川県",
+   "brewer": "勇心酒造",
+   "url": "http://www.yushin-brewer.com/"
+  },
+  {
+   "pref": "香川県",
+   "brewer": "森國酒造",
+   "url": "http://morikuni.jp/"
+  },
+  {
+   "pref": "香川県",
+   "brewer": "綾菊酒造",
+   "url": "http://www.ayakiku.com/"
+  },
+  {
+   "pref": "香川県",
+   "brewer": "西野金陵",
+   "url": "http://www.nishino-kinryo.co.jp/"
+  },
+  {
+   "pref": "高知県",
+   "brewer": "亀泉酒造",
+   "url": "http://www.kameizumi.co.jp/"
+  },
+  {
+   "pref": "高知県",
+   "brewer": "土佐酒造",
+   "url": "http://www.keigetsu.co.jp/"
+  },
+  {
+   "pref": "高知県",
+   "brewer": "土佐鶴酒造",
+   "url": "http://www.tosatsuru.co.jp/"
+  },
+  {
+   "pref": "高知県",
+   "brewer": "文本酒造",
+   "url": "http://www.momo-taro.co.jp/"
+  },
+  {
+   "pref": "高知県",
+   "brewer": "有光酒造場",
+   "url": "http://ww8.tiki.ne.jp/~akano"
+  },
+  {
+   "pref": "高知県",
+   "brewer": "無手無冠",
+   "url": "http://www.mutemuka.com/"
+  },
+  {
+   "pref": "高知県",
+   "brewer": "菊水酒造",
+   "url": "http://www.tosa-kikusui.co.jp/"
+  },
+  {
+   "pref": "高知県",
+   "brewer": "酔鯨酒造",
+   "url": "http://www.suigei.jp/"
+  },
+  {
+   "pref": "鳥取県",
+   "brewer": "中井酒造",
+   "url": "http://www.apionet.or.jp/yasio/"
+  },
+  {
+   "pref": "鳥取県",
+   "brewer": "中川酒造",
+   "url": "http://www6.ocn.ne.jp/~torisake"
+  },
+  {
+   "pref": "鳥取県",
+   "brewer": "久米桜酒造",
+   "url": "http://g-beer.jp/kumezakura/"
+  },
+  {
+   "pref": "鳥取県",
+   "brewer": "元帥酒造",
+   "url": "http://www.gensui.jp/"
+  },
+  {
+   "pref": "鳥取県",
+   "brewer": "千代むすび酒造",
+   "url": "http://www.chiyomusubi.co.jp/"
+  },
+  {
+   "pref": "鳥取県",
+   "brewer": "大岩酒造本店",
+   "url": "http://www.syuhou-iwaizumi.jp/"
+  },
+  {
+   "pref": "鳥取県",
+   "brewer": "大谷酒造",
+   "url": "http://www.takaisami.co.jp/"
+  },
+  {
+   "pref": "鳥取県",
+   "brewer": "太田酒造場",
+   "url": "http://www1.ocn.ne.jp/~bentenmu/"
+  },
+  {
+   "pref": "鳥取県",
+   "brewer": "山根酒造場",
+   "url": "http://www.hiokizakura.ne.jp/"
+  },
+  {
+   "pref": "鳥取県",
+   "brewer": "梅津酒造",
+   "url": "http://umetsu-sake.jp/"
+  },
+  {
+   "pref": "鳥取県",
+   "brewer": "江原酒造本店",
+   "url": "http://www.ebara-shuzo.com/"
+  },
+  {
+   "pref": "鳥取県",
+   "brewer": "福羅酒造",
+   "url": "http://www.fukura-syuzou.com/"
+  },
+  {
+   "pref": "鳥取県",
+   "brewer": "稲田本店",
+   "url": "http://www.inata.co.jp/"
+  },
+  {
+   "pref": "鳥取県",
+   "brewer": "藤井酒造",
+   "url": "http://www.fujii-sake.co.jp/"
+  },
+  {
+   "pref": "鳥取県",
+   "brewer": "諏訪酒造",
+   "url": "https://suwaizumi.jp/"
+  },
+  {
+   "pref": "鳥取県",
+   "brewer": "高田酒造",
+   "url": "http://www.shikun.co.jp/"
+  }
+ ]
+}
