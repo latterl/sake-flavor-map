@@ -130,13 +130,16 @@ pts = {(p['pref'], p['brand']) for p in json.load(open('app/data_sakenowa.json')
 | `select(id)` / `renderSel()` | 銘柄選択と右パネルの描画 |
 | `similar(sel, n)` | 類似銘柄の計算（`z` 配列のユークリッド距離） |
 | `renderMemo(p)` / `setNote(p, r, t)` | メモと★評価 |
+| `renderRecordList()` | 「飲んだ酒」「メモあり」タブの一覧、好み指定、評価・メモの表示 |
 | `saveLocal()` / `loadLocal()` | localStorage への自動保存・復元 |
-| `pbKey(p)` | `"都道府県␟銘柄"` のキー生成。飲んだ酒・お気に入り・メモで共通 |
+| `pbKey(p)` | `"都道府県␟銘柄"` のキー生成。飲んだ酒・好み・メモで共通 |
 | `normalizeKeySet(arr)` | 旧形式（銘柄名のみ）を複合キーへ移行 |
 
 ### つまずきやすい点
 
 - **`refreshAfterDrunkChange()` は `initForDataset()` より後に呼ぶこと。** 内部で `restyleDots()` を呼ぶため、マップ生成前だと `sizeDots` が null 参照で落ちます
+- 地域の初期値は `state.region.pref === ""`（未選択）です。`populatePrefSel()` の「なし」と対応しています
+- 好みは `state.favs` に保持され、飲んだ酒 `state.drunk` の部分集合です。飲んだ酒から削除すると好み指定も解除されます
 - ユーザーデータの localStorage キーは `sakeFlavorMap.v1`（キー名は固定。保存内容の形式バージョンは payload の `v` で管理しており現在は 2）。形式を変えるときは `loadLocal()` に移行処理を足してください
 - 同名銘柄の判定は `isAmbiguousBrand()`。両データセットを横断して「銘柄名 → 県の集合」を作っています
 

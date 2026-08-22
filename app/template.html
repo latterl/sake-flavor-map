@@ -284,7 +284,7 @@
     <label>データ
       <select id="dsSel">
         <option value="sakenowa">さけのわ（味わい6軸）</option>
-        <option value="specs">独立データ（スペック5軸）</option>
+        <option value="specs">スペックデータ（スペック5軸）</option>
       </select>
     </label>
     <label>マップ
@@ -333,7 +333,7 @@
   <span class="fgroup">
     <label>銘柄検索
       <span class="searchwrap">
-        <input id="searchBox" type="search" placeholder="選択・飲んだ登録" autocomplete="off">
+            <input id="searchBox" type="search" autocomplete="off">
         <div id="searchResults"></div>
       </span>
     </label>
@@ -2154,7 +2154,7 @@ function initForDataset() {
   a2.textContent = "sake_dataset (MIT)";
   p2.appendChild(document.createTextNode("データ提供: "));
   p2.appendChild(a1);
-  p2.appendChild(document.createTextNode("　／　独立データ出典: "));
+  p2.appendChild(document.createTextNode("　／　スペックデータ出典: "));
   p2.appendChild(a2);
   p2.appendChild(document.createTextNode("　／　県内地域は各県の一般的な地方区分（例: 新潟=上越/中越/下越/佐渡、兵庫=灘五郷/播磨/…、京都=丹後/中丹/伏見/…）に基づき、蔵元所在地の市区町村から割り当て。所在地の出典: Code for SAKE 酒蔵オープンデータ (MIT)・sake_dataset (MIT)・各蔵元公式サイト等のWeb確認。座標は "));
   const a4 = document.createElement("a"); a4.href = "https://github.com/code4fukui/localgovjp"; a4.target = "_blank"; a4.rel = "noopener";
