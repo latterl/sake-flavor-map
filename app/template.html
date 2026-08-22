@@ -90,6 +90,8 @@
     border: 1px solid var(--border); border-radius: 8px; padding: 6px 8px; font-size: 13px;
   }
   .filters input[type="search"] { width: 200px; }
+  .checkline { display: flex; align-items: center; gap: 5px; min-height: 31px; color: var(--text-secondary); font-size: 12px; }
+  .checkline input { accent-color: var(--preference); }
   .searchwrap { position: relative; }
   .table-toggle-wrap {
     align-self: flex-end; border-left: 1px solid var(--grid);
@@ -196,6 +198,7 @@
   .simlist button.simrow:hover, .simlist button.simrow:focus-visible { background: var(--ghost); }
   .simlist .rk { color: var(--muted); font-size: 11px; text-align: right; }
   .simlist .nm .b { font-weight: 600; }
+  .simlist .favmark { color: var(--preference); font-weight: 700; margin-right: 4px; }
   .simlist .nm .s { color: var(--text-secondary); font-size: 11px; }
   .simlist .d { font-variant-numeric: tabular-nums; font-size: 12px; color: var(--text-secondary); }
   .drunklist { max-height: 300px; overflow: auto; margin-top: 4px; }
@@ -281,6 +284,9 @@
         <option value="cluster">味タイプ</option>
         <option value="frontier">未踏度</option>
       </select>
+    </label>
+    <label>好み
+      <span class="checkline"><input id="favMapToggle" type="checkbox" checked>♥を表示</span>
     </label>
   </span>
   <span class="fgroup">
@@ -463,6 +469,7 @@ const state = {
   favs: new Set(),       // 好み（♥）。drunkの部分集合。キーは drunk と同じ
   notes: new Map(),      // メモ。キーは "都道府県␟銘柄"（同名銘柄の県跨ぎ衝突を避ける）→ {r:0-5, t:"本文"}
   colorMode: "std",      // std | cluster | frontier
+  showFavorites: true,   // 好み（♥）の銘柄をマップ上のリングで表示
   mapView: "taste",      // taste（UMAP） | geo（地図）
   activeCluster: null,   // null=全タイプ7色表示 / 数値=そのタイプのみ強調
   tagFilter: [],         // 選択中のフレーバータグ（AND, 最大3）
@@ -725,7 +732,7 @@ function similar(sel, n = 10) {
 }
 
 /* ---------- 描画: マップ ---------- */
-let gDots = null, dotEls = new Map(), hoverRing = null, selRing = null, cmpRing = null, centroidMark = null;
+let gDots = null, gFavMarks = null, dotEls = new Map(), hoverRing = null, selRing = null, cmpRing = null, centroidMark = null;
 function buildMap() {
   computeScale();
   svg.textContent = "";
@@ -756,6 +763,9 @@ function buildMap() {
     dotEls.set(p.id, c);
     gDots.appendChild(c);
   }
+  gFavMarks = document.createElementNS(SVGNS, "g");
+  gFavMarks.setAttribute("pointer-events", "none");
+  gDots.appendChild(gFavMarks);
   hoverRing = document.createElementNS(SVGNS, "circle");
   hoverRing.setAttribute("fill", "none"); hoverRing.style.display = "none";
   gDots.appendChild(hoverRing);
@@ -823,11 +833,27 @@ function restyleDots() {
     if (strong) c.setAttribute("stroke", "var(--surface-1)");
     else c.removeAttribute("stroke");
   }
+  renderFavoriteMarks();
   sizeDots();
   renderLegend();
   renderCentroidMark();
   renderFrontierPanel();
   renderClusterPanel();
+}
+function renderFavoriteMarks() {
+  if (!gFavMarks) return;
+  gFavMarks.textContent = "";
+  if (!state.showFavorites) return;
+  for (const p of pts()) {
+    if (!isFav(p) || !hasGeo(p)) continue;
+    const [x, y] = scaleXY(p);
+    const ring = document.createElementNS(SVGNS, "circle");
+    ring.setAttribute("cx", x); ring.setAttribute("cy", y);
+    ring.setAttribute("fill", "none");
+    ring.setAttribute("stroke", "var(--preference)");
+    ring.dataset.favorite = "1";
+    gFavMarks.appendChild(ring);
+  }
 }
 function updateCmpRing() {
   if (!cmpRing) return;
@@ -848,6 +874,10 @@ function sizeDots() {
   }
   for (const el of gDots.querySelectorAll("path[data-outline]")) {
     el.setAttribute("stroke-width", 1 / k);
+  }
+  for (const ring of gFavMarks.querySelectorAll("circle[data-favorite]")) {
+    ring.setAttribute("r", 7.2 / sq);
+    ring.setAttribute("stroke-width", 2 / sq);
   }
   if (centroidMark && centroidMark.style.display !== "none") renderCentroidMark();
   if (state.selId != null) placeRing(selRing, state.selId, "var(--text-primary)");
@@ -996,9 +1026,11 @@ function hideTooltip() { tooltip.style.display = "none"; if (hoverRing) hoverRin
 function renderLegend() {
   const lg = $("legend");
   lg.textContent = "";
-  function item(color, label) {
+  function item(color, label, ring = false) {
     const it = document.createElement("span"); it.className = "it";
-    const sw = document.createElement("span"); sw.className = "sw"; sw.style.background = color;
+    const sw = document.createElement("span"); sw.className = "sw";
+    if (ring) { sw.style.background = "transparent"; sw.style.border = `2px solid ${color}`; }
+    else sw.style.background = color;
     const tx = document.createElement("span"); tx.textContent = label;
     it.appendChild(sw); it.appendChild(tx); lg.appendChild(it);
   }
@@ -1040,6 +1072,10 @@ function renderLegend() {
     const tx = document.createElement("span"); tx.className = "hint";
     tx.textContent = `タグ絞り込み中: ${state.tagFilter.join("・")}（該当しない銘柄は淡色表示）`;
     lg.appendChild(tx);
+  }
+  if (state.showFavorites) {
+    const n = pts().filter(p => isFav(p) && hasGeo(p)).length;
+    if (n) item("var(--preference)", `好み（${n}）`, true);
   }
   if (state.mapView === "geo") {
     const missing = pts().filter(p => !p.geo).length;
@@ -1451,6 +1487,11 @@ function renderSimilar(p) {
     const rk = document.createElement("span"); rk.className = "rk"; rk.textContent = String(idx + 1);
     const nm = document.createElement("span"); nm.className = "nm";
     const b = document.createElement("span"); b.className = "b"; b.textContent = cfg().label(q);
+    if (isFav(q)) {
+      const fav = document.createElement("span"); fav.className = "favmark";
+      fav.textContent = "♥"; fav.title = "好み";
+      nm.appendChild(fav);
+    }
     const marks = [];
     if (isFamous(q)) marks.push(`人気${q.rank}位`);
     if (isDrunk(q)) marks.push("飲んだ");
@@ -1982,6 +2023,10 @@ $("mapViewSel").addEventListener("change", e => {
 $("colorModeSel").addEventListener("change", e => {
   state.colorMode = e.target.value;
   restyleDots();
+});
+$("favMapToggle").addEventListener("change", e => {
+  state.showFavorites = e.target.checked;
+  renderFavoriteMarks(); sizeDots(); renderLegend();
 });
 $("prefSel").addEventListener("change", e => {
   state.region = { pref: e.target.value, reg: "all" };
