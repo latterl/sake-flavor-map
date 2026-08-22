@@ -931,8 +931,26 @@ function applyView() {
   sizeDots();
 }
 
-/* ズーム・パン */
-let dragging = false, dragStart = null;
+/* ズーム・パン（マウスホイール／1本指パン／2本指ピンチ） */
+let dragging = false, dragStart = null, pinchStart = null;
+const activePointers = new Map();
+function pointerPair() { return [...activePointers.values()].slice(0, 2); }
+function beginPinch() {
+  const pair = pointerPair();
+  if (pair.length < 2) { pinchStart = null; return; }
+  const rect = svg.getBoundingClientRect();
+  const cx = (pair[0].x + pair[1].x) / 2;
+  const cy = (pair[0].y + pair[1].y) / 2;
+  const mx = (cx - rect.left) * (W / rect.width);
+  const my = (cy - rect.top) * (H / rect.height);
+  pinchStart = {
+    distance: Math.hypot(pair[1].x - pair[0].x, pair[1].y - pair[0].y) || 1,
+    k: state.view.k,
+    worldX: (mx - state.view.tx) / state.view.k,
+    worldY: (my - state.view.ty) / state.view.k,
+  };
+  dragStart = null;
+}
 svg.addEventListener("wheel", e => {
   e.preventDefault();
   const rect = svg.getBoundingClientRect();
@@ -947,12 +965,28 @@ svg.addEventListener("wheel", e => {
   requestAnimationFrame(applyView);
 }, { passive: false });
 svg.addEventListener("pointerdown", e => {
-  dragging = true; svg.classList.add("dragging");
-  dragStart = { x: e.clientX, y: e.clientY, tx: state.view.tx, ty: state.view.ty, moved: false };
+  activePointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
   svg.setPointerCapture(e.pointerId);
+  dragging = true; svg.classList.add("dragging");
+  if (activePointers.size >= 2) beginPinch();
+  else dragStart = { x: e.clientX, y: e.clientY, tx: state.view.tx, ty: state.view.ty, moved: false };
 });
 svg.addEventListener("pointermove", e => {
-  if (dragging && dragStart) {
+  if (activePointers.has(e.pointerId)) activePointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  if (activePointers.size >= 2 && pinchStart) {
+    const pair = pointerPair();
+    const rect = svg.getBoundingClientRect();
+    const cx = (pair[0].x + pair[1].x) / 2;
+    const cy = (pair[0].y + pair[1].y) / 2;
+    const mx = (cx - rect.left) * (W / rect.width);
+    const my = (cy - rect.top) * (H / rect.height);
+    const distance = Math.hypot(pair[1].x - pair[0].x, pair[1].y - pair[0].y);
+    const k2 = Math.min(40, Math.max(0.5, pinchStart.k * distance / pinchStart.distance));
+    state.view.k = k2;
+    state.view.tx = mx - pinchStart.worldX * k2;
+    state.view.ty = my - pinchStart.worldY * k2;
+    requestAnimationFrame(applyView);
+  } else if (dragging && dragStart) {
     const rect = svg.getBoundingClientRect();
     const dx = (e.clientX - dragStart.x) * (W / rect.width);
     const dy = (e.clientY - dragStart.y) * (H / rect.height);
@@ -964,14 +998,34 @@ svg.addEventListener("pointermove", e => {
   }
 });
 svg.addEventListener("pointerup", e => {
-  svg.classList.remove("dragging");
-  const wasClick = dragStart && !dragStart.moved;
-  dragging = false;
+  const wasPinching = !!pinchStart;
+  const wasClick = !wasPinching && dragStart && !dragStart.moved;
+  activePointers.delete(e.pointerId);
+  pinchStart = null;
+  if (activePointers.size >= 2) {
+    dragging = true; svg.classList.add("dragging"); beginPinch();
+  } else if (activePointers.size === 1) {
+    const remaining = activePointers.entries().next().value;
+    dragStart = { x: remaining[1].x, y: remaining[1].y, tx: state.view.tx, ty: state.view.ty, moved: true };
+  } else {
+    dragging = false; dragStart = null; svg.classList.remove("dragging");
+  }
   if (wasClick) {
     const p = nearest(e, 26);
     if (p) select(p.id, false);
   }
-  dragStart = null;
+});
+svg.addEventListener("pointercancel", e => {
+  activePointers.delete(e.pointerId);
+  pinchStart = null;
+  if (activePointers.size >= 2) {
+    dragging = true; svg.classList.add("dragging"); beginPinch();
+  } else if (activePointers.size === 1) {
+    const remaining = activePointers.entries().next().value;
+    dragStart = { x: remaining[1].x, y: remaining[1].y, tx: state.view.tx, ty: state.view.ty, moved: true };
+  } else {
+    dragging = false; dragStart = null; svg.classList.remove("dragging");
+  }
 });
 svg.addEventListener("pointerleave", () => { hideTooltip(); });
 $("resetView").addEventListener("click", () => { state.view = { k: 1, tx: 0, ty: 0 }; applyView(); });
