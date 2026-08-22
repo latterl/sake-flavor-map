@@ -123,6 +123,10 @@
   .chartcard .maptitle { font-size: 13px; color: var(--text-secondary); margin: 0 0 6px; }
   #mapsvg { width: 100%; height: auto; display: block; cursor: grab; touch-action: none; }
   #mapsvg.dragging { cursor: grabbing; }
+  .sel-details { margin-top: 10px; border: 1px solid var(--border); border-radius: 8px; }
+  .sel-details > summary { cursor: pointer; padding: 7px 10px; color: var(--text-secondary); font-size: 12px; font-weight: 600; }
+  .sel-details[open] > summary { border-bottom: 1px solid var(--grid); }
+  .sel-details #selInfo { padding: 7px 10px; font-size: 12.5px; color: var(--text-secondary); }
   .legend { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 8px; font-size: 12px; color: var(--text-secondary); }
   .legend .it { display: flex; align-items: center; gap: 6px; }
   .legend .sw { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
@@ -376,7 +380,10 @@
           </div>
           <textarea id="memoText" spellcheck="false" placeholder="味の印象、飲んだ場所、入手先など（入力すると自動で保存されます）"></textarea>
         </div>
-        <div id="selInfo" style="margin-top:10px;font-size:12.5px;color:var(--text-secondary)"></div>
+        <details id="selDetails" class="sel-details">
+          <summary>味タイプ・蔵元・商品・出典</summary>
+          <div id="selInfo"></div>
+        </details>
         <h2 style="margin-top:14px">近い銘柄 <span id="simTargetNote" style="font-weight:400"></span></h2>
         <ul class="simlist" id="simList"></ul>
         <p class="hint" id="simHint"></p>
@@ -1301,10 +1308,12 @@ function renderSel() {
     renderAxisBars(p, state.cmpId != null ? byId(state.cmpId) : null);
     $("selActions").style.display = "none"; $("memoBox").style.display = "none"; memoPoint = null;
     $("selInfo").textContent = "";
+    $("selDetails").style.display = "none";
     renderSimilar(p);
     return;
   }
   $("selActions").style.display = "flex"; $("memoBox").style.display = "";
+  $("selDetails").style.display = "";
   $("selName").textContent = cfg().label(p);
   $("selSub").textContent = cfg().sub(p);
   const bd = $("selBadges"); bd.textContent = "";
@@ -1506,6 +1515,7 @@ function renderSelInfo(p) {
     }
     box.appendChild(wrap);
   }
+  $("selDetails").style.display = box.childElementCount ? "" : "none";
 }
 function axisKeys() { return meta().features; }
 function renderAxisBars(p, cmp) {
