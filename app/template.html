@@ -479,7 +479,7 @@ const CFG = {
 const state = {
   ds: "sakenowa",
   selId: null,
-  region: { pref: "京都府", reg: "丹後" },   // reg: "all"=県全域, "unknown"=市町村未特定, または地域名
+  region: { pref: "", reg: "all" },         // 初期状態は地域未選択。reg: "all"=県全域, "unknown"=市町村未特定, または地域名
   target: "famousdrunk",
   regionSort: "name",    // 地域リストの並び順: name | near | far
   drunkSort: "name",     // 飲んだ酒リストの並び順: name | favorite | rating
